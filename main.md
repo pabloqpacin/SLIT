@@ -4,8 +4,8 @@
 
 
 <!-- v0.1.0 = add Open Source big time | downgrade kotlin | reconsider Unity/C# (eg.  Karmaggän project) || zsh, fetch Discord gamedev.... -->
-v0.0.1 = add mind maps, 
-<!-- v0.0.0 = stemming from wikiSLIT v0.4.0 -->
+<!-- v0.0.1 = add mind maps -->
+v0.0.0 = stemming from wikiSLIT v0.4.0
 
 
 
@@ -101,7 +101,7 @@ Please feel free to fork this file and expand it if you wish!! Thanks for readin
 The graph below was put together to illustrate how different IT *fields* and *topics* merge within my Self-Teaching process: [see Mind Map](https://www.mindomo.com/mindmap/devsysadmin-33a91323b6c84dc9a8a08af7a0d7e679).
 
 The screenshot below shows the core of it:
- 
+
 
 
 ## 1.0 ~ L10N 
