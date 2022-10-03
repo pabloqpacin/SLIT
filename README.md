@@ -27,9 +27,9 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
 
 0. [~ Mind Maps](#00--mind-maps)
 1. [~ L10N](#10--l10n) - Software Localization 101s
-2. [~ HARDWARE](#20--hardware) - Computer components and other electronics
+2. [~ HARDWARE](#20--hardware--tinkering) - Computer components and other electronics
 
-    [~ TINKERING](#21b--tinkering)- Hardware projects
+    [~ TINKERING](#tinkering)- Hardware projects
     
     - [DIY Circuits, Arduino UNO, Raspberry Pi]
     - [3R Computers —Repair, Restore, Repurpose—, Pentium]
@@ -37,23 +37,23 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
 
 3. [~ SOFTWARE -GEN-](#30--software--gen) - Understanding the industry 101
 
-    [~ Self-taught dev 101](#31--self-taught-dev-101)
+    [~ Self-taught dev 101](#self-taught-dev-101)
     - *'Look afar and see the end from the beginning'*
     - Industry trends
     - Personal Protocol (programming-oriented)
     - Problem-solving and efficient habits
 
-    [~ FIELDS](#32--fields) - General field-related info
+    [~ FIELDS](#fields) - General field-related info
     - [Computer Science, Data Science, DevOps, Ingeniería Informática, Software Engineerz]
 
-    [~ TOPICS](#33--topics) - More specific materials
+    [~ TOPICS](#topics) - More specific materials
     - AI ~ Machine Learning + Neural Networks (+ TensorFlow)
     - [Algorithms, APIs, Backend, Browsers, Cloud Computing, Databases, Frontend ~ Design]
     - [Fullstack, $ Git, Math, OOP, Open Source, Tech Stacks (~ Web Dev), Testing]
     - WebDev
 
 
-4. [~ SysAdmin || OSs](#40--sysadmin--oss) - ***Core content***
+4. [~ SysAdmin || OSs](#40--sysadmin--windows--linux) - ***Core content***
 
     * WINDOWS
     * ANDROID (ROOT & +more)
@@ -62,22 +62,22 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
         - Distros
     * WSL - Windows Subsystem for Linux
 
-5. [~ CODE](#50--code) - Programming Languages & Project Ideas
+5. [~ CODE](/5.0~CODE.md#50--code) - Programming Languages & Project Ideas
 
-    [~ PYTHON](#51--python)
+    [~ PYTHON](/5.0~CODE.md#python)
     - 101s
     - Tutorials 101
     - Tutorials 10x
 
-    [~ BASH](#53--bash) - Shell
+    [~ BASH](/5.0~CODE.md#bash) - Shell
 
-    [~ +MORE](#more-languages) - [C#, PowerShell, ... ]
+    [~ +MORE](/5.0~CODE.md#more-languages) - [C#, PowerShell, ... ]
 
-6. [~ Game Development](#60--game-development)
+6. [~ Game Development]()
 
     - [Emulation, Engines, GameDev Community, GameDev Ideas, Mod-Making, Pygame limitations, Reverse Engineer (retro games)]
 
-7. [~ NETWORKS | HACKING](#70--networks--hacking)
+7. [~ NETWORKS | HACKING]()
 
     - [Black Hat, BotNetz, Cryptography, CTF, Dark Web (+ Tor), Digital Forensics]
     - DIY_NAS aka 'Home Server'
@@ -88,9 +88,9 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
     - Virtualization
     - VPNs, VPSs
 
-8. [~ IT Certificates](#80--it-certificates)
+8. [~ IT Certificates]()
 
-9. [~ OpenSource Development](#90--open-source-development)
+9. [~ OpenSource Development]()
 
 ## 0.0 ~ Mind Maps
 
