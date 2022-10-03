@@ -20,7 +20,7 @@ July 2022 felt like time for a career change, thus I did sign up for ITEP's [Net
 
 ✨ Going through some 101s it became crystal clear: I figured **Git** and **markdown files** were all I needed. Now this very file is my self-taught roadmap, a custom wiki, my knowledge-base, my self-learning journal.
 
-Now thanks for reading and I hope you find it useful too! You may fork this file, add your own sauces and share them back with mey! ⛏️
+Now thanks for reading and I hope you find it useful too! You may fork this file, add your own sauces and share them with me! ⛏️
 
 
 ## Table of contents
@@ -29,14 +29,11 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
 1. [~ L10N](#10--l10n) - Software Localization 101s
 2. [~ HARDWARE](#20--hardware) - Computer components and other electronics
 
-    [~ TINKERING](#21b--tinkering) - Hardware projects
-    1. DIY Circuits
-    2. Arduino UNO
-    3. Raspberry Pi
-    4. 3R Computers —Repair, Restore, Repurpose—
-    5. Pentium
-    6. Consoles aka Game Stations
-    7. Smartphones & Tablets
+    [~ TINKERING](#21b--tinkering)- Hardware projects
+    
+    - [DIY Circuits, Arduino UNO, Raspberry Pi]
+    - [3R Computers —Repair, Restore, Repurpose—, Pentium]
+    - [Consoles aka Game Stations, Smartphones & Tablets]
 
 3. [~ SOFTWARE -GEN-](#30--software--gen) - Understanding the industry 101
 
