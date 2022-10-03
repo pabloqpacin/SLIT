@@ -1,15 +1,12 @@
 <!-- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) -->
 <!-- thanks [Stack Overflow](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) -->
 
-
-
 <!-- v0.1.0 = add Open Source big time | downgrade kotlin | reconsider Unity/C# (eg.  Karmaggän project) || zsh, fetch Discord gamedev.... -->
 <!-- v0.0.1 = add mind maps -->
-v0.0.0 = stemming from wikiSLIT v0.4.0
+<!-- v0.0.0 = stemming from wikiSLIT v0.4.0 -->
 
 
-
-# *Self-Learning IT* ~~~ materials
+# *Self-Learning IT* ~ materials
 
 
 Hi there, welcome to my personal **IT Roadmap** 👋
@@ -94,11 +91,12 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 ## 0.0 ~ Mind Maps
 
-The two graphs below encompass all matters contained within **SLIT**:
+*The two graphs below encompass all matters contained within **SLIT**:*
 
 ![MindMap-0_4](/images/slit_img-MM1.PNG)
 
 ![MindMap-5-9](/images/slit_img-MM2.PNG)
+
 <!-- interactive link -->
 
 
@@ -115,43 +113,52 @@ The two graphs below encompass all matters contained within **SLIT**:
 
 ## 2.0 ~ HARDWARE | TINKERING
 
-### Theory
-<!-- 
-Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc)
--->
 
-* #### Electricity 
-    - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
-    - [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
-* #### Electronics 101s
-    - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
-    - [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
-* #### Computers 101s
-    - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
-    - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
+<details>
+<summary>Theory</summary>
+<!-- Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc) -->
 
-### Components
-* #### CPUs
-    - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-    - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
-* #### Graphics -all
-    - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
-    - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
-* #### HDMI
-    - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
-* #### Motherboards
-    - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
-* #### Power Supply
-    - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
-    - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
-* #### SSDs
-    - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
+#### Electricity 
+- [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
+- [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
+#### Electronics 101s
+- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+- [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
+#### Computers 101s
+- [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
+- [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
 
-* #### (bonus) ~ Bluetooth
-    - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
+</details>
 
 
-## TINKERING
+<details>
+<summary>Components</summary>
+
+#### CPUs
+- [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
+- [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
+#### Graphics -all
+- Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
+- JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
+#### HDMI
+- [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
+#### Motherboards
+- [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
+#### Power Supply
+- ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
+- Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
+#### SSDs
+- SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
+
+#### (bonus) ~ Bluetooth
+- [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
+
+</details>
+
+<details>
+<summary>TINKERING</summary>
+
+### TINKERING
 <!-- arranged as per relevant mindmap -->
 
 ### 2.1 ~ DIY Circuits
@@ -226,22 +233,13 @@ Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/Bjg
 - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
 
 
-<!-- #### 3.3.3 ~ $TINKERING et $SALVAGE <!-- SALVAGE = restore
+</details>
 
-* GL76
-* EX2511
-* Pentium
-* supercobaya
-* tablet android
-* tablet iOS
-* mobiles x9
-* consoles x5 -->
-
----
 
 ## 3.0 ~ SOFTWARE -GEN-
 
-### Self-taught dev 101
+<details>
+<summary>Self-taught dev 101</summary>
 
 #### *'Look afar and see the end from the beginning'*
 
@@ -382,9 +380,10 @@ Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/Bjg
     - (*^1) ~~^^~~ [**Agile approach:**](https://www.atlassian.com/agile/project-management/epics-stories-themes) stories, epics, initiatives
 
 
----
+</details>
 
-### FIELDS
+<details>
+<summary>FIELDS</summary>
 
 #### Computer Science
 [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
@@ -430,11 +429,12 @@ Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/Bjg
 
 - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
 
----
+</details>
 
-### TOPICS
+<details>
+<summary>TOPICS</summary>
 
-#### AI ..... | Machine Learning + Neural Networks (+ TensorFlow
+#### AI . . . Bot programming . . . \*Deep Learning\* . . . #TensorFlow
 
 * ##### 101s | Neural Networks
     - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
@@ -520,46 +520,42 @@ How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @
 ### ~ Junior Dev Jobs
 - [Lemon.IO](https://lemon.io/for-developers/)
 
----
+</details>
 
 
 ## 4.0 ~ SysAdmin || Windows & Linux
 
-### SysAdmin 101s
+<details>
+<summary>SysAdmin 101s</summary>
+
+#### SysAdmin 101
+
 * [Types of OS afap](https://youtu.be/MR2ntdZW__A) @ Techquickie
 * BIOS...
     - [BIOS and UEFI afap](https://youtu.be/zIYkol851dU) @ Techquickie
     - [BIOS, CMOS, UEFI - What's the difference?](https://youtu.be/LGz0Io_dh_I) @ PowerCert Animated Videos
 * Dual Boot ~ [The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0) @ Techno Tim
 * *Virtual Machines* ~ [see '7.0 ~ Networks | Hacking'](#70-networks--hacking)
-* #### SysAdmin Career
-    - [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
-    - [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
+#### SysAdmin Career
+- [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
+- [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
 
-...
+</details>
 
-### 4.1 ~ WINDOWS
-<!-- - [PowerShell, BIOS...] -->
+<details>
+<summary>Windows</summary>
+
+#### Windows 101
+[PowerShell, BIOS...]
+
+#### Windows 10x
 [I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
 
-...
-### 4.2 ~ ANDROID
+</details>
 
-#### ROOT
-- Root 101 ~ [What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
-- ROMs proper ~ [Android 13 Custom ROM List: Unofficially update your Android Smartphone!](https://xda-developers.com/android-13-custom-rom-list) @ XDA-Developers
+<details>
+<summary>Linux</summary>
 
-#### Misc.
-- Dual Boot for Windows ~ [Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
-- AndroNix' Linux ~ [Easily run Linux on Android with AndroNix - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
-- Calyx OS ~ [Calyx OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA) @ Mrwhosetheboss <!--(Hacking...)-->
-* ROMS
-
-...
-
-
-### 4.3 ~ LINUX
-<!-- possibly move pointer to its own 5.0, ending 4.0 with WSL -->
 #### Linux 101s
 
 * [Linux for the Absolute Beginner...](https://youtu.be/EN7mbRccT-8) @ Low Dough Tech
@@ -591,23 +587,45 @@ How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @
     - MX Linux ~ [From Noob to Power-User with MX Linux](https://youtu.be/IsnSSY2vTXQ) @ Distro Tube
     - Pop OS!
 
+</details>
 
-### 4.4 ~ WSL - Windows Subsystem for Linux 
+<details>
+<summary>WSL</summary>
+
+### WSL - Windows Subsystem for Linux 
 - [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
 - [I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c) @ Forrest Knight
+
+</details>
+
+<details>
+<summary>Android</summary>
+
+#### ROOT
+- Root 101 ~ [What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
+- ROMs proper ~ [Android 13 Custom ROM List: Unofficially update your Android Smartphone!](https://xda-developers.com/android-13-custom-rom-list) @ XDA-Developers
+
+#### Misc.
+- Dual Boot for Windows ~ [Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
+- AndroNix' Linux ~ [Easily run Linux on Android with AndroNix - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
+- Calyx OS ~ [Calyx OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA) @ Mrwhosetheboss <!--(Hacking...)-->
+* ROMS
+
+</details>
 
 <!-- VERY IMPORTANT LOCAL GL76'S DIRECTORY: 'LINUX' -->
 <!-- ### 4.5 ~ +more -->
 <!-- $consoles $JAILBREAK $TINKERING $cars -->
----
 
 ## 5.0 ~ CODE
 
-Please find this section covering **materials** and **actual projects** in [this separate file](/5.0~CODE.md)
+Please find this section covering **materials** and **actual projects** in [this separate file](/5.0~CODE.md).
 
-.
 
 ## 6.0 ~ Game Development | Emulation & Modmaking
+
+<details>
+<summary>Game Dev</summary>
 
 ### Emulation
 Emulation: Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](https://youtu.be/_rYVWzjVWmw) @ Blaine Locklair
@@ -650,10 +668,13 @@ Emulation: Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](http
 ### 6.1 ~ Karmaggän
  First off, peek into local **Jagger Dress Up** -->
 
-.
+</details>
 
 
 ## 7.0 ~ NETWORKS | HACKING
+
+<details>
+<summary>Networks & InfoSec</summary>
 
 ### 0 -gen-
 - Internet Speed ~ [Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E) @ Techquickie
@@ -779,8 +800,12 @@ for Android rooting, see *5~SysAdmin|OS* -->
 ### VPSs
 - [Best VPS hosting providers of 2022](https://www.techradar.com/news/best-vps-hosting) @ Tech Radar
 
----
+</details>
+
 ## 8.0 ~ IT Certificates
+
+<details>
+<summary>IT Certs</summary>
 
 ### -GEN-
 
@@ -800,9 +825,12 @@ for Android rooting, see *5~SysAdmin|OS* -->
 * #### CompTIA's Network+
     - [Reference Materials](https://youtu.be/vrh0epPAC5w) @ PowerCert Animated Videos
 
-
+</details>
 
 ## 9.0 ~ Open-Source Development
+
+<details>
+<summary>FOSS Contributing</summary>
 
 * ### Mozilla -Web Development-
 
@@ -810,7 +838,12 @@ for Android rooting, see *5~SysAdmin|OS* -->
 - Browser add-on dev. ~ [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/)
 
 
----
+</details>
+
+
+
+<!-- 
+
 ---
 
 # Weird sociologicals
@@ -818,7 +851,9 @@ for Android rooting, see *5~SysAdmin|OS* -->
 - [2007 | The Dark Side of the Web](https://youtu.be/U0nDoAML_QI)
 - [2007 | Tech Talk: Linus Torvalds on git](https://youtu.be/4XpnKHJAok8) @ Google
 - [2021 | Why the Simulation Hypothesis is Wrong](https://youtu.be/MqM_K9vL8is) @ Duncan
-- (!!!) ~ [2022 | How many people might ever exist, calculated](https://youtu.be/r6sa_fWQB_4) @ Primer
+- (!!!) ~ [2022 | How many people might ever exist, calculated](https://youtu.be/r6sa_fWQB_4) @ Primer 
+
+-->
 
 
 
