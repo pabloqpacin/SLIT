@@ -10,20 +10,20 @@ pygame.init()
 screen = pygame.display.set_mode((800,600))
 
 # Background
-background = pygame.image.load('vaporwave.png')
+background = pygame.image.load('images/vaporwave.png').convert_alpha()
 
 # Background Sound
-mixer.music.load('altingun.wav')
+mixer.music.load('audio/altingun.wav')
 mixer.music.play(-1)
 mixer.music.set_volume(0.4)
 
 # Title and Icon
 pygame.display.set_caption("Space Invaders by @PabloQuevedoPacin")
-icon = pygame.image.load('durum.png')
+icon = pygame.image.load('images/durum.png').convert_alpha()
 pygame.display.set_icon(icon)
 
 # Player
-playerImg = pygame.image.load('kemal.png')
+playerImg = pygame.image.load('images/kemal.png').convert_alpha()
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -37,7 +37,7 @@ enemyY_change = []
 num_of_enemies = 12
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('tea.png'))
+    enemyImg.append(pygame.image.load('images/tea.png').convert_alpha())
     enemyX.append(random.randint(0,735))
     enemyY.append(random.randint(50,150))
     enemyX_change.append(0.2)
@@ -46,7 +46,7 @@ for i in range(num_of_enemies):
 # Bullet
     # Ready - You can't see the bullet on the screen
     # Fire - The bullet is currently moving
-bulletImg = pygame.image.load('gin.png')
+bulletImg = pygame.image.load('images/gin.png').convert_alpha()
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
@@ -125,7 +125,7 @@ while running:
 #print("Right arrow is pressed")
             if event.key == pygame.K_SPACE:
                 if bullet_state is "ready":
-                    bullet_Sound = mixer.Sound('laser.wav')
+                    bullet_Sound = mixer.Sound('audio/laser.wav')
                     bullet_Sound.play()
                     bulletX = playerX
                     fire_bullet(bulletX, bulletY)
@@ -167,7 +167,7 @@ while running:
         # Collision
         collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
         if collision:
-            explosion_Sound = mixer.Sound('explosion.wav')
+            explosion_Sound = mixer.Sound('audio/explosion.wav')
             explosion_Sound.play()
             bulletY = 480
             bullet_state = "ready"
