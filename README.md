@@ -94,9 +94,11 @@ Now thanks for reading and I hope you find it useful too! You may fork this file
 
 ## 0.0 ~ Mind Maps
 
-The graph below was put together to illustrate how different IT *fields* and *topics* merge within my Self-Teaching process: [see Mind Map](https://www.mindomo.com/mindmap/devsysadmin-33a91323b6c84dc9a8a08af7a0d7e679).
 
-The screenshot below shows the core of it:
+![ultimateMindMap](/images/slit_img-mindmap5.PNG)
+<!-- The graph below was put together to illustrate how different IT *fields* and *topics* merge within my Self-Teaching process: [see Mind Map](https://www.mindomo.com/mindmap/devsysadmin-33a91323b6c84dc9a8a08af7a0d7e679).
+
+The screenshot below shows the core of it: -->
 
 
 
