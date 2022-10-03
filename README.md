@@ -14,14 +14,13 @@ v0.0.0 = stemming from wikiSLIT v0.4.0
 
 Hi there, welcome to my personal **IT Roadmap** 👋
 
-While I'm currently pursuing **SysAdmin** studies, last July (2022) I started learning **Software Development** from scratch. But the more I learnt, the more I had to teach myself.
+July 2022 felt like time for a career change, thus I did sign up for ITEP's [Network and System Administration studies](https://www.itep.es/ciclos-formativos/distancia/tecnico-superior-administracion-sistemas-informaticos-red). Yet, unable to hold meself, took my own deep dive into **'self-taught Software Development'**.
 
-Soon enough my initial YouTube playlists weren't enough to keep all matters organized. Attempted to organize everything in custom Discord and Reddit servers ~~(both still on the making~~), but the sheer amount of content and its wide scope were s
+📚 YouTube research was done and the algorithm was fairly spammy, still feeding me with quality content. Soon enough, [my playlists](https://www.youtube.com/channel/UC4yPJo9tFagP7ZMkMcCQNbw) were overwhelmed by the sheer amount and variety of videos I was saving. Tried Discord and [Reddit](https://www.reddit.com/r/selflearningIT/) severs too keep all stuff organized in a cross-platform fashion, but these tools haven't met my needs just yet. 
 
-Luckily, I eventually managed to put together all relevant materials in the present document.
+✨ Going through some 101s it became crystal clear: I figured **Git** and **markdown files** were all I needed. Now this very file is my self-taught roadmap, a custom wiki, my knowledge-base, my self-learning journal.
 
-Please feel free to fork this file and expand it if you wish!! Thanks for reading and I hope my Roadmap helps you out as well!!
-
+Now thanks for reading and I hope you find it useful too! You may fork this file, add your own sauces and share them back with mey! ⛏️
 
 
 ## Table of contents
