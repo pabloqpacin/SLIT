@@ -59,16 +59,16 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
         - Distros
     * WSL - Windows Subsystem for Linux
 
-5. [~ CODE](/5.0~CODE.md#50--code) - Programming Languages & Project Ideas
+5. [~ CODE](/050Code.md) - Programming Languages & Project Ideas
 
-    [~ PYTHON](/5.0~CODE.md#python)
+    [~ PYTHON](/050Code.md#python)
     - 101s
     - Tutorials 101
     - Tutorials 10x
 
-    [~ BASH](/5.0~CODE.md#bash) - Shell
+    [~ BASH](/050Code.md#bash) - Shell
 
-    [~ +MORE](/5.0~CODE.md#more-languages) - [C#, PowerShell, ... ]
+    [~ +MORE LANGS](/050Code.md#more-languages) - [C#, PowerShell, ... ]
 
 6. [~ Game Development](#60--game-development--emulation--modmaking)
 
