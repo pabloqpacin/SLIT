@@ -9,8 +9,8 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 - extra features:
   - lives/health system
 
-
-![screenshot](/Pygame101-Tea_Invaders/images/game-screenshot.PNG)
+## Screenshots
+<img src="/Pygame101-Tea_Invaders/images/game-screenshot.PNG" alt="screenshot" width="620"/>
 
 
 ## Requirements
