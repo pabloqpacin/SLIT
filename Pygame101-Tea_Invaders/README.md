@@ -10,7 +10,8 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
   - lives/health system
 
 
-![screenshot](/images/game-screenshot.PNG)
+![screenshot](/Pygame101-Tea_Invaders/
+images/game-screenshot.PNG)
 
 
 ## Requirements
