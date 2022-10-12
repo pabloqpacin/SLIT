@@ -10,7 +10,7 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
   - lives/health system
 
 ## Screenshots
-<img src="/Pygame101-Tea_Invaders/images/game-screenshot.PNG" alt="screenshot" width="620"/>
+<img src="/Pygame101-Tea_Invaders/images/game-screenshot.PNG" alt="screenshot" width="660"/>
 
 
 ## Requirements
