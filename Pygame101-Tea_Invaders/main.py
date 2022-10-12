@@ -18,7 +18,7 @@ mixer.music.play(-1)
 mixer.music.set_volume(0.4)
 
 # Title and Icon
-pygame.display.set_caption("Space Invaders by @PabloQuevedoPacin")
+pygame.display.set_caption("Tea Invaders by @pabloqpacin")
 icon = pygame.image.load('images/durum.png').convert_alpha()
 pygame.display.set_icon(icon)
 
@@ -40,7 +40,7 @@ for i in range(num_of_enemies):
     enemyImg.append(pygame.image.load('images/tea.png').convert_alpha())
     enemyX.append(random.randint(0,735))
     enemyY.append(random.randint(50,150))
-    enemyX_change.append(0.2)
+    enemyX_change.append(0.02)
     enemyY_change.append(40)
 
 # Bullet
