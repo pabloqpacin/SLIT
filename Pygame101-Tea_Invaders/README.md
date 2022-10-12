@@ -53,7 +53,7 @@ Atatürk never missed a shot tho so have yourself some **rakı** for every invad
 
 Improvements and general overhaul coming in due time!
 
-Check [to-do](/to-do.md) to find out more and contribute!
+Check [to-do](Pygame101-Tea_Invaders/to-do.md) to find out more and contribute!
 
 
 
