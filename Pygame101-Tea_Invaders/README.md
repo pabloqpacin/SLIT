@@ -3,7 +3,7 @@
 
 Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modules.
 
-**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt)](https://github.com/attreyabhatt) with
+**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt](https://github.com/attreyabhatt) with
 - custom images
 - background music
 - extra features:
