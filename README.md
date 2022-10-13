@@ -838,6 +838,16 @@ for Android rooting, see *5~SysAdmin|OS* -->
 - Browser add-on dev. ~ [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/)
 
 
+
+* ### **Snapd** -Linux Packages-
+
+- [(snapcraft.io/docs)](https://snapcraft.io/docs)
+
+
+
+
+
+
 </details>
 
 
