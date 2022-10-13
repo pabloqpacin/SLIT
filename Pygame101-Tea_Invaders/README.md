@@ -20,16 +20,16 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 - **Recommended**: VSCode + Python extension
 
 ## How to play?
-1. Open [download-directory.github.io](https://download-directory.github.io), enter the folder URL "https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders" and press `ENTER` 
-2. Find the **.zip file** in your designated Downloads folder, **extract** it, right-click it and please open it in **VSCode** or **Terminal** 
-3. Now you probably want to make sure **python** and **pygame** are installed! Having done so, let's run the game!
+1. Open [download-directory.github.io](https://download-directory.github.io) and `ENTER` the folder URL "https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders"
+2. Find the **.zip file** in your designated Downloads folder, **extract** it and please open this **new folder** in **VSCode** or **Terminal** 
+3. Now you probably want to make sure **python** and **pygame** are installed. Having done so, let's run the game!
 
-   1. Run `python3 main.py` in your Terminal window
-   2. Run `Ctrl+Alt+N` in the VSCode window
+   1. In VSCode, press `Ctrl+Alt+N`
+   2. In the Terminal, run `python3 main.py`   
 
+4. **VANQUISH THE TEAS!**
 
-
-Now beware, the game performance may vary from one machine to another, so please tinker with settings such as `playerX_change=0.25` or `bulletY_change=0.4` to improve the speed of any sprites. For the enemies you should change both `enemyX_change.append(0.02)` and `enemyX_change[i] = 0.2`.
+Beware, game performance may vary from one machine to another and yours might render an utterly slow and clunky game. If so, please dive into the code and modify parameters such as `playerX_change=0.25` or `bulletY_change=0.4` to improve sprites' speed and overall performance. For the enemies you might want to change both `enemyX_change.append(0.02)` and `enemyX_change[i] = 0.2`.
 
 
 
@@ -64,6 +64,6 @@ This project was completed within a few days back in August as means to learn:
   - how to use an IDE (ie. VSCode)
   - Python programming
 
-My main computer runs *Windows10* and as of today (last commit date) I don't remember exactly how I set everything up back in the day (eg. python interpreter, vscode config, etc). Now I have managed to run the game in a freshly installed Pop!OS Linux virtual machine, so the given instructions should work for you as well. Ngl, the game keeps crashing in my VM but it works like a charm in my actual Windows machine. Thanks for reading and I hope you find it useful!
+My main computer runs *Windows10* and as of today (last commit date) I can't really figure out how did I set everything up so nicely back in the day (eg. python interpreter, vscode config, etc). Now I have indeed managed to run the game in some freshly installed Linux distros, so the given instructions should work for you just fine, plus documentation is close at hand. Thanks for reading and I hope you find it useful!
 
 
