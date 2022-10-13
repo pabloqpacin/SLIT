@@ -24,7 +24,7 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 2. Find the **.zip file** in your designated Downloads folder, **extract** it and please open this **new folder** in **VSCode** or **Terminal** 
 3. Now you probably want to make sure **python** and **pygame** are installed. Having done so, let's run the game!
 
-   1. In VSCode, open the "main.py" file and press `Ctrl+Alt+N`
+   1. In VSCode, open the *main.py* file and press `Ctrl+Alt+N`
    2. In the Terminal, simply run `python3 main.py`   
 
 4. **VANQUISH THE TEAS!**
