@@ -54,7 +54,7 @@ second bait question for this second part
 6.1 - rickroll
 Unless the second user input meets the system variable `hostname`,
 the script will open the broswer to RickRoll the user and exit *exit*
-\# needs HEAVY polishing
+\# needs HEAVY polishing & INOP if using WSL...
 6.2 - farewell
 If the user input matches the config variable `hostname`,
 then best wishes are given and the 'cowsay' command is run.
@@ -100,10 +100,10 @@ read today
 if [[ $today != "$HOSTNAME" ]]; then
 echo "well idc :)"
 sleep 2
-xdg-open https://youtu.be/dQw4w9WgXcQ &       # OJO xdg-open; thanks (https://www.linuxshelltips.com/linux-commands-to-open-url-in-browser)
+gio open https://youtu.be/dQw4w9WgXcQ &       # OJO xdg-open; thanks (https://www.linuxshelltips.com/linux-commands-to-open-url-in-browser)
 exit
 fi
 
 # 6 - END 2 - farewell
 echo "keep it up dawg!" && sleep 1
-fortune | cowsay -f tux
+fortune | cowsay -f tux | lolcat
