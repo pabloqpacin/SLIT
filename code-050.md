@@ -1,30 +1,71 @@
 
 
-## 5.0 ~ CODE
+# 5.0 ~ CODE
 
-### 101s
-<!-- find Git pointer in 3.3 -->
 
-* #### More Career (alike 3~Software-gen-)
-    - [10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E) @ MoureDevrais
-    - [Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY) @ MoureDevrais
+## Introduction
 
-* #### VSCode Environment setup
-    - [25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI) @ Fireship
-    - [Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg) @ VSC
-    - [My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY) @ Forrest Knight
 
-* #### Project ideas -general-
-    - [5 Coding Projects (from beginner to advanced)](https://youtu.be/n2B-FClr5rA) @ Forrest Knight
+If you are familiar with the main [README](/README.md) above, you could look at this whole SLIT repo as a collection of YouTube learning materials and you'd be right.
 
-* #### Misc.
-    -  Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
-    - Debuggin ~ [Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0) @ WebDevSimplified
-    - History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
-    - JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
-    - Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
 
-### PYTHON
+While I pursue [**Network and System Admin** studies](https://www.itep.es/ciclos-formativos/distancia/tecnico-superior-administracion-sistemas-informaticos-red), this ***Self-Learning IT*** repository means to expand on the Degree's curriculum. SLIT means to provide general documentation for many Computer Science branches of knowledge, exploring different aspects of the IT Industry.
+
+SLIT then means to encompass a large amount of topics from different IT fields. These materials are mainly high-quality and perhaps niche YouTube videos that grant me the fundamental information and guidance to tackle a number of personal side-projects (which are documented in a [private repo](https://github.com/pabloqpacin/LinWin-notebook)). Some topics might be:
+
+|low-level computing|operating systems|programming languages|developer environment|cybersecurity|
+| --- | --- | --- | --- | --- |
+|electronics|windows|*python*|IDEs|network security
+|computer components|linux|*bash*|WSL|malware protection
+|hardware restoration|android|*+more*|good practices|deep web browsing
+
+
+
+## Last words
+
+
+While [section 3](/README.md#30--software--gen) documents many **Software Development** core practices, [section 6](/README.md#60--game-development--emulation--modmaking) focuses on game development, and now this section 5 **CODE** contains programming projects big time. Let's code!
+
+As mentioned above, we are at the moment focusing on ***python*** and ***bash***.
+
+Nonetheless, many other languages are covered so let's dive right into it.
+
+
+<details>
+<summary> A few more general resources </summary>
+
+### gen
+
+[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E) @ MoureDevrais
+
+[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY) @ MoureDevrais
+
+### VSCode setup
+[25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI) @ Fireship
+
+[Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg) @ VSC
+
+[My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY) @ Forrest Knight
+
+### Project ideas -general-
+[5 Coding Projects (from beginner to advanced)](https://youtu.be/n2B-FClr5rA) @ Forrest Knight
+
+### Misc.
+Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
+
+Debuggin ~ [Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0) @ WebDevSimplified
+
+History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
+
+JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
+
+Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
+
+</details>
+
+---
+
+## PYTHON
 
 #### 101s
 - [Python Installation and Setup 101](https://youtu.be/W1iXIiF5iMw) @KylieYing
