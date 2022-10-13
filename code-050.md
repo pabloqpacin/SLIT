@@ -6,7 +6,7 @@
 ## Introduction
 
 
-If you are familiar with the main [README](/README.md) above, you could look at this whole SLIT repo as a collection of YouTube learning materials and you'd be right.
+As mentioned in the [README](/README.md) above, ***SLIT*** is a collection of learning materials and personal programming projects.
 
 
 While I pursue [**Network and System Admin** studies](https://www.itep.es/ciclos-formativos/distancia/tecnico-superior-administracion-sistemas-informaticos-red), this ***Self-Learning IT*** repository means to expand on the Degree's curriculum. SLIT means to provide general documentation for many Computer Science branches of knowledge, exploring different aspects of the IT Industry.
@@ -24,15 +24,13 @@ SLIT then means to encompass a large amount of topics from different IT fields. 
 ## Last words
 
 
-While [section 3](/README.md#30--software--gen) documents many **Software Development** core practices, [section 6](/README.md#60--game-development--emulation--modmaking) focuses on game development, and now this section 5 **CODE** contains programming projects big time. Let's code!
+While [section 3](/README.md#30--software--gen) documents many **Software Development** core practices and [section 6](/README.md#60--game-development--emulation--modmaking) might focus on game development (plus modding & emulation), this section 5 **CODE** is all about: **programming languages**.
 
-As mentioned above, we are at the moment focusing on ***python*** and ***bash***.
-
-Nonetheless, many other languages are covered so let's dive right into it.
+Besides this *markdown* file, you can find the actual coding projects in the SLIT repo. Now, let's code!
 
 
 <details>
-<summary> A few more general resources </summary>
+<summary> Just a few more general resources </summary>
 
 ### gen
 
@@ -63,20 +61,25 @@ Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw
 
 </details>
 
----
 
-## PYTHON
+## Programming languages
+
+<details>
+<summary> PYTHON </summary>
 
 #### 101s
-- [Python Installation and Setup 101](https://youtu.be/W1iXIiF5iMw) @KylieYing
-- [Learn How to Learn Python - Easy & simple!](https://youtu.be/5mJ_Qftw2_0) @ TechLead
-- [25 nooby Python habits you need to ditch](https://youtu.be/qUeud6DvOWI) @ mCoding
 
-* ##### Libraries
-    - [All top 40 Python Libraries EXPLAINED in 20 minutes](https://youtu.be/-29x_deQQus) @ Kite
+[Python Installation and Setup 101](https://youtu.be/W1iXIiF5iMw) @KylieYing
 
-* ##### Modules
-    - [Top 18 most useful Python Modules](https://youtu.be/Vi9Y9AL13Rc) @ Tech With Tim
+[Learn How to Learn Python - Easy & simple!](https://youtu.be/5mJ_Qftw2_0) @ TechLead
+
+[25 nooby Python habits you need to ditch](https://youtu.be/qUeud6DvOWI) @ mCoding
+
+- ##### Libraries
+[All top 40 Python Libraries EXPLAINED in 20 minutes](https://youtu.be/-29x_deQQus) @ Kite
+
+- ##### Modules
+[Top 18 most useful Python Modules](https://youtu.be/Vi9Y9AL13Rc) @ Tech With Tim
 
 #### Tutorials 101
 * ##### fCC ~ (Gen, Data Structures, Pygame)
@@ -107,6 +110,7 @@ Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw
 #### Tutorials 1Mx
 * [Make YOUR OWN Programming Language - EP 4 - Variables](https://youtu.be/3PW552YHwy0) @ Code Pulse
 
+</details>
 
 <!--### 5.2 ~ Kotlin
 
@@ -121,7 +125,8 @@ Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw
 
 -->
 
-### BASH
+<details>
+<summary> BASH </summary>
 
 [Shell Scripting Tutorial -website-](https://shellscript.sh)
 
@@ -135,8 +140,11 @@ Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw
 
 * ~~[$ 212 Bash Scripts](https://youtu.be/q2z-MRoNbgM)~~ @ LinuxHint 
 
+</details>
 
-### +MORE Languages
+<details>
+<summary> +MORE </summary>
+
 
 * **C# (GameDev: Unity, ...)**
 
@@ -169,4 +177,5 @@ Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw
 - **Windows' PowerShell**
     <!-- - **@pabloqpacin:** *find (3.1-Windows) above* -->
 
-.
+</details>
+
