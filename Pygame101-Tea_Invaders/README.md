@@ -3,14 +3,14 @@
 
 Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modules.
 
-**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt)](https://github.com/attreyabhatt) with
+**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt](https://github.com/attreyabhatt) with
 - custom images
 - background music
 - extra features:
   - lives/health system
 
-
-![screenshot](/images/game-screenshot.PNG)
+## Screenshots
+<img src="/Pygame101-Tea_Invaders/images/game-screenshot.PNG" alt="screenshot" width="700"/>
 
 
 ## Requirements
@@ -22,11 +22,11 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 
 ## How to play?
 1. Open [download-directory.github.io](https://download-directory.github.io)
-2. Enter the folder URL `https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders`
-3. Find the **project .zip file** in your Downloads folder and **extract** it
+2. Enter the folder URL `https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders` and press `ENTER` 
+3. Find the **project .zip file** in your designated Downloads folder and **extract** it
 4. Now open the folder directly with **VSCode** (so that all image and audio assets are available for the the game to run successfully)
-5. Now VSCode may ask you to install "the recommended extensions for Python",and we do clicking on `Install`
-6. If everything is installed correctly, you could open the **main.py** file from within VSCode, run the code (enter `Ctrl+Alt+N`) and the game screen will come up ready to play!
+5. VSCode may ask you to install "the recommended extensions for Python", which we may do clicking on `Install`
+6. If everything is installed correctly, do open the **main.py** file from within VSCode, run the code (enter `Ctrl+Alt+N`) and the game screen will come up ready to play!
 
 Now beware, the program speed and performance may vary from one machine to other, so please tinker with speed-related settings such as `playerX_change=0.25`, `bulletY_change=0.4` or
 
@@ -41,29 +41,30 @@ Instructions for fresh kali:
 
 
 -->
+Now beware, the program speed and performance may vary from one machine to another, so please tinker with speed-related settings such as `playerX_change=0.25` or `bulletY_change=0.4`.
 
 
 ## Gameplay
 
-You are Atatürk, back and ready to defend your screen against the **Tea Invaders**.
+You are Atatürk, back and ready to defend your screen against the **Tea Invaders**
 
-As the game starts you should find 12 *Teas* navigating the pink sky to the beat of [Altin Gün's 'Kısasa Kısas'](https://youtu.be/eXuGAOV0JH0).
+As the game starts you should find 12 *Teas* navigating the pink sky to the beat of [Altin Gün's 'Kısasa Kısas'](https://youtu.be/eXuGAOV0JH0)
 
-Now prepare yourself a drink and start shooting *Gin-Tonics* at the enemies.
+Now prepare yourself a drink and start shooting *Gin-Tonics* at the enemies
 
 - MOVE WITH `LEFT/RIGHT` ARROWS
 - SHOOT WITH `SPACE`
 
-The game will be over when the **Tea Invaders** reach your position or after missing 7 shots.
+The game will be over when the **Tea Invaders** reach your position or after missing 7 shots
 
-Atatürk never missed a shot so have yourself some **rakı** for every invader army crushed aye!
+Atatürk never missed a shot tho so have yourself some **rakı** for every invader army crushed aye!
 
 
 ## Coming soon
 
 Improvements and general overhaul coming in due time!
 
-Check [to-do](/to-do.md) to find out more and contribute!
+Check [to-do](/Pygame101-Tea_Invaders/to-do.md) to find out more and contribute!
 
 
 
