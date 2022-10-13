@@ -3,9 +3,8 @@
 
 Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modules.
 
-**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt](https://github.com/attreyabhatt) with
+**Tea Invaders** is basically the result of tweaking [this tutorial](https://youtu.be/FfWpgLFMI7w) by [@attreyabhatt](https://github.com/attreyabhatt) with:
 - custom images
-- background music
 - extra features:
   - lives/health system
 
@@ -21,27 +20,17 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 - **Recommended**: VSCode + Python extension
 
 ## How to play?
-1. Open [download-directory.github.io](https://download-directory.github.io)
-2. Enter the folder URL `https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders` and press `ENTER` 
-3. Find the **project .zip file** in your designated Downloads folder and **extract** it
-4. Now open the folder directly with **VSCode** (so that all image and audio assets are available for the the game to run successfully)
-5. VSCode may ask you to install "the recommended extensions for Python", which we may do clicking on `Install`
-6. If everything is installed correctly, do open the **main.py** file from within VSCode, run the code (enter `Ctrl+Alt+N`) and the game screen will come up ready to play!
+1. Open [download-directory.github.io](https://download-directory.github.io), enter the folder URL "https://github.com/pabloqpacin/SLIT/tree/main/Pygame101-Tea_Invaders" and press `ENTER` 
+2. Find the **.zip file** in your designated Downloads folder, **extract** it, right-click it and please open it in **VSCode** or **Terminal** 
+3. Now you probably want to make sure **python** and **pygame** are installed! Having done so, let's run the game!
 
-Now beware, the program speed and performance may vary from one machine to other, so please tinker with speed-related settings such as `playerX_change=0.25`, `bulletY_change=0.4` or
-
-<!--
-Instructions for fresh kali:
-1 ok
-2 ok
-3 ok
-4 python 3 preinstalled, and seemingly so is pygame; so i run `python3 main.py` having opened a terminal in the folder and... game screen pops up!! ... slower than it should
+   1. Run `python3 main.py` in your Terminal window
+   2. Run `Ctrl+Alt+N` in the VSCode window
 
 
 
+Now beware, the game performance may vary from one machine to another, so please tinker with settings such as `playerX_change=0.25` or `bulletY_change=0.4` to improve the speed of any sprites. For the enemies you should change both `enemyX_change.append(0.02)` and `enemyX_change[i] = 0.2`.
 
--->
-Now beware, the program speed and performance may vary from one machine to another, so please tinker with speed-related settings such as `playerX_change=0.25` or `bulletY_change=0.4`.
 
 
 ## Gameplay
