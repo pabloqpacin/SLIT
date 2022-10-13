@@ -832,18 +832,21 @@ for Android rooting, see *5~SysAdmin|OS* -->
 <details>
 <summary>FOSS Contributing</summary>
 
-* ### Mozilla -Web Development-
+- ### **Mozilla** -Web Development-
 
-- General Web Dev. ~ [Resources for Developers, by Developers | Documenting **web technologies, including CSS, HTML and JavaScript**, since 2005](https://developer.mozilla.org/en-US/)
-- Browser add-on dev. ~ [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/)
+General Web Dev. ~ [Resources for Developers, by Developers | Documenting **web technologies, including CSS, HTML and JavaScript**, since 2005](https://developer.mozilla.org/en-US/)
 
-
-
-* ### **Snapd** -Linux Packages-
-
-- [(snapcraft.io/docs)](https://snapcraft.io/docs)
+Browser add-on dev. ~ [Add-on Developer Hub](https://addons.mozilla.org/en-US/developers/)
 
 
+- ### **Snapd** -Linux Packages-
+
+[(snapcraft.io/docs)](https://snapcraft.io/docs)
+
+
+- ### **Xubuntu**
+
+Xubuntu [contribute](https://xubuntu.org/contribute) yay!
 
 
 
