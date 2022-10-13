@@ -18,9 +18,7 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 - [Pygame](https://www.pygame.org/wiki/GettingStarted)
 
 [//]: <> (in Linux enter `sudo apt-get install python3-pygame`)
-- Visual Studio Code
-- VSCode Python extension (by Microsoft) <!--It should take a bit to install-->
-
+- **Recommended**: VSCode + Python extension
 
 ## How to play?
 1. Open [download-directory.github.io](https://download-directory.github.io)
@@ -30,7 +28,19 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
 5. Now VSCode may ask you to install "the recommended extensions for Python",and we do clicking on `Install`
 6. If everything is installed correctly, you could open the **main.py** file from within VSCode, run the code (enter `Ctrl+Alt+N`) and the game screen will come up ready to play!
 
-Now beware, the program speed and performance may vary from one machine to other, so please tinker with speed-related settings such as `playerX_change=0.25` or `bulletY_change=0.4`.
+Now beware, the program speed and performance may vary from one machine to other, so please tinker with speed-related settings such as `playerX_change=0.25`, `bulletY_change=0.4` or
+
+<!--
+Instructions for fresh kali:
+1 ok
+2 ok
+3 ok
+4 python 3 preinstalled, and seemingly so is pygame; so i run `python3 main.py` having opened a terminal in the folder and... game screen pops up!! ... slower than it should
+
+
+
+
+-->
 
 
 ## Gameplay
