@@ -54,7 +54,6 @@ BreakdownEnd
 
 
 
-
 # 1 - welcome prompt
 echo "hi, are you $USER? 
 what's your name?"
@@ -99,3 +98,4 @@ fi
 # 6 - END 2 - farewell
 echo "keep it up dawg!" && sleep 1
 fortune | cowsay -f tux | lolcat
+
