@@ -29,4 +29,4 @@ Core points:
 ---
 ## OJO
 
-We decide to halt updating this FCC12 project until we complete ClearCode's general Python course, to ensure we know the very basics.
+**We decide to halt updating this FCC12 project until we complete ClearCode's general Python course, to ensure we know the very basics.**
