@@ -31,12 +31,12 @@ b. keyword = "tusupervieja"
 BreakdownOutcome1
 
 <<BreakdownOutcomes23
-3.2 - baitword kick
-If the user input matches the current username (ie. $USER)
+3.2 - baited kick
+If the user input matches the current username (ie. `whoami`)
 the script will return "I'm busy, bye", wait 2 seconds and `exit` itself.
 3.3 - keyword continue
-So how to break the loop? Using cheats.
-The only possible answer to break the loop is the keyword "tusupervieja".
+So how to break the loop and continue? Using cheats.
+The only good answer is the keyword "tusupervieja", yay!
 BreakdownOutcomes23
 
 <<BreakdownEnd
@@ -44,9 +44,9 @@ BreakdownOutcomes23
 5 - second user input prompt
 6 - two possible ends:
 6.1 - rickroll
-Unless the second user input meets the system variable `hostname`,
-the script will open the broswer to RickRoll the user and `exit` itself.
-\# needs HEAVY polishing & INOP if using WSL...
+The script opens the broswer to RickRoll the user and `exit` itself
+unless that second user input meets the system variable `hostname`.
+# needs HEAVY polishing & INOP if using WSL...
 6.2 - farewell
 If the user input matches the config variable `hostname`,
 then best wishes are given and the 'cowsay' command is run.
@@ -68,7 +68,7 @@ echo "excuse mey?" # OR echo "sorry, who?" .... hacer algo random tipo %
 read whoaru
 done
 
-# 3 - OUTCOME 2 - baitword kick 
+# 3 - OUTCOME 2 - baited kick 
 if [[ $whoaru == $USER ]]; then
 echo "well i'm busy now
 come sea me later"

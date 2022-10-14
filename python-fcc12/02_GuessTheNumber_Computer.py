@@ -25,10 +25,8 @@ BREAKDOWN-next
 """
 
 
-# Import this module to use relevant "functions?", namely "random.randint" 
 import random
 
-# Defin
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0
