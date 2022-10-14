@@ -8,7 +8,6 @@ I put it together guessing what to do cuz I didn't look anything up.
 So let's break it down.
 Introduction
 
-
 <<Breakdown1
 1 - with the variable $guessme we set the secret number, 
 which may be any number between 0-1000 using '$RANDOM' & '%'.
@@ -36,7 +35,7 @@ will return the message "nope, too low", and ask for user input again.
 The loop will be on until the guess is successful.
 5.3 - GUESSED IT
 When the two variables match, the loop will break
-and the script will return the secret number.
+and the script will return the secret number and end.
 Breakdown2
 
 <<Tweak
