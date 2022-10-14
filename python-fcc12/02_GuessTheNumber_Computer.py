@@ -1,15 +1,34 @@
 
 
 """
-Description: game for user to guess computer's secret number
-Lesson: use functions,
-1 - Generate computer number with "random" package
+DESCRIPTION
+Game for the user to guess a rendomly generated computer's secret number
+
+LESSON
+use functions, ...
+
+BREAKDOWN-Intro
+- Generate computer number with "random" package
+- Have game running with the "guess" function
+
+BREAKDOWN-Module
+1 - Import python 'random' package
+So that we can use 'functions' like "random.randint()".
+
+BREAKDOWN-Function
+2 - Define function "guess"
+This is basically the whole thing, all we will print.
+Operates with scripted data and user input (variables).
+
+BREAKDOWN-next
+
 """
 
 
-# Import this package to use relevant functions, namely "random.randint" 
+# Import this module to use relevant "functions?", namely "random.randint" 
 import random
 
+# Defin
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0

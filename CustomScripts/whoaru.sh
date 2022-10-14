@@ -4,56 +4,48 @@
 <<Introduction
 Hello world.
 Figure this script as a password prompt screen.
-Run it in the terminal and it will ask your name, that's it.
+Run it in the terminal and will ask your name, that's it.
 Now, there are several scripted outcomes.
 The way the script ends is fully up to you!
-SPOILER: all three variables, if statements and loops are involved.
+SPOILER: all three (1) variables, (2) if statements and (3) loops are involved.
 Let's break down the script below, hope you like it!
+(scroll down and you'll find comments starting with "# 1,2,")
+(we are explaining them in these initial comments below)
 Introduction
 
 <<BreakdownBeginning
-(scroll down and you find a comment starting with "# 1")
-(we explain that and every other line in this section)
-1 - welcomes the user subtly prompting for user input
-baits answer as provides the actual username system variable
-2 - now user must type & enter answer in terminal to continue
-3 - now different things may happen:
+1 - welcomes the user and begs an answer
+(serves as bait providing the system username variable)
+2 - now the user must type & enter some input in the terminal
+3 - from now on, different things may happen:
 BreakdownBeginning
 
 <<BreakdownOutcome1
 3.1 - silly loop
-This code keeps the user in a loop as long as the user input
-doesn't match the scripted answers required to continue.
-These two scripted answers are mentioned in loop statement:
-1. baitword = system username (your username, whatever it might be) 
-2. keyword = "tusupervieja"
-While user input is different from that, the script will keep repeating
-"excuse mey?" and prompting for user input again and again.
-\# ojo, puedo escribir mejor esta sintaxis (de forma que no necesite "&&")? 
+This piece of code returns "excuse mey?" and prompts for user input
+for as long as that input doesn't match either of the two scripted answers.
+These are actually mentioned in the loop statement:
+a. baitword = system username (your username, whatever it may be) 
+b. keyword = "tusupervieja"
+# ojo, puedo escribir mejor esta sintaxis (de forma que no necesite "&&")? 
 BreakdownOutcome1
 
-<<BreakdownOutcome2
+<<BreakdownOutcomes23
 3.2 - baitword kick
-Now this code has the script close itself.
-If, at any time, the user input matches the current username (ie. $USER),
-the script will basically tell the user "I'm busy, bye".
-After two seconds, the script will *exit* itself, terminating the script.
-BreakdownOutcome2
-
-<<BreakdownOutcome3
+If the user input matches the current username (ie. $USER)
+the script will return "I'm busy, bye", wait 2 seconds and `exit` itself.
 3.3 - keyword continue
 So how to break the loop? Using cheats.
 The only possible answer to break the loop is the keyword "tusupervieja".
-BreakdownOutcome3
+BreakdownOutcomes23
 
 <<BreakdownEnd
-4 - actual welcome message
-second bait question for this second part
+4 - actual welcome message & second bait question
 5 - second user input prompt
 6 - two possible ends:
 6.1 - rickroll
 Unless the second user input meets the system variable `hostname`,
-the script will open the broswer to RickRoll the user and exit *exit*
+the script will open the broswer to RickRoll the user and `exit` itself.
 \# needs HEAVY polishing & INOP if using WSL...
 6.2 - farewell
 If the user input matches the config variable `hostname`,

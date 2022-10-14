@@ -16,6 +16,7 @@ integration for us to run and see our code.
 ## 01 - Madlibs - variables01
 
 Disclaimer: drastically customized the script contents.
+
 Core points:
 - variables
 - user input
