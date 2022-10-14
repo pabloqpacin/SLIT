@@ -1,3 +1,13 @@
+
+
+"""
+Description: game for user to guess computer's secret number
+Lesson: use functions,
+1 - Generate computer number with "random" package
+"""
+
+
+# Import this package to use relevant functions, namely "random.randint" 
 import random
 
 def guess(x):
