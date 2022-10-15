@@ -47,6 +47,7 @@ Core points:
 
 ---
 
+# OJO 2.0
 fixing the OS thing in 04
 documentation
 - [career karma](https://careerkarma.com/wiki/python-file-not-found-error/)
@@ -54,3 +55,7 @@ documentation
 
 
 GOOD *USERNAME* & *HOSTNAME* !!!
+
+## NEW MODULES USED
+[socket](https://docs.python.org/3/library/socket.html)
+[getpass](https://docs.python.org/3/library/getpass.html)
