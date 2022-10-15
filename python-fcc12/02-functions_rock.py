@@ -1,5 +1,3 @@
-
-
 """
 COMMENT-TIME
 - Import RANDOM module
@@ -16,17 +14,10 @@ COMMENT-TIME
 - Now we just print the core PLAY function and that's the game!
 Thanks for reading and I hope you like it!
 
-"""
-
-
-"""
 TO-TWEAK:
 - if TIE, run PLAY again automatically
 
 """
-
-
-
 
 
 import random
