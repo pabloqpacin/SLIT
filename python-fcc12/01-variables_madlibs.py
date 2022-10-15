@@ -7,7 +7,7 @@ MADLIBS GAME - prints a script upon user input
 Run the file in Terminal to play.
 """
 
-# EXAMPLE
+
 print("    EXAMPLE: see some lines using the 'mateys' variable")
 
 # Set a variable
@@ -19,14 +19,13 @@ print("awe Gawd {}".format(supdawg) + ", this is fun")
 print(f"yo {supdawg}, what's going on")
 
 
-# TEST-CONTINUE
-input("\n\
-Continue? (press enter) \n\
-")
+
+
+input("\nContinue? (press enter) \n")
 
 
 
-# MADLIBS GAME
+
 print("    MADLIBS GAME: now you set the variables!")
 
 # Prepare the variables for user input
