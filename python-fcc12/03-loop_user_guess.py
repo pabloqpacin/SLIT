@@ -6,7 +6,7 @@ LESSON:
 functions, variables, f-Strings, while-loops, if-statements, ...
 
 BREAKDOWN
-- Import RANDOM module
+- Import RANDOM module.
 - Define core GAME function with a not-yet-defined X parameter.
     - var1 --> SECRET_NUMBER
     Randomly generated integer between 1 and X (X is later defined as 10).

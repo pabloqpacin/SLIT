@@ -1,5 +1,16 @@
 # Free Code Camp - 12 Beginner Python Projects
 
+<!--
+Include smth along the lines of:
+- terminal games...
+
+
+-->>
+
+
+
+
+
 [Video tutorial](https://youtu.be/8ext9G7xspg) by [@kylieyying](https://github.com/kying18) 
 ## Introduction
 
