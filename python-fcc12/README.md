@@ -42,3 +42,15 @@ Core points:
 ## OJO
 
 **We decide to halt updating this FCC12 project until we complete ClearCode's general Python course, to ensure we know the very basics.**
+
+
+
+---
+
+fixing the OS thing in 04
+documentation
+- [career karma](https://careerkarma.com/wiki/python-file-not-found-error/)
+- [ojo: GETPASS](https://stackoverflow.com/questions/58947760/os-getlogin-doesnt-get-the-right-account-name)
+
+
+GOOD *USERNAME* & *HOSTNAME* !!!

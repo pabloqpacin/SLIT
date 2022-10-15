@@ -23,41 +23,66 @@ BREAKDOWN
 
 
 
+"""
+
+HEAVILY IMPROVED THE LOW=HIGH THING + NOW LOOP BREAKS CUZ COMPUTER KNOWZ
+ADDED hostname STUFF (socket!)
+
+---
+
+we never tell the computer our secret number so we need to play fair and give the right feedback
+
+"""
 
 
 
 
-
-
+# Required modules
 import random
+import socket
+import getpass
 
 
+username = getpass.getuser()
+hostname = socket.gethostname()
+
+
+# Instructions
 print("\n    Now ye think of a number 1-1000 and let the computer guess it!\n\
 -- Enter 'h', 'l' or 'aye' to give feedback to the machine 🧠 --\n")
 
 
-def game(x):
+# Core GAME function
+def game(x):                                            # X is defined at the bottom  
 
-    low = 1
-    high = x
-    feedback = "sup dawg"
+    low = 1                                             # LOW begins as 1 but will be updated
+    high = x                                            # HIGH is now 1000, soon to be updated
+    feedback = "sup dawg"                               # whatever, it matters when LOOP is iterating
     
-    while feedback != "aye":
-        # print(low, high)    # un-comment to see how LOW and HIGH are updated through the LOOP
-        if low != high:
-            guess = random.randint(low, high)
-        else:
-            guess = low # "guess = high" works the same-ish
-            break
-        feedback = input(f"Is {guess} too high or too low? \
-Am I just right dawg? ").lower()    # ".lower()" ensures "input" is lowercase
-        if feedback == "h":
-            high = guess - 1
-        elif feedback == "l":
-            low = guess + 1
+    while feedback != "aye":                            # until we tell the computer they're right...
+        print(low, high)                                # given range, un-commented for TESTING
+        
+        guess = random.randint(low, high)               # computer GUESS is random in the given range
+        if low == high:                                 # if range is narrowed down to a SINGLE number
+            guess = low    # guess=high OK too          # computer GUESS becomes that single number
+            break                                       # and the LOOP breaks 
+        
+        feedback = input(f"Is {guess} \
+too high or too low? Am I just right dawg? ").lower()   # FEEDBACK = user input as per instructions
 
-    print(f"\n    Ha-ha get rekt hooman, \
-me the machine has guessed yo number {guess} 🙃 ")
+        if feedback == "h":                             # if we declare the GUESS to be too high
+            high = guess - 1                            # then HIGH becomes the GUESS - 1
+        elif feedback == "l":                           # now if GUESS is too low
+            low = guess + 1                             # LOW becomes the GUESS + 1, hence narrowing the range
 
 
+# As it iterates upon fair feedback, the computer should narrow down the range soon enough,
+# f feedback is given correctly, the computer should eventually narrow down the range enough
+    # to return a correct GUESS (while if the GUESS can only be one number, the computer will know)
+
+    # Either of those two possibilities break the loop and lead to this message 
+    print(f"\n    Ha-ha get rekt {username}, \
+your computer {hostname} has guessed yo number {guess} 🙃 ")
+
+# We define here the value of X (--I don't seem to grasp this logic yet--)
 game(1000)
