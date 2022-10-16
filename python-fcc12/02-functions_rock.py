@@ -1,3 +1,4 @@
+
 """
 # 02-functions_rock.py
 ---

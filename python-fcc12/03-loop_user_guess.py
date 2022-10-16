@@ -1,3 +1,4 @@
+
 """
 # 03-loop_user_guess.py
 ---
@@ -7,7 +8,7 @@ Basic python game where the user should guess secret number the computer has "th
 GRAMMAR
 Including the 'random' module and the use of functions, variables,
 f-Strings, while-loops and if-statements, in a rally compact way.
-Besides, we actually include the 'socket' and 'getpass' modules.
+Besides, we actually include the 'getpass' module for custom dialogue.
 ---
 TWEAKS
 - cheat keyword (scripted integer)
@@ -27,18 +28,14 @@ TWEAKS
 # - Now WHEN the LOOP is broken, the 'YAY' message is displayed.
 # - Function's parameter 'X' is defined here --because...---
 
-
 ""
 
 
 # Required module
 import random
-import socket
 import getpass
 
-
 you = getpass.getuser()
-machine = socket.gethostname()
 
 
 # Greetings

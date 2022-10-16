@@ -1,3 +1,4 @@
+
 """
 # 04-loop_computer_guess.py
 ---
@@ -17,7 +18,7 @@ Taking distance from the original tutorial, we've performed the following tweaks
 - included modules 'socket' and 'getpass' for custom f-strings
 - thoroughly commented and explained all relevant code snippets
 - reworked most of the printed text strings for sassier dialogue
-- improved syntax for the `if low == high:` statement (ln 55)
+- improved syntax for the `if low == high:` statement (ln 56)
     - now the loop also breaks if there's only one number to guess, hence declaring W for the machine
 ---
 TO-DO
