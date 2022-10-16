@@ -64,8 +64,7 @@ read whoaru
 # 3 - OUTCOME 1 - silly loop
 while [[ $whoaru != $USER && $whoaru != "tusupervieja" ]]
 do
-echo "excuse mey?" # OR echo "sorry, who?" .... hacer algo random tipo %
-read whoaru
+read -p "excuse mey?" whoaru # OR echo "sorry, who?" .... hacer algo random tipo %
 done
 
 # 3 - OUTCOME 2 - baited kick 
