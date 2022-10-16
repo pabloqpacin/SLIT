@@ -62,5 +62,7 @@ documentation
 GOOD *USERNAME* & *HOSTNAME* !!!
 
 ## NEW MODULES USED
-[socket](https://docs.python.org/3/library/socket.html)
-[getpass](https://docs.python.org/3/library/getpass.html)
+02 - [random](rickrollD)
+04 - [socket](https://docs.python.org/3/library/socket.html)
+04 - [getpass](https://docs.python.org/3/library/getpass.html)
+05 - [string](https://docs.python.org/3/library/string.html)
