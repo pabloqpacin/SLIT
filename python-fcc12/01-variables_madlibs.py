@@ -1,39 +1,45 @@
 """
-Lesson: use variables and user input for string concatenation:
-EXAMPLE - different ways to print a given variable
-MADLIBS GAME - prints a script upon user input
-Run the file in Terminal to play.
+# 01-variables_madlibs.py
+---
+DESCRIPTION
+Simple python game where the user is prompted to enter some information
+that later will be integrated as variables within a scripted text.
+---
+GRAMMAR
+Variables, f-strings, user input, ...
+---
+TWEAKS
+- while following the original tutorial, the script here is radically different
+
 """
 
 
-print("    EXAMPLE: see some lines using the 'mateys' variable")
-
-# variable example
-supdawg = "mateys"
-
-# different ways to print a variable
-print("awe thanks " + supdawg + ", now that's it")
-print("awe Gawd {}".format(supdawg) + ", this is fun")
-print(f"yo {supdawg}, what's going on")
 
 
+# TEST
+print("\tTEST VARIABLES: 'updawg' is a variable written aside 🥵")
+variable = "updawg"
+
+print(f"yo what's {variable}?")                 # PREFERRED
+print("yo what's " + variable + "?")
+print("what's {}".format(variable) + "?")
+ 
 input("\nContinue? (press enter) \n")
 
-# game begins hereo
-print("    MADLIBS GAME: now you set the variables!")
 
-# set new variables via user input
+
+# GAME
+print("\tMADLIBS: now ye set the variables and write tha scroll ✍🏽")
+
 who = input("Who: ")
 when = input("When: ")
 where = input("Where: ")
-act1 = input("Activity 1: ")
+act1 = input("Activity 1: to ")
 act2 = input("Activity 2: ")
 
-# integrate variables in MADLIBS script
 madlibs = f"    Sup dawg! Heard of {who}? Crazy shite aye!\n\
     So {when} {where}... Unbelievable.\n\
     Now {who} should either {act1} or {act2}, whaeva.\n\
-    Well see you later Maricarmen 💃"
+    Well see ye later Maricarmen 💃"
 
-# print script aka Game
 print(madlibs)

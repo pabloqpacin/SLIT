@@ -3,6 +3,7 @@
 <!--
 Include smth along the lines of:
 - terminal games...
+- Run the file in Terminal to play.
 
 
 -->>
@@ -34,6 +35,10 @@ Core points:
 - f-Strings
 - print a scripted output with "{}" for variables integration
 - use "\" for new lines, etc.
+
+
+
+https://www.codingem.com/print-vs-return-in-python/#:~:text=To%20print%20a%20value%20in,function%2C%20use%20the%20return%20keyword.
 
 
 ## 02 - Guess The Number (Computer) - ...

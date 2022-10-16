@@ -8,16 +8,21 @@ Python game where the user thinks a number (1-1000 or any range)
 and the computer narrows down that range to guess our secret number.
 We never declare our number, giving instead fair feedback to the guessing computer.
 ---
+GRAMMAR
 Besides using if-statements, f-strings, while-loops and the 'random' module,
 we now introduce the 'socket' and 'getpass' modules, addressing environment_variables.
 ---
 TWEAKS
 Taking distance from the original tutorial, we've performed the following tweaks:
+- included modules 'socket' and 'getpass' for custom f-strings
 - thoroughly commented and explained all relevant code snippets
 - reworked most of the printed text strings for sassier dialogue
-- improved syntax for the `if low == high:` statement (ln 50)
+- improved syntax for the `if low == high:` statement (ln 55)
     - now the loop also breaks if there's only one number to guess, hence declaring W for the machine
-- LEFT TO ADD CHEATS!
+---
+TO-DO
+- devise cheats to bypass the while-loop and its 'yay' message
+
 """
 
 
@@ -62,7 +67,7 @@ too high or too low? Am I just right dawg? ").lower()   # FEEDBACK = user input 
 
     # fair feedback + loop iterations + variables updating = guessing range narrowed down 
     # when 1 possible guess or correct guess --> loop breaks leading to f-string below [^1] 
-    print(f"\n    Ha-ha get rekt {username}, computer takes the W. {guess}, easy guess 🙃 ")
+    print(f"\n    Ha-ha get rekt {username}, computer takes the W. T'was {guess}, easy guess 🙃 ")
 
 
 # Here we define the value of X (--tho I don't seem to grasp this logic just yet--)
