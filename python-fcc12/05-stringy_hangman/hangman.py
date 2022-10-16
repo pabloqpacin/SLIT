@@ -53,7 +53,7 @@ def hangman():                                                                  
     word_letters = set(word)                                                                            # tracks letters in 'word'
     used_letters = set()                                                                                # tracks letters via user input
     print(f"\n-Alphabet: {alphabet} \n-Word: {word} \n-Letters: {word_letters} \n")
-    # Let's TEST all those variables and see what are we working with! (COMMENT IT TO PLAY PROPERLY!)
+    # Let's TEST all those variables and see what are we working with! (COMMENT IT OUT TO PLAY PROPERLY!)
     
 
     while len(word_letters) > 0 and lives > 0:                                                          # LOOP ON while letters and lives LEFT
