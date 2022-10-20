@@ -90,39 +90,20 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [*Self-Learning IT* ~ materials](#self-learning-it--materials)
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
-  - [02. HARDWARE | TINKERING with Electronics](#02-hardware--tinkering-with-electronics)
+  - [02. HARDWARE & Electronics | $Tinkering$](#02-hardware--electronics--tinkering)
     - [Documentation](#documentation)
-    - [TINKERING](#tinkering)
+    - [Projects ~ $Tinkering$](#projects--tinkering)
       - [Microcontrollers & circuitry](#microcontrollers--circuitry)
       - [Computers (Repair Restor Repurpose) + Consoles](#computers-repair-restor-repurpose--consoles)
       - [Smartphones & Tablets](#smartphones--tablets)
   - [03. SOFTWARE -GEN-](#03-software--gen-)
+    - [Self-taught dev 101](#self-taught-dev-101)
       - [*'Look afar and see the end from the beginning'*](#look-afar-and-see-the-end-from-the-beginning)
       - [Industry Trends ~~^^~~ 2022 is gonna be wild for Developers](#industry-trends--2022-is-gonna-be-wild-for-developers)
       - [Personal Protocol ~~^^~~ $CODE](#personal-protocol--code)
       - [Problem Solving & Efficient Habits](#problem-solving--efficient-habits)
-      - [Computer Science](#computer-science)
-      - [Data Science](#data-science)
-      - [DevOps](#devops)
-      - [Ingeniería Informática](#ingeniería-informática)
-      - [Software Engineerz](#software-engineerz)
-      - [AI . . . Bot programming . . . \*Deep Learning\* . . . #TensorFlow](#ai----bot-programming----deep-learning----tensorflow)
-      - [Algorithms](#algorithms)
-      - [APIs](#apis)
-      - [Backend](#backend)
-      - [Browsers](#browsers)
-      - [Cloud Computing](#cloud-computing)
-      - [Databases](#databases)
-      - [Frontend ~ Design](#frontend--design)
-      - [Fullstack](#fullstack)
-      - [$ Git](#-git)
-      - [Math](#math)
-      - [OOP - Object Oriented Programming](#oop---object-oriented-programming)
-      - [Open Source](#open-source)
-      - [Tech Stacks (~ WebDev)](#tech-stacks--webdev)
-      - [Testing (Software)](#testing-software)
-      - [Web Dev](#web-dev)
-    - [~ Junior Dev Jobs](#-junior-dev-jobs)
+    - [FIELDS](#fields)
+    - [TOPICS](#topics)
   - [04. SysAdmin || Windows & Linux](#04-sysadmin--windows--linux)
       - [SysAdmin 101](#sysadmin-101)
       - [SysAdmin Career](#sysadmin-career)
@@ -188,7 +169,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [ ] [How Sekiro sets itself apart](https://youtu.be/jASlIZSpnJ4) @ Zullie the Witch
 -->
 
-## 02. HARDWARE | TINKERING with Electronics
+## 02. HARDWARE & Electronics | $Tinkering$
 
 ### Documentation
 
@@ -237,7 +218,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 </details>
 
-### TINKERING
+### Projects ~ $Tinkering$
 <!-- arranged as per relevant mindmap -->
 
 #### Microcontrollers & circuitry
@@ -326,10 +307,12 @@ lorem ipsum y tal
 
 ## 03. SOFTWARE -GEN-
 
-<details>
-<summary>Self-taught dev 101</summary>
+### Self-taught dev 101
 
 #### *'Look afar and see the end from the beginning'*
+
+<details>
+<summary> self </summary>
 
 * ##### ~~[4 Steps to Become a Developer {Shorts}](https://youtu.be/nvlizC6koSc)~~ @ Fireship
     - Learn [HTML, CSS, JavaScript, React, Node]
@@ -341,7 +324,6 @@ lorem ipsum y tal
     - Prepare Portfolio & Interviews
     - **Complete [Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) & [LeetCode](https://leetcode.com/) ~~^^~~ (!!!)**
     <!-- (!!!) = STILL TO DO -->
-
 
 * ##### ~~[1 - Self Taught Programmers... Listen Up](https://youtu.be/FrFY6Y1MJBQ) & [2 - Zero to Full-Time Programmer in 5 Steps](https://youtu.be/s9iPo9YMU70)~~ @ Keny Gunderman's
     * 1 || Self-taught ain’t easy, maybe more than 6 months | Don’t overthink, just code and learn to adapt | Networking: Discord, LinkedIn, events... REFERENCES! | Dive in to the deep end | Reconsider your choices
@@ -361,7 +343,12 @@ lorem ipsum y tal
     - (*^1) **Frontend** = *API*s hookups & Rendering [UX, buttons, UI, color, fonts, graphics, positioning, layout]
     - (*^2) **DevOps** = site reliability
 
+</details>
+
 #### Industry Trends ~~^^~~ 2022 is gonna be wild for Developers
+
+<details>
+<summary> self </summary>
 
 [Developer Trends in 2022](https://youtu.be/LOpFYMPXqE4) @ Fireship
 
@@ -377,7 +364,7 @@ lorem ipsum y tal
     - ***to-do*** ~~^^~~ sorta *Squarespace* or *Shopify* for the **Multiverse** (ie. a platform for businesses)
 
 
-    ![Metaverse Market Map](/images/wiki-metaverse_market_map.png)
+    ![Metaverse Market Map](/images/slit_img-metaverse_market_map.png)
 
 - *AI* = all over the place (see *GitHub copilot* affecting devs directly)
 
@@ -389,8 +376,12 @@ lorem ipsum y tal
 
 - *Conclusion* = (...) ~~^^~~
 
+</details>
 
 #### Personal Protocol ~~^^~~ $CODE
+
+<details>
+<summary> self </summary>
 
 * ##### ~~Comment_IQ, Documentation & Portfolio ~~^^~~ [If You're Learning to Code STOP Taking Notes](https://youtu.be/VCWzQpUwsaw)~~ @ Dorian Develops
 
@@ -406,7 +397,6 @@ lorem ipsum y tal
         - **memorize = muscle memory**
         - **my output to the world ==** notes for GitHub *(clean clear code, solid Docm.)*
         - remember employers like solid portfolio w/ all explained
-
 
 <!-- key skill to level-up: Debugging -->
 
@@ -438,8 +428,12 @@ lorem ipsum y tal
     - **Seek feedback**
     - **Follow your interest:** stay motivated, fresh and happy == dive into new things
 
+</details>
 
 #### Problem Solving & Efficient Habits
+
+<details>
+<summary> self </summary>
 
 * ##### ~~Fitness, results, KISS & 'The Zone' ~~^^~~ [7 Habits of Highly Effective Programmers](https://youtu.be/W8ykZNSLDqE)~~ @ TechLead
     - **Intro:** right habits != burnout | long-term game == skills, tecniques; right career trajectory
@@ -470,10 +464,11 @@ lorem ipsum y tal
 
 </details>
 
-<details>
-<summary>FIELDS</summary>
+### FIELDS
 
-#### Computer Science
+<details>
+<summary> Computer Science </summary>
+
 [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
 
 [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
@@ -485,8 +480,11 @@ lorem ipsum y tal
 
 - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
 
+</details>
 
-#### Data Science
+<details>
+<summary> Data Science </summary> 
+
 [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
 
 [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
@@ -501,15 +499,25 @@ lorem ipsum y tal
 - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
 - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
 
+</details>
 
-#### DevOps
+<details>
+<summary> DevOps </summary> 
+
 [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
 
+</details>
 
-#### Ingeniería Informática
+<details>
+<summary> Ingeniería Informática </summary>
+
 - [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
 
-#### Software Engineerz
+</details>
+
+<details>
+<summary> Software Engineerz </summary>
+
 - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
     - Burnout: overwhelming **backlog** and interviews
     - Tough competition
@@ -519,10 +527,10 @@ lorem ipsum y tal
 
 </details>
 
-<details>
-<summary>TOPICS</summary>
+### TOPICS
 
-#### AI . . . Bot programming . . . \*Deep Learning\* . . . #TensorFlow
+<details>
+<summary> $AI$... Bot programming... *Deep Learning*... #TensorFlow </summary>
 
 * ##### 101s | Neural Networks
     - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
@@ -538,74 +546,128 @@ lorem ipsum y tal
     - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
     - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
 
-    $BOTS  <!-- ojete -->
+BOTS  <!-- ojete -->
 
+</details>
 
-#### Algorithms
+<details>
+<summary> Algorithms </summary>
+
 - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
 
+</details>
 
-#### APIs
+<details>
+<summary> APIs </summary>
+
 - [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
 
+</details>
 
-#### Backend
+<details>
+<summary> Backend </summary>
+
 [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
 
+</details>
 
-#### Browsers
+<details>
+<summary> Browsers </summary>
 - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
 - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
 
-#### Cloud Computing
+</details>
+
+<details>
+<summary> CLOUD Computing </summary>
+
 - [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
 
+</details>
 
-#### Databases
+<details>
+<summary> Databases </summary>
+
 - [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
 
-#### Frontend ~ Design
+</details>
+
+<details>
+<summary> Frontend ~ Design </summary>
+
 [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
 <!-- **@pabloqpacin:** *find #CodePen.io below* -->
 
-#### Fullstack
+</details>
+
+<details>
+<summary> Fullstack </summary>
+
 [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
 
-#### $ Git
+</details>
+
+<details>
+<summary> $Git$ </summary>
+
 How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
 - Git = history book of code; GitHub = makes open source software accessible to the world
 - Git: version control system; system for managing my files.
 - Building software = series of small milestones (writing code on different files); app = chaos to stability.
 - Git keeps track of these change; multiple branches, and then merge. Easy collaboration.
 
-    ![eg. Git Trunk](/images/wiki-git.png)
+    ![eg. Git Trunk](/images/slit_img-git.png)
 
+</details>
 
-#### Math
+<details>
+<summary> Math </summary>
+
 - [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
 
-#### OOP - Object Oriented Programming
+</details>
+
+<details>
+<summary> OOP - Object Oriented Programming </summary>
+
 - [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
 
+</details>
 
-#### Open Source
+<details>
+<summary> $Open Source$ </summary>
+
 - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
 - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
 
+</details>
 
-#### Tech Stacks (~ WebDev)
+<details>
+<summary> Tech Stacks (~ WebDev) </summary>
+
 - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
 - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
 
+</details>
 
-#### Testing (Software)
+<details>
+<summary> Testing (Software)!!!!!!! </summary>
+
 - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
 - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
 
-#### Web Dev
+</details>
+
+<details>
+<summary> Web Dev </summary>
+
 [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
 
-### ~ Junior Dev Jobs
+</details>
+
+<details>
+<summary> bonus... ~ Junior Dev Jobs </summary>
+
 - [Lemon.IO](https://lemon.io/for-developers/)
 
 </details>
