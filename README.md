@@ -19,12 +19,10 @@ July 2022 felt like time for a career change, thus I did sign up for ITEP's [Net
 
 Now thanks for reading and I hope you'll find it useful too! You may fork this repo, add your own sauces and projects and share them with me! ⛏️
 
-
-## Table of contents
-
-0. [~ Mind Maps](#00--mind-maps)
-1. [~ L10N](#10--l10n) - Software Localization 101s
-2. [~ HARDWARE](#20--hardware--tinkering) - Computer components and other electronics
+<!--
+1. [~ Mind Maps](#00--mind-maps)
+2. [~ L10N](#10--l10n) - Software Localization 101s
+3. [~ HARDWARE](#20--hardware--tinkering) - Computer components and other electronics
 
     [~ TINKERING](#tinkering)- Hardware projects
     
@@ -32,7 +30,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
     - [3R Computers —Repair, Restore, Repurpose—, Pentium]
     - [Consoles aka Game Stations, Smartphones & Tablets]
 
-3. [~ SOFTWARE -GEN-](#30--software--gen) - Understanding the industry 101
+4. [~ SOFTWARE -GEN-](#30--software--gen) - Understanding the industry 101
 
     [~ Self-taught dev 101](#self-taught-dev-101)
     - *'Look afar and see the end from the beginning'*
@@ -50,7 +48,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
     - WebDev
 
 
-4. [~ SysAdmin || OSs](#40--sysadmin--windows--linux) - ***Core content***
+5. [~ SysAdmin || OSs](#40--sysadmin--windows--linux) - ***Core content***
 
     * WINDOWS
     * ANDROID (ROOT & +more)
@@ -59,7 +57,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
         - Distros
     * WSL - Windows Subsystem for Linux
 
-5. [~ CODE](/code-050md) - Programming Languages & Project Ideas
+6. [~ CODE](/code-050md) - Programming Languages & Project Ideas
 
     [~ PYTHON](/code-050md#python)
     - 101s
@@ -70,11 +68,11 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
     [~ +MORE LANGS](/code-050md#more-languages) - [C#, PowerShell, ... ]
 
-6. [~ Game Development](#60--game-development--emulation--modmaking)
+7. [~ Game Development](#60--game-development--emulation--modmaking)
 
     - [Emulation, Engines, GameDev Community, GameDev Ideas, Mod-Making, Pygame limitations, Reverse Engineer (retro games)]
 
-7. [~ NETWORKS | HACKING](#70--networks--hacking)
+8. [~ NETWORKS | HACKING](#70--networks--hacking)
 
     - [Black Hat, BotNetz, Cryptography, CTF, Dark Web (+ Tor), Digital Forensics]
     - DIY_NAS aka 'Home Server'
@@ -85,11 +83,90 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
     - Virtualization
     - VPNs, VPSs
 
-8. [~ IT Certificates](#80--it-certificates)
+9. [~ IT Certificates](#80--it-certificates)
 
-9. [~ OpenSource Development](#90--open-source-development)
+10. [~ OpenSource Development](#90--open-source-development)-->
 
-## 0.0 ~ Mind Maps
+- [*Self-Learning IT* ~ materials](#self-learning-it--materials)
+  - [00. Mind Maps](#00-mind-maps)
+  - [01. L10N](#01-l10n)
+  - [02. HARDWARE | TINKERING with Electronics](#02-hardware--tinkering-with-electronics)
+    - [Documentation](#documentation)
+    - [TINKERING](#tinkering)
+      - [Microcontrollers & circuitry](#microcontrollers--circuitry)
+      - [Computers (Repair Restor Repurpose) + Consoles](#computers-repair-restor-repurpose--consoles)
+      - [Smartphones & Tablets](#smartphones--tablets)
+  - [03. SOFTWARE -GEN-](#03-software--gen-)
+      - [*'Look afar and see the end from the beginning'*](#look-afar-and-see-the-end-from-the-beginning)
+      - [Industry Trends ~~^^~~ 2022 is gonna be wild for Developers](#industry-trends--2022-is-gonna-be-wild-for-developers)
+      - [Personal Protocol ~~^^~~ $CODE](#personal-protocol--code)
+      - [Problem Solving & Efficient Habits](#problem-solving--efficient-habits)
+      - [Computer Science](#computer-science)
+      - [Data Science](#data-science)
+      - [DevOps](#devops)
+      - [Ingeniería Informática](#ingeniería-informática)
+      - [Software Engineerz](#software-engineerz)
+      - [AI . . . Bot programming . . . \*Deep Learning\* . . . #TensorFlow](#ai----bot-programming----deep-learning----tensorflow)
+      - [Algorithms](#algorithms)
+      - [APIs](#apis)
+      - [Backend](#backend)
+      - [Browsers](#browsers)
+      - [Cloud Computing](#cloud-computing)
+      - [Databases](#databases)
+      - [Frontend ~ Design](#frontend--design)
+      - [Fullstack](#fullstack)
+      - [$ Git](#-git)
+      - [Math](#math)
+      - [OOP - Object Oriented Programming](#oop---object-oriented-programming)
+      - [Open Source](#open-source)
+      - [Tech Stacks (~ WebDev)](#tech-stacks--webdev)
+      - [Testing (Software)](#testing-software)
+      - [Web Dev](#web-dev)
+    - [~ Junior Dev Jobs](#-junior-dev-jobs)
+  - [04. SysAdmin || Windows & Linux](#04-sysadmin--windows--linux)
+      - [SysAdmin 101](#sysadmin-101)
+      - [SysAdmin Career](#sysadmin-career)
+      - [Windows 101](#windows-101)
+      - [Windows 10x](#windows-10x)
+      - [Linux 101s](#linux-101s)
+      - [Linux Distros](#linux-distros)
+        - [Linux Mint](#linux-mint)
+        - [+more](#more)
+  - [05. CODE](#05-code)
+  - [06. Game Development | Emulation & Modmaking](#06-game-development--emulation--modmaking)
+    - [Emulation](#emulation)
+    - [Engines (Unity, ...)](#engines-unity-)
+    - [GameDev community](#gamedev-community)
+    - [GameDev ideas](#gamedev-ideas)
+    - [Mod-Making](#mod-making)
+    - [Pygame limitations](#pygame-limitations)
+    - [Reverse Engineer (Retro Games)](#reverse-engineer-retro-games)
+  - [07. NETWORKS | HACKING](#07-networks--hacking)
+    - [0 -gen-](#0--gen-)
+    - [Black Hat...](#black-hat)
+    - [Botnetz](#botnetz)
+    - [Cryptography](#cryptography)
+    - [CTF](#ctf)
+    - [Dark Web | Tor](#dark-web--tor)
+    - [Digital Forensics](#digital-forensics)
+    - [DIY_NAS aka 'Home Server'](#diy_nas-aka-home-server)
+    - [Hacking...](#hacking)
+    - [HomeLab](#homelab)
+    - [Malware ($python)](#malware-python)
+    - [Network Ports](#network-ports)
+    - [Pentesting](#pentesting)
+    - [Reverse Engineering](#reverse-engineering)
+    - [Routers](#routers)
+    - [Scambaiting...](#scambaiting)
+    - [Virtualization](#virtualization)
+    - [VPNs](#vpns)
+    - [VPSs](#vpss)
+  - [08. IT Certificates](#08-it-certificates)
+    - [-GEN-](#-gen-)
+    - [Networks](#networks)
+  - [09. Open-Source Development](#09-open-source-development)
+
+## 00. Mind Maps
 
 *The two graphs below encompass all matters contained within **SLIT**:*
 
@@ -100,7 +177,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 <!-- interactive link -->
 
 
-## 1.0 ~ L10N 
+## 01. L10N 
 
 [How To Manage Translations For Your Application | Crowdin & GitHub Tutorial](https://youtu.be/8baL6VWnnZg)
 <!--
@@ -111,88 +188,102 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [ ] [How Sekiro sets itself apart](https://youtu.be/jASlIZSpnJ4) @ Zullie the Witch
 -->
 
-## 2.0 ~ HARDWARE | TINKERING
+## 02. HARDWARE | TINKERING with Electronics
+
+### Documentation
 
 
 <details>
-<summary>Theory</summary>
+<summary> Electronics theory & computers' components</summary>
 <!-- Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc) -->
 
-#### Electricity 
+<details>
+<summary> Electricity & Electronics 101 </summary>
+
 - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
 - [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
-#### Electronics 101s
 - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 - [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
-#### Computers 101s
-- [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
-- [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
-
-</details>
-
-
-<details>
-<summary>Components</summary>
-
-#### CPUs
-- [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-- [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
-#### Graphics -all
-- Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
-- JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
-#### HDMI
-- [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
-#### Motherboards
-- [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
-#### Power Supply
-- ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
-- Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
-#### SSDs
-- SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
-
-#### (bonus) ~ Bluetooth
-- [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
 
 </details>
 
 <details>
-<summary>TINKERING</summary>
+<summary> Computers & Components </summary>
+
+- Computers
+  - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
+  - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
+- CPUs
+  - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
+  - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
+- Graphics -all
+  - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
+  - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
+- HDMI
+  - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
+- Motherboards
+  - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
+- Power Supply
+  - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
+  - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
+- SSDs
+  - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
+- (bonus) ~ Bluetooth
+  - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
+
+
+</details>
+
+
+</details>
 
 ### TINKERING
 <!-- arranged as per relevant mindmap -->
 
-### 2.1 ~ DIY Circuits
-- Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
-- w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
+#### Microcontrollers & circuitry
+
+  - Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
+  - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
+
+<details>
+<summary> Arduino UNO </summary>
+
+Lorem ipsum y tal
+
+  - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
+  - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
+  - 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
+  - Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
+  - Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
+  - Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
+  - Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
+
+</details>
+
+<details>
+<summary> Raspberry Pi </summary>
+
+Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority
+
+- RPico
+  - 101s ~ [Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U) @ DroneBot Workshop
+  - MicroPython 00 ~ [Raspberry Pi PICO | Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s) @ Electronoobs
+  - Bad USB ~ [Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw) @ Network Chuck
+
+</details>
 
 
-### 2.2 ~ Arduino UNO
-[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
-- Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
-- 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
-- Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
-- Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
-- Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
-- Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
-
-### 2.3 ~ RPi RPico
-
-#### RPi -gen-
-* Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority
-
-#### RPico
-* 101s ~ [Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U) @ DroneBot Workshop
-
-* MicroPython 00 ~ [Raspberry Pi PICO | Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s) @ Electronoobs
-
-* Bad USB ~ [Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw) @ Network Chuck
-
-
-### 2.4 ~ 3R Computers - Repair Restor Repurpose
+#### Computers (Repair Restor Repurpose) + Consoles
 <!-- $SALVAGE -->
-+ **GL76** ~ [MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
 
-* Laptops
+lorem ipsum y tal
+
+<details>
+<summary> gen-ish </summary>
+
+**GL76** ~ [MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
+
+- Laptops -gen-
     - Clean ~ [How to Clean a Laptop](https://youtu.be/bypESzEtZr4)
     - Motherboard ~ [Laptop Motherboard -Diagnose,Repair-](https://youtu.be/GCLflqmne6k)
     - Fix ~ [FREE BROKEN Laptop - But Can I Fix It? Acer Nitro 5 No Power](https://youtu.be/C4S6QL4keOQ) @ Tronics Fix
@@ -200,43 +291,40 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 - HDDs ~ [Fix your Hard Drive](https://youtu.be/zAMjdrUf9V4)
 
-### 2.5 ~ Pentium
-* Dusting off
+</details>
+
+<details>
+<summary> Pentium project </summary>
+
+- Dusting off
     - [Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8) @ Psivewri
     - Clean Pentium_3 ~ [This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI) @ Phils Computer Lab
     - Restore Pentium_3 ~ [Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-
-* Upgrading Pentium_4 to Windows_10 ~ [Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M) @ Phils Computer Lab
-
-
-* $salvage ~ [This PC Wasn't Worth Saving | Pentium 4 Build](https://youtu.be/sjfe9cQky5g) @ Tech Made Easy && [Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-
-* BIOS in Pentium 4 ~ [Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
-
-
-### 2.6 ~ Consoles aka Game Stations
-Game Boy ~ [Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE) @ Odd Tinkering
-
-PS1 ~ [PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY) @ Odd Tinkering
-
-Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8) @ Basically Homeless
-
-### 2.7 ~ Smartphones & Tablets
-
-* $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
-
-* $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
-
-
-### 2.8 ~ bonus
-- [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
-- [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
-
+- Upgrading Pentium_4 to Windows_10 ~ [Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M) @ Phils Computer Lab
+- $salvage ~ [This PC Wasn't Worth Saving | Pentium 4 Build](https://youtu.be/sjfe9cQky5g) @ Tech Made Easy && [Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
+- BIOS in Pentium 4 ~ [Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
 
 </details>
 
+<details>
+<summary> secret-ish ~ Consoles aka Game Stations </summary>
 
-## 3.0 ~ SOFTWARE -GEN-
+- Game Boy ~ [Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE) @ Odd Tinkering
+- PS1 ~ [PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY) @ Odd Tinkering
+- Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8) @ Basically Homeless
+
+</details>
+
+#### Smartphones & Tablets
+
+- $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
+- $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
+- random bonus bc why not
+  - [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
+  - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
+
+
+## 03. SOFTWARE -GEN-
 
 <details>
 <summary>Self-taught dev 101</summary>
@@ -523,7 +611,7 @@ How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @
 </details>
 
 
-## 4.0 ~ SysAdmin || Windows & Linux
+## 04. SysAdmin || Windows & Linux
 
 <details>
 <summary>SysAdmin 101s</summary>
@@ -617,12 +705,12 @@ How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @
 <!-- ### 4.5 ~ +more -->
 <!-- $consoles $JAILBREAK $TINKERING $cars -->
 
-## 5.0 ~ CODE
+## 05. CODE
 
 Please find this section covering **materials** and **actual projects** in [this separate file](/5.0~CODE.md).
 
 
-## 6.0 ~ Game Development | Emulation & Modmaking
+## 06. Game Development | Emulation & Modmaking
 
 <details>
 <summary>Game Dev</summary>
@@ -671,7 +759,7 @@ Emulation: Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](http
 </details>
 
 
-## 7.0 ~ NETWORKS | HACKING
+## 07. NETWORKS | HACKING
 
 <details>
 <summary>Networks & InfoSec</summary>
@@ -802,7 +890,7 @@ for Android rooting, see *5~SysAdmin|OS* -->
 
 </details>
 
-## 8.0 ~ IT Certificates
+## 08. IT Certificates
 
 <details>
 <summary>IT Certs</summary>
@@ -827,7 +915,7 @@ for Android rooting, see *5~SysAdmin|OS* -->
 
 </details>
 
-## 9.0 ~ Open-Source Development
+## 09. Open-Source Development
 
 <details>
 <summary>FOSS Contributing</summary>
