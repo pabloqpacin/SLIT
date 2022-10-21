@@ -1,0 +1,52 @@
+Script started on 2022-10-21 13:38:31+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="11"]
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch and 'origin/main' have diverged,
+and have 66 and 35 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mattemp2[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hg ggit statu      g  ggit pull[?1l>[?2004l
+]2;git pull]1;gitfatal: refusing to merge unrelated histories
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit comi mit -tr  m "tryna fix"[?1l>[?2004l
+]2;git commit -m "tryna fix"]1;git[main 384131a] tryna fix
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 attemp2
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitTo github.com:pabloqpacin/BEYOND-ASIR.git
+ [31m! [rejected]       [m main -> main (non-fast-forward)
+[31merror: failed to push some refs to 'github.com:pabloqpacin/BEYOND-ASIR.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit pull[?1l>[?2004l
+]2;git pull]1;gitfatal: refusing to merge unrelated histories
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit config pull.rebase true[?1l>[?2004l
+]2;git config pull.rebase true]1;git[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit pull[?1l>[?2004l
+]2;git pull]1;giterror: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch and 'origin/main' have diverged,
+and have 67 and 35 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   attemp2[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hsscript[?1l>[?2004l
+]2;script]1;scriptScript started, output log file is 'typescript'.
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004hsscs  eexit[?1l>[?2004l
+]2;exit]1;exitScript done.
+[1m[7m%[27m[1m[0m                                                                                                                   ]2;pabloqpacin@GL76:/mnt/c/Users/Usuario/Downloads/linwin/SLIT]1;..s/linwin/SLIT[0m[27m[24m[J[01;34m[main[01;31m x[01;34m][00m [01;32m{}[00m [36mSLIT[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-10-21 13:40:54+02:00 [COMMAND_EXIT_CODE="0"]
