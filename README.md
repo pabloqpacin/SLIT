@@ -95,9 +95,9 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
   - [02. HARDWARE & Electronics | $Tinkering$](#02-hardware--electronics--tinkering)
     - [Documentation](#documentation)
     - [Projects ~ $Tinkering$](#projects--tinkering)
-      - [Microcontrollers & circuitry](#microcontrollers--circuitry)
-      - [Computers (Repair Restor Repurpose) + Consoles](#computers-repair-restor-repurpose--consoles)
-      - [Smartphones & Tablets](#smartphones--tablets)
+      - [1. Microcontrollers & circuitry](#1-microcontrollers--circuitry)
+      - [2. Computers (Repair Restor Repurpose) + Consoles](#2-computers-repair-restor-repurpose--consoles)
+      - [3. Smartphones & Tablets](#3-smartphones--tablets)
   - [03. SOFTWARE -GEN-](#03-software--gen-)
     - [Self-taught dev 101](#self-taught-dev-101)
       - [*'Look afar and see the end from the beginning'*](#look-afar-and-see-the-end-from-the-beginning)
@@ -193,15 +193,16 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 ### Projects ~ $Tinkering$
 <!-- arranged as per relevant mindmap -->
 
-#### Microcontrollers & circuitry
+#### 1. Microcontrollers & circuitry
+
+<details>
+<summary> self </summary>
 
   - Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
   - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
 
 <details>
 <summary> Arduino UNO </summary>
-
-Lorem ipsum y tal
 
   - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
   - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
@@ -225,11 +226,11 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
 
 </details>
 
+</details>
 
-#### Computers (Repair Restor Repurpose) + Consoles
+
+#### 2. Computers (Repair Restor Repurpose) + Consoles
 <!-- $SALVAGE -->
-
-lorem ipsum y tal
 
 <details>
 <summary> gen-ish </summary>
@@ -268,7 +269,10 @@ lorem ipsum y tal
 
 </details>
 
-#### Smartphones & Tablets
+#### 3. Smartphones & Tablets
+
+<details>
+<summary> self </summary>
 
 - $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
 - $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
@@ -276,6 +280,7 @@ lorem ipsum y tal
   - [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
   - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
 
+</details>
 
 ## 03. SOFTWARE -GEN-
 
@@ -439,6 +444,7 @@ lorem ipsum y tal
 
 ### Self-taught dev 10x
 
+wow, such empty...
 
 
 
