@@ -506,7 +506,7 @@ wow, such empty...
 
 ## 05. CODE
 
-Please visit the [CODE folder](/CODE), covering **materials** and **actual projects**.
+Please visit the [CODE folder](/CODE) to find **materials** and **actual projects**.
 
 
 ## 06. Game Development | Emulation & Modmaking
