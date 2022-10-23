@@ -38,7 +38,14 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
     - [Linux](#linux)
   - [05. CODE](#05-code)
   - [06. Game Development | Emulation & Modmaking](#06-game-development--emulation--modmaking)
+    - [Game Dev. ~ Langs Engines & Community](#game-dev--langs-engines--community)
+    - [Game Modding ~ Emulation Mod-making & Reverse Engineering](#game-modding--emulation-mod-making--reverse-engineering)
   - [07. NETWORKS | HACKING](#07-networks--hacking)
+    - [Networks & Servers](#networks--servers)
+    - [DIY NAS](#diy-nas)
+    - [Hacking fundamentals](#hacking-fundamentals)
+    - [Malware + Pentesting](#malware--pentesting)
+    - [Scambaiting](#scambaiting)
   - [08. IT Certificates](#08-it-certificates)
   - [09. Open-Source Development](#09-open-source-development)
 
@@ -69,7 +76,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 ## 02. Hardware: Electronics & Tinkering projects
 
 <details>
-<summary>  Hardware: theory & projects </summary>
+<summary>  Electronics 101 </summary>
 
 ### Electronics theory 101
 
@@ -419,10 +426,12 @@ wow, such empty...
 <summary> SysAdmin || Operating Systems </summary>
 
 ### sysadmin -gen-
-  
-- [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
-- [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
-- everything "Operating Systems"
+
+- Sysadmin Jobs
+    - [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
+    - [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
+
+- OSs101
     - [Types of OS afap](https://youtu.be/MR2ntdZW__A) @ Techquickie
     - BIOS...
         - [BIOS and UEFI afap](https://youtu.be/zIYkol851dU) @ Techquickie
@@ -430,10 +439,16 @@ wow, such empty...
     - Dual Boot ~ [The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0) @ Techno Tim
     - *Virtual Machines* ~ [see '7.0 ~ Networks | Hacking'](#70-networks--hacking)
 
-\### Windowz
-- [PowerShell, BIOS...]
-- [I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
+- Virtualization (ojo [InfoSec](#malware--pentesting))
+    - [How to Setup a Virtual Machine for Malware Analysis](https://youtu.be/-40OBLWVsgo) @ Guided Hacking
+    - [Learn Virtual Machines RIGHT NOW! (Kali Linux, VM, Ubuntu, Windows)](https://youtu.be/wX75Z-4MEoM) @ Network Chuck
+    - [Ditch Virtualbox, Get QEMU/Virt Manager](https://youtu.be/wxxP39cNJOs) @ Mental Outlaw
+    - [Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88) @ Chris Titus Tech
+    - [20 Ways to Use a Virtual Machine (and other ideas for your homelab)](https://youtu.be/SVQmzaSabEQ) @ Techno Tim
 
+- Windowz
+    - [PowerShell, BIOS...]
+    - [I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
 </details>
 
 <details>
@@ -465,7 +480,7 @@ wow, such empty...
         - ArcoLinux ~ [ArcoLinux - First Impressions and Install](https://youtu.be/S_dG79GhNfI) @ Tech Hut <!--install in VM-->
         - Manjaro | Arch ~ [Manjaro is NOT Arch](https://youtu.be/VzAw8a3Jx-k) @ Tech Hut
 
-- WSL 
+- **WSL** 
     - [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
     - [I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c) @ Forrest Knight
 
@@ -482,8 +497,7 @@ wow, such empty...
     - Dual Boot for Windows ~ [Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
     - AndroNix' Linux ~ [Easily run Linux on Android with AndroNix - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
     - Calyx OS ~ [Calyx OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA) @ Mrwhosetheboss <!--(Hacking...)-->
-    * ROMS
-
+  
 <!-- VERY IMPORTANT LOCAL GL76'S DIRECTORY: 'LINUX' -->
 <!-- ### 4.5 ~ +more -->
 <!-- $consoles $JAILBREAK $TINKERING $cars -->
@@ -498,7 +512,9 @@ Please visit the [CODE folder](/CODE), covering **materials** and **actual proje
 ## 06. Game Development | Emulation & Modmaking
 
 <details>
-<summary>  GameDev + Emulation + Mod-making/Reverse Engineering </summary>
+<summary> Game Development </summary>
+
+### Game Dev. ~ Langs Engines & Community
 
 - GameDev ideas
     - 2048 (JavaScript + CSS) ~ [Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc) @ WebDevSimplified
@@ -524,7 +540,9 @@ First off, peek into local **Jagger Dress Up** -->
 </details>
 
 <details>
-<summary> Misc. - emulation + mod-reverse_engineer </summary>
+<summary> Game modding </summary>
+
+### Game Modding ~ Emulation Mod-making & Reverse Engineering
 
 - Emulation
     - emudev.org ~ [emudev's hub of Discord servers for ALL systems](https://emudev.org/discord_related)
@@ -541,44 +559,27 @@ First off, peek into local **Jagger Dress Up** -->
 ## 07. NETWORKS | HACKING
 
 <details>
-<summary> all opsec related... </summary>
+<summary> Networking & DIY NAS (for Netadmin) </summary>
 
-- 0 -gen-
+### Networks & Servers
+- 101s misc.
     - Internet Speed ~ [Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E) @ Techquickie
-    - Latency ~ [Latency afap](https://youtu.be/UWeMWIoUWQA) @ Techquickie
-    - Servers ~ [I put a computer in my computer](https://youtu.be/cVWF3u-y-Zg) @ Jeff Geerling
-        - Server's IP KVM = Internet Protocol Keyboard Video Mouse | Remote KVM connection to a computer over a network |
+    - **Routers**: *40 minutes...* ~ [Your home router SUCKS!! (use pfSense instead)](https://youtu.be/lUzSsX4T4WQ) @ Network Chuck- Latency ~ [Latency afap](https://youtu.be/UWeMWIoUWQA) @ Techquickie
+    - Network Ports: [Network Ports Explained](https://youtu.be/g2fT-g9PX9o) @ PowerCert Animated Videos
     - Tarifas ~ [Consejos para elegir la MEJOR TARIFA de FIBRA y MÓVIL](https://youtu.be/tDT9XAi8G40) @ Xataka TV
+- **Server** stuff
+    - bit weird: [I put a computer in my computer](https://youtu.be/cVWF3u-y-Zg) @ Jeff Geerling --> Server's IP KVM = Internet Protocol Keyboard Video Mouse | Remote KVM connection to a computer over a network |
+- **HomeLab** stuff
+    - [Tour of Home Network](https://youtu.be/Ev0PL892zSE) @ The 8-Bit Guy
+    - [What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM) @ Techno Tim
+    - [HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs) @ Techo Tim
+    - [What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4) @ IT Career Questions
+- VPNs <!--setup in Win and Lin-->
+- VPSs: [Best VPS hosting providers of 2022](https://www.techradar.com/news/best-vps-hosting) @ Tech Radar
 
 
-- Black Hat...
-    - Cyber Kill Chain (CKC) ~ [The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU) @ TayOnTech
-    - about DarkSide's ethos ~ [DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg) @ Forrest Knight
-
-- Botnetz
-    - [How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M) @ Mental Outlaw
-    - Emotet ~ [The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY) @ Mental Outlaw
-
-- Cryptography
-    - [7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ) @ Fireship
-
-- CTF
-    - [How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0) @ CTF School
-
-<!-- - Cybersecurity -->
-
-- Dark Web | Tor
-    - [How Tor Works](https://youtu.be/QRYzre4bf7I) @ Computerphile
-    - [How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU) @ Tech Raj
-    - [How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto) @ The Cyber Mentor
-    - [SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE) @ Crypto NWO <!--ok for Malware-->
-
-- Digital Forensics
-    - [Magnet AXIOM Forensics](https://www.magnetforensics.com/products/magnet-axiom/)
-
-
+### DIY NAS
 - DIY_NAS aka 'Home Server' <!--'20.3 ~ Tinkering'-->
-
     - [Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw) @ Linux Tech Tips
     - [Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U) @ Hardware Haven
     - [How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w) @ Zach's Tech Turf
@@ -590,7 +591,16 @@ First off, peek into local **Jagger Dress Up** -->
     - [Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs) @ Hardware Haven
     - [Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo) @ The Bear Tech
 
+</details>
 
+<details>
+<summary> Information Security </summary>
+
+### Hacking fundamentals
+- Cryptography
+    - [7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ) @ Fireship
+- CTF
+    - [How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0) @ CTF School
 - Hacking...
     - Cybersecurity... ~ [Dejo que ataquen mi servidor y acaba mal](https://youtu.be/lAByu20XJt4) @ Ringa Tech
     - [Let's hack your home network // FREE CCNA // EP 9](https://youtu.be/80vIin4xGp8) @ Network Chuck
@@ -599,72 +609,49 @@ First off, peek into local **Jagger Dress Up** -->
     - [How do hackers hide themselves? - staying anonymous online](https://youtu.be/BWVyp0wYpgA) @ Grant Collins
     - ['Nmap' Tutorial to find Network Vulnerabilities](https://youtu.be/4t4kBkMsDbQ) @ Network Chuck
 
-
-- HomeLab
-    - [Tour of Home Network](https://youtu.be/Ev0PL892zSE) @ The 8-Bit Guy
-    - [What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM) @ Techno Tim
-    - [HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs) @ Techo Tim
-    - [What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4) @ IT Career Questions
-
-
-<!-- - Jailbreaking
-for Android rooting, see *5~SysAdmin|OS* -->
-
+### Malware + Pentesting
+- Black Hat...
+    - Cyber Kill Chain (CKC) ~ [The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU) @ TayOnTech
+    - about DarkSide's ethos ~ [DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg) @ Forrest Knight
+- Botnetz
+    - [How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M) @ Mental Outlaw
+    - Emotet ~ [The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY) @ Mental Outlaw
+- Dark Web | Tor
+    - [How Tor Works](https://youtu.be/QRYzre4bf7I) @ Computerphile
+    - [How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU) @ Tech Raj
+    - [How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto) @ The Cyber Mentor
+    - [SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE) @ Crypto NWO <!--ok for Malware-->
+- Digital Forensics: [Magnet AXIOM Forensics](https://www.magnetforensics.com/products/magnet-axiom/)
+- Jailbreaking: consoles & mobiles rootin <!--see other sections-->
 - Malware ($python)
     - Pretty bad video but still... [Comparison: Computer Viruses](https://youtu.be/VqgE7WO3RSQ). Dawg we need to show the actual guns here.
     - [New 'Borat' Malware?](https://youtu.be/4EKksK_maTM) @ Seytonic
     - [I created malware with **Python** (it's SCARY easy!!)](https://youtu.be/UtMMjXOlRQc) @ Network Chuck
     - [Can They Defeat My Homemade Virus?](https://youtu.be/tswtqG8c_P0) @ Basically Homeless
-
-- Network Ports
-    - [Network Ports Explained](https://youtu.be/g2fT-g9PX9o) @ PowerCert Animated Videos
-
-- Pentesting
-    - [Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA) @ David Bombal
-
-<!-- - 'Red Hat' -->
-
+- Pentesting: [Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA) @ David Bombal
 - Reverse Engineering
     - Reverse Engineering 101 ~ [Getting Started Learning Reverse Engineering | Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU) @ Marcus Hutchins
     - Ghidra 101 ~ [INGENIERÍA INVERSA USANDO GUIDRA (Herramienta de la NSA) | Tutorial](https://youtu.be/aQICC0EtG90) @ Mr Código Fuente
 
-- Routers
-    - *40 minutes...* ~ [Your home router SUCKS!! (use pfSense instead)](https://youtu.be/lUzSsX4T4WQ) @ Network Chuck
-
-
-- Scambaiting...
-    * @ Engineer Man
-        - [Using My Python Skills To Punish Credit Card Scammers](https://youtu.be/StmNWzHbQJU)
-    * @ Kitboga
-        - [Scam Call Turns NUCLEAR Over Expected $1M Fortune](https://youtu.be/_Ma5RY2bG38)
-        - [Spending All My Money While Scammers Watch (they're furious)](https://youtu.be/K8weeeK-BPQ)
-        - [These Tech Scammers Can't Figure Out What To Say](https://youtu.be/LXNiNuvWDJQ)
-        - [This AI Brings Down Scammer Call Centers (in world record time)](https://youtu.be/coNjpBa5m1E)
-        - [When Scammers Lose Thousands To Ransomware](https://youtu.be/yjkPb2mU0DU)
-        - [Will Scammers Notice Windows 'Really Good' Edition?](https://youtu.be/F0peLpovDB8)
-    * @ Scambaiter
-        - [Filling Out A Scammers Form, But With HIS OWN REAL Details!](https://youtu.be/xLyrc_JZmF4)
-    * @ Scammer Payback
-        - [First ever Anti-Scam Call Center](https://youtu.be/_u_JTddAYes)
-        - ~~[We Created the First Ever ANTI-SCAM Call Center](https://youtu.be/_u_JTddAYes)~~
-    * @ Scammer Revolts
-        - (!!!) ~ [How to Scambait and Expose a Tech Support Scammer!](https://youtu.be/orEUCHTvmW0)
-    * @ The Engineer Man
-        - [Showing a Craiglist scammer who's the boss using Python](https://youtu.be/UtNYzv8gLbs)
-
-
-- Virtualization
-    - [How to Setup a Virtual Machine for Malware Analysis](https://youtu.be/-40OBLWVsgo) @ Guided Hacking
-    - [Learn Virtual Machines RIGHT NOW! (Kali Linux, VM, Ubuntu, Windows)](https://youtu.be/wX75Z-4MEoM) @ Network Chuck
-    - [Ditch Virtualbox, Get QEMU/Virt Manager](https://youtu.be/wxxP39cNJOs) @ Mental Outlaw
-    - [Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88) @ Chris Titus Tech
-    - [20 Ways to Use a Virtual Machine (and other ideas for your homelab)](https://youtu.be/SVQmzaSabEQ) @ Techno Tim
-
-
-- VPNs
-<!-- set up? both in Windows and Linux? Decide machines -->
-
-- VPSs: [Best VPS hosting providers of 2022](https://www.techradar.com/news/best-vps-hosting) @ Tech Radar
+### Scambaiting
+- @ Engineer Man
+    - [Using My Python Skills To Punish Credit Card Scammers](https://youtu.be/StmNWzHbQJU)
+- @ Kitboga
+    - [Scam Call Turns NUCLEAR Over Expected $1M Fortune](https://youtu.be/_Ma5RY2bG38)
+    - [Spending All My Money While Scammers Watch (they're furious)](https://youtu.be/K8weeeK-BPQ)
+    - [These Tech Scammers Can't Figure Out What To Say](https://youtu.be/LXNiNuvWDJQ)
+    - [This AI Brings Down Scammer Call Centers (in world record time)](https://youtu.be/coNjpBa5m1E)
+    - [When Scammers Lose Thousands To Ransomware](https://youtu.be/yjkPb2mU0DU)
+    - [Will Scammers Notice Windows 'Really Good' Edition?](https://youtu.be/F0peLpovDB8)
+- @ Scambaiter
+    - [Filling Out A Scammers Form, But With HIS OWN REAL Details!](https://youtu.be/xLyrc_JZmF4)
+- @ Scammer Payback
+    - [First ever Anti-Scam Call Center](https://youtu.be/_u_JTddAYes)
+    - ~~[We Created the First Ever ANTI-SCAM Call Center](https://youtu.be/_u_JTddAYes)~~
+- @ Scammer Revolts
+    - (!!!) ~ [How to Scambait and Expose a Tech Support Scammer!](https://youtu.be/orEUCHTvmW0)
+- @ The Engineer Man
+    - [Showing a Craiglist scammer who's the boss using Python](https://youtu.be/UtNYzv8gLbs)
 
 </details>
 
