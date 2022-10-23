@@ -7,7 +7,7 @@
 
 
 # *Self-Learning IT* ~ materials
-
+<!--need to update w/ me GitHub stars-->
 
 Hi there, welcome to my personal **IT Roadmap** 👋
 
@@ -25,17 +25,16 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [*Self-Learning IT* ~ materials](#self-learning-it--materials)
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
-  - [02. HARDWARE: Electronics & $Tinkering$ projects](#02-hardware-electronics--tinkering-projects)
+  - [02. Hardware: Electronics & Tinkering projects](#02-hardware-electronics--tinkering-projects)
     - [Electronics theory 101](#electronics-theory-101)
     - [Tinkering projects](#tinkering-projects)
-  - [03. SOFTWARE -GEN-](#03-software--gen-)
+  - [03. Software Development -GEN-](#03-software-development--gen-)
     - [Self-taught dev 101](#self-taught-dev-101)
     - [Self-taught dev 10x](#self-taught-dev-10x)
     - [FIELDS](#fields)
     - [TOPICS](#topics)
   - [04. SysAdmin || Operating Systems](#04-sysadmin--operating-systems)
-    - [sysadmins 101](#sysadmins-101)
-    - [Windowz](#windowz)
+    - [sysadmin -gen-](#sysadmin--gen-)
     - [Linux](#linux)
   - [05. CODE](#05-code)
   - [06. Game Development | Emulation & Modmaking](#06-game-development--emulation--modmaking)
@@ -47,14 +46,14 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 ## 00. Mind Maps
 
-*The two graphs below encompass all matters contained within **SLIT**:*
+<details>
+<summary> These two graphs below encompass all SLIT matters </summary>
 
 ![MindMap-0_4](/images/slit_img-MM1.PNG)
-
 ![MindMap-5-9](/images/slit_img-MM2.PNG)
-
 <!-- interactive link -->
 
+</details>
 
 ## 01. L10N 
 
@@ -67,7 +66,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [ ] [How Sekiro sets itself apart](https://youtu.be/jASlIZSpnJ4) @ Zullie the Witch
 -->
 
-## 02. HARDWARE: Electronics & $Tinkering$ projects
+## 02. Hardware: Electronics & Tinkering projects
 
 <details>
 <summary>  Hardware: theory & projects </summary>
@@ -174,7 +173,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 </details>
 
-## 03. SOFTWARE -GEN-
+## 03. Software Development -GEN-
 
 ### Self-taught dev 101
 
@@ -417,86 +416,63 @@ wow, such empty...
 ## 04. SysAdmin || Operating Systems
 
 <details>
-<summary> everything Operating Systems </summary>
+<summary> SysAdmin || Operating Systems </summary>
 
-### sysadmins 101
-
-<details>
-<summary> self </summary>
-
-- [Types of OS afap](https://youtu.be/MR2ntdZW__A) @ Techquickie
-- BIOS...
-    - [BIOS and UEFI afap](https://youtu.be/zIYkol851dU) @ Techquickie
-    - [BIOS, CMOS, UEFI - What's the difference?](https://youtu.be/LGz0Io_dh_I) @ PowerCert Animated Videos
-- Dual Boot ~ [The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0) @ Techno Tim
-- *Virtual Machines* ~ [see '7.0 ~ Networks | Hacking'](#70-networks--hacking)
-
-**SysAdmin Career**
-- [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
+### sysadmin -gen-
+  
 - [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
+- [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
+- everything "Operating Systems"
+    - [Types of OS afap](https://youtu.be/MR2ntdZW__A) @ Techquickie
+    - BIOS...
+        - [BIOS and UEFI afap](https://youtu.be/zIYkol851dU) @ Techquickie
+        - [BIOS, CMOS, UEFI - What's the difference?](https://youtu.be/LGz0Io_dh_I) @ PowerCert Animated Videos
+    - Dual Boot ~ [The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0) @ Techno Tim
+    - *Virtual Machines* ~ [see '7.0 ~ Networks | Hacking'](#70-networks--hacking)
 
-</details>
-
-
-
-### Windowz
-
-[PowerShell, BIOS...]
-
-[I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
-
-### Linux
-
-<details>
-<summary> self </summary>
-
-Misc.
-
-- [Linux for the Absolute Beginner...](https://youtu.be/EN7mbRccT-8) @ Low Dough Tech
-- [7 Linux Terminal Application and Utilities](https://youtu.be/ZNNqkeeOdrk) @ Tech Hut
-- ☠️ [Why Linux Is Better For Programming](https://youtu.be/otDOHt_Jges) @ Kalle Hallden
-
-$VENTOY$
-- [Ventoy - An Easy to Use MultiBoot USB Tool](https://youtu.be/K64sT0pQc-0) @ Mental Outlaw
-- [How to create the ULTIMATE multiboot flash drive using Ventoy!](https://youtu.be/7eQciSP91eI) @ Alfredo Sequeida
-- [How to Create a Multiboot USB with Ventoy | Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc) @ Techno Tim
+\### Windowz
+- [PowerShell, BIOS...]
+- [I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
 
 </details>
 
 <details>
-<summary> Linux Distros </summary>
+<summary> Linux misc. - Ventoy </summary>
 
-[What is the Best Linux Distro? -Its the one you Make the best](https://youtu.be/_f5uev7UTz0) @ Mental Outlaw
+###  Linux
 
-- Linux Mint
-  - [How good is Linux Mint for beginners](https://youtu.be/pNWDnJ_kESM) @ The Linux Experiment
-  - [20 Different Types of Linux Mint Themes](https://youtu.be/PIrl3Eb0H44)
-  - [From Noob To Power User With Linux Mint Cinnamon](https://youtu.be/TKX29fJ8U2Y) @ Distro Tube
+- Misc.
+    - [Linux for the Absolute Beginner...](https://youtu.be/EN7mbRccT-8) @ Low Dough Tech
+    - [7 Linux Terminal Application and Utilities](https://youtu.be/ZNNqkeeOdrk) @ Tech Hut
+    - ☠️ [Why Linux Is Better For Programming](https://youtu.be/otDOHt_Jges) @ Kalle Hallden
 
+- Ventoy
+    - [Ventoy - An Easy to Use MultiBoot USB Tool](https://youtu.be/K64sT0pQc-0) @ Mental Outlaw
+    - [How to create the ULTIMATE multiboot flash drive using Ventoy!](https://youtu.be/7eQciSP91eI) @ Alfredo Sequeida
+    - [How to Create a Multiboot USB with Ventoy | Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc) @ Techno Tim
 
-- +more <!-- '7.0 ~ Networks | Hacking' -->
-    * Top 5 Arch-like ~ [Top Five Arch-Based Linux Distros 2022](https://youtu.be/zkmTpxVpj6Q) @ Distro Tube
-
-    * +more
+- Linux Distros
+    - [What is the Best Linux Distro? -Its the one you Make the best](https://youtu.be/_f5uev7UTz0) @ Mental Outlaw
+    - Linux Mint
+        - [How good is Linux Mint for beginners](https://youtu.be/pNWDnJ_kESM) @ The Linux Experiment
+        - [20 Different Types of Linux Mint Themes](https://youtu.be/PIrl3Eb0H44)
+        - [From Noob To Power User With Linux Mint Cinnamon](https://youtu.be/TKX29fJ8U2Y) @ Distro Tube
+    - Pop OS!
+    - Chicago95 ~ [Bring Back Windows 95 with XFCE + Chicago](https://www.youtube.com/shorts/VcbzoOjMLHM) @ Tech Hut <!--find in GitHub>
+    - Kali Linux ~ [Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs) @ fCC && [Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg) @ The Good Hacker
+    - MX Linux ~ [From Noob to Power-User with MX Linux](https://youtu.be/IsnSSY2vTXQ) @ Distro Tube
+    - Top 5 Arch-like ~ [Top Five Arch-Based Linux Distros 2022](https://youtu.be/zkmTpxVpj6Q) @ Distro Tube
         - ArcoLinux ~ [ArcoLinux - First Impressions and Install](https://youtu.be/S_dG79GhNfI) @ Tech Hut <!--install in VM-->
-        - Chicago95 ~ [Bring Back Windows 95 with XFCE + Chicago](https://www.youtube.com/shorts/VcbzoOjMLHM) @ Tech Hut <!--find in GitHub>
-        - Kali Linux ~ [Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs) @ fCC && [Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg) @ The Good Hacker
         - Manjaro | Arch ~ [Manjaro is NOT Arch](https://youtu.be/VzAw8a3Jx-k) @ Tech Hut
-        - MX Linux ~ [From Noob to Power-User with MX Linux](https://youtu.be/IsnSSY2vTXQ) @ Distro Tube
-        - Pop OS!
+
+- WSL 
+    - [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
+    - [I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c) @ Forrest Knight
 
 </details>
 
-
-### WSL 
-- [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
-- [I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c) @ Forrest Knight
-
-
-### Android
-
 <details>
-<summary> self </summary>
+<summary> Android </summary>
 
 - ROOT
     - Root 101 ~ [What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
@@ -514,8 +490,6 @@ $VENTOY$
 
 </details>
 
-</details>
-
 ## 05. CODE
 
 Please visit the [CODE folder](/CODE), covering **materials** and **actual projects**.
@@ -524,43 +498,42 @@ Please visit the [CODE folder](/CODE), covering **materials** and **actual proje
 ## 06. Game Development | Emulation & Modmaking
 
 <details>
-<summary> misc. mash: Emu, Engines, Modding, Reverse-Engineering </summary>
-
-- Emulation: Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](https://youtu.be/_rYVWzjVWmw) @ Blaine Locklair
-
-  - ROMs: Zophar ~ [Zophar's Domain](https://www.zophar.net/) 
-
-- Systems
-    - emudev.org ~ [emudev's hub of Discord servers for ALL systems](https://emudev.org/discord_related)
-
-- Engines (Unity, ...)
-    - Strong C# ~ [Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg) @ Fireship
-    - [I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o) @ But Why Levin
-
-- GameDev community
-    - GMTK
-        - [GMTK Game Jam 2022](https://youtu.be/XNCGdi2A6fQ) @ Game Maker's Toolkit
-    - itch.io ~ [itch.io](https://itch.io/)
-    - Minijuegos (Devs) ~ [Miniplay > Devs](https://ssl.miniplay.com/dev/user/login)
-    - reddit ~ [reddit communities compiled lol](https://reddit.com)
+<summary>  GameDev + Emulation + Mod-making/Reverse Engineering </summary>
 
 - GameDev ideas
     - 2048 (JavaScript + CSS) ~ [Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc) @ WebDevSimplified
     - Geo Game idea ~ [I Tried Creating a Game Using Real-World Geographic Data](https://youtu.be/sLqXFF8mlEU) @ Sebastian Lague
     - Pokémon (Lua) ~ [Pokémon Coding Tutorial - CS50's Intro to Game Development](https://youtu.be/gx_qorHxBpI) @ fCC
 
-- Mod-Making: Mod-making 101 ~ [Game Modding afap](https://youtu.be/4BB1HfvSqAI) @ Techquickie
-
 - Pygame limitations: [Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U) @ DaFluffyPotato
 
+- Game Engines
+    - Unity
+        - Strong C# ~ [Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg) @ Fireship
+        - [I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o) @ But Why Levin
+
+- GameDev community
+    - itch.io ~ [itch.io](https://itch.io/)
+    - reddit ~ [reddit communities compiled lol](https://reddit.com)
+    - GMTK: [GMTK Game Jam 2022](https://youtu.be/XNCGdi2A6fQ) @ Game Maker's Toolkit
+    - Minijuegos (Devs) ~ [Miniplay > Devs](https://ssl.miniplay.com/dev/user/login)
+
+<!-- ME Gamez aye > ### 6.1 ~ Karmaggän
+First off, peek into local **Jagger Dress Up** -->
+
+</details>
+
+<details>
+<summary> Misc. - emulation + mod-reverse_engineer </summary>
+
+- Emulation
+    - emudev.org ~ [emudev's hub of Discord servers for ALL systems](https://emudev.org/discord_related)
+    - Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](https://youtu.be/_rYVWzjVWmw) @ Blaine Locklair
+    - Emu ROMS: Zophar ~ [Zophar's Domain](https://www.zophar.net/), ... (!) 
+
+- Mod-Making: Mod-making 101 ~ [Game Modding afap](https://youtu.be/4BB1HfvSqAI) @ Techquickie
+
 - Reverse Engineer (Retro Games): [Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction) @ Retro Reversing
-
-<!--
-#### 6.1b ~ Gamez aye
----
-
-### 6.1 ~ Karmaggän
- First off, peek into local **Jagger Dress Up** -->
 
 </details>
 
