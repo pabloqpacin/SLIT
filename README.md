@@ -19,91 +19,20 @@ July 2022 felt like time for a career change, thus I did sign up for ITEP's [Net
 
 Now thanks for reading and I hope you'll find it useful too! You may fork this repo, add your own sauces and projects and share them with me! ⛏️
 
-<!--
-1. [~ Mind Maps](#00--mind-maps)
-2. [~ L10N](#10--l10n) - Software Localization 101s
-3. [~ HARDWARE](#20--hardware--tinkering) - Computer components and other electronics
-
-    [~ TINKERING](#tinkering)- Hardware projects
-    
-    - [DIY Circuits, Arduino UNO, Raspberry Pi]
-    - [3R Computers —Repair, Restore, Repurpose—, Pentium]
-    - [Consoles aka Game Stations, Smartphones & Tablets]
-
-4. [~ SOFTWARE -GEN-](#30--software--gen) - Understanding the industry 101
-
-    [~ Self-taught dev 101](#self-taught-dev-101)
-    - *'Look afar and see the end from the beginning'*
-    - Industry trends
-    - Personal Protocol (programming-oriented)
-    - Problem-solving and efficient habits
-
-    [~ FIELDS](#fields) - General field-related info
-    - [Computer Science, Data Science, DevOps, Ingeniería Informática, Software Engineerz]
-
-    [~ TOPICS](#topics) - More specific materials
-    - AI ~ Machine Learning + Neural Networks (+ TensorFlow)
-    - [Algorithms, APIs, Backend, Browsers, Cloud Computing, Databases, Frontend ~ Design]
-    - [Fullstack, $ Git, Math, OOP, Open Source, Tech Stacks (~ Web Dev), Testing]
-    - WebDev
-
-
-5. [~ SysAdmin || OSs](#40--sysadmin--windows--linux) - ***Core content***
-
-    * WINDOWS
-    * ANDROID (ROOT & +more)
-    * [LINUX](#43--linux)
-        - 101s
-        - Distros
-    * WSL - Windows Subsystem for Linux
-
-6. [~ CODE](/code-050md) - Programming Languages & Project Ideas
-
-    [~ PYTHON](/code-050md#python)
-    - 101s
-    - Tutorials 101
-    - Tutorials 10x
-
-    [~ BASH](/code-050md#bash) - Shell
-
-    [~ +MORE LANGS](/code-050md#more-languages) - [C#, PowerShell, ... ]
-
-7. [~ Game Development](#60--game-development--emulation--modmaking)
-
-    - [Emulation, Engines, GameDev Community, GameDev Ideas, Mod-Making, Pygame limitations, Reverse Engineer (retro games)]
-
-8. [~ NETWORKS | HACKING](#70--networks--hacking)
-
-    - [Black Hat, BotNetz, Cryptography, CTF, Dark Web (+ Tor), Digital Forensics]
-    - DIY_NAS aka 'Home Server'
-    - Hacking
-    - HomeLabz
-    - [Malware ($python, $bash), Network Ports, Pentesting, Reverse Engineering, Routers]
-    - Scambaiting
-    - Virtualization
-    - VPNs, VPSs
-
-9. [~ IT Certificates](#80--it-certificates)
-
-10. [~ OpenSource Development](#90--open-source-development)-->
 <details>
 <summary> Table of Contents </summary>
 
 - [*Self-Learning IT* ~ materials](#self-learning-it--materials)
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
-  - [02. HARDWARE & Electronics | $Tinkering$](#02-hardware--electronics--tinkering)
+  - [02. HARDWARE: Electronics Theory & $Tinkering$ projects](#02-hardware-electronics-theory--tinkering-projects)
     - [Documentation](#documentation)
-    - [Projects ~ $Tinkering$](#projects--tinkering)
+    - [$Tinkering$ projects](#tinkering-projects)
       - [1. Microcontrollers & circuitry](#1-microcontrollers--circuitry)
       - [2. Computers (Repair Restor Repurpose) + Consoles](#2-computers-repair-restor-repurpose--consoles)
       - [3. Smartphones & Tablets](#3-smartphones--tablets)
   - [03. SOFTWARE -GEN-](#03-software--gen-)
     - [Self-taught dev 101](#self-taught-dev-101)
-      - [*'Look afar and see the end from the beginning'*](#look-afar-and-see-the-end-from-the-beginning)
-      - [Industry Trends ~~^^~~ 2022 is gonna be wild for Developers](#industry-trends--2022-is-gonna-be-wild-for-developers)
-      - [Personal Protocol ~~^^~~ $CODE](#personal-protocol--code)
-      - [Problem Solving & Efficient Habits](#problem-solving--efficient-habits)
     - [Self-taught dev 10x](#self-taught-dev-10x)
     - [FIELDS](#fields)
     - [TOPICS](#topics)
@@ -141,13 +70,13 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [ ] [How Sekiro sets itself apart](https://youtu.be/jASlIZSpnJ4) @ Zullie the Witch
 -->
 
-## 02. HARDWARE & Electronics | $Tinkering$
+## 02. HARDWARE: Electronics Theory & $Tinkering$ projects
+
+<details>
+<summary>  Hardware: theory & projects </summary>
 
 ### Documentation
 
-
-<details>
-<summary> Electronics theory & computers' components</summary>
 <!-- Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc) -->
 
 <details>
@@ -188,9 +117,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 </details>
 
 
-</details>
-
-### Projects ~ $Tinkering$
+### $Tinkering$ projects
 <!-- arranged as per relevant mindmap -->
 
 #### 1. Microcontrollers & circuitry
@@ -282,14 +209,17 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
 
 </details>
 
+</details>
+
 ## 03. SOFTWARE -GEN-
+
+<details>
+<summary> Software engineering -gen- </summary>
 
 ### Self-taught dev 101
 
-#### *'Look afar and see the end from the beginning'*
-
 <details>
-<summary> self </summary>
+<summary> 'Look afar and see the end from the beginning' </summary>
 
 * ##### ~~[4 Steps to Become a Developer {Shorts}](https://youtu.be/nvlizC6koSc)~~ @ Fireship
     - Learn [HTML, CSS, JavaScript, React, Node]
@@ -322,10 +252,9 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
 
 </details>
 
-#### Industry Trends ~~^^~~ 2022 is gonna be wild for Developers
 
 <details>
-<summary> self </summary>
+<summary> Industry Trends ~ 2022 is gonna be wild for Developers </summary>
 
 [Developer Trends in 2022](https://youtu.be/LOpFYMPXqE4) @ Fireship
 
@@ -355,10 +284,9 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
 
 </details>
 
-#### Personal Protocol ~~^^~~ $CODE
 
 <details>
-<summary> self </summary>
+<summary> Programming Protocol </summary>
 
 * ##### ~~Comment_IQ, Documentation & Portfolio ~~^^~~ [If You're Learning to Code STOP Taking Notes](https://youtu.be/VCWzQpUwsaw)~~ @ Dorian Develops
 
@@ -407,10 +335,9 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
 
 </details>
 
-#### Problem Solving & Efficient Habits
 
 <details>
-<summary> self </summary>
+<summary> Problem Solving & Efficient Habits </summary>
 
 * ##### ~~Fitness, results, KISS & 'The Zone' ~~^^~~ [7 Habits of Highly Effective Programmers](https://youtu.be/W8ykZNSLDqE)~~ @ TechLead
     - **Intro:** right habits != burnout | long-term game == skills, tecniques; right career trajectory
@@ -656,8 +583,12 @@ How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @
 
 </details>
 
+</details>
 
 ## 04. SysAdmin || Windows & Linux
+
+<details>
+<summary> everything Operating Systems </summary>
 
 ### sysadmins 101
 
@@ -727,8 +658,6 @@ $VENTOY$
 
 </details>
 
-</details>
-
 
 ### WSL 
 - [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
@@ -756,9 +685,11 @@ $VENTOY$
 
 </details>
 
+</details>
+
 ## 05. CODE
 
-Please find this section covering **materials** and **actual projects** in [this separate file](/5.0~CODE.md).
+Please visit the [CODE folder](/CODE), covering **materials** and **actual projects**.
 
 
 ## 06. Game Development | Emulation & Modmaking
@@ -936,6 +867,9 @@ for Android rooting, see *5~SysAdmin|OS* -->
 </details>
 
 ## 08. IT Certificates
+
+<details>
+<summary> Tech Certs </summary>
 
 - [Network Chuck's *'If I had to start over... which IT path would I take?](https://youtu.be/E25SKW4-8wQ)
     - **Network+** recommended
