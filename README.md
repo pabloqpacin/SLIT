@@ -25,7 +25,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [*Self-Learning IT* ~ materials](#self-learning-it--materials)
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
-  - [02. HARDWARE: Electronics Theory & $Tinkering$ projects](#02-hardware-electronics-theory--tinkering-projects)
+  - [02. HARDWARE: Electronics & $Tinkering$ projects](#02-hardware-electronics--tinkering-projects)
     - [Documentation](#documentation)
     - [$Tinkering$ projects](#tinkering-projects)
       - [1. Microcontrollers & circuitry](#1-microcontrollers--circuitry)
@@ -70,7 +70,7 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 - [ ] [How Sekiro sets itself apart](https://youtu.be/jASlIZSpnJ4) @ Zullie the Witch
 -->
 
-## 02. HARDWARE: Electronics Theory & $Tinkering$ projects
+## 02. HARDWARE: Electronics & $Tinkering$ projects
 
 <details>
 <summary>  Hardware: theory & projects </summary>
