@@ -26,17 +26,14 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
   - [02. HARDWARE: Electronics & $Tinkering$ projects](#02-hardware-electronics--tinkering-projects)
-    - [Documentation](#documentation)
-    - [$Tinkering$ projects](#tinkering-projects)
-      - [1. Microcontrollers & circuitry](#1-microcontrollers--circuitry)
-      - [2. Computers (Repair Restor Repurpose) + Consoles](#2-computers-repair-restor-repurpose--consoles)
-      - [3. Smartphones & Tablets](#3-smartphones--tablets)
+    - [Electronics theory 101](#electronics-theory-101)
+    - [Tinkering projects](#tinkering-projects)
   - [03. SOFTWARE -GEN-](#03-software--gen-)
     - [Self-taught dev 101](#self-taught-dev-101)
     - [Self-taught dev 10x](#self-taught-dev-10x)
     - [FIELDS](#fields)
     - [TOPICS](#topics)
-  - [04. SysAdmin || Windows & Linux](#04-sysadmin--windows--linux)
+  - [04. SysAdmin || Operating Systems](#04-sysadmin--operating-systems)
     - [sysadmins 101](#sysadmins-101)
     - [Windowz](#windowz)
     - [Linux](#linux)
@@ -75,146 +72,109 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 <details>
 <summary>  Hardware: theory & projects </summary>
 
-### Documentation
+### Electronics theory 101
 
-<!-- Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc) -->
+- Electricity & Electronics 101
+    - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
+    - [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
+    - Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc)
+    - [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
+    - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 
-<details>
-<summary> Electricity & Electronics 101 </summary>
-
-- [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
-- [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
-- [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
-- [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
-
-</details>
-
-<details>
-<summary> Computers & Components </summary>
-
-- Computers
-  - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
-  - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
-- CPUs
-  - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-  - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
-- Graphics -all
-  - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
-  - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
-- HDMI
-  - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
-- Motherboards
-  - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
-- Power Supply
-  - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
-  - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
-- SSDs
-  - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
-- (bonus) ~ Bluetooth
-  - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
-
+- Computers & Components 
+    - -gen-
+        - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
+        - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
+    - CPUs
+        - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
+        - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
+    - Graphics -all
+        - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
+        - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
+    - HDMI
+        - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
+    - Motherboards
+        - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
+    - Power Supply
+        - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
+        - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
+    - SSDs
+        - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
+    - (bonus) ~ Bluetooth
+        - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
 
 </details>
 
-
-### $Tinkering$ projects
-<!-- arranged as per relevant mindmap -->
-
-#### 1. Microcontrollers & circuitry
+### Tinkering projects
 
 <details>
-<summary> self </summary>
+<summary> Circuitry & Microcontrollers </summary>
 
-  - Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
-  - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
+- Circuitry
+    - Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
+    - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
 
-<details>
-<summary> Arduino UNO </summary>
+- Arduino UNO
+    - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
+    - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
+    - 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
+    - Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
+    - Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
+    - Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
+    - Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
 
-  - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
-  - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
-  - 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
-  - Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
-  - Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
-  - Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
-  - Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
-
-</details>
-
-<details>
-<summary> Raspberry Pi </summary>
-
-Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority
-
-- RPico
-  - 101s ~ [Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U) @ DroneBot Workshop
-  - MicroPython 00 ~ [Raspberry Pi PICO | Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s) @ Electronoobs
-  - Bad USB ~ [Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw) @ Network Chuck
-
-</details>
+- Raspberry Pi
+    - Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority
+    - RPico
+        - 101s ~ [Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U) @ DroneBot Workshop
+        - MicroPython 00 ~ [Raspberry Pi PICO | Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s) @ Electronoobs
+        - Bad USB ~ [Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw) @ Network Chuck
 
 </details>
 
 
-#### 2. Computers (Repair Restor Repurpose) + Consoles
-<!-- $SALVAGE -->
-
 <details>
-<summary> gen-ish </summary>
+<summary> Salvage: Computers (Repair Restor Repurpose) + Consoles </summary>
 
-**GL76** ~ [MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
+- *Salvage* gen
+    - **GL76** ~ [MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
+    - Laptops -gen-
+      - Clean ~ [How to Clean a Laptop](https://youtu.be/bypESzEtZr4)
+      - Motherboard ~ [Laptop Motherboard -Diagnose,Repair-](https://youtu.be/GCLflqmne6k)
+      - Fix ~ [FREE BROKEN Laptop - But Can I Fix It? Acer Nitro 5 No Power](https://youtu.be/C4S6QL4keOQ) @ Tronics Fix
+      - Repurpose ~ [Repurpose your old dead Laptop](https://youtu.be/WLP_L7Mgz6M)
+    - HDDs ~ [Fix your Hard Drive](https://youtu.be/zAMjdrUf9V4)
 
-- Laptops -gen-
-    - Clean ~ [How to Clean a Laptop](https://youtu.be/bypESzEtZr4)
-    - Motherboard ~ [Laptop Motherboard -Diagnose,Repair-](https://youtu.be/GCLflqmne6k)
-    - Fix ~ [FREE BROKEN Laptop - But Can I Fix It? Acer Nitro 5 No Power](https://youtu.be/C4S6QL4keOQ) @ Tronics Fix
-    - Repurpose ~ [Repurpose your old dead Laptop](https://youtu.be/WLP_L7Mgz6M)
-
-- HDDs ~ [Fix your Hard Drive](https://youtu.be/zAMjdrUf9V4)
-
-</details>
-
-<details>
-<summary> Pentium project </summary>
-
-- Dusting off
+- Pentium project
     - [Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8) @ Psivewri
     - Clean Pentium_3 ~ [This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI) @ Phils Computer Lab
     - Restore Pentium_3 ~ [Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-- Upgrading Pentium_4 to Windows_10 ~ [Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M) @ Phils Computer Lab
-- $salvage ~ [This PC Wasn't Worth Saving | Pentium 4 Build](https://youtu.be/sjfe9cQky5g) @ Tech Made Easy && [Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-- BIOS in Pentium 4 ~ [Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
+    - Upgrading Pentium_4 to Windows_10 ~ [Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M) @ Phils Computer Lab
+    - $salvage ~ [This PC Wasn't Worth Saving | Pentium 4 Build](https://youtu.be/sjfe9cQky5g) @ Tech Made Easy && [Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
+    - BIOS in Pentium 4 ~ [Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
+
+- Consoles aka Game Stations
+    - Game Boy ~ [Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE) @ Odd Tinkering
+    - PS1 ~ [PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY) @ Odd Tinkering
+    - Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8) @ Basically Homeless
 
 </details>
 
-<details>
-<summary> secret-ish ~ Consoles aka Game Stations </summary>
-
-- Game Boy ~ [Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE) @ Odd Tinkering
-- PS1 ~ [PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY) @ Odd Tinkering
-- Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8) @ Basically Homeless
-
-</details>
-
-#### 3. Smartphones & Tablets
 
 <details>
-<summary> self </summary>
+<summary> Smartphones & Tablets </summary>
 
-- $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
-- $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
+- *Salvage* smartphones
+    - $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
+    - $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
+
 - random bonus bc why not
-  - [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
-  - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
-
-</details>
+    - [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
+    - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
 
 </details>
 
 ## 03. SOFTWARE -GEN-
-
-<details>
-<summary> Software engineering -gen- </summary>
 
 ### Self-taught dev 101
 
@@ -349,7 +309,6 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
     - **Collaboration:** share ideas | code integration in a team environment | networking
     - **Programming = solo:** lonely activity (code, documentation) in the digital world
 
-
 * ##### TDD & prototyping ~~^^~~ [Problem-Solving for Developers - A Beginner's Guide](https://youtu.be/UFc-RPbq8kg) @ Fireship
 
     <!-- {Case study — Using GraphQL and JS to merge 600 PRs} -->
@@ -365,227 +324,97 @@ Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be
     ######
     - (*^1) ~~^^~~ [**Agile approach:**](https://www.atlassian.com/agile/project-management/epics-stories-themes) stories, epics, initiatives
 
-
 </details>
 
-
 ### Self-taught dev 10x
-
 wow, such empty...
-
-
 
 ### FIELDS
 
-<details>
-<summary> Computer Science </summary>
-
-[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
-
-[Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
-
-[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
-
-<!-- turn this $material into a document with all episodes summarized -->
-- Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
-
-- THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
-
-</details>
 
 <details>
-<summary> Data Science </summary> 
+<summary> FIELDS </summary>
 
-[What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
-
-[How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
-- **Learn Python** (friendly syntax, versatile, popular)
-
-    - **First weeks:** Learn variables, datatypes [strings, floats, ints, arrays], loops, functions, if statements, OOP | RSS = [interactive websites [fCC, Codeacademy], video-tutorials, books] | Objective = implement fundamental concepts = play around and expand tutorials’ content
-    - **Late personal projects:**  interesting/useful, small, ~~copypaste~~
-        - (n01-04) - n01 '(array(database)), random output IF input(x,y)' | n02 'snake = basics+OOP+UI' | n03 'stock trading bot' | **arrays < Pandas pydata // data-frame** |**learn APIs // (beginner 2 advanced)**
-        - then: algorithms and data structures [dictionaries, linked lists, queues, heaps, trees, graphs] ~~^^~~ BUILD a MAZE and an ALGORITHM to solve it
-    - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
-
-- **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
-- **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
-
-</details>
-
-<details>
-<summary> DevOps </summary> 
-
-[DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
-
-</details>
-
-<details>
-<summary> Ingeniería Informática </summary>
-
-- [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
-
-</details>
-
-<details>
-<summary> Software Engineerz </summary>
-
-- ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
-    - Burnout: overwhelming **backlog** and interviews
-    - Tough competition
-    - Junior Devs tasks: learn **codebase** & knockout pull requests
-
-- [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
+- Computer Science
+    - [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
+    - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
+    - [Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
+    - Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
+    <!-- turn this $material into a document with all episodes summarized -->
+    - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
+- Data Science 
+    - [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
+    - [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
+        - **Learn Python** (friendly syntax, versatile, popular)
+            - **First weeks:** Learn variables, datatypes [strings, floats, ints, arrays], loops, functions, if statements, OOP | RSS = [interactive websites [fCC, Codeacademy], video-tutorials, books] | Objective = implement fundamental concepts = play around and expand tutorials’ content
+            - **Late personal projects:**  interesting/useful, small, ~~copypaste~~
+                - (n01-04) - n01 '(array(database)), random output IF input(x,y)' | n02 'snake = basics+OOP+UI' | n03 'stock trading bot' | **arrays < Pandas pydata // data-frame** |**learn APIs // (beginner 2 advanced)**
+                - then: algorithms and data structures [dictionaries, linked lists, queues, heaps, trees, graphs] ~~^^~~ BUILD a MAZE and an ALGORITHM to solve it
+            - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
+        - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
+        - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
+- DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
+- Ingeniería Informática: [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
+- Software Engineerz </summary>
+    - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
+    - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
+        - Burnout: overwhelming **backlog** and interviews
+        - Tough competition
+        - Junior Devs tasks: learn **codebase** & knockout pull requests
 
 </details>
 
 ### TOPICS
 
 <details>
-<summary> $AI$... Bot programming... *Deep Learning*... #TensorFlow </summary>
+<summary> TOPICS </summary>
 
-* ##### 101s | Neural Networks
-    - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
-    - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
-
-* ##### Techonologeez
-    - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
-
-* ##### Models
-    - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
-    - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
-    - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
-    - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
-    - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
-
-BOTS  <!-- ojete -->
-
-</details>
-
-<details>
-<summary> Algorithms </summary>
-
-- [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
-
-</details>
-
-<details>
-<summary> APIs </summary>
-
-- [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
-
-</details>
-
-<details>
-<summary> Backend </summary>
-
-[Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
-
-</details>
-
-<details>
-<summary> Browsers </summary>
-- [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
-- [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
-
-</details>
-
-<details>
-<summary> CLOUD Computing </summary>
-
-- [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
+- Artificial Intelligence & Machine Learning (Bot programming & Tensorflow)
+    - 101s | Neural Networks
+        - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
+        - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
+    - Techonologeez
+        - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
+    - Models
+        - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
+        - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
+        - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
+        - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
+        - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
+    - BOTS PROJECTS (PY/SH)
+- Algorithms
+    - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
+-  APIs: [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
+- Backend
+    - [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
+    - ADD THE code with lewis VID
+- Browsers
+    - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
+    - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
+- **CLOUD**: [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
+- Databases: [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
+- Frontend ~ Design: [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
+<!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
+- Fullstack: [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
+- **Git**: [Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
+- Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
+- OOP - Object Oriented Programming: [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
+- Open Source
+    - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
+    - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
+- Tech Stacks (~ WebDev)
+    - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
+    - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
+- **Testing** (Software)!!!!!!!
+    - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
+    - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
+- Web Dev: [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
+- *bonus*... ~ Junior Dev Jobs </summary>
+    - [Lemon.IO](https://lemon.io/for-developers/)
 
 </details>
 
-<details>
-<summary> Databases </summary>
-
-- [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
-
-</details>
-
-<details>
-<summary> Frontend ~ Design </summary>
-
-[8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
-<!-- **@pabloqpacin:** *find #CodePen.io below* -->
-
-</details>
-
-<details>
-<summary> Fullstack </summary>
-
-[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
-
-</details>
-
-<details>
-<summary> $Git$ </summary>
-
-How to Git ~[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
-- Git = history book of code; GitHub = makes open source software accessible to the world
-- Git: version control system; system for managing my files.
-- Building software = series of small milestones (writing code on different files); app = chaos to stability.
-- Git keeps track of these change; multiple branches, and then merge. Easy collaboration.
-
-    ![eg. Git Trunk](/images/slit_img-git.png)
-
-</details>
-
-<details>
-<summary> Math </summary>
-
-- [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
-
-</details>
-
-<details>
-<summary> OOP - Object Oriented Programming </summary>
-
-- [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
-
-</details>
-
-<details>
-<summary> $Open Source$ </summary>
-
-- [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-- [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
-
-</details>
-
-<details>
-<summary> Tech Stacks (~ WebDev) </summary>
-
-- [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
-- [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
-
-</details>
-
-<details>
-<summary> Testing (Software)!!!!!!! </summary>
-
-- TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
-- TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
-
-</details>
-
-<details>
-<summary> Web Dev </summary>
-
-[100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
-
-</details>
-
-<details>
-<summary> bonus... ~ Junior Dev Jobs </summary>
-
-- [Lemon.IO](https://lemon.io/for-developers/)
-
-</details>
-
-</details>
-
-## 04. SysAdmin || Windows & Linux
+## 04. SysAdmin || Operating Systems
 
 <details>
 <summary> everything Operating Systems </summary>

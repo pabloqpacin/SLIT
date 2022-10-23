@@ -18,8 +18,6 @@ While [section 3](/README.md#30--software--gen) documents many **Software Develo
 - [Introduction](#introduction)
 - [More materials](#more-materials)
   - [programación -gen-](#programación--gen-)
-    - [VSCode stuff](#vscode-stuff)
-    - [Misc.](#misc)
   - [materials/tutorials per language](#materialstutorials-per-language)
     - [B - Bash](#b---bash)
     - [C - C](#c---c)
@@ -35,36 +33,23 @@ While [section 3](/README.md#30--software--gen) documents many **Software Develo
 
 # More materials
 
-
-<details>
-<summary> stuff aye </summary>
-
 ## programación -gen-
 
-[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E) @ MoureDevrais
+- mejorar en programación
+    - [10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E) @ MoureDevrais
+    - [Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY) @ MoureDevrais
+    - Debuggin ~ [Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0) @ WebDevSimplified
 
-[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY) @ MoureDevrais
+- VS Code
+    - [25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI) @ Fireship
+    - [Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg) @ VSC
+    - [My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY) @ Forrest Knight
 
-### VSCode stuff
-[25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI) @ Fireship
-
-[Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg) @ VSC
-
-[My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY) @ Forrest Knight
-
-
-### Misc.
-Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
-
-Debuggin ~ [Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0) @ WebDevSimplified
-
-History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
-
-JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
-
-Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
-
-</details>
+- Misc.
+    - Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
+    - History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
+    - JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
+    - Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
 
 ## materials/tutorials per language
 
@@ -98,7 +83,6 @@ Game Dev... Unity! C# comes from Java?
 - [JavaScript Game Development Course for Beginners](https://youtu.be/GFO_txvwK_c) @ fCC
 
 ### K - Kotlin
-
 - 101s
     - [Java vs Kotlin for Android App Development](https://youtu.be/9wWgw9smBJs) @ Keep On Coding
     - [Learn Kotlin in 12 Minutes](https://youtu.be/iYrgWO2oibY) @ Rahul Pandey
@@ -113,6 +97,8 @@ Documentation:
 - [stackoverflow](https://stackoverflow.com/questions/1127175/which-language-uses-pde-extension): PDE both Java, C and Arduino related
 
 ### P - Python
+
+Ojo con [TOPICS](/README.md#topics)
 
 - 101s
     - [Python Installation and Setup 101](https://youtu.be/W1iXIiF5iMw) @KylieYing
