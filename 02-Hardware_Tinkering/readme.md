@@ -1,9 +1,14 @@
-## 02. Hardware: Electronics & Tinkering projects
+# 02. Hardware: Electronics & Tinkering projects
+
+
+- [02. Hardware: Electronics & Tinkering projects](#02-hardware-electronics--tinkering-projects)
+  - [Electronics theory 101](#electronics-theory-101)
+  - [Tinkering projects](#tinkering-projects)
 
 <details>
 <summary>  Electronics 101 </summary>
 
-### Electronics theory 101
+## Electronics theory 101
 
 - Electricity & Electronics 101
     - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
@@ -36,7 +41,7 @@
 
 </details>
 
-### Tinkering projects
+## Tinkering projects
 
 <details>
 <summary> Circuitry & Microcontrollers </summary>

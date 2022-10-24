@@ -26,26 +26,11 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
   - [00. Mind Maps](#00-mind-maps)
   - [01. L10N](#01-l10n)
   - [02. Hardware: Electronics & Tinkering projects](#02-hardware-electronics--tinkering-projects)
-    - [Electronics theory 101](#electronics-theory-101)
-    - [Tinkering projects](#tinkering-projects)
   - [03. Software Development -GEN-](#03-software-development--gen-)
-    - [Self-taught dev 101](#self-taught-dev-101)
-    - [Self-taught dev 10x](#self-taught-dev-10x)
-    - [FIELDS](#fields)
-    - [TOPICS](#topics)
   - [04. SysAdmin || Operating Systems](#04-sysadmin--operating-systems)
-    - [sysadmin -gen-](#sysadmin--gen-)
-    - [Linux](#linux)
-  - [05. CODE](#05-code)
+  - [05. CODE Programming](#05-code-programming)
   - [06. Game Development | Emulation & Modmaking](#06-game-development--emulation--modmaking)
-    - [Game Dev. ~ Langs Engines & Community](#game-dev--langs-engines--community)
-    - [Game Modding ~ Emulation Mod-making & Reverse Engineering](#game-modding--emulation-mod-making--reverse-engineering)
   - [07. NETWORKS | HACKING](#07-networks--hacking)
-    - [Networks & Servers](#networks--servers)
-    - [DIY NAS](#diy-nas)
-    - [Hacking fundamentals](#hacking-fundamentals)
-    - [Malware + Pentesting](#malware--pentesting)
-    - [Scambaiting](#scambaiting)
   - [08. IT Certificates](#08-it-certificates)
   - [09. Open-Source Development](#09-open-source-development)
 
@@ -75,585 +60,66 @@ Now thanks for reading and I hope you'll find it useful too! You may fork this r
 
 ## 02. Hardware: Electronics & Tinkering projects
 
-<details>
-<summary>  Electronics 101 </summary>
-
-### Electronics theory 101
-
-- Electricity & Electronics 101
-    - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
-    - [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
-    - Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc)
-    - [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
-    - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
-
-- Computers & Components 
-    - -gen-
-        - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
-        - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
-    - CPUs
-        - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-        - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
-    - Graphics -all
-        - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
-        - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
-    - HDMI
-        - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
-    - Motherboards
-        - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
-    - Power Supply
-        - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
-        - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
-    - SSDs
-        - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
-    - (bonus) ~ Bluetooth
-        - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
-
-</details>
-
-### Tinkering projects
-
-<details>
-<summary> Circuitry & Microcontrollers </summary>
-
-- Circuitry
-    - Full DIY ~ [17 DIY inventions](https://youtu.be/twKkQaORKS4)
-    - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
-
-- Arduino UNO
-    - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
-    - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
-    - 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
-    - Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
-    - Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
-    - Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
-    - Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
-
-- Raspberry Pi
-    - Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority
-    - RPico
-        - 101s ~ [Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U) @ DroneBot Workshop
-        - MicroPython 00 ~ [Raspberry Pi PICO | Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s) @ Electronoobs
-        - Bad USB ~ [Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw) @ Network Chuck
-
-</details>
-
-
-<details>
-<summary> Salvage: Computers (Repair Restor Repurpose) + Consoles </summary>
-
-- *Salvage* gen
-    - **GL76** ~ [MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
-    - Laptops -gen-
-      - Clean ~ [How to Clean a Laptop](https://youtu.be/bypESzEtZr4)
-      - Motherboard ~ [Laptop Motherboard -Diagnose,Repair-](https://youtu.be/GCLflqmne6k)
-      - Fix ~ [FREE BROKEN Laptop - But Can I Fix It? Acer Nitro 5 No Power](https://youtu.be/C4S6QL4keOQ) @ Tronics Fix
-      - Repurpose ~ [Repurpose your old dead Laptop](https://youtu.be/WLP_L7Mgz6M)
-    - HDDs ~ [Fix your Hard Drive](https://youtu.be/zAMjdrUf9V4)
-
-- Pentium project
-    - [Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8) @ Psivewri
-    - Clean Pentium_3 ~ [This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI) @ Phils Computer Lab
-    - Restore Pentium_3 ~ [Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-    - Upgrading Pentium_4 to Windows_10 ~ [Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M) @ Phils Computer Lab
-    - $salvage ~ [This PC Wasn't Worth Saving | Pentium 4 Build](https://youtu.be/sjfe9cQky5g) @ Tech Made Easy && [Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-    - BIOS in Pentium 4 ~ [Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
-
-- Consoles aka Game Stations
-    - Game Boy ~ [Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE) @ Odd Tinkering
-    - PS1 ~ [PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY) @ Odd Tinkering
-    - Universal Wii Remote ~ [Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8) @ Basically Homeless
-
-</details>
-
-
-<details>
-<summary> Smartphones & Tablets </summary>
-
-- *Salvage* smartphones
-    - $salvage smartphones ~ [10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg) @ C4ETech English & [What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs) @ Great Scott!
-    - $salvage tablets ~ [OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0) @ ivifix.com
-
-- random bonus bc why not
-    - [Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg) @ Odd Tinkering
-    - [Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I) @ TysyTube
-
-</details>
+- Electronics theory 101
+- Tinkering projects
+    - Circuitry & Microcontrollers 
+    - Salvage: Computers (Repair Restor Repurpose) + Consoles
+    - Smartphones & Tablets
 
 ## 03. Software Development -GEN-
 
-### Self-taught dev 101
-
-<details>
-<summary> 'Look afar and see the end from the beginning' </summary>
-
-* ##### ~~[4 Steps to Become a Developer {Shorts}](https://youtu.be/nvlizC6koSc)~~ @ Fireship
-    - Learn [HTML, CSS, JavaScript, React, Node]
-    - Build something meaningful [1st Idea, 2nd Fail, 3rd Study, 4th Repeat]
-
-* ##### ~~[Fastest way to Learn Coding and actually get a job](https://youtu.be/79pKwdiqcwI)~~ (First thing I actually did)
-    - Learn **Python** for WebDev, DataSci, Automation...
-    - Do [learnpython.org](https://learnpython.org), Download **VS Code** & Complete [12 Beginner Python Projects](https://youtu.be/8ext9G7xspg)] @ Kylieyying  (@ fCC)
-    - Prepare Portfolio & Interviews
-    - **Complete [Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) & [LeetCode](https://leetcode.com/) ~~^^~~ (!!!)**
-    <!-- (!!!) = STILL TO DO -->
-
-* ##### ~~[1 - Self Taught Programmers... Listen Up](https://youtu.be/FrFY6Y1MJBQ) & [2 - Zero to Full-Time Programmer in 5 Steps](https://youtu.be/s9iPo9YMU70)~~ @ Keny Gunderman's
-    * 1 || Self-taught ain’t easy, maybe more than 6 months | Don’t overthink, just code and learn to adapt | Networking: Discord, LinkedIn, events... REFERENCES! | Dive in to the deep end | Reconsider your choices
-    * 2 || Language: **JavaScript (Fullstack & Mobile) [Frameworks: React, Vue, Angular, Node** | Learn variables, functions, conditions, loops, classes, objects | Visit *freeCodeCamp, Codeacademy Udemy...* | Imitate | Innovate, build a Portfolio and market yourself
-
-* ##### ~~[Career Paths for Software Engineers & How to Navigate It](https://youtu.be/oGy_uK6FrgE)~~ @ TechLead
-    - *Backend* [Python, PHP **+** node.js **+** Java, C]
-    - (*^1) *Frontend* [JavaScript, CSS, HTML **+** frameworks [Angular, React, Vue.js] ]
-    - ***Fullstack*** [ [RubyOnRails, Django, Golang] **+** SQL **+** Linux]
-    - ***Mobile*** (Android [Kotlin, Java])
-    - *Game/Graphics* [C++, physics, shaders, GPUs… VR+AR]
-    - *Data* (see 08:56 - 09:20)
-    - *Machine Learning* (math)
-    - *Cybersecurity* (null)
-    - (*^2) ***DevOps*** [Linux, Perl, scripting, bash, Unix commands]
-    - *QA* (test automation software – Test Suites)
-    - (*^1) **Frontend** = *API*s hookups & Rendering [UX, buttons, UI, color, fonts, graphics, positioning, layout]
-    - (*^2) **DevOps** = site reliability
-
-</details>
-
-
-<details>
-<summary> Industry Trends ~ 2022 is gonna be wild for Developers </summary>
-
-[Developer Trends in 2022](https://youtu.be/LOpFYMPXqE4) @ Fireship
-
-- *Web 3* = decentralized internet if smart contracts | crypto
-    - No more passwords but blockchain wallet addresses **(browser plugin like metamask)** | d-app = code in the blockchain as smart-contract (data ownership) | tech is in early stages, as an industry it’s not worth the trouble, although if successful and mainstream, then AYE!
-    - ***to-do*** ~~^^~~ 'Entirely decentralized news network, where journalists could upload video, articles and other reporting, and be compensated based on its reach *(basically a good Twitter)*. It would incentivize good journalism and eliminate the possibility of a top-down propaganda machine. Journalists win, consumers win, and the establishment gets f*.
-
-- *Metaverse* = hyper-real alternative world
-    - internet-based platform with multiple access points [phone, VR, AR]
-    - users require one single profile to interact with [businesses, apps, other users…] in a virtual environment
-    - dangerous tho, as it may enhance [addiction, isolation]
-    - **tools [unity, unreal engine, blender]** ~~^^~~ (!!!)
-    - ***to-do*** ~~^^~~ sorta *Squarespace* or *Shopify* for the **Multiverse** (ie. a platform for businesses)
-
-
-    ![Metaverse Market Map](/images/slit_img-metaverse_market_map.png)
-
-- *AI* = all over the place (see *GitHub copilot* affecting devs directly)
-
-- *Databases* = (...) ~~^^~~
-
-- *JavaScript* = (...) ~~^^~~
-
-- *Other trends* = (...) ~~^^~~
-
-- *Conclusion* = (...) ~~^^~~
-
-</details>
-
-
-<details>
-<summary> Programming Protocol </summary>
-
-* ##### ~~Comment_IQ, Documentation & Portfolio ~~^^~~ [If You're Learning to Code STOP Taking Notes](https://youtu.be/VCWzQpUwsaw)~~ @ Dorian Develops
-
-    - ~~^^~~ Prepare **CompTIA certificates**
-    - *memorizing != retaining:* for first_tutorials don’t bother with notes |
-    work through curriculum for 1-2 months building projects from scratch
-    - **Commenting code:** everything relevant if not obvious | overkill = all variables, even single-lines | slowly develop Comment_IQ | **later, comment = all I write and copypaste from online rss** so I understand and explain the process
-    - ~~^^~~ **Documentation:** always start with a README file | **learn markdown & WYSIWYG** | **explain project (technologies, codebase, purpose) | *Documentation = notes* |overkill = ['Getting started' section, Examples of code snippets, Demos of what library/app does] | learn from my tools’ Documentation [structure, content, ...]
-    - *Conclusion:*
-        - explain [code-blocks do, application does]
-        - do what real world 'good software development teams' do
-        - figure out what is worth holding on to and what isn’t
-        - **memorize = muscle memory**
-        - **my output to the world ==** notes for GitHub *(clean clear code, solid Docm.)*
-        - remember employers like solid portfolio w/ all explained
-
-<!-- key skill to level-up: Debugging -->
-
-* ##### ~~Analytical, creative & diffuse approach ~~^^~~ [Be a Better Programming by Mastering Debugging](https://youtu.be/DQEVZ5efnO0)~~ @ Andy Sterkowitz
-
-    - **Key insights:**
-        - **Computer Logic Understanding:** how to write instructions (code) for Computers to run Operations and return Output
-        - **Programming** = bugs, errors (misspells, wrong references)... Avoid such by *commiting constantly*
-        - **Debugging** is the assessment process of finding the cause for bugs in the code.
-        - **Good debugger:** reads lots of code analytically, abstract thinker, 'code-doctor'
-
-    - **Main points:**
-        - **Mindset change**: if smth broken: from DOER to DOCTOR, be curious and inquisitive, slow-down and don't overlook
-        - **Read error messages**: detailed info (where issue, what is it), copypaste online
-        - **Use debugging tools**: aka surgery; breakpoints ~~^^~~ (!!!)
-        - **General:**
-            - Double check logic aka instructions
-            - Assume human error: fight with clean code, tests;  question anything you may have written
-            - Commit small changes: for consistant development
-            - Take mental breaks: **'power-through approach' VS 'Diffuse Thinking'**
-
-* ##### ~~Focus, deep-understanding, needfulness & growth ~~^^~~ [7 Habits of Senior Software Developers](https://youtu.be/zivngNtLiuY)~~
-
-    - **Focus:** one thing for a long time; avoid multi-tasking and task-switching
-    - ~~^^~~ **Automation:** avoid repetition (in code)
-    - **Pragmatism** (biznez perspective): look at the bigger picture; avoid over-engineer and *refactoring*
-    - **Teach others:** Unconscious Competence + explain in simple terms = Refine Mental Models + Communication
-    - ~~^^~~ **Open-Minded:** learn new [frameworks, languages] = build preferences; seek cutting-edge
-    - **Seek feedback**
-    - **Follow your interest:** stay motivated, fresh and happy == dive into new things
-
-</details>
-
-
-<details>
-<summary> Problem Solving & Efficient Habits </summary>
-
-* ##### ~~Fitness, results, KISS & 'The Zone' ~~^^~~ [7 Habits of Highly Effective Programmers](https://youtu.be/W8ykZNSLDqE)~~ @ TechLead
-    - **Intro:** right habits != burnout | long-term game == skills, tecniques; right career trajectory
-    - **Fitness and sunshine:** because programming is physically demanding
-    - **Results-oriented approach**: avoid *refactoring*; get projects done looking good
-    - **KISS**: keep Code simple and consistant | *standarize* team methods | **all Code == read-write-debug easily**
-    - **Getting in 'the Zone':** code and lose track of time = solid code (bc *large abstractions*) IF undistracted
-    - **Sharpen yourself**: comfort zone == outdated | **key debug: adapt and diagnose**
-    - **Collaboration:** share ideas | code integration in a team environment | networking
-    - **Programming = solo:** lonely activity (code, documentation) in the digital world
-
-* ##### TDD & prototyping ~~^^~~ [Problem-Solving for Developers - A Beginner's Guide](https://youtu.be/UFc-RPbq8kg) @ Fireship
-
-    <!-- {Case study — Using GraphQL and JS to merge 600 PRs} -->
-    - (*^1) **Identify** ~ Understand the problem | *Documentation* = *Problem Statement* [context, situation/issue, why do we care]
-    - **Research & Refine** ~ Visit StackOverflow and assess others’ approach | Break down problem into *subproblems*
-    - **Pseudocode** ~ Outline the code to-be = *focus on logic, not syntax*; comment and name things
-    - ~~^^~~ **Test-Driven Development (TDD)** ~ Helps understanding code & prevents regression | *'Red Green Refactor'*
-    - **Implement** ~*Hackathon approach*: Done = tests_OK + prototype_OK
-    - **Reflect on prototype** ~ Improve readability, name things better, add comments, remove duplication, optimize time/space complexity of algorithms, add *caching* to reduce cloud computing costs, improve error handling...
-    - **Practice and repeat** ~ Infinite problems and challenges, so develop *intuitive skills*; get feedback
-
-    <!-- {Dev Mindset — For programming, look at a problem and visualize how a computer system can solve it} -->
-    ######
-    - (*^1) ~~^^~~ [**Agile approach:**](https://www.atlassian.com/agile/project-management/epics-stories-themes) stories, epics, initiatives
-
-</details>
-
-### Self-taught dev 10x
-wow, such empty...
-
-### FIELDS
-
-
-<details>
-<summary> FIELDS </summary>
-
-- Computer Science
-    - [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
-    - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
-    - [Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
-    - Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
-    <!-- turn this $material into a document with all episodes summarized -->
-    - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
-- Data Science 
-    - [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
-    - [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
-        - **Learn Python** (friendly syntax, versatile, popular)
-            - **First weeks:** Learn variables, datatypes [strings, floats, ints, arrays], loops, functions, if statements, OOP | RSS = [interactive websites [fCC, Codeacademy], video-tutorials, books] | Objective = implement fundamental concepts = play around and expand tutorials’ content
-            - **Late personal projects:**  interesting/useful, small, ~~copypaste~~
-                - (n01-04) - n01 '(array(database)), random output IF input(x,y)' | n02 'snake = basics+OOP+UI' | n03 'stock trading bot' | **arrays < Pandas pydata // data-frame** |**learn APIs // (beginner 2 advanced)**
-                - then: algorithms and data structures [dictionaries, linked lists, queues, heaps, trees, graphs] ~~^^~~ BUILD a MAZE and an ALGORITHM to solve it
-            - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
-        - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
-        - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
-- DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
-- Ingeniería Informática: [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
-- Software Engineerz </summary>
-    - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
-    - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
-        - Burnout: overwhelming **backlog** and interviews
-        - Tough competition
-        - Junior Devs tasks: learn **codebase** & knockout pull requests
-
-</details>
-
-### TOPICS
-
-<details>
-<summary> TOPICS </summary>
-
-- Artificial Intelligence & Machine Learning (Bot programming & Tensorflow)
-    - 101s | Neural Networks
-        - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
-        - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
-    - Techonologeez
-        - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
-    - Models
-        - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
-        - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
-        - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
-        - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
-        - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
-    - BOTS PROJECTS (PY/SH)
-- Algorithms
-    - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
--  APIs: [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
-- Backend
-    - [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
-    - ADD THE code with lewis VID
-- Browsers
-    - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
-    - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
-- **CLOUD**: [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
-- Databases: [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
-- Frontend ~ Design: [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
-<!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
-- Fullstack: [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
-- **Git**: [Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
-- Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
-- OOP - Object Oriented Programming: [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
-- Open Source
-    - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-    - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
-- Tech Stacks (~ WebDev)
-    - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
-    - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
-- **Testing** (Software)!!!!!!!
-    - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
-    - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
-- Web Dev: [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
-- *bonus*... ~ Junior Dev Jobs </summary>
-    - [Lemon.IO](https://lemon.io/for-developers/)
-
-</details>
+- Self-taught dev 101
+    - 'Look afar and see the end from the beginning'
+    - Industry Trends ~ 2022 is gonna be wild for Developers
+    - Programming Protocol
+    - Problem Solving & Efficient Habits
+- Self-taught dev 10x
+- FIELDS
+- TOPICS
 
 ## 04. SysAdmin || Operating Systems
 
-<details>
-<summary> SysAdmin || Operating Systems </summary>
-
-### sysadmin -gen-
-
-- Sysadmin Jobs
-    - [How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI) @ IT Career Questions
-    - [How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4) @ Sir Sudo
-
-- OSs101
-    - [Types of OS afap](https://youtu.be/MR2ntdZW__A) @ Techquickie
-    - BIOS...
-        - [BIOS and UEFI afap](https://youtu.be/zIYkol851dU) @ Techquickie
-        - [BIOS, CMOS, UEFI - What's the difference?](https://youtu.be/LGz0Io_dh_I) @ PowerCert Animated Videos
-    - Dual Boot ~ [The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0) @ Techno Tim
-    - *Virtual Machines* ~ [see '7.0 ~ Networks | Hacking'](#70-networks--hacking)
-
+- sysadmin -gen-
 - Virtualization (ojo [InfoSec](#malware--pentesting))
-    - [How to Setup a Virtual Machine for Malware Analysis](https://youtu.be/-40OBLWVsgo) @ Guided Hacking
-    - [Learn Virtual Machines RIGHT NOW! (Kali Linux, VM, Ubuntu, Windows)](https://youtu.be/wX75Z-4MEoM) @ Network Chuck
-    - [Ditch Virtualbox, Get QEMU/Virt Manager](https://youtu.be/wxxP39cNJOs) @ Mental Outlaw
-    - [Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88) @ Chris Titus Tech
-    - [20 Ways to Use a Virtual Machine (and other ideas for your homelab)](https://youtu.be/SVQmzaSabEQ) @ Techno Tim
-
 - Windowz
-    - [PowerShell, BIOS...]
-    - [I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8) @ Basically Homeless
-</details>
-
-<details>
-<summary> Linux misc. - Ventoy </summary>
-
-###  Linux
-
-- Misc.
-    - [Linux for the Absolute Beginner...](https://youtu.be/EN7mbRccT-8) @ Low Dough Tech
-    - [7 Linux Terminal Application and Utilities](https://youtu.be/ZNNqkeeOdrk) @ Tech Hut
-    - ☠️ [Why Linux Is Better For Programming](https://youtu.be/otDOHt_Jges) @ Kalle Hallden
-
-- Ventoy
-    - [Ventoy - An Easy to Use MultiBoot USB Tool](https://youtu.be/K64sT0pQc-0) @ Mental Outlaw
-    - [How to create the ULTIMATE multiboot flash drive using Ventoy!](https://youtu.be/7eQciSP91eI) @ Alfredo Sequeida
-    - [How to Create a Multiboot USB with Ventoy | Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc) @ Techno Tim
-
-- Linux Distros
-    - [What is the Best Linux Distro? -Its the one you Make the best](https://youtu.be/_f5uev7UTz0) @ Mental Outlaw
-    - Linux Mint
-        - [How good is Linux Mint for beginners](https://youtu.be/pNWDnJ_kESM) @ The Linux Experiment
-        - [20 Different Types of Linux Mint Themes](https://youtu.be/PIrl3Eb0H44)
-        - [From Noob To Power User With Linux Mint Cinnamon](https://youtu.be/TKX29fJ8U2Y) @ Distro Tube
-    - Pop OS!
-    - Chicago95 ~ [Bring Back Windows 95 with XFCE + Chicago](https://www.youtube.com/shorts/VcbzoOjMLHM) @ Tech Hut <!--find in GitHub>
-    - Kali Linux ~ [Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs) @ fCC && [Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg) @ The Good Hacker
-    - MX Linux ~ [From Noob to Power-User with MX Linux](https://youtu.be/IsnSSY2vTXQ) @ Distro Tube
-    - Top 5 Arch-like ~ [Top Five Arch-Based Linux Distros 2022](https://youtu.be/zkmTpxVpj6Q) @ Distro Tube
-        - ArcoLinux ~ [ArcoLinux - First Impressions and Install](https://youtu.be/S_dG79GhNfI) @ Tech Hut <!--install in VM-->
-        - Manjaro | Arch ~ [Manjaro is NOT Arch](https://youtu.be/VzAw8a3Jx-k) @ Tech Hut
-
+- Linux
+    - Misc.
+    - Ventoy
+    - Distros
 - **WSL** 
-    - [BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E) @ Fireship
-    - [I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c) @ Forrest Knight
+- Android </summary>
 
-</details>
-
-<details>
-<summary> Android </summary>
-
-- ROOT
-    - Root 101 ~ [What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
-    - ROMs proper ~ [Android 13 Custom ROM List: Unofficially update your Android Smartphone!](https://xda-developers.com/android-13-custom-rom-list) @ XDA-Developers
-
-- Misc.
-    - Dual Boot for Windows ~ [Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
-    - AndroNix' Linux ~ [Easily run Linux on Android with AndroNix - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
-    - Calyx OS ~ [Calyx OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA) @ Mrwhosetheboss <!--(Hacking...)-->
-  
-<!-- VERY IMPORTANT LOCAL GL76'S DIRECTORY: 'LINUX' -->
-<!-- ### 4.5 ~ +more -->
-<!-- $consoles $JAILBREAK $TINKERING $cars -->
-
-</details>
-
-## 05. CODE
+## 05. CODE Programming
 
 Please visit the [CODE folder](/CODE) to find **materials** and **actual projects**.
 
 
 ## 06. Game Development | Emulation & Modmaking
 
-<details>
-<summary> Game Development </summary>
-
-### Game Dev. ~ Langs Engines & Community
-
-- GameDev ideas
-    - 2048 (JavaScript + CSS) ~ [Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc) @ WebDevSimplified
-    - Geo Game idea ~ [I Tried Creating a Game Using Real-World Geographic Data](https://youtu.be/sLqXFF8mlEU) @ Sebastian Lague
-    - Pokémon (Lua) ~ [Pokémon Coding Tutorial - CS50's Intro to Game Development](https://youtu.be/gx_qorHxBpI) @ fCC
-
-- Pygame limitations: [Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U) @ DaFluffyPotato
-
-- Game Engines
-    - Unity
-        - Strong C# ~ [Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg) @ Fireship
-        - [I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o) @ But Why Levin
-
-- GameDev community
-    - itch.io ~ [itch.io](https://itch.io/)
-    - reddit ~ [reddit communities compiled lol](https://reddit.com)
-    - GMTK: [GMTK Game Jam 2022](https://youtu.be/XNCGdi2A6fQ) @ Game Maker's Toolkit
-    - Minijuegos (Devs) ~ [Miniplay > Devs](https://ssl.miniplay.com/dev/user/login)
-
-<!-- ME Gamez aye > ### 6.1 ~ Karmaggän
-First off, peek into local **Jagger Dress Up** -->
-
-</details>
-
-<details>
-<summary> Game modding </summary>
-
-### Game Modding ~ Emulation Mod-making & Reverse Engineering
-
-- Emulation
-    - emudev.org ~ [emudev's hub of Discord servers for ALL systems](https://emudev.org/discord_related)
-    - Game Cube ~ [Emulation on Gamecube - NES, SNES, GBA, PS1 & more](https://youtu.be/_rYVWzjVWmw) @ Blaine Locklair
-    - Emu ROMS: Zophar ~ [Zophar's Domain](https://www.zophar.net/), ... (!) 
-
-- Mod-Making: Mod-making 101 ~ [Game Modding afap](https://youtu.be/4BB1HfvSqAI) @ Techquickie
-
-- Reverse Engineer (Retro Games): [Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction) @ Retro Reversing
-
-</details>
+- Game Development
+    - GameDev ideas
+    - Game Engines
+    - GameDev community
+- Game modding
+    - Emulation
+    - Mod-Making
+    - Reverse Engineering
 
 
 ## 07. NETWORKS | HACKING
 
-<details>
-<summary> Networking & DIY NAS (for Netadmin) </summary>
-
-### Networks & Servers
-- 101s misc.
-    - Internet Speed ~ [Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E) @ Techquickie
-    - **Routers**: *40 minutes...* ~ [Your home router SUCKS!! (use pfSense instead)](https://youtu.be/lUzSsX4T4WQ) @ Network Chuck- Latency ~ [Latency afap](https://youtu.be/UWeMWIoUWQA) @ Techquickie
-    - Network Ports: [Network Ports Explained](https://youtu.be/g2fT-g9PX9o) @ PowerCert Animated Videos
-    - Tarifas ~ [Consejos para elegir la MEJOR TARIFA de FIBRA y MÓVIL](https://youtu.be/tDT9XAi8G40) @ Xataka TV
-- **Server** stuff
-    - bit weird: [I put a computer in my computer](https://youtu.be/cVWF3u-y-Zg) @ Jeff Geerling --> Server's IP KVM = Internet Protocol Keyboard Video Mouse | Remote KVM connection to a computer over a network |
-- **HomeLab** stuff
-    - [Tour of Home Network](https://youtu.be/Ev0PL892zSE) @ The 8-Bit Guy
-    - [What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM) @ Techno Tim
-    - [HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs) @ Techo Tim
-    - [What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4) @ IT Career Questions
-- VPNs <!--setup in Win and Lin-->
-- VPSs: [Best VPS hosting providers of 2022](https://www.techradar.com/news/best-vps-hosting) @ Tech Radar
-
-
-### DIY NAS
-- DIY_NAS aka 'Home Server' <!--'20.3 ~ Tinkering'-->
-    - [Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw) @ Linux Tech Tips
-    - [Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U) @ Hardware Haven
-    - [How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w) @ Zach's Tech Turf
-    - [How to build a DIY NAS from an OLD PC | Budget TrueNAS](https://youtu.be/FN3NhrD3KWo) @ Torogi Pro
-    - [Turn Old Computer into a NAS with FreeNas!](https://youtu.be/OUz5vC0IZX4) @ Torogi Pro
-    - [Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug) @ Electronics Wizardry
-    - [Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo) @ Tech Hut
-    - [What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0) @ Tech Hut
-    - [Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs) @ Hardware Haven
-    - [Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo) @ The Bear Tech
-
-</details>
-
-<details>
-<summary> Information Security </summary>
-
-### Hacking fundamentals
-- Cryptography
-    - [7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ) @ Fireship
-- CTF
-    - [How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0) @ CTF School
-- Hacking...
-    - Cybersecurity... ~ [Dejo que ataquen mi servidor y acaba mal](https://youtu.be/lAByu20XJt4) @ Ringa Tech
-    - [Let's hack your home network // FREE CCNA // EP 9](https://youtu.be/80vIin4xGp8) @ Network Chuck
-    - [Create your own Hacking Lab and Hack your first Machine! (Disposable Kali Linux)](https://youtu.be/ir3QhZp8864)
-    - [How Hackers Hack Companies With Microsoft Office](https://youtu.be/_O1zfm5wavo) @ Marcus Hutchins
-    - [How do hackers hide themselves? - staying anonymous online](https://youtu.be/BWVyp0wYpgA) @ Grant Collins
-    - ['Nmap' Tutorial to find Network Vulnerabilities](https://youtu.be/4t4kBkMsDbQ) @ Network Chuck
-
-### Malware + Pentesting
-- Black Hat...
-    - Cyber Kill Chain (CKC) ~ [The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU) @ TayOnTech
-    - about DarkSide's ethos ~ [DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg) @ Forrest Knight
-- Botnetz
-    - [How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M) @ Mental Outlaw
-    - Emotet ~ [The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY) @ Mental Outlaw
-- Dark Web | Tor
-    - [How Tor Works](https://youtu.be/QRYzre4bf7I) @ Computerphile
-    - [How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU) @ Tech Raj
-    - [How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto) @ The Cyber Mentor
-    - [SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE) @ Crypto NWO <!--ok for Malware-->
-- Digital Forensics: [Magnet AXIOM Forensics](https://www.magnetforensics.com/products/magnet-axiom/)
-- Jailbreaking: consoles & mobiles rootin <!--see other sections-->
-- Malware ($python)
-    - Pretty bad video but still... [Comparison: Computer Viruses](https://youtu.be/VqgE7WO3RSQ). Dawg we need to show the actual guns here.
-    - [New 'Borat' Malware?](https://youtu.be/4EKksK_maTM) @ Seytonic
-    - [I created malware with **Python** (it's SCARY easy!!)](https://youtu.be/UtMMjXOlRQc) @ Network Chuck
-    - [Can They Defeat My Homemade Virus?](https://youtu.be/tswtqG8c_P0) @ Basically Homeless
-- Pentesting: [Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA) @ David Bombal
-- Reverse Engineering
-    - Reverse Engineering 101 ~ [Getting Started Learning Reverse Engineering | Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU) @ Marcus Hutchins
-    - Ghidra 101 ~ [INGENIERÍA INVERSA USANDO GUIDRA (Herramienta de la NSA) | Tutorial](https://youtu.be/aQICC0EtG90) @ Mr Código Fuente
-
-### Scambaiting
-- @ Engineer Man
-    - [Using My Python Skills To Punish Credit Card Scammers](https://youtu.be/StmNWzHbQJU)
-- @ Kitboga
-    - [Scam Call Turns NUCLEAR Over Expected $1M Fortune](https://youtu.be/_Ma5RY2bG38)
-    - [Spending All My Money While Scammers Watch (they're furious)](https://youtu.be/K8weeeK-BPQ)
-    - [These Tech Scammers Can't Figure Out What To Say](https://youtu.be/LXNiNuvWDJQ)
-    - [This AI Brings Down Scammer Call Centers (in world record time)](https://youtu.be/coNjpBa5m1E)
-    - [When Scammers Lose Thousands To Ransomware](https://youtu.be/yjkPb2mU0DU)
-    - [Will Scammers Notice Windows 'Really Good' Edition?](https://youtu.be/F0peLpovDB8)
-- @ Scambaiter
-    - [Filling Out A Scammers Form, But With HIS OWN REAL Details!](https://youtu.be/xLyrc_JZmF4)
-- @ Scammer Payback
-    - [First ever Anti-Scam Call Center](https://youtu.be/_u_JTddAYes)
-    - ~~[We Created the First Ever ANTI-SCAM Call Center](https://youtu.be/_u_JTddAYes)~~
-- @ Scammer Revolts
-    - (!!!) ~ [How to Scambait and Expose a Tech Support Scammer!](https://youtu.be/orEUCHTvmW0)
-- @ The Engineer Man
-    - [Showing a Craiglist scammer who's the boss using Python](https://youtu.be/UtNYzv8gLbs)
-
-</details>
+- Networking
+    - 101s misc.
+    - **HomeLab** stuff
+    - VPNs + VPSs
+- DIY NAS (for Netadmin)
+- Information Security
+    - Hacking fundamentals & proper
+    - CTF
+    - Malware + Pentesting
+        - Dark Web | Tor
+    - Reverse Engineering
+- Scambaiting
 
 ## 08. IT Certificates
 
