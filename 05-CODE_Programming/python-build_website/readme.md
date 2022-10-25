@@ -14,6 +14,10 @@ Following a tutorial by @ Tech With Tim
   - [Creating Routes/Views](#creating-routesviews)
   - [Jinja Templating Language & HTML Templates](#jinja-templating-language--html-templates)
   - [Sign Up Page HTML](#sign-up-page-html)
+  - [Login Page HTML](#login-page-html)
+  - [HTTP Requests (POST, GET, ETC.)](#http-requests-post-get-etc)
+  - [Handling POST Requests](#handling-post-requests)
+  - [Message flashing](#message-flashing)
 
 </details>
 
@@ -248,3 +252,114 @@ def login ():
 ## Sign Up Page HTML
 
 Let's start working on the backend, user accounts, databases and all that fun stuff!
+
+1. In `sign_up.html`, delete `<h1>This is the sign up page</h1>` and build up the sign-up form:
+
+```html
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<form method="post">
+    <h3 align="center">Sign Up</h3>
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter email"
+        >
+    </div>
+</form>
+{% endblock %}
+```
+
+2. Having explained the **classes** within `<input>`, let's add more fields:
+   1. firstName
+   2. password1
+   3. password2
+
+3. Include **button** after the previous elements to send info:
+
+```html
+<br />
+<button type="submit" class="btn btn-primary">Submit</button>
+```
+
+4. **RECAP**: we are coding according with the ***Bootstrap*** CSS framework thanks to the relevant `<links/>` & `<scripts>` in `base.html`.
+
+
+## Login Page HTML
+
+1. Copypaste from `sign_up.html` and modify:
+   1. Remove `firstName` and one of the `passwords`.
+   2. "Signup" for "Login".
+   3. "Submit" for "Login".
+
+## HTTP Requests (POST, GET, ETC.)
+
+HTTP: Hypertext Transfer Protocol
+
+Methods (post, get, delete...) are useful to differenciate *requests* to our *routes*.
+- Get (request): retrieve info, load site
+- Post: change state of system, database, etc.
+
+Currently we have only established the `<form method="post">` request (in Login, etc.); which is sent to the server and is expected to be managed, but we currently have no instructions for that.
+
+## Handling POST Requests
+
+1. In `auth.py`:
+
+```python
+@auth.route('/login', methods=['GET', 'POST'])
+
+@auth.route('/sign-up', methods=['GET', 'POST'])
+```
+
+2. Import `request` to handle the information and...
+
+```python
+from flask import Blueprint, render_template, request
+
+@auth.route('/login', methods=['GET', 'POST'])
+def login ():
+    data = request.form
+    print(data)
+    # return "<p>Login</p>"
+    return render_template("login.html")
+```
+
+> Now I am struggling cause data only prints sometimes (when using `data=request.form.getlist('name[]'`) <!--https://stackoverflow.com/questions/23205577/python-flask-immutablemultidict-->
+
+3. Next, same for 'Sign up'.
+   1. We want to collect data for our database/backend; we also need to make sure data is valid for user creation.
+
+```python
+@auth.route('/sign-up', methods=['GET', 'POST'])
+def sign_up ():
+    if request.method == 'POST':
+        email = request.form.get('email')
+        firstName = request.form.get('firstName')
+        password1 = request.form.get('password1')
+        password2 = request.form.get('password2')
+
+        if len(email) < 4:
+            pass
+        elif len(firstName) < 2:
+            pass
+        elif password1 != password2:
+            pass
+        elif len(password1) < 7:
+            pass
+        else:
+            # add user to database
+            pass
+
+    return render_template("sign_up.html")
+```
+> still kinda struggling to print stuff
+
+## Message flashing
+
