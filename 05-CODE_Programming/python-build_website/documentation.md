@@ -5,7 +5,16 @@ Following a tutorial by @ Tech With Tim
 - short video (might watch): [Make A Python Website As Fast As Possible!](https://youtu.be/kng-mJJby8g)
 - if anything, source code: [github](https://github.com/techwithtim/Flask-Web-App-Tutorial)
 
+<details>
+<summary>Table of Contents</summary>
 
+- [Python Website Full Tutorial - Flask, Authentication, Databases & More](#python-website-full-tutorial---flask-authentication-databases--more)
+  - [Getting started](#getting-started)
+  - [Creating a Flask App](#creating-a-flask-app)
+  - [Creating Routes/Views](#creating-routesviews)
+  - [Jinja Templating Language & HTML Templates](#jinja-templating-language--html-templates)
+
+</details>
 
 ## Getting started
 
@@ -115,3 +124,80 @@ def sign_up ():
 > RUN THE WEBPAGE
 
 ## Jinja Templating Language & HTML Templates
+
+Let's improve our **routes** with some **HTML**.
+
+Besides, **Flask** uses a template language called **Jinja** (mixing python + HTML while avoiding JavaScript).
+
+1. Let's start in `Templates` creating `base.html`.
+- This is going to be the **Frontend**, `base.html` will have like the basic website theme; other html files will add stuff to this basics.
+- If I wanted to use my own JS stuff, I should add it to `static` so that the script pulls 'em nicely. Also reme
+- Python expressions work if inside double curly, like `{{ print("sup dawg") }}`.
+- As we paste the `<scripts>`, we may create `index.js` in `static` folder.
+- Things like `<nav class>` are still bootstrap and we should look into that on Bootstrap website 🤔!
+- <!--install VSC 'Prettier'!-->
+- 
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta ...>
+        <meta ...>
+        <link ...> <!--this is CSS bootstrap...-->
+        <link ...>
+
+        <!--This is Jinja; python syntax OK in curly braces-->
+        <title> {% block title %}Home{% endblock %}</title>
+    </head>
+    
+    <!--Now for the body, starting with the scripts-->
+    <body>
+        <nav class=...>
+            <button
+            class=...
+            ...
+            >
+                <span class=...>
+            </button>
+            <div class=...>
+                <div class=...>
+                    <a class=...>Login</a> <!--HERE IS REDIRECT TO LOGIN-->
+                    <a class=...>Sign Up</a>
+                    <a class=...>Logout</a>
+                    <a class=...>Home</a>
+        </nav>
+        <script
+            src=...
+            integrity=sha384-...
+            crossorigin=...
+        ></script>
+        <script
+            ...
+        ></script>
+        <script
+            ...
+        ></script>
+        <script
+            type="text/javascript"
+            src="{{ url_for('static', filename='index.js') }}"
+        ></script>
+    </body>
+</html>
+```
+
+2. Now we are ready to use this template in other files, hence we create `home.html` in templates.
+
+```html
+{% extend "base.html" %}
+{% block title %}Changed{% endblock %}
+```
+
+3. Gotta render these templates in `views.py`.
+
+```python
+from flask import render_template
+
+@...
+def home():
+    return render_template("home.html")
