@@ -20,12 +20,12 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button 
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbar"
-            >
-                <span class="navbar-toggler-icon"></span>
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbar"
+                >
+                    <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
                 <div class="navbar-nav">
@@ -36,6 +36,7 @@
                 </div>
             </div>
         </nav>
+        <div class="container">{% block content %} {% endblock %}</div>
         <script
             src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -55,14 +56,7 @@
             type="text/javascript"
             src="{{ url_for('static', filename='index.js') }}"
         ></script>
-
-
-
-
     </body>
-
-
-
 </html>
 
 

@@ -13,6 +13,7 @@ Following a tutorial by @ Tech With Tim
   - [Creating a Flask App](#creating-a-flask-app)
   - [Creating Routes/Views](#creating-routesviews)
   - [Jinja Templating Language & HTML Templates](#jinja-templating-language--html-templates)
+  - [Sign Up Page HTML](#sign-up-page-html)
 
 </details>
 
@@ -186,10 +187,10 @@ Besides, **Flask** uses a template language called **Jinja** (mixing python + HT
 </html>
 ```
 
-2. Now we are ready to use this template in other files, hence we create `home.html` in templates.
+2. Now we are ready to use this template in other files (*template inheritance*), hence we create `home.html` in templates.
 
 ```html
-{% extend "base.html" %}
+{% extends "base.html" %}
 {% block title %}Changed{% endblock %}
 ```
 
@@ -201,3 +202,49 @@ from flask import render_template
 @...
 def home():
     return render_template("home.html")
+```
+
+> RUN THE WEBSITE
+> ![FLASK1]()
+
+4. Back in `base.html`, in between `</nav>` and `<script>` (to prepare a "space" for more content in each "view"):
+
+```html
+    <div class="container">{% block content %} {% endblock %}</div>
+
+```
+
+5. Now in `home.html`:
+
+```html
+{% block content %}
+<h1>This is the home page</h1>
+{% endblock %}
+```
+
+> RUN THE WEBSITE
+
+6. Let's create more templates!!
+   1. Correct `{% block title %}Home{% endblock %}` in `home.html`.
+   2. For `login.html`, copypaste `home.html` contents and change as required.
+   3. In `auth.py`:
+
+```python
+from flask import Blueprint, render_template
+
+@auth.route('/login')
+def login ():
+    # return "<p>Login</p>"
+    return render_template("login.html")
+
+...
+    return render_template("sign_up.html")
+```
+> RUN WEBSITE!
+
+7. **Tim explains here about passing *variables* and *if-statements* to templates with JINJA (min 44)**.
+
+
+## Sign Up Page HTML
+
+Let's start working on the backend, user accounts, databases and all that fun stuff!
