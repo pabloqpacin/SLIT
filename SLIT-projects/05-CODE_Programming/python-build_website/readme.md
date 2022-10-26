@@ -5,6 +5,10 @@ Following a tutorial by @ Tech With Tim
 - short video (might watch): [Make A Python Website As Fast As Possible!](https://youtu.be/kng-mJJby8g)
 - if anything, source code: [github](https://github.com/techwithtim/Flask-Web-App-Tutorial)
 
+More related content:
+- [GeekForGeeks00](https://www.geeksforgeeks.org/how-to-get-data-from-immutablemultidict-in-flask/)
+
+
 <details>
 <summary>Table of Contents</summary>
 

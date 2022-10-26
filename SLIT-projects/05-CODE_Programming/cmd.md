@@ -10,3 +10,6 @@ dir & REM a comment
 dir & :: a comment
 ```
 
+## Scripts
+
+Read [smallbusiness.chron.com](https://smallbusiness.chron.com/write-cmd-script-53226.html)
