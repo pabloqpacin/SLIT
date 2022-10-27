@@ -22,6 +22,8 @@ More related content:
   - [HTTP Requests (POST, GET, ETC.)](#http-requests-post-get-etc)
   - [Handling POST Requests](#handling-post-requests)
   - [Message flashing](#message-flashing)
+  - [Flask SQLAlchemy setup](#flask-sqlalchemy-setup)
+  - [Database Models](#database-models)
 
 </details>
 
@@ -365,5 +367,125 @@ def sign_up ():
 ```
 > still kinda struggling to print stuff
 
+<!--jueves 27/10/2022-->
 ## Message flashing
+
+1. Write the messages inn `auth.py`:
+      - In contrast with Tim, I keep the `print(email, firstName, password1)` line because it didn't work earlier so better keep it for *research*.
+      - mark in mind the `category` **parameter**.
+
+```python
+# Import flash
+from flask import Blueprint, render_template, request, flash
+
+# (...)
+
+        if len(email) < 4:
+            # previously `pass` here
+            flash('Email must be greater than 4 characters.', category="error" )
+        # (...)
+        else:
+            # add user to database
+            # previously `pass` here
+            flash('Account created!', category='success')
+                        print(email, firstName, password1)
+```
+
+
+2. How to display the messages! Need to write a block of code in `base.html`; this way the block will work in any **route**.
+
+    1. Must write underneath the `nav` bar but above the main content (`div ... % block content %`)
+    2. Must write a **for-loop**.
+       1. First define `messages` variable to equal `flash` function in `auth.py` (because Flask!) and
+       2. write the **if-statment**
+    3. Then write the [`<div>` tag](https://www.w3schools.com/tags/tag_div.ASP) using ***Bootstrap's*** `alert` for `class` 
+
+```html
+<!--this block is for error/success messages in `auth.py`-->
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+    {% for category, message in messages %}
+    <!--error messages: `danger` for red-->
+    {% if category == 'error' %}
+    <div class="alert alert-danger alert-dismissable fade show" role="alert">
+        <!--pull the message-->
+        {{ message }}
+        <!--dismiss button-->
+        <button type="button" class="close" data-dismiss="alert">
+            <!--include icon-->
+            <span aria-hidden="true">&times;></span>
+        </button>
+    </div>
+    <!--success messages: `success` for green-->
+    {% else %}
+    <div class="alert alert-success alert-dismissable fade show" role="alert">
+        <!--pull the message-->
+        {{ message }}
+        <!--dismiss button-->
+        <button type="button" class="close" data-dismiss="alert">
+            <!--include icon-->
+            <span aria-hidden="true">&times;></span>
+        </button>
+    </div>
+    {% endif %}
+    {% endfor %}
+{% endif %}
+{% endwith %}
+```
+
+
+## Flask SQLAlchemy setup
+
+Let's start with our **database** in `__init__.py`,importing `SQLAlchemy` module from `flask_sqlalchemy`  library and defining a new database.
+
+```python
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
+DB_NAME = "database.db"
+
+# To interact with the database (`database.db`)  (eg. create users) we'll use the **database object** `db`
+
+def create_app():
+    # (...)
+    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
+    db.init_app(app)
+```
+
+## Database Models
+
+In `models.py`, let's define the structure. We want database (*DB*) model for (1) users and (2) *notes*.
+
+1. Must use `flask_login` module and `UserMixin` for object inheritance, as means to log in users.
+
+2. Define **classes** (first, `Users`):
+   1. Try to use singular.
+   2. Importance of **primary keys** as unique identifiers for different entries (ie. same 'first name' twice), tipically an integer; therefore **variable** `id = ... integer, primary_key...`.
+   3. 99% times we use `db.Column`.
+   4. For `Strings`, max lenght.
+   5. `unique=True` so that no other users can have same `email` variable.
+
+```python
+from . import db # . = website package
+from flask_login import UserMixin
+
+class User(db.Model, UserMixin):
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(150), unique=True)
+    password = db.Column(db.String(150))
+    first_name = db.Column(db.String(150))
+```
+
+3. Now `Notes`:
+   1. Also *inherites* from `db.Model`.
+   2. Recap `primary_key` will add +1 to last id integer.
+
+```python
+from sqlalchemy.sql import func # to set DateTime automatically :D
+
+class Notes(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    data = db.Column(db.String(10000))
+    date = db.Column(db.DateTime(timezone=True), default=func.now())
+```
 
