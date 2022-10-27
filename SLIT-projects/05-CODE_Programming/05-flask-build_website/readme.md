@@ -1,7 +1,7 @@
 # Python Website Full Tutorial - Flask, Authentication, Databases & More
 
 Following a tutorial by @ Tech With Tim
-- long video (following): [Python Website Full Tutorial - Flask, Authentication, Databases & More](https://youtu.bem/dam0GPOAvVI)
+- long video (following): [Python Website Full Tutorial - Flask, Authentication, Databases & More](https://youtu.be/dam0GPOAvVI)
 - short video (might watch): [Make A Python Website As Fast As Possible!](https://youtu.be/kng-mJJby8g)
 - if anything, source code: [github](https://github.com/techwithtim/Flask-Web-App-Tutorial)
 
