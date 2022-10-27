@@ -24,6 +24,11 @@ More related content:
   - [Message flashing](#message-flashing)
   - [Flask SQLAlchemy setup](#flask-sqlalchemy-setup)
   - [Database Models](#database-models)
+  - [Foreign Key Relationships](#foreign-key-relationships)
+  - [Database Creation](#database-creation)
+    - [error - SQLAlchemy db.create_all() got an unexpected keyword argument 'app'](#error---sqlalchemy-dbcreate_all-got-an-unexpected-keyword-argument-app)
+    - [database.db - weird behaviour](#databasedb---weird-behaviour)
+  - [Creating New User Accounts](#creating-new-user-accounts)
 
 </details>
 
@@ -476,16 +481,82 @@ class User(db.Model, UserMixin):
     first_name = db.Column(db.String(150))
 ```
 
-3. Now `Notes`:
+3. Now `Note`:
    1. Also *inherites* from `db.Model`.
    2. Recap `primary_key` will add +1 to last id integer.
 
 ```python
 from sqlalchemy.sql import func # to set DateTime automatically :D
 
-class Notes(db.Model):
+class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     data = db.Column(db.String(10000))
     date = db.Column(db.DateTime(timezone=True), default=func.now())
 ```
 
+## Foreign Key Relationships
+
+Time to associate *notes* with *users* aka associate different info with different users.
+
+Each user may have multiple notes, so we must establish a **relationship** between the *Note object* and the *User object*.
+
+To do that we use **foreign keys** aka a column in our database that refs a different DB column.
+
+So now, for every *note* we want to store the `id` of the *user* who created it. So let's integrate such `user_id`:
+
+```python
+# In `class Note`:
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    # type of column = integer
+    # ForeignKey = must pass valid ID to this field AKA 'one to many' relationship --> 1 user but many notes AKA 1 object and many children
+    # so! we store a ForeignKey on the child object that references the parent object
+    # now! every note links to a user thanks to `user_id` and their `primary_key`
+```
+
+Now we also want *users* to find their *notes*:
+
+```python
+# In `class User`:
+    notes = db.relationship('Note')
+    # now every note created generates a relationship with the user
+```
+
+Mind the capitals: `Note` must be uppercase but `user.id` lowercase  because 'foreignKey'.
+
+Also mind the differences between "one to many" relationships and "many to one" (ie. 1 note many users).
+
+
+## Database Creation
+
+We have set it up in `__init__.py` and defined what it would look like in `models.py`.
+
+Now back in `__init__.py` we'll write a script for the **app** to check, before ever running the server, whether a database is created.
+
+1. First `from .models import User, Note` before the app is initialized, right after *blueprints register*.
+
+2. Then the DB function!
+
+```python
+from os import path # to determine whether there's a path to the database
+
+def create_database(app):
+    if not path.exists('website/' + DB_NAME):
+        db.create_all(app=app)
+        print('Created Database!')
+
+```
+
+> RUN THE APP
+### error - SQLAlchemy db.create_all() got an unexpected keyword argument 'app'
+
+Documentation: [stackoverflow.com](https://stackoverflow.com/questions/73968584/flask-sqlalchemy-db-create-all-got-an-unexpected-keyword-argument-app) ->
+
+See [comments](/website/__init__.py) in `__init__.py`.
+
+> RUN THE APP
+
+### database.db - weird behaviour
+
+Database file `database.db` is created in automatically generated `instance` folder; Tim gets it in `website` package tho 😕
+
+## Creating New User Accounts

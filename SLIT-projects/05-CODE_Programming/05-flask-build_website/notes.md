@@ -19,7 +19,8 @@ just need to carry on and perhaps visit the *readme* every now and then
 1. Change background color --> I don't want boring annoying white 
 2. Maybe... figure out why the `{% with messages = get_flashed_messages(with_categories=true) %}` aren't highligthed same way as Tim. Is it the *theme*? 🤔
 3.  Tweak flashed messages to f* with the user
-
+4. Add more `models` and ensure the `user` can access such info (ie. **reminders**)
+5. Figure out why `database.db` is created in separate `instance` folder; why not in current `website` package?
 
 ## progress
 
@@ -27,6 +28,6 @@ just need to carry on and perhaps visit the *readme* every now and then
 - watch out with `data-dismiss`cuz not suggested
 
 
-
-
-
+### Databasez
+- Mind the `os` module/library
+- **TBF** quite a few different lines here [Flask-SQLAlchemy db.create_all() got an unexpected keyword argument 'app'](https://stackoverflow.com/questions/73968584/flask-sqlalchemy-db-create-all-got-an-unexpected-keyword-argument-app)...
