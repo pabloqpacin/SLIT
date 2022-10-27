@@ -551,7 +551,7 @@ def create_database(app):
 
 Documentation: [stackoverflow.com](https://stackoverflow.com/questions/73968584/flask-sqlalchemy-db-create-all-got-an-unexpected-keyword-argument-app) ->
 
-See [comments](/website/__init__.py) in `__init__.py`.
+See [comments](/SLIT-projects/05-CODE_Programming/05-flask-build_website/website/__init__.py) in `__init__.py`.
 
 > RUN THE APP
 

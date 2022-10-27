@@ -1,3 +1,9 @@
+<<OJALDRE>>
+- linking:
+    - SLIT/blob/week43 [file](/SLIT-projects/05-CODE_Programming/05-flask-build_website/)website
+<<OJALDRE>>
+
+
 notes commenting the [readme](readme.md) file
 
 
