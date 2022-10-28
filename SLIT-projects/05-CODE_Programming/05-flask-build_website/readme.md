@@ -33,6 +33,11 @@ More related content:
     - [Account created!](#account-created)
   - [Logging In Users](#logging-in-users)
   - [Flask Login Module](#flask-login-module)
+    - [Current Feats](#current-feats)
+  - [Checking if user is logged in](#checking-if-user-is-logged-in)
+  - [Notes HTML](#notes-html)
+  - [Adding User Notes](#adding-user-notes)
+  - [Deleting User Notes](#deleting-user-notes)
 
 </details>
 
@@ -692,4 +697,210 @@ Besides granting loggin to the user, also make sure at signup that email is avai
 
 ## Flask Login Module
 
-Need to make sure 'homepage' is only available to logged-in users!
+1. So still in `auth.py`. Need to make sure 'homepage' is only available to logged-in users!
+
+- Relationship between `current_user` and `User_Mixin` in `models.py`.
+- `remember` similar to cache.
+
+
+```python
+from flask_login import login_user, login_required, logout_user, current_user
+
+# @auth.route
+# def login():
+    # (...)
+    # if check_password_hash(user.password, password):
+        login_user(user, remember=True)
+
+
+# @auth.route
+@login_required
+# def logout():
+    logout_user()
+    return redirect(url_for('auth.login'))
+
+
+# @auth.route
+# def sign_up():
+    # (...)
+    # db.session.commit()
+        login_user(user, remember=True)
+```
+
+2. Now in `views.py`.
+
+```python
+from flask_login import login_user, login_required, logout_user, current_user
+
+# @views.route('/')
+@login_required
+```
+
+3. Finally in `__init__.py`
+
+```python
+from flask_login import LoginManager
+
+# def create_app():
+    # db.create_all()
+
+    login_manager = LoginManager()
+    login_manager.login_view = 'auth.login'
+    login_manager.init_app(app)
+
+    @login_manager.user_loader
+    def load_user(id):
+        return User.query.get(int(id))
+```
+
+> RUN THE WEBSITE
+
+### Current Feats
+
+- Can only visit `sign_up` and `login`.
+- Having logged-in I'm redirected to `home`
+- Now I could `logout` to return to mandatory `login`.
+
+
+## Checking if user is logged in
+
+So that the nav bar only displays relevant tags.
+
+1. In `views.py`, set `current_user` for the `home.html` template.
+
+```python
+    # return render_template("home.html",
+    user=current_user
+    # )
+```
+
+2. Now not actually in `home.html` but in `base.html`. Let's config the 'nav bar' according with 'user login'.
+
+```html
+<!-- <div class="navbar-nav"> -->
+{% if user.is_authenticated %}
+<a class="nav-item nav-link" id="home" href="/">Home</a>
+<a class="nav-item nav-link" id="logout" href="/logout">Logout</a>
+{% else %}
+<a class="nav-item nav-link" id="login" href="/login">Login</a>
+<a class="nav-item nav-link" id="signUp" href="/sign-up">Sign Up</a>
+{% endif %}
+```
+
+3. Same thing for `render_template` in `auth.py`:
+
+```python
+# @auth.route
+# def login():
+    # return render_template("login.html",
+    user=current_user # )
+
+# @auth.route
+# def sign_up():
+    # return render_template("sign_up.html",
+    user=current_user # )
+```
+
+## Notes HTML
+
+In `home.html`.
+
+- `ul` for lists. 
+
+```html
+<!-- {% block content %} -->
+<h1 align="center">Notes</h1>
+<ul class="list-group list-group-flush" id="notes">
+    {% for note in user.notes %}
+    <li class="list-group-item">{{ note.data }}</li>
+    {% endfor %}
+</ul>
+<form method="POST">
+    <textarea name="note" id="note" class="form-control"></textarea>
+    <br />
+    <div align="center">
+        <button type="submit" class="btn btn-primary">Add Note</button>
+    </div>
+</form>
+```
+
+> RUN THE WEBSITE: NOTES WORK IN HOME :DDD
+
+## Adding User Notes
+
+Go to `views.py`. Must import `request` and `flash`, as well as the `Note` model and `db` (database object).
+
+```python
+from flask import Blueprint, render_template, request, flash
+from .models import Note
+from . import db
+
+
+# @views.route('/',
+methods=['GET', 'POST'] # )
+
+# def home():
+    if request.method == 'POST':
+        note = request.form.get('note')
+
+        if len(note) < 1:
+            flash('Note is too short!', category='error')
+        else:
+            new_note = Note(data=note, user_id=current_user.id)
+            db.session.add(new_note)
+            db.session.commit()
+            flash('Note added!', category='success')
+```
+
+## Deleting User Notes
+
+1. Go to `home.html` and set a button to interact (delete) with available notes.
+
+- Need a "JS function" for the `onClick` *parameter*: best way for us right there to send the "delete" request to the Backend. Function is going to be `deleteNote`.
+
+```html
+<!--<li class="list-group-item">{{ note.data }} -->
+<button type="button" class="close" onClick="deleteNote({{ note.id }})">
+    <span aria-hidden="true">&times;</span>
+</button>
+```
+
+2. Finally `index.js` (which is already in use because bottom `script` in `base.html`).
+
+- `fetch` for requests
+- this code is going to take a given `noteId` and send a 'POST' request to the `/delete-note` endpoint (yet to write).
+    - after getting a response, **reloads the window** (`window.location.href...`), refreshing the homepage.
+
+```javascript
+function deleteNote(noteId) {
+    fetch('/delete-note', {
+        method: 'POST',
+        body: JSON.stringify({ noteId: noteId }),
+    }).then((_res) => {
+        window.location.href = "/";
+    });
+}
+```
+
+3. Again in `views.py`, gotta add a new location.
+
+- Actually need **JSON** because request/data parameter, so import it as well as `jsonify` (already imported lol).
+ 
+```python
+# from flask import jsonify
+import json
+
+@views.route('/delete-note', methods=['POST'])
+def delete_note():
+    note = json.loads(request.data)
+    noteId = note['noteId']
+    note = Note.query.get(noteId)
+    if note:
+        if note.user_id == current_user.id:
+            db.session.delete(note)
+            db.session.commit()
+    
+    return jsonify({})
+```
+
+> RUN THE WEBSITE & ==all good==

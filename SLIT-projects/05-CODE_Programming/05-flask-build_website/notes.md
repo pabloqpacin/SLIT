@@ -27,6 +27,7 @@ just need to carry on and perhaps visit the *readme* every now and then
 3.  Tweak flashed messages to f* with the user
 4. Add more `models` and ensure the `user` can access such info (ie. **reminders**)
 5. Figure out why `database.db` is created in separate `instance` folder; why not in current `website` package?
+6. Emm... am I actually using `path` in `__init__.py`?
 
 ## progress
 
@@ -47,3 +48,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 Now see the whole **hash** rant in `readme.md`.
 
+
+### Deleting User Notes
+- Mind JS errors `',' expected` for `home.html` (Ln 10).
+
+> boss continues nevertheless...
