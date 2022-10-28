@@ -53,3 +53,12 @@ Now see the whole **hash** rant in `readme.md`.
 - Mind JS errors `',' expected` for `home.html` (Ln 10).
 
 > boss continues nevertheless...
+
+
+
+# post-tutorial
+
+
+- check out `.gitignore` thing for...
+- what about `__pycache__`?
+- and... should I leave `database.bd` separate then?
