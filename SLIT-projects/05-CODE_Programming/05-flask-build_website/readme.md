@@ -29,6 +29,10 @@ More related content:
     - [error - SQLAlchemy db.create_all() got an unexpected keyword argument 'app'](#error---sqlalchemy-dbcreate_all-got-an-unexpected-keyword-argument-app)
     - [database.db - weird behaviour](#databasedb---weird-behaviour)
   - [Creating New User Accounts](#creating-new-user-accounts)
+    - [Tim's `first_name` error](#tims-first_name-error)
+    - [Account created!](#account-created)
+  - [Logging In Users](#logging-in-users)
+  - [Flask Login Module](#flask-login-module)
 
 </details>
 
@@ -560,3 +564,132 @@ See [comments](/SLIT-projects/05-CODE_Programming/05-flask-build_website/website
 Database file `database.db` is created in automatically generated `instance` folder; Tim gets it in `website` package tho 😕
 
 ## Creating New User Accounts
+
+> importancia de **linking** en [notes.md](/SLIT-projects/05-CODE_Programming/05-flask-build_website/notes.md)
+> <!--==linktest2.0==-->
+
+1. In `auth.py`, use the `sign_up()` function to create accounts.
+   1. Call `User` class model
+   2. Need to import thingies from `flask_login` to **hash** passwords.
+   3. ... free choice of `sha256` hashing algorithm
+
+```markdown
+# hash
+
+## **HASHING** to secure a password
+- passwords shouldn't be stored as plain text; password shouldn't be stored as password is.
+- So password is converted into a secure format AKA *hash*.
+
+## **HASHING FUNCTIONS**
+'one-way function', ie. doesn't have inverse
+
+### example of an inverse function in **python**
+x -> y
+f(x) = x + 1
+
+"Inverse" means that having 'y' ('x + 1'), you can get back to x:
+
+f(y) = y - 1
+
+eg.
+f(2) -> 3
+f'(3) -> 2
+
+ie.
+Given the output, you can find the input
+
+### hashing means no inverse
+
+Ouput can't retrace input:
+
+X -> Y
+Y -> ?
+
+So, password x and you *hash* it to y.
+Now having y, no one can find out x.
+Still, "you can check if the password you're typing is correct by running it through the same hashing function".
+That is, whether your 'password' equals the **hash** that's stored :)
+
+(Therefore `password=generate_password_hash` below)
+```
+
+2. Now we also want to redirect the users!
+
+> Finally here's codey:
+
+```python
+from flask import ... redirect, url_for
+from .models import User
+from werkzeug.security import generate_password_hash, check_password_hash
+from . import db # ...
+
+# (...)
+
+    else:   
+        new_user = User(email=email, firstName=firstName, password=generate_password_hash(password1, method='sha256'))
+            # error 'db not defined' so import it... 
+            db.session.add(new_user)
+            db.session.commit()
+            # flash ...
+            # return redirect('/') --> fine but messy if routes ever change
+            return redirect(url_for('views.home'))
+
+```
+
+> LET'S CREATE THE FIRST ACCOUNT AYE!!
+
+### Tim's `first_name` error
+
+Yes, four timez in `auth.py`.
+
+### Account created!
+
+|email|pquevedo @ G|
+|---|---|
+|name|pablerasyo
+|passwd| micro7
+
+## Logging In Users
+
+Back in `auth.py`. Don't forget to redirect to ~.
+
+Besides granting loggin to the user, also make sure at signup that email is available (not yet used).
+
+```python
+# @auth.route
+# def login():
+
+    if request.method == 'POST':
+        email = request.form.get('email')
+        password = request.form.get('password')
+
+        user = User.query.filter_by(email=email).first()
+        if user:
+            if check_password_hash(user.password, password):
+                flash('Logged in successfully!', category='success')
+                return redirect(url_for('views.home'))
+            else:
+                flash('Incorrect password, try again', category='error')
+        else:
+            flash ('Email does not exist.', category='error')
+
+    return render_template("login.html")
+
+# (...)
+
+# @auth.route
+# def sign_up():
+    # (...)
+    user = User.query.filter_by(email=email).first()
+        if user:
+            flash('Email already exists.', category='error')
+        elif len(email) < 4:
+            # (...)
+```
+
+> RUN THE WEBSITE: login & signup work as intended :D
+
+
+## Flask Login Module
+
+Need to make sure 'homepage' is only available to logged-in users!

@@ -37,3 +37,13 @@ just need to carry on and perhaps visit the *readme* every now and then
 ### Databasez
 - Mind the `os` module/library
 - **TBF** quite a few different lines here [Flask-SQLAlchemy db.create_all() got an unexpected keyword argument 'app'](https://stackoverflow.com/questions/73968584/flask-sqlalchemy-db-create-all-got-an-unexpected-keyword-argument-app)...
+
+### User accounts & passwords
+
+In `auth.py`:
+```python
+from werkzeug.security import generate_password_hash, check_password_hash
+```
+
+Now see the whole **hash** rant in `readme.md`.
+
