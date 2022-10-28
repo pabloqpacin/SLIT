@@ -47,7 +47,7 @@ More related content:
 ```markdown
 - python-build_website
     - website
-        - statit
+        - static
         - templates
         - __init__.py
         - auth.py
