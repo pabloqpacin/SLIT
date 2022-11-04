@@ -1,4 +1,3 @@
-
 # SLIT
 
 For learning materials see [SLIT-materials](/SLIT-materials).
