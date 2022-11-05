@@ -39,6 +39,17 @@
 ||$C—CLOUD$
 |[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
 ||
+||$C—CONSOLES$
+|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
+|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
+|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
+||
+||$CRYPTOGRAPHY$
+|[ ]|cryptography|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
+|[ ]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
+||
+|[ ]|cyberdeck, tinkerin'|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
+||
 ||$D—DEEPWEB$
 |[ ]|deepweb, darkweb|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
 |[ ]|deepweb, darkweb, malware|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for malware**
@@ -56,17 +67,6 @@
 |[ ]|electronics, MC-RPi|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
 |[ ]|electronics, MC-RPi|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
 |[ ]|electronics, MC|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
-||
-||$C—CONSOLES$
-|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
-|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
-|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
-||
-||$CRYPTOGRAPHY$
-|[ ]|cryptography|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
-|[ ]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
-||
-|[ ]|cyberdeck, tinkerin'|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
 ||
 ||$G—GAMEDEV$
 |[ ]|game-dev, engines|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
@@ -222,7 +222,6 @@
 |[ ]|CS degree|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
 |[ ]|CS ingeniería|[4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
 |[ ]|CS licenciatura[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
-<!-- turn this $material into a document with all episodes summarized -->
 |[ ]|CS students|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
 ||
 |[ ]|sysadmin|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
@@ -255,14 +254,9 @@
 
 ## strong hierarchy
 
-|a|b|c|d|e|
-|---|---|---|---|---|
-|Software—Development|
-|-coding gen|
-|-git|
-|-testing|
-|Tinkerin'|
-|Security|
-|-CTF|
-|-malware|
+see [hierarchy](/test/hierarchy.md)
+
+```markdown
+# sup dawg
+```
 
