@@ -119,12 +119,23 @@ Mind `.` stands for the given `[x]`
 
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
-|$SYSTEMS$ n $Soft.Dev$|`devsysadmin`
+||
+|$Comp.Sci.$ *&* $Soft.Dev.$|`devsysadmin`
+|[ ]|`.`|[Computer Science - Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye)|Crash Course
+|[ ]|`.`|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
+|[ ]|`.`|[100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)|Fireship
+|[ ]|`.`|[4º de Ingeniería Informática en 15 Minutos](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
+|[ ]|`.`|[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
 ||
 |$PROGRAMMING$
+|[ ]|`.` `jobs`|[Developer Portfolio Do's and Don'ts](https://youtu.be/nlSgxeT2_dc)|Kenny Gunderman|**good advice**
+|[ ]|`.` `jobs`|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
 |[ ]|`blockchain`|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
 |[ ]|`databases`|[SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM)|Fireship
+|[ ]|`Git`|[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos)|Fireship
+|[ ]|`Internet_speed`|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
 |[ ]|`metaverse`|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
+|[ ]|`roadmap` `python`|[The Real Python Developer Roadmap](https://youtu.be/d5BzuLlII_Y)|Zero To Mastery
 |$Art.Intelligence$ $Mach.Learning$|`ai` `ml`
 |[ ]|`.`|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding|`neural_networks`
 |[ ]|`.`|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden|`neural_networks`
@@ -134,6 +145,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.` `Unity`|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
 |[ ]|`.` `Unity`|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
 |[ ]|`.` `Unity`|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
+|[ ]|`mod-making`|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
 |$languages$|`$`
 |[ ]|AI|[IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4)|Santi Fiorino
 |[ ]|AI, neural_networks|[NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk)|Greer Viau
@@ -166,6 +178,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`python` `pygame`|[Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U)|DaFluffyPotato
 |[ ]|`python` `PyAutoGUI`|[Python Automation with PyAutoGUI; full course with projects](https://youtu.be/3PekU8OGBCA)|Code of the Future|PyAutoGUI; 40 min.
 |[ ]|`python` `RPico`|[Virtual Pet Code in MicroPython on the Raspberry Pi Pico — Pico-Tamachibi](https://youtu.be/btG3Pd8ZlBw)|Kevin McAleer|`RPico`
+|[ ]|`python` `simulations`|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
 |[ ]|`Rust`|[What can you build in Rust?!](https://youtu.be/MraEYwI9C5o)|Let's Get Rusty
 |$web—dev$|`webdev`
 |[ ]|`.`|[100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs)|Fireship
@@ -191,47 +204,28 @@ Mind `.` stands for the given `[x]`
 |[ ]|`darkweb`|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for `malware`**
 |[ ]|`darkweb` `Tor`|[How Tor Works](https://youtu.be/QRYzre4bf7I)|Computerphile
 |[ ]|`darkweb` `Tor`|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
+|[ ]|`jobs`|[¿Cómo empezar en ciberseguridad](https://youtu.be/syqItp4p8Qw)|S4vitar
 |[ ]|`malware`|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
 
 ---
 
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
-||$GAME—MODDING$
-|[ ]|mod-making|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
-||
-||$Git$
-|[ ]|Git|[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos)|Fireship
-|[ ]|Internet speed|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
-||
-||$J—JOBS$
-|[ ]|jobs|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
-|[ ]|jobs|[Developer Portfolio Do's and Don'ts](https://youtu.be/nlSgxeT2_dc)|Kenny Gunderman|**good advice**
-|[ ]|jobs, security|[¿Cómo empezar en ciberseguridad](https://youtu.be/syqItp4p8Qw)|S4vitar
-||
-|$LINUX$|
-|$distros$|
-|[ ]|Manjaro|[MANJARO has a BIG PROBLEM](https://youtu.be/oVlD17OjFAc)|The Linux Experiment
-|[ ]|openSUSE|[I Spent 90 days in openSUSE Tumbleweed, This Is What Happened!](https://youtu.be/Idx2_YXVvNE)|DASGeek|must trye
-|[ ]|openSUSE|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
-|[ ]|openSUSE|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
-|$kernel$|
-|[ ]|Linux Kernel|[Kernel Linux(I) ¿Qué es el kernel de Linux](https://youtu.be/xJi7rIyLOrc)|Entropía Binaria
-|[ ]|Linux Kernel, Linus_Torvalds|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
-|[ ]|Linux Kernel|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
 ||
 |[ ]|`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
-||$C—CLOUD$
-|[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
 ||
-|$consoles$|
-|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
-|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
-|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
+|$OSs$|
+|$linux$|
+|[ ]|`distros` `Manjaro`|[MANJARO has a BIG PROBLEM](https://youtu.be/oVlD17OjFAc)|The Linux Experiment
+|[ ]|`distros` `openSUSE`|[I Spent 90 days in openSUSE Tumbleweed, This Is What Happened!](https://youtu.be/Idx2_YXVvNE)|DASGeek|must trye
+|[ ]|`distros` `openSUSE`|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
+|[ ]|`distros` `openSUSE`|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
+|[ ]|`kernel_dev`|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
+|[ ]|`kernel_dev`|[Kernel Linux(I) ¿Qué es el kernel de Linux](https://youtu.be/xJi7rIyLOrc)|Entropía Binaria
+|[ ]|`kernel_dev` `Torvalds`|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
 ||
-||$OPEN—SOURCE$
-|[ ]|Open-Source|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-|[ ]|Open-Source|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
+|$windows$|
+||
 ||
 ||$P—PROGRAMMING$
 |[ ]|algorithms|[Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo)|Nemean
@@ -272,9 +266,6 @@ Mind `.` stands for the given `[x]`
 |[ ]|reverse_engineering, Ghidra|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
 |[ ]|retro-games|[Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction)|Retro Reversing
 ||
-||$(INDUSTREY)$
-||$ROADMAP (JOBS)$
-|[ ]|roadmap, python-dev|[The Real Python Developer Roadmap](https://youtu.be/d5BzuLlII_Y)|Zero To Mastery
 ||
 ||$S—SECURITY$
 |[ ]|CTF|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
@@ -289,13 +280,6 @@ Mind `.` stands for the given `[x]`
 |[ ]|TDD|[Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ)|Fireship
 |[ ]|TDD|[Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4)|Fireship
 ||
-||$studying—CS$
-|[ ]|CS|[100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)|Fireship
-|[ ]|CS crash_course|[Computer Science - Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye)|Crash Course
-|[ ]|CS degree|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
-|[ ]|CS ingeniería|[4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
-|[ ]|CS licenciatura|[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
-|[ ]|CS students|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
 ||
 |[ ]|sysadmin|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
 ||
@@ -309,6 +293,17 @@ Mind `.` stands for the given `[x]`
 ||$TERMINAL$
 |[ ]|terminal, windows|[Windows Terminal NEW Features: v1.0 -> v1.15](https://youtu.be/hA4rGwT0nC4)|**ThioJoe**|mucho WINDOWS este pavo
 ||
+||$C—CLOUD$
+|[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
+||
+|$consoles$|
+|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
+|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
+|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
+||
+||$OPEN—SOURCE$
+|[ ]|Open-Source|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
+|[ ]|Open-Source|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
 
 
 
