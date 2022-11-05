@@ -11,33 +11,23 @@
 ## Electronics theory 101
 
 - Electricity & Electronics 101
-    - [How Electricity works](https://youtu.be/mc979OhitAg) @ EngineeringMindset
-    - [Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds) @ Afrotechmods
     - Electronic Engineering ~ [Electronic Engineers 2022](https://youtu.be/CGD8qeizblc)
     - [Electronic components](https://youtu.be/6Maq5IyHSuc) @ bigclivedotcom
     - [How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
 
 - Computers & Components 
-    - -gen-
-        - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
-        - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
-    - CPUs
-        - [How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-        - [CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk) @ Max's Tech
-    - Graphics -all
-        - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
-        - JPEG ~ [How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I) @ Branch Education
-    - HDMI
-        - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
-    - Motherboards
-        - [Motherboards Explained](https://youtu.be/b2pd3Y6aBag) @ PowerCert Animated Videos
-    - Power Supply
-        - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
-        - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
-    - SSDs
-        - SSDs | Smartphones (?!) ~ [How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg) @ Branch Education
-    - (bonus) ~ Bluetooth
-        - [How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM) @ Branch Education
+- -gen-
+    - [From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
+    - [How are Microchips made?](https://youtu.be/bor0qLifjz4) <!-- | Linus in Israel-->
+- Graphics -all
+    - Custom video card ~ [Building a DIY video card](https://youtu.be/l7rce6IQDWs) @ Ben Eater
+- HDMI
+    - [HDMI vs MHL](https://lifewire.com/mhl-in-home-theater-1846852)
+- Power Supply
+    - ... ~ [Probably the most used component nobody knows of! TL431 Guide!](https://youtu.be/isutYMU2HHU) @ Great Scott!
+    - Alt Power Supplies ~ [Free Energy Devices Build and Science](https://youtu.be/15V0gUXUPko) @ ElectroBOOM
+
+
 
 </details>
 
@@ -51,13 +41,8 @@
     - w/ Arduino... ~ [Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w) @ William Osman
 
 - Arduino UNO
-    - [Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M) @ Gary Explains
-    - Starting Kits ~ [5 best kits 2022](https://youtu.be/huKV8hdhsiY)
-    - 101s ~ [What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
-    - Guide 00 ~ [learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
-    - Course 00 ~ [fCCs course -4h-](https://youtu.be/zJ-LqeX_fLU)
-    - Projects 00 ~[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU) @ Maker Tutor
-    - Projects 01 ~ [Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
+    - 
+
 
 - Raspberry Pi
     - Regarding RPi4 8GB ~ [Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc) @ Android Authority

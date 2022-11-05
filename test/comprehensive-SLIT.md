@@ -9,30 +9,56 @@
 |[x]|category|title+link|creator|notes|
 |---|---|---|---|---|
 ||
+|[ ]|arduino|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
+|[ ]|arduino|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
+|[ ]|arduino|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
+|[ ]|arduino|[Arduino Course for Beginners // Open-Source Electronics Platform](https://youtu.be/zJ-LqeX_fLU)|freeCodeCamp.org
+|[ ]|arduino|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
+|[ ]|arduino|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
+||
+|[ ]|black-hat, ethos|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
+|[ ]|black-hat[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|CKC='cyber-kill-chain'
 |[ ]|black-hat|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
 ||
 |[ ]|blockchain, progr.|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
 ||
 |[ ]|CTF|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
+|[ ]|CTF, Python|[How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0)|CTF School
+||
+|[ ]|deepweb, darkweb|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
+|[ ]|deepweb, darkweb, malware|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for malware**
+|[ ]|deepweb, Tor|[How Tor Works](https://youtu.be/QRYzre4bf7I)|Computerphile
+|[ ]|deepweb, Tor|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
+||
+|[ ]|electricity|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
+|[ ]|electricity|[Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds)|Afrotechmods
 ||
 |[ ]|electronics|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
 |[ ]|electronics, tools|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!|**Black Friday (?)**
+|[ ]|electronics, MC|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
 |[ ]|electronics, MC-RPi|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
 |[ ]|electronics, MC-RPi|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
 |[ ]|electronics, MC|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
 ||
-|[]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
+|[ ]|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
+|[ ]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
 ||
 |[ ]|cyberdeck, tinkerin'|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
 ||
 |[ ]|game-dev, engines|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
 ||
-|[ ]|homelab, VPN, RPi|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel
+|[ ]|homelab|[What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4)|IT Career Questions
+|[ ]|homelab|[What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM)|Techno Tim
+|[ ]|homelab tools|[HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs)|Techo Tim
+|[ ]|homelab, network|[Tour of Home Network](https://youtu.be/Ev0PL892zSE) | The 8-Bit Guy
 |[ ]|homelab, router|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie
 |[ ]|homelab, router|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|A:no
 |[ ]|homelab, server|[What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0)|Tech Hut
+|[ ]|homelab, server|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
+|[ ]|homelab, server|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
+|[ ]|homelab, VPN, RPi|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel
 ||
-|[ ]| Internet speed|
+|[ ]| Internet speed|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
 ||
 |[ ]|jobs|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
 |[ ]|jobs|[Developer Portfolio Do's and Don'ts](https://youtu.be/nlSgxeT2_dc)|Kenny Gunderman|**good advice**
@@ -42,17 +68,24 @@
 |[ ]|Linux dev Kernel, Linus_Torvalds|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
 |[ ]|Linux dev Kernel|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
 ||
-|[ ]|low-level, games|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| ON Discord
-|[ ]|low-level, ...|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague|
-|[ ]|low-level, BIOS|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
-|[ ]|low-level, RAM|[How do Computers Work? Exploring Computer Main Memory DRAM DDR5](https://youtu.be/7J7X7aZvMXQ)|Branch Education| quality dawg
+|[ ]|low-level|[How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
 |[ ]|low-level|[Jamás Entenderás Cómo Funciona un PC al 100%](https://youtu.be/iOQnZKJ3fls)|Antonio Sarosi|**ojo**
+|[ ]|low-level, ...|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague
+|[ ]|low-level, BIOS|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
+|[ ]|low-level, bluetooth|[How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM)|Branch Education
+|[ ]|low-level, CPU|[CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk)|Max's Tech
+|[ ]|low-level, images|[How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I)|Branch Education
+|[ ]|low-level, games|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| ON Discord
+|[ ]|low-level, MOBO|[Motherboards Explained](https://youtu.be/b2pd3Y6aBag)|PowerCert Animated Videos
+|[ ]|low-level, RAM|[How do Computers Work? Exploring Computer Main Memory DRAM DDR5](https://youtu.be/7J7X7aZvMXQ)|Branch Education| quality dawg
+|[ ]|low-level, storage|[How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg)|Branch Education
 ||
 |[ ]|malware|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
 ||
 |[ ]|metaverse|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
 ||
-|[ ]|networking|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
+|[ ]|networking, firewalls|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
+|[ ]|networking, ports|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
 ||
 |[ ]|neural_networks|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|*HTML (?)*
 ||
@@ -61,7 +94,6 @@
 |[ ]|OSs, openSUSE|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
 |[ ]|OSs, openSUSE|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
 ||
-|[ ]|pentesting|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
 ||
 |[ ]|programming|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
 |[ ]|programming, coding|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
@@ -85,12 +117,27 @@
 |[ ]|prog. Python|[Turn An Excel Sheet Into An Interactive Dashboard Using Python (STreamlit)](https://youtu.be/Sb0A9i6d320)|Coding Is Fun
 |[ ]|prog. Rust|[What can you build in Rust?!](https://youtu.be/MraEYwI9C5o)|Let's Get Rusty
 ||
+|[ ]|repurpose (homelab)|[Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw)|Linux Tech Tips
+|[ ]|repurpose (homelab)|[Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U)|Hardware Haven
+|[ ]|repurpose (homelab)|[How to build a DIY NAS from an OLD PC // Budget TrueNAS](https://youtu.be/FN3NhrD3KWo)|Torogi Pro
+|[ ]|repurpose (homelab)|[Turn Old Computer into a NAS with FreeNas!](https://youtu.be/OUz5vC0IZX4)|Torogi Pro
+|[ ]|repurpose (homelab)|[Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug)|Electronics Wizardry
+|[ ]|repurpose (homelab, PLEX)|[Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo)|Tech Hut
+|[ ]|repurpose (homelab, PLEX)|[Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo)|The Bear Tech
+||
 |[ ]|restoration|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
 ||
 |[ ]|reverse_engineering|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
+|[ ]|reverse_engineering|[Getting Started Learning Reverse Engineering // Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU)|Marcus Hutchins
+|[ ]|reverse_engineering, Ghidra|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
+
 ||
 |[ ]|roadmap, python-dev|[The Real Python Developer Roadmap](https://youtu.be/d5BzuLlII_Y)|Zero To Mastery
 ||
+|[ ]|security, botnet|[How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M)|Mental Outlaw
+|[ ]|security, botnet|[The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY)|Mental Outlaw|emotet
+|[ ]|security, pentesting|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
+|[ ]|security, pentesting|[Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA)|David Bombal
 |[ ]|security, Windows|[Windows Defender Bypassed](https://youtu.be/ZCV1Wx3Qugg)|The PC Security Channel
 ||
 |[ ]|students_CompSci|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
