@@ -1,26 +1,122 @@
-## 03. Software Development -GEN-
+# 03-Software_Development_GEN
 
-### Self-taught dev 101
+- [03-Software_Development_GEN](#03-software_development_gen)
+  - [Self-taught dev 10x](#self-taught-dev-10x)
+  - [FIELDS](#fields)
+  - [TOPICS](#topics)
+  - [Self-taught dev 101](#self-taught-dev-101)
+
+
+## Self-taught dev 10x
+
+
+## FIELDS
+
+
+<details>
+<summary> FIELDS </summary>
+
+- Computer Science
+    - [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
+    - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
+    - [Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
+    - Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
+    <!-- turn this $material into a document with all episodes summarized -->
+    - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
+- Data Science 
+    - [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
+    - [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
+        - **Learn Python** (friendly syntax, versatile, popular)
+            - **First weeks:** Learn variables, datatypes [strings, floats, ints, arrays], loops, functions, if statements, OOP | RSS = [interactive websites [fCC, Codeacademy], video-tutorials, books] | Objective = implement fundamental concepts = play around and expand tutorials’ content
+            - **Late personal projects:**  interesting/useful, small, ~~copypaste~~
+                - (n01-04) - n01 '(array(database)), random output IF input(x,y)' | n02 'snake = basics+OOP+UI' | n03 'stock trading bot' | **arrays < Pandas pydata // data-frame** |**learn APIs // (beginner 2 advanced)**
+                - then: algorithms and data structures [dictionaries, linked lists, queues, heaps, trees, graphs] ~~^^~~ BUILD a MAZE and an ALGORITHM to solve it
+            - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
+        - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
+        - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
+- DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
+- Ingeniería Informática: [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
+- Software Engineerz </summary>
+    - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
+    - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
+        - Burnout: overwhelming **backlog** and interviews
+        - Tough competition
+        - Junior Devs tasks: learn **codebase** & knockout pull requests
+
+</details>
+
+## TOPICS
+
+<details>
+<summary> TOPICS </summary>
+
+- Artificial Intelligence & Machine Learning (Bot programming & Tensorflow)
+    - 101s | Neural Networks
+        - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
+        - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
+    - Techonologeez
+        - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
+    - Models
+        - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
+        - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
+        - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
+        - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
+        - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
+    - BOTS PROJECTS (PY/SH)
+- Algorithms
+    - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
+-  APIs: [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
+- Backend
+    - [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
+    - ADD THE code with lewis VID
+- Browsers
+    - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
+    - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
+- **CLOUD**: [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
+- Databases: [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
+- Frontend ~ Design: [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
+<!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
+- Fullstack: [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
+- **Git**: [Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
+- Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
+- OOP - Object Oriented Programming: [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
+- Open Source
+    - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
+    - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
+- Tech Stacks (~ WebDev)
+    - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
+    - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
+- **Testing** (Software)!!!!!!!
+    - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
+    - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
+- Web Dev: [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
+- *bonus*... ~ Junior Dev Jobs </summary>
+    - [Lemon.IO](https://lemon.io/for-developers/)
+
+</details>
+
+
+## Self-taught dev 101
 
 <details>
 <summary> 'Look afar and see the end from the beginning' </summary>
 
-* ##### ~~[4 Steps to Become a Developer {Shorts}](https://youtu.be/nvlizC6koSc)~~ @ Fireship
+* ### ~~[4 Steps to Become a Developer {Shorts}](https://youtu.be/nvlizC6koSc)~~ @ Fireship
     - Learn [HTML, CSS, JavaScript, React, Node]
     - Build something meaningful [1st Idea, 2nd Fail, 3rd Study, 4th Repeat]
 
-* ##### ~~[Fastest way to Learn Coding and actually get a job](https://youtu.be/79pKwdiqcwI)~~ (First thing I actually did)
+* ### ~~[Fastest way to Learn Coding and actually get a job](https://youtu.be/79pKwdiqcwI)~~ (First thing I actually did)
     - Learn **Python** for WebDev, DataSci, Automation...
     - Do [learnpython.org](https://learnpython.org), Download **VS Code** & Complete [12 Beginner Python Projects](https://youtu.be/8ext9G7xspg)] @ Kylieyying  (@ fCC)
     - Prepare Portfolio & Interviews
     - **Complete [Intro to Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-in-python--ud513) & [LeetCode](https://leetcode.com/) ~~^^~~ (!!!)**
     <!-- (!!!) = STILL TO DO -->
 
-* ##### ~~[1 - Self Taught Programmers... Listen Up](https://youtu.be/FrFY6Y1MJBQ) & [2 - Zero to Full-Time Programmer in 5 Steps](https://youtu.be/s9iPo9YMU70)~~ @ Keny Gunderman's
+* ### ~~[1 - Self Taught Programmers... Listen Up](https://youtu.be/FrFY6Y1MJBQ) & [2 - Zero to Full-Time Programmer in 5 Steps](https://youtu.be/s9iPo9YMU70)~~ @ Keny Gunderman's
     * 1 || Self-taught ain’t easy, maybe more than 6 months | Don’t overthink, just code and learn to adapt | Networking: Discord, LinkedIn, events... REFERENCES! | Dive in to the deep end | Reconsider your choices
     * 2 || Language: **JavaScript (Fullstack & Mobile) [Frameworks: React, Vue, Angular, Node** | Learn variables, functions, conditions, loops, classes, objects | Visit *freeCodeCamp, Codeacademy Udemy...* | Imitate | Innovate, build a Portfolio and market yourself
 
-* ##### ~~[Career Paths for Software Engineers & How to Navigate It](https://youtu.be/oGy_uK6FrgE)~~ @ TechLead
+* ### ~~[Career Paths for Software Engineers & How to Navigate It](https://youtu.be/oGy_uK6FrgE)~~ @ TechLead
     - *Backend* [Python, PHP **+** node.js **+** Java, C]
     - (*^1) *Frontend* [JavaScript, CSS, HTML **+** frameworks [Angular, React, Vue.js] ]
     - ***Fullstack*** [ [RubyOnRails, Django, Golang] **+** SQL **+** Linux]
@@ -72,7 +168,7 @@
 <details>
 <summary> Programming Protocol </summary>
 
-* ##### ~~Comment_IQ, Documentation & Portfolio ~~^^~~ [If You're Learning to Code STOP Taking Notes](https://youtu.be/VCWzQpUwsaw)~~ @ Dorian Develops
+* ### ~~Comment_IQ, Documentation & Portfolio ~~^^~~ [If You're Learning to Code STOP Taking Notes](https://youtu.be/VCWzQpUwsaw)~~ @ Dorian Develops
 
     - ~~^^~~ Prepare **CompTIA certificates**
     - *memorizing != retaining:* for first_tutorials don’t bother with notes |
@@ -89,7 +185,7 @@
 
 <!-- key skill to level-up: Debugging -->
 
-* ##### ~~Analytical, creative & diffuse approach ~~^^~~ [Be a Better Programming by Mastering Debugging](https://youtu.be/DQEVZ5efnO0)~~ @ Andy Sterkowitz
+* ### ~~Analytical, creative & diffuse approach ~~^^~~ [Be a Better Programming by Mastering Debugging](https://youtu.be/DQEVZ5efnO0)~~ @ Andy Sterkowitz
 
     - **Key insights:**
         - **Computer Logic Understanding:** how to write instructions (code) for Computers to run Operations and return Output
@@ -107,7 +203,7 @@
             - Commit small changes: for consistant development
             - Take mental breaks: **'power-through approach' VS 'Diffuse Thinking'**
 
-* ##### ~~Focus, deep-understanding, needfulness & growth ~~^^~~ [7 Habits of Senior Software Developers](https://youtu.be/zivngNtLiuY)~~
+* ### ~~Focus, deep-understanding, needfulness & growth ~~^^~~ [7 Habits of Senior Software Developers](https://youtu.be/zivngNtLiuY)~~
 
     - **Focus:** one thing for a long time; avoid multi-tasking and task-switching
     - ~~^^~~ **Automation:** avoid repetition (in code)
@@ -123,7 +219,7 @@
 <details>
 <summary> Problem Solving & Efficient Habits </summary>
 
-* ##### ~~Fitness, results, KISS & 'The Zone' ~~^^~~ [7 Habits of Highly Effective Programmers](https://youtu.be/W8ykZNSLDqE)~~ @ TechLead
+* ### ~~Fitness, results, KISS & 'The Zone' ~~^^~~ [7 Habits of Highly Effective Programmers](https://youtu.be/W8ykZNSLDqE)~~ @ TechLead
     - **Intro:** right habits != burnout | long-term game == skills, tecniques; right career trajectory
     - **Fitness and sunshine:** because programming is physically demanding
     - **Results-oriented approach**: avoid *refactoring*; get projects done looking good
@@ -133,7 +229,7 @@
     - **Collaboration:** share ideas | code integration in a team environment | networking
     - **Programming = solo:** lonely activity (code, documentation) in the digital world
 
-* ##### TDD & prototyping ~~^^~~ [Problem-Solving for Developers - A Beginner's Guide](https://youtu.be/UFc-RPbq8kg) @ Fireship
+* ### TDD & prototyping ~~^^~~ [Problem-Solving for Developers - A Beginner's Guide](https://youtu.be/UFc-RPbq8kg) @ Fireship
 
     <!-- {Case study — Using GraphQL and JS to merge 600 PRs} -->
     - (*^1) **Identify** ~ Understand the problem | *Documentation* = *Problem Statement* [context, situation/issue, why do we care]
@@ -145,95 +241,7 @@
     - **Practice and repeat** ~ Infinite problems and challenges, so develop *intuitive skills*; get feedback
 
     <!-- {Dev Mindset — For programming, look at a problem and visualize how a computer system can solve it} -->
-    ######
+    ###
     - (*^1) ~~^^~~ [**Agile approach:**](https://www.atlassian.com/agile/project-management/epics-stories-themes) stories, epics, initiatives
-
-</details>
-
-### Self-taught dev 10x
-wow, such empty...
-
-### FIELDS
-
-
-<details>
-<summary> FIELDS </summary>
-
-- Computer Science
-    - [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
-    - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
-    - [Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
-    - Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
-    <!-- turn this $material into a document with all episodes summarized -->
-    - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
-- Data Science 
-    - [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
-    - [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
-        - **Learn Python** (friendly syntax, versatile, popular)
-            - **First weeks:** Learn variables, datatypes [strings, floats, ints, arrays], loops, functions, if statements, OOP | RSS = [interactive websites [fCC, Codeacademy], video-tutorials, books] | Objective = implement fundamental concepts = play around and expand tutorials’ content
-            - **Late personal projects:**  interesting/useful, small, ~~copypaste~~
-                - (n01-04) - n01 '(array(database)), random output IF input(x,y)' | n02 'snake = basics+OOP+UI' | n03 'stock trading bot' | **arrays < Pandas pydata // data-frame** |**learn APIs // (beginner 2 advanced)**
-                - then: algorithms and data structures [dictionaries, linked lists, queues, heaps, trees, graphs] ~~^^~~ BUILD a MAZE and an ALGORITHM to solve it
-            - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
-        - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
-        - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
-- DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
-- Ingeniería Informática: [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
-- Software Engineerz </summary>
-    - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
-    - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
-        - Burnout: overwhelming **backlog** and interviews
-        - Tough competition
-        - Junior Devs tasks: learn **codebase** & knockout pull requests
-
-</details>
-
-### TOPICS
-
-<details>
-<summary> TOPICS </summary>
-
-- Artificial Intelligence & Machine Learning (Bot programming & Tensorflow)
-    - 101s | Neural Networks
-        - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
-        - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
-    - Techonologeez
-        - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
-    - Models
-        - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
-        - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
-        - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
-        - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
-        - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
-    - BOTS PROJECTS (PY/SH)
-- Algorithms
-    - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
--  APIs: [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
-- Backend
-    - [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
-    - ADD THE code with lewis VID
-- Browsers
-    - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
-    - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
-- **CLOUD**: [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
-- Databases: [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
-- Frontend ~ Design: [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
-<!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
-- Fullstack: [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
-- **Git**: [Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
-- Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
-- OOP - Object Oriented Programming: [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
-- Open Source
-    - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-    - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
-- Tech Stacks (~ WebDev)
-    - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
-    - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
-- **Testing** (Software)!!!!!!!
-    - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
-    - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
-- Web Dev: [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
-- *bonus*... ~ Junior Dev Jobs </summary>
-    - [Lemon.IO](https://lemon.io/for-developers/)
 
 </details>
