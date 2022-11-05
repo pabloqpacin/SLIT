@@ -1,69 +1,110 @@
-# SLIT
+<!--
+aquí MATERIALS
+desviar contenido a PROJECTS?
+-->
 
-- [SLIT](#slit)
-  - [core list ~~slittey~~](#core-list-slittey)
+
+- HOMELAB
+    - .
+    - electronics (101s)
+        - components
+    - restore, upgrade & repurpose (for projects)
+        - computers
+    - DIY (for projects)
+        - power-bank
+        - router
+        - server
+        - VPN
+
+- [HOMELAB](#homelab)
+  - [DIY (!)](#diy-)
+  - [electronics](#electronics)
+    - [microcontrollers](#microcontrollers)
+    - [SBCs](#sbcs)
+    - [computer components](#computer-components)
+    - [networking](#networking)
+  - [tinkering (!)](#tinkering-)
+    - [restore, upgrade, repurpose](#restore-upgrade-repurpose)
   - [strong hierarchy](#strong-hierarchy)
 
 
-## core list ~~slittey~~
+
+# HOMELAB
+## DIY (!)
+## electronics
+### microcontrollers
+### SBCs
+### computer components
+### networking
+## tinkering (!)
+### restore, upgrade, repurpose
+<!-- ### DIY (!) -->
+
+
+
+---
+
+Mind `.` stands for the given `[x]`
 
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
 ||
-|$HOMELAB$||||`hardware + networking`
-|[ ]|.|[What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM)|Techno Tim
-|[ ]|.|[What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4)|IT Career Questions
-|[ ]|. tools|[HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs)|Techo Tim
-|[ ]|home-network|[Tour of Home Network](https://youtu.be/Ev0PL892zSE) | The 8-Bit Guy
-|$DIY$|
-|[ ]|DIY router|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie
-|[ ]|DIY router|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|
-|[ ]|DIY home-server|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
-|[ ]|home-server|[What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0)|Tech Hut
-|[ ]|home-server|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
-|[ ]|home-VPN|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel|$RPi$
-|$electronics$|
-|[ ]|electricity|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
-|[ ]|electricity|[Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds)|Afrotechmods
-|[ ]|electronics|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
-|[ ]|electronics, tools|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!|**Black Friday (?)**
-|$(microcontrollers,$||||$programming$
-|[ ]|electronics, MC|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
-|[ ]|electronics, MC|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
-|[ ]|arduino|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
-|[ ]|arduino|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
-|[ ]|arduino|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
-|[ ]|arduino|[Arduino Course for Beginners // Open-Source Electronics Platform](https://youtu.be/zJ-LqeX_fLU)|freeCodeCamp.org
-|[ ]|arduino|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
-|[ ]|arduino|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
-|[ ]|electronics, MC-RPi|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
-|[ ]|electronics, MC-RPi|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
-|$computers,$
-|[ ]|Pentium|[This PC Wasn't Worth Saving; Pentium 4 Build](https://youtu.be/sjfe9cQky5g)|Tech Made Easy
-|[ ]|Pentium|[Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-|[ ]|Pentium BIOS|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
-|[ ]|Pentium restore|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri
-|[ ]|Pentium restore|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
-|[ ]|Pentium restore|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-|[ ]|Pentium upgrade|[Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab
+|$HOMELAB$|`homelab`|||`hardware` `networking`
+|[ ]|`.`|[What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM)|Techno Tim
+|[ ]|`.`|[What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4)|IT Career Questions
+|[ ]|`.`|[HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs)|Techo Tim|*toolkit*
+|[ ]|`networking`|[Tour of Home Network](https://youtu.be/Ev0PL892zSE) | The 8-Bit Guy
+|[ ]|`server`|[What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0)|Tech Hut
+|`D` — $DIY$|
+|[ ]|`DIY` `networking`|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie|`DIY-router`
+|[ ]|`DIY` `networking`|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|`DIY-router`
+|[ ]|`DIY` `server`|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
+|[ ]|`DIY` `server`|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
+|[ ]|`DIY` `VPN`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel|$RPi$
+|`E` — $electronics$|`electronics`
+|[ ]|`.`|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
+|[ ]|`.`|[Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds)|Afrotechmods
+|[ ]|`. `|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
+|[ ]|`.`|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!| toolkit // **Black Friday (?)**
+|$(microcontrollers,$|`microcontrollers`|||`programming`
+|[ ]|`.`|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
+|[ ]|`.`|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
+|[ ]|`arduino`|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
+|[ ]|`arduino`|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
+|[ ]|`arduino`|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
+|[ ]|`arduino`|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
+|[ ]|`arduino`|[Arduino Course for Beginners](https://youtu.be/zJ-LqeX_fLU)|freeCodeCamp.org
+|[ ]|`arduino`|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
+|[ ]|`RPico`|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
+|[ ]|`RPico`|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
+||
+|$SBCs$|`sbc`|||single-board computers
+||
+|$computer. components$| `low-level`
+|[ ]|`.`|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague
+|[ ]|`.`|[Jamás Entenderás Cómo Funciona un PC al 100%](https://youtu.be/iOQnZKJ3fls)|Antonio Sarosi|**ojo**
+|[ ]|`.` `gamedev`|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| gamedev // ON Discord
+|[ ]|`bluetooth`|[How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM)|Branch Education
+|[ ]|`CPU`|[CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk)|Max's Tech
+|[ ]|`CPU`|[How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)||`machine_code`
+|[ ]|`graphics`|[How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I)|Branch Education
+|[ ]|`memory`|[How do Computers Work? Exploring Computer Main Memory DRAM DDR5](https://youtu.be/7J7X7aZvMXQ)|Branch Education| quality dawg
+|[ ]|`MOBO`|[Motherboards Explained](https://youtu.be/b2pd3Y6aBag)|PowerCert Animated Videos
+|[ ]|`storage` `ssd`|[How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg)|Branch Education
+|$networking$|`networking`
+|[ ]|`firewalls`|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
+|[ ]|`ports`|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
+|$TINKERING$|
+|$restore, upgrade, repurpose$|
+|[ ]|`.`|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
+|[ ]|`Pentium` BIOS|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
+|[ ]|`Pentium`|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
+|[ ]|`Pentium`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri
+|[ ]|`Pentium`|[Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
+|[ ]|`Pentium`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab
+|[ ]|`Pentium`|[This PC Wasn't Worth Saving; Pentium 4 Build](https://youtu.be/sjfe9cQky5g)|Tech Made Easy
+|[ ]|`Pentium`|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
 |$consoles)$
-|$low-level$|
-|[ ]|.|[Jamás Entenderás Cómo Funciona un PC al 100%](https://youtu.be/iOQnZKJ3fls)|Antonio Sarosi|**ojo**
-|[ ]|.|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague
-|[ ]|.|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| gamedev // ON Discord
-|[ ]|BIOS|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
-|[ ]|bluetooth|[How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM)|Branch Education
-|[ ]|CPU|[CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk)|Max's Tech
-|[ ]|CPU, machine_code|[How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)
-|[ ]|graphics|[How are Images Compressed? JPEG In Depth](https://youtu.be/Kv1Hiv3ox8I)|Branch Education
-|[ ]|memory|[How do Computers Work? Exploring Computer Main Memory DRAM DDR5](https://youtu.be/7J7X7aZvMXQ)|Branch Education| quality dawg
-|[ ]|motherboard|[Motherboards Explained](https://youtu.be/b2pd3Y6aBag)|PowerCert Animated Videos
-|[ ]|storage|[How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg)|Branch Education
-|$networking$|
-|[ ]|networking, firewalls|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
-|[ ]|networking, ports|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
-|$tinkering—gen$
-|[ ]|cyberdeck|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
 ||
 |$PROGRAMMING$
 |[ ]|metaverse|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
@@ -162,6 +203,7 @@
 |[ ]|Linux Kernel, Linus_Torvalds|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
 |[ ]|Linux Kernel|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
 ||
+|[ ]|`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
 ||$C—CLOUD$
 |[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
 ||
@@ -173,7 +215,6 @@
 ||$OPEN—SOURCE$
 |[ ]|Open-Source|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
 |[ ]|Open-Source|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
-||
 ||
 ||$P—PROGRAMMING$
 |[ ]|algorithms|[Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo)|Nemean
@@ -208,7 +249,7 @@
 |[ ]|restoration|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
 |[ ]|restore tablets|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
 ||
-||$REVERSE—ENGINEERING$
+||$REVERSE-ENGINEERING$
 |[ ]|reverse_engineering|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
 |[ ]|reverse_engineering|[Getting Started Learning Reverse Engineering // Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU)|Marcus Hutchins
 |[ ]|reverse_engineering, Ghidra|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
