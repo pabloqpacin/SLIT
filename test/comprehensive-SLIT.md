@@ -7,10 +7,11 @@
 
 ## core list ~~slittey~~
 
-|[x]|category|title+link|creator|notes|
+|[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
 ||
-||$A—ARDUINO$
+|$HOMELAB$|
+|$arduino$|
 |[ ]|arduino|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
 |[ ]|arduino|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
 |[ ]|arduino|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
@@ -18,13 +19,14 @@
 |[ ]|arduino|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
 |[ ]|arduino|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
 ||
-||$Artificial Intelligence + Machine Learning$
+|$PROGRAMMING$
+|$AI—ML$|
 |[ ]|deep_learning|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding
 |[ ]|neural_networks|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden
 |[ ]|neural_networks|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|*HTML (?)*
 |[ ]|Tensorflow|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
 ||
-||$B—BLACKHAT$
+|$blackhat$|
 |[ ]|black-hat, ethos|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
 |[ ]|black-hat|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|CKC='cyber-kill-chain'
 |[ ]|black-hat|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
@@ -33,8 +35,8 @@
 |[ ]|blockchain, progr.|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
 ||
 ||$Browsers$
-|[ ]|Google[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
-|[ ]|DDG, privacy[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment
+|[ ]|Google|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
+|[ ]|DDG, privacy|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment
 ||
 ||$C—CLOUD$
 |[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
@@ -149,6 +151,12 @@
 |[ ]|programming|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
 |[ ]|programming, coding|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
 |[ ]|programming, coding|[Coding Skills NO ONE Will Teach You](https://youtu.be/7qH8prh4hpE)|Tech With Tim
+|[ ]|programming|[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E)|MoureDevrais
+|[ ]|programming|[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY)|MoureDevrais
+|[ ]|programming, editors, vscode|[My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY)|Forrest Knight
+|[ ]|programming, editors, vscode|[25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI)|Fireship
+|[ ]|programming, Jupyter_Notebooks|[Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg)|VSC
+|[ ]|programming, debugging|[Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0)|WebDevSimplified
 |[ ]|programming_scripting|[Scripting Vs Programming; Differences between Scripting & Programming Languages](https://youtu.be/g0Q-VWBX5Js)|Intellipaat
 |[ ]|programming, shell, bash-zsh|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy
 |[ ]|programming, shell, bash-zsh|[Diferencias entre Bash vs ZSH vs Fish?](https://youtu.be/Mx968FklOYc)|CodelyTV-Redescubre la programación
@@ -160,14 +168,26 @@
 |[ ]|AI, neural_networks|[NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk)|Greer Viau
 |[ ]|prog. bots, Python|[Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE)|Indently
 |[ ]|prog. bots, Python|[Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok)|freeCodeCamp
+|[ ]|prog. Bash|[Shell Scripting Tutorial -website-](https://shellscript.sh)||website
+|[x]|prog. Bash|[Learn BASH right now!](https://youtu.be/SPwyp2NG-bE)|Network Chuck
+|[x]|prog. Bash|[$ 212 Bash Scripts](https://youtu.be/q2z-MRoNbgM)|LinuxHint 
+|[ ]|prog. Bash|[Write Your Own Bash Scripts for Automation (Tutorial)](https://youtu.be/PPQ8m8xQAs8)|Null Byte
 |[ ]|prog. C|[C Tutorial: Full Course for Beginners](https://youtu.be/87SH2Cn0s9A)|Bro Code
 |[ ]|prog. C|[CLA course: an overview](https://cppinstitute.org/cla-course-an-overview)|C++ Institute | C/C++ Certification and Training Programs|*website*
 |[ ]|prog. C|[15+ Exciting C Projects Ideas With Source Code (2022)](https://www.interviewbit.com/blog/c-projects/?amp=1)|Interview Bit|*website*
+|[ ]|prog. CSS|[CodePen.io](https://codepen.io/kassandrasanch/pen/yLOOgNy)||website
+|[ ]|prog. CSS|[Reverse Engineer CSS Animations {Shorts}](https://youtu.be/ecl-eCbYFPM)|Fireship
+|[ ]|prog. CSS|[Can you beat me at a CSS Battle?](https://youtu.be/A0J-hB3kSQ4)|Kevin Powell
 |[ ]|prog. Flask|[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)|freeCodeCamp.org
 |[x]|prog. Flask|[Python Website Full Tutorial - Flask, Auth, Databases & more](https://youtu.be/dam0GPOAvVI)|Tech With Tim|***YAY***
 |[ ]|prog. JavaScript|[The Javascript Problem](https://youtu.be/VWY6J3sHKKQ)|Mental Outlaw| double-check
+|[ ]|prog. JS, gamedev|[JavaScript Game Development Course for Beginners](https://youtu.be/GFO_txvwK_c)|freeCodeCamp
 |[ ]|prog. JS, AI+ML|[Self-Driving Car with JS (NNs, ML)](https://youtu.be/Rs_rAxEsAvI)|freeCodeCamp 
 |[ ]|prog. JavaScript, gamedev|[Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc)|WebDevSimplified
+|[ ]|prog. Kotlin|[Java vs Kotlin for Android App Development](https://youtu.be/9wWgw9smBJs)|Keep On Coding
+|[ ]|prog. Kotlin|[Learn Kotlin in 12 Minutes](https://youtu.be/iYrgWO2oibY)|Rahul Pandey
+|[ ]|prog. Kotlin|[Kotlin: Curso Android desde Cero](https://youtu.be/ebQphhLpJG0)|MoureDevrais
+|[ ]|prog. Kotlin|[JETPACK COMPOSE: Curso ANDROID KOTLIN desde CERO para PRINCIPIANTES](https://youtu.be/yVIGAvMO3bc)
 |[ ]|prog. MicroPython|[Virtual Pet Code in MicroPython on the Raspberry Pi Pico — Pico-Tamachibi](https://youtu.be/btG3Pd8ZlBw)|Kevin McAleer|**researchey**
 |[ ]|prog. Node.JS, APIs|[RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM)|Fireship
 |[ ]|prog. Pygame|[Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U)|DaFluffyPotato
@@ -221,7 +241,7 @@
 |[ ]|CS crash_course|[Computer Science - Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye)|Crash Course
 |[ ]|CS degree|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
 |[ ]|CS ingeniería|[4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
-|[ ]|CS licenciatura[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
+|[ ]|CS licenciatura|[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
 |[ ]|CS students|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
 ||
 |[ ]|sysadmin|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.

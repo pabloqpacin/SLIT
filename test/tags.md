@@ -1,16 +1,43 @@
 
+- [computer architecture & OSs](#computer-architecture--oss)
+  - [low-level computing](#low-level-computing)
+  - [OSs](#oss)
 - [software development](#software-development)
   - [environment](#environment)
   - [studies, roadmaps & jobs (CS, SoftEng.)](#studies-roadmaps--jobs-cs-softeng)
   - [programming](#programming)
   - [technologies](#technologies)
-- [computer architecture & OSs](#computer-architecture--oss)
-  - [low-level computing](#low-level-computing)
-  - [OSs](#oss)
 - [homelab: server & networking // `hardware`](#homelab-server--networking--hardware)
 - [security: computer & networking](#security-computer--networking)
 - [!HOMELAB PROJECTS](#homelab-projects)
 
+---
+
+# computer architecture & OSs
+- Cloud
+- consoles
+    - $devices$
+## low-level computing
+- electricity
+- electronics
+    - computer components
+        - CPU
+        - memory
+        - motherboard
+        - storage
+    - micro-controllers & single-board computers
+        - arduino UNO
+        - raspberry pi
+            - pico
+    - $salvage$ restore & repurpose
+## OSs
+- Linux
+    - Distros
+        - manjaro
+        - openSUSE
+    - Kernel
+- Windows
+    - WSL
 # software development
 - open—source
 ## environment
@@ -54,29 +81,7 @@
 - cryptography
 - metaverse
 
-# computer architecture & OSs
-- Cloud
-- consoles
-    - $devices$
-## low-level computing
-- electricity
-- electronics
-    - computer components
-        - CPU
-        - memory
-        - motherboard
-        - storage
-    - micro-controllers & single-board computers
-        - arduino UNO
-        - raspberry pi
-            - pico
-    - $salvage$ restore & repurpose
-## OSs
-    - Linux
-        - Distros
-            - manjaro
-            - openSUSE
-        - Kernel
+
 # homelab: server & networking // `hardware`
 - deepweb
     - darkweb

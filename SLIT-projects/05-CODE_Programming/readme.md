@@ -18,86 +18,31 @@ While [section 3](/README.md#30--software--gen) documents many **Software Develo
 - [Introduction](#introduction)
 - [More materials](#more-materials)
   - [programación -gen-](#programación--gen-)
-  - [materials/tutorials per language](#materialstutorials-per-language)
-    - [B - Bash](#b---bash)
+  - [programming languages](#programming-languages)
     - [C - C](#c---c)
-    - [C - C#](#c---c-1)
-    - [C - CSS](#c---css)
-    - [J - JavaScript](#j---javascript)
-    - [K - Kotlin](#k---kotlin)
     - [P - .PDE](#p---pde)
     - [P - Python](#p---python)
-    - [R - Rust](#r---rust)
   - [Project ideas -general-](#project-ideas--general-)
-- [Actual projects](#actual-projects)
 
 # More materials
 
 ## programación -gen-
+- Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
+- History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
+- JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
+- Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
 
-- mejorar en programación
-    - [10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E) @ MoureDevrais
-    - [Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY) @ MoureDevrais
-    - Debuggin ~ [Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0) @ WebDevSimplified
-
-- VS Code
-    - [25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI) @ Fireship
-    - [Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg) @ VSC
-    - [My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY) @ Forrest Knight
-
-- Misc.
-    - Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
-    - History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
-    - JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
-    - Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
-
-## materials/tutorials per language
-
-### B - Bash
-
-- 101s
-    - [Shell Scripting Tutorial -website-](https://shellscript.sh)
-    - [Write Your Own Bash Scripts for Automation (Tutorial)](https://youtu.be/PPQ8m8xQAs8) @ Null Byte
-    - [212 Bash Scripting Examples]
-- Tutorials
-    - $BASHIT$ - ~~[Learn BASH right now!](https://youtu.be/SPwyp2NG-bE)~~ @ Network Chuck
-    - ~~[$ 212 Bash Scripts](https://youtu.be/q2z-MRoNbgM)~~ @ LinuxHint 
+## programming languages
 
 ### C - C
 - [codewars.com](www.codewars.com) lets you learn by solving small programming exercises and seeing how other solve the same problem
 - [sololearn](https://www.sololearn.com/home)
 
-### C - C#
-
-Game Dev... Unity! C# comes from Java?
-
-### C - CSS
-
-- Gen:
-    - CSS Art/Design: [CodePen.io](https://codepen.io/kassandrasanch/pen/yLOOgNy)
-    - CSS Battles ~ [Can you beat me at a CSS Battle?](https://youtu.be/A0J-hB3kSQ4) @ Kevin Powell
-    - [Reverse Engineer CSS Animations {Shorts}](https://youtu.be/ecl-eCbYFPM) @ Fireship
-
-### J - JavaScript
-
-- [JavaScript Game Development Course for Beginners](https://youtu.be/GFO_txvwK_c) @ fCC
-
-### K - Kotlin
-- 101s
-    - [Java vs Kotlin for Android App Development](https://youtu.be/9wWgw9smBJs) @ Keep On Coding
-    - [Learn Kotlin in 12 Minutes](https://youtu.be/iYrgWO2oibY) @ Rahul Pandey
-
-- TUTORIALS
-    - [Kotlin: Curso Android desde Cero](https://youtu.be/ebQphhLpJG0) @ MoureDevrais
-    - [JETPACK COMPOSE: Curso ANDROID KOTLIN desde CERO para PRINCIPIANTES](https://youtu.be/yVIGAvMO3bc)
-
 ### P - .PDE
-
 Documentation:
 - [stackoverflow](https://stackoverflow.com/questions/1127175/which-language-uses-pde-extension): PDE both Java, C and Arduino related
 
 ### P - Python
-
 Ojo con [TOPICS](/README.md#topics)
 
 - 101s
@@ -132,21 +77,11 @@ Ojo con [TOPICS](/README.md#topics)
     - TO-DO ~ [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists) @ Real Python
     - [Make YOUR OWN Programming Language - EP 4 - Variables](https://youtu.be/3PW552YHwy0) @ Code Pulse
 
-### R - Rust
-<!--pull from BEYOND ASIR-->
-
-
 ## Project ideas -general-
-
-- Kinda fullstack development
-    - [5 Coding Projects (from beginner to advanced)](https://youtu.be/n2B-FClr5rA) @ Forrest Knight
-    - [7 Full Stack Ideas for Developers w/ Instructions Included](https://youtu.be/JTOJsU3FSD8) @ Fireship
-    - [I built a chat app in 7 minutes with React & Firebase](https://youtu.be/zQyrwxMPm88) @ Fireship
-    - [I created a Command Line Game for you // 5-Minute Node.js CLI Project](https://youtu.be/_oHByo8tiEY) @ Fireship
-- GBDK
-    - [Learn to code and write games on the Nintendo Game Boy | MVG](https://youtu.be/FzPTK91EJY8) @ Modern Vintage Gamer
+- [5 Coding Projects (from beginner to advanced)](https://youtu.be/n2B-FClr5rA) @ Forrest Knight
+- [7 Full Stack Ideas for Developers w/ Instructions Included](https://youtu.be/JTOJsU3FSD8) @ Fireship
+- [I built a chat app in 7 minutes with React & Firebase](https://youtu.be/zQyrwxMPm88) @ Fireship
+- [I created a Command Line Game for you // 5-Minute Node.js CLI Project](https://youtu.be/_oHByo8tiEY) @ Fireship
+- GBDK: [Learn to code and write games on the Nintendo Game Boy | MVG](https://youtu.be/FzPTK91EJY8) @ Modern Vintage Gamer
 
 
-# Actual projects
-
-...
