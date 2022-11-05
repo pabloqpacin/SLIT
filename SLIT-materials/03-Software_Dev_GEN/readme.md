@@ -17,12 +17,7 @@
 <summary> FIELDS </summary>
 
 - Computer Science
-    - [An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
     - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
-    - [Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk) @ Santi Fiorino
-    - Crash Course: [Computer Science](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye) -40 episodes-
-    <!-- turn this $material into a document with all episodes summarized -->
-    - THIS... [100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis) @ Fireship
 - Data Science 
     - [What to Learn to get Hired as Data Scientist](https://youtu.be/pLI7T0clMxg)
     - [How I'd learn to code if I could start over](https://youtu.be/MHPGeQD8TvI) @ Tina Huang
@@ -35,7 +30,6 @@
         - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
         - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
 - DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
-- Ingeniería Informática: [4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](_mKjNeb1lM4) @ Antonio Sarosi
 - Software Engineerz </summary>
     - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
     - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
@@ -50,46 +44,12 @@
 <details>
 <summary> TOPICS </summary>
 
-- Artificial Intelligence & Machine Learning (Bot programming & Tensorflow)
-    - 101s | Neural Networks
-        - [Deep Learning | Natural Language Processing | Machine Learning | Artificial Neural Networks | +more](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455) @ LevelUpCoding
-        - Neural Networks (!) ~ [Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI) @ Emergent Garden
-    - Techonologeez
-        - [TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms) @ Fireship
-    - Models
-        - [IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4) @ Santi Fiorino
-        - [NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk) @ Greer Viau
-        - [Self-Driving Car with JS (NNs | ML)](https://youtu.be/Rs_rAxEsAvI) @ fCC  <!--js = reference to '+more' (CODE .languages) -->
-        - $ [Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok) @fCC
-        - $ [Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE) @ Indently
-    - BOTS PROJECTS (PY/SH)
-- Algorithms
-    - [Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo) @ Nemean
--  APIs: [RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM) @ Fireship
-- Backend
-    - [Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ) @ SuperSimpleDev
-    - ADD THE code with lewis VID
-- Browsers
-    - [How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ) @ Google
-    - [BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg) @ The Linux Experiment
-- **CLOUD**: [Cloud Computing Explained](https://youtu.be/_a6us8kaq0g) @ PowerCert Animated Videos
-- Databases: [SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM) @ Fireship
-- Frontend ~ Design: [8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE) @ Design Course
+- Frontend ~ Design: 
 <!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
-- Fullstack: [Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U) @ Fireship
-- **Git**: [Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos) @ Fireship
 - Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
-- OOP - Object Oriented Programming: [OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw) @ Brian Will
-- Open Source
-    - [Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-    - [How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE) @ Eddie Jaoude -@ fCC-
 - Tech Stacks (~ WebDev)
     - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
     - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
-- **Testing** (Software)!!!!!!!
-    - TDD ~ [Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ) @ Fireship
-    - TDD ~ [Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4) @ Fireship
-- Web Dev: [100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs) @ Fireship -GOLD-
 - *bonus*... ~ Junior Dev Jobs </summary>
     - [Lemon.IO](https://lemon.io/for-developers/)
 

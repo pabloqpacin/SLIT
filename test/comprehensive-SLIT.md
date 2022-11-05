@@ -2,6 +2,7 @@
 
 - [SLIT](#slit)
   - [core list ~~slittey~~](#core-list-slittey)
+  - [strong hierarchy](#strong-hierarchy)
 
 
 ## core list ~~slittey~~
@@ -17,6 +18,12 @@
 |[ ]|arduino|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
 |[ ]|arduino|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
 ||
+||$Artificial Intelligence + Machine Learning$
+|[ ]|deep_learning|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding
+|[ ]|neural_networks|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden
+|[ ]|neural_networks|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|*HTML (?)*
+|[ ]|Tensorflow|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
+||
 ||$B—BLACKHAT$
 |[ ]|black-hat, ethos|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
 |[ ]|black-hat|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|CKC='cyber-kill-chain'
@@ -25,9 +32,12 @@
 ||$BLOCKCHAIN$
 |[ ]|blockchain, progr.|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
 ||
-||$C—CTF$
-|[ ]|CTF|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
-|[ ]|CTF, Python|[How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0)|CTF School
+||$Browsers$
+|[ ]|Google[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
+|[ ]|DDG, privacy[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment
+||
+||$C—CLOUD$
+|[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
 ||
 ||$D—DEEPWEB$
 |[ ]|deepweb, darkweb|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
@@ -47,7 +57,12 @@
 |[ ]|electronics, MC-RPi|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
 |[ ]|electronics, MC|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
 ||
-||$C—CRYPTOGRAPHY$
+||$C—CONSOLES$
+|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
+|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
+|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
+||
+||$CRYPTOGRAPHY$
 |[ ]|cryptography|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
 |[ ]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
 ||
@@ -55,6 +70,14 @@
 ||
 ||$G—GAMEDEV$
 |[ ]|game-dev, engines|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
+|[ ]|game-dev, Unity|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
+|[ ]|game-dev, Unity|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
+||
+||$GAME—MODDING$
+|[ ]|mod-making|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
+||
+||$Git$
+|[ ]|Git[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos)|Fireship
 ||
 ||$H—HOMELAB$
 |[ ]|homelab|[What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4)|IT Career Questions
@@ -68,7 +91,7 @@
 |[ ]|homelab, server|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
 |[ ]|homelab, VPN, RPi|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel
 ||
-|[ ]| Internet speed|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
+|[ ]|Internet speed|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
 ||
 ||$J—JOBS$
 |[ ]|jobs|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
@@ -107,9 +130,22 @@
 |[ ]|networking, firewalls|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
 |[ ]|networking, ports|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
 ||
-|[ ]|neural_networks|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|*HTML (?)*
+||$OPEN—SOURCE$
+|[ ]|Open-Source[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
+|[ ]|Open-Source[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
+||
+||$PENTIUM$
+|[ ]|Pentium|[This PC Wasn't Worth Saving; Pentium 4 Build](https://youtu.be/sjfe9cQky5g)|Tech Made Easy
+|[ ]|Pentium|[Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
+|[ ]|Pentium BIOS|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
+|[ ]|Pentium restore|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri
+|[ ]|Pentium restore|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
+|[ ]|Pentium restore|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
+|[ ]|Pentium upgrade|[Usuing Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab
 ||
 ||$P—PROGRAMMING$
+|[ ]|algorithms|[Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo)|Nemean
+|[ ]|OOP|[OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw)|Brian Will
 |[ ]|programming|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
 |[ ]|programming, coding|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
 |[ ]|programming, coding|[Coding Skills NO ONE Will Teach You](https://youtu.be/7qH8prh4hpE)|Tech With Tim
@@ -120,13 +156,21 @@
 |[ ]|Programming Languages (ie PL)|[The Programming Language Guide](https://youtu.be/2lVDktWK-pc)|Traversy Media
 ||
 ||$PROG. —LANGS$
+|[ ]|AI|[IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4)|Santi Fiorino
+|[ ]|AI, neural_networks|[NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk)|Greer Viau
+|[ ]|prog. bots, Python|[Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE)|Indently
+|[ ]|prog. bots, Python|[Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok)|freeCodeCamp
 |[ ]|prog. C|[C Tutorial: Full Course for Beginners](https://youtu.be/87SH2Cn0s9A)|Bro Code
 |[ ]|prog. C|[CLA course: an overview](https://cppinstitute.org/cla-course-an-overview)|C++ Institute | C/C++ Certification and Training Programs|*website*
 |[ ]|prog. C|[15+ Exciting C Projects Ideas With Source Code (2022)](https://www.interviewbit.com/blog/c-projects/?amp=1)|Interview Bit|*website*
 |[ ]|prog. Flask|[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)|freeCodeCamp.org
 |[x]|prog. Flask|[Python Website Full Tutorial - Flask, Auth, Databases & more](https://youtu.be/dam0GPOAvVI)|Tech With Tim|***YAY***
 |[ ]|prog. JavaScript|[The Javascript Problem](https://youtu.be/VWY6J3sHKKQ)|Mental Outlaw| double-check
+|[ ]|prog. JS, AI+ML|[Self-Driving Car with JS (NNs, ML)](https://youtu.be/Rs_rAxEsAvI)|freeCodeCamp 
+|[ ]|prog. JavaScript, gamedev|[Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc)|WebDevSimplified
 |[ ]|prog. MicroPython|[Virtual Pet Code in MicroPython on the Raspberry Pi Pico — Pico-Tamachibi](https://youtu.be/btG3Pd8ZlBw)|Kevin McAleer|**researchey**
+|[ ]|prog. Node.JS, APIs|[RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM)|Fireship
+|[ ]|prog. Pygame|[Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U)|DaFluffyPotato
 |[ ]|prog. Python|[Master Python With These 5 Projects](https://youtu.be/N6tzhlilNZY)|Tech With Tim
 |[ ]|prog. Python|[20 Python Projects For Beginners - Coding Course](https://youtu.be/-na-hnh_MCg)|Code With Tomi|hours3
 |[ ]|prog. Python, PyAutoGUI|[Python Automation with PyAutoGUI; full course with projects](https://youtu.be/3PekU8OGBCA)|Code of the Future|40 min.
@@ -142,27 +186,44 @@
 |[ ]|repurpose (homelab)|[Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug)|Electronics Wizardry
 |[ ]|repurpose (homelab, PLEX)|[Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo)|Tech Hut
 |[ ]|repurpose (homelab, PLEX)|[Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo)|The Bear Tech
+|[ ]|repurpose smartphones|[10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg)|C4ETech English
+|[ ]|repurpose smartphone|[What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs)|Great Scott!
 ||
 ||$RESTORATION$
 |[ ]|restoration|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
+|[ ]|restore tablets|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
 ||
 ||$REVERSE—ENGINEERING$
 |[ ]|reverse_engineering|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
 |[ ]|reverse_engineering|[Getting Started Learning Reverse Engineering // Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU)|Marcus Hutchins
 |[ ]|reverse_engineering, Ghidra|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
+|[ ]|retro-games|[Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction)|Retro Reversing
 ||
 ||$(INDUSTREY)$
 ||$ROADMAP (JOBS)$
 |[ ]|roadmap, python-dev|[The Real Python Developer Roadmap](https://youtu.be/d5BzuLlII_Y)|Zero To Mastery
 ||
 ||$S—SECURITY$
+|[ ]|CTF|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
+|[ ]|CTF, Python|[How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0)|CTF School
 |[ ]|security, botnet|[How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M)|Mental Outlaw
 |[ ]|security, botnet|[The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY)|Mental Outlaw|emotet
 |[ ]|security, pentesting|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
 |[ ]|security, pentesting|[Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA)|David Bombal
 |[ ]|security, Windows|[Windows Defender Bypassed](https://youtu.be/ZCV1Wx3Qugg)|The PC Security Channel
 ||
-|[ ]|students_CompSci|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
+||$Software—Testing$
+|[ ]|TDD|[Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ)|Fireship
+|[ ]|TDD|[Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4)|Fireship
+||
+||$studying—CS$
+|[ ]|CS|[100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)|Fireship
+|[ ]|CS crash_course|[Computer Science - Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye)|Crash Course
+|[ ]|CS degree|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
+|[ ]|CS ingeniería|[4o de Ingeniería Informática en 15 Minutos - Itinerario Ingeniería de Computadores](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
+|[ ]|CS licenciatura[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
+<!-- turn this $material into a document with all episodes summarized -->
+|[ ]|CS students|[Computer science students be like](https://youtu.be/vd3PlgTfi7A)|Snooze4pm|meme?
 ||
 |[ ]|sysadmin|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
 ||
@@ -182,7 +243,26 @@
 |[ ]|tinkering|[How I Made my own Smart Glass Under $10](https://youtu.be/pkB1Nahi-X0)|DD ElectroTech
 ||
 ||$W-WEB$
-|[ ]|web-dev, design|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
+|[ ]|!web-dev|[100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs)|Fireship
+|[ ]|backend|[Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ)|SuperSimpleDev
+|[ ]|databases|[SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM)|Fireship
+|[ ]|fullstack|[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U)|Fireship
+|[ ]|web-design|[8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE)|Design Course
+|[ ]|web-design|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
 |[ ]|web-dev, self-host|[Self-Hosted Website with Reverse Proxy using Your Domain in 10 Minutes](https://youtu.be/LvArP0goZO8)|Geeked
 ||
+
+
+## strong hierarchy
+
+|a|b|c|d|e|
+|---|---|---|---|---|
+|Software—Development|
+|-coding gen|
+|-git|
+|-testing|
+|Tinkerin'|
+|Security|
+|-CTF|
+|-malware|
 
