@@ -25,6 +25,9 @@ desviar contenido a PROJECTS?
     - [networking](#networking)
   - [tinkering (!)](#tinkering-)
     - [restore, upgrade, repurpose](#restore-upgrade-repurpose)
+- [SYSTEMS n' SOFTWARE DEVELOPMENT](#systems-n-software-development)
+  - [PROGRAMMING](#programming)
+    - [PROGR. LANGUAGES](#progr-languages)
   - [strong hierarchy](#strong-hierarchy)
 
 
@@ -60,21 +63,21 @@ Mind `.` stands for the given `[x]`
 |[ ]|`DIY` `networking`|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|`DIY-router`
 |[ ]|`DIY` `server`|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
 |[ ]|`DIY` `server`|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
-|[ ]|`DIY` `VPN`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel|$RPi$
+|[ ]|`DIY` `VPN`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel|`RPi`
 |`E` — $electronics$|`electronics`
 |[ ]|`.`|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
 |[ ]|`.`|[Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds)|Afrotechmods
-|[ ]|`. `|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
-|[ ]|`.`|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!| toolkit // **Black Friday (?)**
+|[ ]|`.`|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!| `toolkit` // **Black Friday (?)**
+|[ ]|`circuits`|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
 |$(microcontrollers,$|`microcontrollers`|||`programming`
-|[ ]|`.`|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
 |[ ]|`.`|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
 |[ ]|`arduino`|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
-|[ ]|`arduino`|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
 |[ ]|`arduino`|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
 |[ ]|`arduino`|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
 |[ ]|`arduino`|[Arduino Course for Beginners](https://youtu.be/zJ-LqeX_fLU)|freeCodeCamp.org
 |[ ]|`arduino`|[15 Great Arduino Projects for beginners](https://youtu.be/Ox-9eOc3bQU)|Maker Tutor
+|[ ]|`arduino` `UNO`|[What is Arduino UNO](https://youtu.be/_ItSHuIJAJ8)
+|[ ]|`arduino` `RPico`|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
 |[ ]|`RPico`|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
 |[ ]|`RPico`|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
 ||
@@ -95,91 +98,105 @@ Mind `.` stands for the given `[x]`
 |[ ]|`firewalls`|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
 |[ ]|`ports`|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
 |$TINKERING$|
+|[ ]|`.`|[How I Made my own Smart Glass Under $10](https://youtu.be/pkB1Nahi-X0)|DD ElectroTech
+|[ ]|`.`|[$15 Drone Build within 24 Hours - Challenge](https://youtu.be/FHk5PEZAyMA)|DD ElectroTech
+|[ ]|`.`|[How I Transform OLD TV into Smart TV - Voice Controlled](https://youtu.be/Xzd5CG4Nn2c)|DD ElectroTech
 |$restore, upgrade, repurpose$|
 |[ ]|`.`|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
 |[ ]|`Pentium` BIOS|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
 |[ ]|`Pentium`|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-|[ ]|`Pentium`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri
+|[ ]|`Pentium`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri|`windows`
 |[ ]|`Pentium`|[Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-|[ ]|`Pentium`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab
+|[ ]|`Pentium`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab|`windows`
 |[ ]|`Pentium`|[This PC Wasn't Worth Saving; Pentium 4 Build](https://youtu.be/sjfe9cQky5g)|Tech Made Easy
 |[ ]|`Pentium`|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
 |$consoles)$
+
+# SYSTEMS n' SOFTWARE DEVELOPMENT
+## PROGRAMMING
+### PROGR. LANGUAGES
+
+
+|[x]|tags|title+link|creator|notes|
+|---|---|---|---|---|
+|$SYSTEMS$ n $Soft.Dev$|`devsysadmin`
 ||
 |$PROGRAMMING$
-|[ ]|metaverse|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
-|$ai—ml$|
-|[ ]|deep_learning|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding
-|[ ]|neural_networks|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden
-|[ ]|neural_networks|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|*HTML (?)*
-|[ ]|Tensorflow|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
-|$blockchain$|
-|[ ]|blockchain, progr.|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
-|$gamedev$
-|[ ]|game-dev, engines|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
-|[ ]|game-dev, Unity|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
-|[ ]|game-dev, Unity|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
-|$progr—Languages$|
+|[ ]|`blockchain`|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
+|[ ]|`databases`|[SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM)|Fireship
+|[ ]|`metaverse`|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
+|$Art.Intelligence$ $Mach.Learning$|`ai` `ml`
+|[ ]|`.`|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding|`neural_networks`
+|[ ]|`.`|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden|`neural_networks`
+|[ ]|`.`|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|`neural_networks` *HTML (?)*
+|[ ]|`tensorflow`|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
+|$gamedev$|`gamedev`
+|[ ]|`.` `Unity`|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
+|[ ]|`.` `Unity`|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
+|[ ]|`.` `Unity`|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
+|$languages$|`$`
 |[ ]|AI|[IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4)|Santi Fiorino
 |[ ]|AI, neural_networks|[NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk)|Greer Viau
-|[ ]|$Bash$|[Shell Scripting Tutorial -website-](https://shellscript.sh)||website
-|[x]|$Bash$|[Learn BASH right now!](https://youtu.be/SPwyp2NG-bE)|Network Chuck
-|[x]|$Bash$|[$ 212 Bash Scripts](https://youtu.be/q2z-MRoNbgM)|LinuxHint 
-|[ ]|$Bash$|[Write Your Own Bash Scripts for Automation (Tutorial)](https://youtu.be/PPQ8m8xQAs8)|Null Byte
-|[ ]|$C$|[C Tutorial: Full Course for Beginners](https://youtu.be/87SH2Cn0s9A)|Bro Code
-|[ ]|$C$|[CLA course: an overview](https://cppinstitute.org/cla-course-an-overview)|C++ Institute | C/C++ Certification and Training Programs|*website*
-|[ ]|$C$|[15+ Exciting C Projects Ideas With Source Code (2022)](https://www.interviewbit.com/blog/c-projects/?amp=1)|Interview Bit|*website*
-|[ ]|$CSS$|[CodePen.io](https://codepen.io/kassandrasanch/pen/yLOOgNy)||website
-|[ ]|$CSS$|[Reverse Engineer CSS Animations {Shorts}](https://youtu.be/ecl-eCbYFPM)|Fireship
-|[ ]|$CSS$|[Can you beat me at a CSS Battle?](https://youtu.be/A0J-hB3kSQ4)|Kevin Powell
-|[ ]|$Flask$|[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)|freeCodeCamp.org
-|[x]|$Flask$|[Python Website Full Tutorial - Flask, Auth, Databases & more](https://youtu.be/dam0GPOAvVI)|Tech With Tim|***YAY***
-|[ ]|$JavaScript$|[The Javascript Problem](https://youtu.be/VWY6J3sHKKQ)|Mental Outlaw| double-check
-|[ ]|$JavaScript$|[JavaScript Game Development Course for Beginners](https://youtu.be/GFO_txvwK_c)|freeCodeCamp|gamedev
-|[ ]|$JavaScript$|[Self-Driving Car with JS (NNs, ML)](https://youtu.be/Rs_rAxEsAvI)|freeCodeCamp|AI+ML
-|[ ]|$JavaScript$|[Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc)|WebDevSimplified|gamedev
-|[ ]|$Kotlin$|[Java vs Kotlin for Android App Development](https://youtu.be/9wWgw9smBJs)|Keep On Coding
-|[ ]|$Kotlin$|[Learn Kotlin in 12 Minutes](https://youtu.be/iYrgWO2oibY)|Rahul Pandey
-|[ ]|$Kotlin$|[Kotlin: Curso Android desde Cero](https://youtu.be/ebQphhLpJG0)|MoureDevrais
-|[ ]|$Kotlin$|[JETPACK COMPOSE: Curso ANDROID KOTLIN desde CERO para PRINCIPIANTES](https://youtu.be/yVIGAvMO3bc)
-|[ ]|$MicroPython$|[Virtual Pet Code in MicroPython on the Raspberry Pi Pico — Pico-Tamachibi](https://youtu.be/btG3Pd8ZlBw)|Kevin McAleer|$RPico$
-|[ ]|$Node.js$|[RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM)|Fireship|APIs
-|[ ]|$Pygame$|[Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U)|DaFluffyPotato
-|[ ]|$Python$|[Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE)|Indently|
-|[ ]|$Python$|[Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok)|freeCodeCamp|ai, bots
-|[ ]|$Python|[Master Python With These 5 Projects](https://youtu.be/N6tzhlilNZY)|Tech With Tim
-|[ ]|$Python|[20 Python Projects For Beginners - Coding Course](https://youtu.be/-na-hnh_MCg)|Code With Tomi|hours3
-|[ ]|$Python$|[Python Automation with PyAutoGUI; full course with projects](https://youtu.be/3PekU8OGBCA)|Code of the Future|PyAutoGUI; 40 min.
-|[ ]|$Python$|[Turn An Excel Sheet Into An Interactive Dashboard Using Python (STreamlit)](https://youtu.be/Sb0A9i6d320)|Coding Is Fun
-|[ ]|$Rust$|[What can you build in Rust?!](https://youtu.be/MraEYwI9C5o)|Let's Get Rusty
-|$web—dev$|
-|[ ]|101s|[100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs)|Fireship
-|[ ]|backend|[Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ)|SuperSimpleDev
-|[ ]|databases|[SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM)|Fireship
-|[ ]|fullstack|[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U)|Fireship
-|[ ]|hosting|[Self-Hosted Website with Reverse Proxy using Your Domain in 10 Minutes](https://youtu.be/LvArP0goZO8)|Geeked
-|[ ]|web-design|[8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE)|Design Course
-|[ ]|web-design|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
+|[ ]|`bash`|[Shell Scripting Tutorial -website-](https://shellscript.sh)||website
+|[x]|`bash`|[Learn BASH right now!](https://youtu.be/SPwyp2NG-bE)|Network Chuck
+|[x]|`bash`|[212 Bash Scripts](https://youtu.be/q2z-MRoNbgM)|LinuxHint 
+|[ ]|`bash`|[Write Your Own Bash Scripts for Automation (Tutorial)](https://youtu.be/PPQ8m8xQAs8)|Null Byte
+|[ ]|`C`|[C Tutorial: Full Course for Beginners](https://youtu.be/87SH2Cn0s9A)|Bro Code
+|[ ]|`C`|[CLA course: an overview](https://cppinstitute.org/cla-course-an-overview)|C++ Institute | C/C++ Certification and Training Programs|*website*
+|[ ]|`C`|[15+ Exciting C Projects Ideas With Source Code (2022)](https://www.interviewbit.com/blog/c-projects/?amp=1)|Interview Bit|*website*
+|[ ]|`CSS`|[CodePen.io](https://codepen.io/kassandrasanch/pen/yLOOgNy)||website
+|[ ]|`CSS`|[Reverse Engineer CSS Animations {Shorts}](https://youtu.be/ecl-eCbYFPM)|Fireship
+|[ ]|`CSS`|[Can you beat me at a CSS Battle?](https://youtu.be/A0J-hB3kSQ4)|Kevin Powell
+|[ ]|`JS`|[The Javascript Problem](https://youtu.be/VWY6J3sHKKQ)|Mental Outlaw| double-check
+|[ ]|`JS` `ml`|[Self-Driving Car with JS (NNs, ML)](https://youtu.be/Rs_rAxEsAvI)|freeCodeCamp|AI+ML
+|[ ]|`JS` `gamedev`|[Build a 2048 to level up your Game Development](https://youtu.be/wOVEe9eawXc)|WebDevSimplified|gamedev
+|[ ]|`JS` `gamedev`|[JavaScript Game Development Course for Beginners](https://youtu.be/GFO_txvwK_c)|freeCodeCamp|gamedev
+|[ ]|`Kotlin` `android`|[Java vs Kotlin for Android App Development](https://youtu.be/9wWgw9smBJs)|Keep On Coding
+|[ ]|`Kotlin` `android`|[Learn Kotlin in 12 Minutes](https://youtu.be/iYrgWO2oibY)|Rahul Pandey
+|[ ]|`Kotlin` `android`|[Kotlin: Curso Android desde Cero](https://youtu.be/ebQphhLpJG0)|MoureDevrais
+|[ ]|`Kotlin` `android`|[JETPACK COMPOSE: Curso ANDROID KOTLIN desde CERO para PRINCIPIANTES](https://youtu.be/yVIGAvMO3bc)
+|[ ]|`Node.js` `webdev`|[RESTful APIs in 100 Seconds // Build an API from Scratch with **Node.js Express**](https://youtu.be/-MTSQjw5DrM)|Fireship|`APIs`
+|[ ]|`python`|[Master Python With These 5 Projects](https://youtu.be/N6tzhlilNZY)|Tech With Tim
+|[ ]|`python`|[20 Python Projects For Beginners - Coding Course](https://youtu.be/-na-hnh_MCg)|Code With Tomi|hours3
+|[ ]|`python`|[Turn An Excel Sheet Into An Interactive Dashboard Using Python (STreamlit)](https://youtu.be/Sb0A9i6d320)|Coding Is Fun
+|[ ]|`python` `bot`|[Creating a Discord Bot in Python 3.9](https://youtu.be/fU-kWx-OYvE)|Indently|
+|[ ]|`python` `bot`|[Code a Discord Bot with Python - Host for Free in the Cloud](https://youtu.be/SPTfmiYiuok)|freeCodeCamp|ai, bots
+|[x]|`python` `Flask` `webdev`|[Python Website Full Tutorial - Flask, Auth, Databases & more](https://youtu.be/dam0GPOAvVI)|Tech With Tim|***YAY***
+|[ ]|`python` `Flask` `webdev`|[Learn Flask for Python - Full Tutorial](https://youtu.be/Z1RJmh_OqeA)|freeCodeCamp.org
+|[ ]|`python` `pygame`|[Pygame's Performance - what you need to know](https://youtu.be/hnKocNdF9-U)|DaFluffyPotato
+|[ ]|`python` `PyAutoGUI`|[Python Automation with PyAutoGUI; full course with projects](https://youtu.be/3PekU8OGBCA)|Code of the Future|PyAutoGUI; 40 min.
+|[ ]|`python` `RPico`|[Virtual Pet Code in MicroPython on the Raspberry Pi Pico — Pico-Tamachibi](https://youtu.be/btG3Pd8ZlBw)|Kevin McAleer|`RPico`
+|[ ]|`Rust`|[What can you build in Rust?!](https://youtu.be/MraEYwI9C5o)|Let's Get Rusty
+|$web—dev$|`webdev`
+|[ ]|`.`|[100+ Web Dev things You Should Know](https://youtu.be/erEgovG9WBs)|Fireship
+|[ ]|`backend`|[Complete overview of Backend WebDev (2021)](https://youtu.be/XBu54nfzxAQ)|SuperSimpleDev
+|[ ]|`frontend`|[8 Dev Portfolios-Websites that might be 10/10s in Graphic Design](https://youtu.be/At6XyItIHsE)|Design Course
+|[ ]|`frontend`|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
+|[ ]|`fullstack`|[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U)|Fireship
+|[ ]|`hosting`|[Self-Hosted Website with Reverse Proxy using Your Domain in 10 Minutes](https://youtu.be/LvArP0goZO8)|Geeked
 |$web—browsers$|
-|[ ]|Google|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
-|[ ]|DDG, privacy|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment
+|[ ]|`browser` `Google`|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
+|[ ]|`browser` `DDG`, privacy|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment|`privacy`
 ||
+
+|[x]|tags|title+link|creator|notes|
+|---|---|---|---|---|
 |$SECURITY$|
-|$blackhat$|
-|[ ]|black-hat, ethos|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
-|[ ]|black-hat|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|CKC='cyber-kill-chain'
-|[ ]|black-hat|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
-|$cryptography$|
-|[ ]|cryptography|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
-|[ ]|cryptography, ssh-sha|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
-|$deep—web$|
-|[ ]|deepweb, darkweb|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
-|[ ]|deepweb, darkweb, malware|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for malware**
-|[ ]|deepweb, Tor|[How Tor Works](https://youtu.be/QRYzre4bf7I)|Computerphile
-|[ ]|deepweb, Tor|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
-|$malware$|
-|[ ]|malware|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
-||
+|[ ]|`blackhat`|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|`CKC` *(cyber-kill-chain)*
+|[ ]|`blackhat`|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
+|[ ]|`blackhat`|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
+|[ ]|`cryptography`|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
+|[ ]|`cryptography` `SHA`|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
+|[ ]|`darkweb`|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
+|[ ]|`darkweb`|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for `malware`**
+|[ ]|`darkweb` `Tor`|[How Tor Works](https://youtu.be/QRYzre4bf7I)|Computerphile
+|[ ]|`darkweb` `Tor`|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
+|[ ]|`malware`|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
+
+---
+
+|[x]|tags|title+link|creator|notes|
+|---|---|---|---|---|
 ||$GAME—MODDING$
 |[ ]|mod-making|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
 ||
@@ -292,12 +309,7 @@ Mind `.` stands for the given `[x]`
 ||$TERMINAL$
 |[ ]|terminal, windows|[Windows Terminal NEW Features: v1.0 -> v1.15](https://youtu.be/hA4rGwT0nC4)|**ThioJoe**|mucho WINDOWS este pavo
 ||
-||$TINKERIN'$
-|[ ]|tinkering|[How I Transform OLD TV into Smart TV - Voice Controlled](https://youtu.be/Xzd5CG4Nn2c)|DD ElectroTech
-|[ ]|tinkering|[$15 Drone Build within 24 Hours - Challenge](https://youtu.be/FHk5PEZAyMA)|DD ElectroTech
-|[ ]|tinkering|[How I Made my own Smart Glass Under $10](https://youtu.be/pkB1Nahi-X0)|DD ElectroTech
-||
-||
+
 
 
 ## strong hierarchy
