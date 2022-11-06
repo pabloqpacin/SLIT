@@ -1,6 +1,6 @@
 # DRAFT
 
-actual projects regarding Linux, Windows and other Operating Systems (OSs) management
+actual projects regarding Linux, Windows and other Operating Systems (OSs) admin
 
 basic configs
 

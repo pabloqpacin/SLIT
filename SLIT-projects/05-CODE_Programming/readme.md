@@ -19,28 +19,19 @@ While [section 3](/README.md#30--software--gen) documents many **Software Develo
 - [More materials](#more-materials)
   - [programación -gen-](#programación--gen-)
   - [programming languages](#programming-languages)
-    - [C - C](#c---c)
-    - [P - .PDE](#p---pde)
     - [P - Python](#p---python)
   - [Project ideas -general-](#project-ideas--general-)
 
 # More materials
 
 ## programación -gen-
-- Coding on Android device ~ [Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM) @ fCC
-- History... ~ [What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw) @ The Coding Train
 - JSON ~ ~~[Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)~~ @ WebDevSimplified
 - Repository Patterns ~ [What is a Repository Pattern](https://youtu.be/x6C20zhZHw8) @ Coding Concept
 
 ## programming languages
-
-### C - C
 - [codewars.com](www.codewars.com) lets you learn by solving small programming exercises and seeing how other solve the same problem
 - [sololearn](https://www.sololearn.com/home)
-
-### P - .PDE
-Documentation:
-- [stackoverflow](https://stackoverflow.com/questions/1127175/which-language-uses-pde-extension): PDE both Java, C and Arduino related
+- P - .PDE: [stackoverflow](https://stackoverflow.com/questions/1127175/which-language-uses-pde-extension): PDE both Java, C and Arduino related
 
 ### P - Python
 Ojo con [TOPICS](/README.md#topics)

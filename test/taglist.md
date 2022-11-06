@@ -5,39 +5,38 @@ desviar contenido a PROJECTS?
 
 
 - [HOMELAB](#homelab)
-  - [.](#)
   - [electronics](#electronics)
-    - [.](#-1)
     - [1. microcontrollers](#1-microcontrollers)
     - [2. single-board computers](#2-single-board-computers)
     - [3. computer components](#3-computer-components)
   - [TINKERING](#tinkering)
-    - [.](#-2)
     - [consoles](#consoles)
-- [CompSci & Soft.Dev.](#compsci--softdev)
-  - [.](#-3)
-  - [Linux](#linux)
+    - [---](#---)
+- [DEVSYSADMIN](#devsysadmin)
+  - [CS & SoftDev](#cs--softdev)
+  - [sysadmin—OSs](#sysadminoss)
+    - [Android](#android)
+    - [Linux](#linux)
+  - [Windows](#windows)
   - [PROGRAMMING](#programming)
-    - [.](#-4)
-    - [art.int. & mach. learn.](#artint--mach-learn)
+    - [AI + ML](#ai--ml)
     - [gamedev](#gamedev)
     - [languages](#languages)
     - [web-dev](#web-dev)
+    - [---](#----1)
 - [SECURITY](#security)
   - [hackers](#hackers)
 
 ---
 
 # HOMELAB
-## .
 ## electronics
-### .
 ### 1. microcontrollers
 ### 2. single-board computers
 ### 3. computer components
 ## TINKERING
-### .
 ### consoles
+### ---
 
 
 Mind `.` stands for the given `[x]`
@@ -57,9 +56,12 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!| `toolkit` // **Black Friday (?)**
 |[ ]|`.` `networking`|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
 |[ ]|`.` `networking`|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
+|[ ]|`circuits`|[How to Use a Breadboard](https://youtu.be/6WReFkfrUIk)
+|[ ]|`circuits`|[Electronic components](https://youtu.be/6Maq5IyHSuc)|bigclivedotcom
 |[ ]|`circuits`|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
 |$(microcontrollers,$|`microcontrollers`|||`programming`
 |[ ]|`.`|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
+|[ ]|`.` `RPico`|[Pico Prototyping - Building a "Pico Uno"](https://youtu.be/jwIOxOzee0U)|DroneBot Workshop
 |[ ]|`arduino`|[5 best kits 2022](https://youtu.be/huKV8hdhsiY)||kits
 |[ ]|`arduino`|[Arduino based Guitar Tuner](https://youtu.be/tjKySKeDoCE)
 |[ ]|`arduino`|[learn Arduino in 15 minutes](https://youtu.be/nL34zDTPkcs)
@@ -69,9 +71,15 @@ Mind `.` stands for the given `[x]`
 |[ ]|`arduino` `RPico`|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
 |[ ]|`RPico`|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
 |[ ]|`RPico`|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
+|[ ]|`RPico` `hack`|[Bad USBs are SCARY!! (build one with a Raspberry Pi Pico for $8)](https://youtu.be/e_f9p-_JWZw)|Network Chuck|`SECURITY`
+|[ ]|`RPico` `python`|[RPi PICO // Starting with MicroPython + Examples](https://youtu.be/zlKJ5hvfs6s)|Electronoobs|`PROGRAMMING`
+||
 |$SBCs,$|`sbc`|||single-board computers
+|[ ]|`RPi`|[Choosing the right Raspberry Pi for you!](https://youtu.be/YAs1qdgiqPc)|Android Authority
 |$computer. components)$| `low-level`
+|[ ]|`.`|[How are Microchips made?](https://youtu.be/bor0qLifjz4)
 |[ ]|`.`|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague
+|[ ]|`.`|[From Transistors to Tetris P.1](https://youtu.be/6caLyckwo7U)
 |[ ]|`.`|[Jamás Entenderás Cómo Funciona un PC al 100%](https://youtu.be/iOQnZKJ3fls)|Antonio Sarosi|**ojo**
 |[ ]|`.` `gamedev`|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| `gamedev` // ON Discord
 |[ ]|`bluetooth`|[How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM)|Branch Education
@@ -83,12 +91,18 @@ Mind `.` stands for the given `[x]`
 |[ ]|`storage` `ssd`|[How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg)|Branch Education
 ||
 |$TINKERING$|
+|[ ]|`.`|[17 DIY inventions](https://youtu.be/twKkQaORKS4)
+|[ ]|`.`|[How to Clean a Laptop](https://youtu.be/bypESzEtZr4)
 |[ ]|`.`|[How I Made my own Smart Glass Under $10](https://youtu.be/pkB1Nahi-X0)|DD ElectroTech
-|[ ]|`.`|[$15 Drone Build within 24 Hours - Challenge](https://youtu.be/FHk5PEZAyMA)|DD ElectroTech
 |[ ]|`.`|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
+|[ ]|`.`|[$15 Drone Build within 24 Hours - Challenge](https://youtu.be/FHk5PEZAyMA)|DD ElectroTech
+|[ ]|`.` `arduino`|[Turning a car into a COMPUTER MOUSE](https://youtu.be/M2xqMZ6b85w)|William Osman
+|[ ]|`.` `GL76`|[MSI-GL76 Dissassembly](https://youtu.be/DF4HVW6Y_Fk)
 |[ ]|`.` `networking`|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|`DIY-router`
 |[ ]|`.` `networking`|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie|`DIY-router`
 |[ ]|`.` `repurpose`|[How I Transform OLD TV into Smart TV - Voice Controlled](https://youtu.be/Xzd5CG4Nn2c)|DD ElectroTech
+|[ ]|`.` `restore`|[Electronic Pinball Restoration](https://youtu.be/jh9dNaRqEpg)|Odd Tinkering
+|[ ]|`.` `restore`|[Mining Lantern rest. -numismatics-](https://youtu.be/hqc0pQ7DV4I)|TysyTube
 |[ ]|`.` `server`|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
 |[ ]|`.` `server`|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
 |[ ]|`.` `VPN` `RPi`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel
@@ -100,6 +114,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`Pentium` `restore`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri|`windows`
 |[ ]|`Pentium` `restore`|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
 |[ ]|`Pentium` `upgrade`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab|`windows`
+|[ ]|`repurpose`|[Repurpose your old dead Laptop](https://youtu.be/WLP_L7Mgz6M)
 |[ ]|`repurpose` `server`|[Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw)|Linux Tech Tips
 |[ ]|`repurpose` `server`|[Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U)|Hardware Haven
 |[ ]|`repurpose` `server`|[How to build a DIY NAS from an OLD PC // Budget TrueNAS](https://youtu.be/FN3NhrD3KWo)|Torogi Pro
@@ -107,26 +122,34 @@ Mind `.` stands for the given `[x]`
 |[ ]|`repurpose` `server`|[Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug)|Electronics Wizardry
 |[ ]|`repurpose` `server`|[Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo)|Tech Hut
 |[ ]|`repurpose` `server`|[Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo)|The Bear Tech
-|[ ]|`smartabs` `restoration`|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
+|[ ]|`restore`|[FREE BROKEN Laptop - But Can I Fix It? Acer Nitro 5 No Power](https://youtu.be/C4S6QL4keOQ)|Tronics Fix
+|[ ]|`restore` `HDD`|[Fix your Hard Drive](https://youtu.be/zAMjdrUf9V4)
+|[ ]|`restore` `MOBO`|[Laptop Motherboard -Diagnose,Repair-](https://youtu.be/GCLflqmne6k)
+|[ ]|`smartabs` `restore`|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
 |[ ]|`smartphones` `repurpose`|[10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg)|C4ETech English
 |[ ]|`smartphones` `repurpose`|[What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs)|Great Scott!
 |$consoles$
-|[ ]|`NES` `restoration`|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
 |[ ]|`GameBoy` `restore/upgrade`|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
+|[ ]|`NES` `restore`|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
 |[ ]|`PS1` `restore/upgrade`|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
 ||
 
 ---
 
-# CompSci & Soft.Dev.
-## .
-## Linux
+# DEVSYSADMIN
+## CS & SoftDev
+## sysadmin—OSs
+### Android
+### Linux
+## Windows
 ## PROGRAMMING
-### .
-### art.int. & mach. learn.
+### AI + ML
 ### gamedev
 ### languages
 ### web-dev
+### ---
+
+(for `gamedev`, `comm.` stands for *'gamedev community'* YAY!)
 
 
 |[x]|tags|title+link|creator|notes|
@@ -142,6 +165,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`browser` `DDG`|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment|`privacy`
 |[ ]|`browser` `Google`|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
 |[ ]|`Cloud`|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
+|[ ]|`devops`|[DevOps Explained](https://youtu.be/Xrgk023l4lI)|Simplilearn
 |[ ]|`opensource`|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
 |[ ]|`opensource`|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
 |[ ]|`shell`|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy|`fish` `zsh`
@@ -159,14 +183,14 @@ Mind `.` stands for the given `[x]`
 |[ ]|`job-sysadmin`|[How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4)|Sir Sudo
 |[ ]|`ventoy`|[Ventoy - An Easy to Use MultiBoot USB Tool](https://youtu.be/K64sT0pQc-0)|Mental Outlaw
 |[ ]|`ventoy`|[How to create the ULTIMATE multiboot flash drive using Ventoy!](https://youtu.be/7eQciSP91eI)|Alfredo Sequeida
-|[ ]|`ventoy`|[How to Create a Multiboot USB with Ventoy | Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc)|Techno Tim
+|[ ]|`ventoy`|[How to Create a Multiboot USB with Ventoy // Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc)|Techno Tim
 |[ ]|`virtualization`|[Ditch Virtualbox, Get QEMU/Virt Manager](https://youtu.be/wxxP39cNJOs)|Mental Outlaw|`QEMU`
-|[ ]|`virtualization` [Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88)|Chris Titus Tech
+|[ ]|`virtualization`|[Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88)|Chris Titus Tech
 |[ ]|`virtualization`|[20 Ways to Use a Virtual Machine (and other ideas for your homelab)](https://youtu.be/SVQmzaSabEQ)|Techno Tim|`HOMELAB`
 |$Android,$|
 |[ ]|`.`|[**Calyx** OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA)|Mrwhosetheboss
 |[ ]|`.` `Linux`|[Easily run Linux on Android with **AndroNix** - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
-|[ ]|`.` `Windows`?|[Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
+|[ ]|`.` `Windows`?|[Cómo INSTALAR Windows 11 ARM // Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
 |[ ]|`root`|[What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
 |[ ]|`root`|[Android 13 Custom ROM List: Unofficially update your Android Smartphone!](https://xda-developers.com/android-13-custom-rom-list)|XDA-Developers|website
 |$Linux,$|
@@ -177,8 +201,8 @@ Mind `.` stands for the given `[x]`
 |[ ]|`d-`|[Top Five Arch-Based Linux Distros 2022](https://youtu.be/zkmTpxVpj6Q)|Distro Tube
 |[ ]|`d-`|[What is the Best Linux Distro? -It's the one you Make the best](https://youtu.be/_f5uev7UTz0)|Mental Outlaw
 |[ ]|`d-Arco`|[ArcoLinux - First Impressions and Install](https://youtu.be/S_dG79GhNfI)|Tech Hut
-|[ ]]`d-Kali`|[Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs)|freeCodeCamp|`SECURITY`
-|[ ]]`d-Kali`|[Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg)|The Good Hacker|`SECURITY`
+|[ ]|`d-Kali`|[Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs)|freeCodeCamp|`SECURITY`
+|[ ]|`d-Kali`|[Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg)|The Good Hacker|`SECURITY`
 |[ ]|`d-Mint`|[How good is Linux Mint for beginners](https://youtu.be/pNWDnJ_kESM)|The Linux Experiment
 |[ ]|`d-Mint`|[20 Different Types of Linux Mint Themes](https://youtu.be/PIrl3Eb0H44)
 |[ ]|`d-Mint`|[From Noob To Power User With Linux Mint Cinnamon](https://youtu.be/TKX29fJ8U2Y)|Distro Tube
@@ -200,8 +224,10 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[Coding Skills NO ONE Will Teach You](https://youtu.be/7qH8prh4hpE)|Tech With Tim
 |[ ]|`.`|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
 |[ ]|`.`|[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY)|MoureDevrais
+|[ ]|`.` `android`|[Can you code on a phone? Android Mobile Programming Tutorial](https://youtu.be/VZ6LifcOXfM)|freeCodeCamp
 |[ ]|`.` `good_practice`|[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E)|MoureDevrais
 |[ ]|`.` `good_practice` `debugging`|[Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0)|WebDevSimplified
+|[ ]|`.` `history`|[What was Coding like 40 years ago?](https://youtu.be/7r83N3c2kPw)|The Coding Train
 |[ ]|`.` `jobs`|[Developer Portfolio Do's and Don'ts](https://youtu.be/nlSgxeT2_dc)|Kenny Gunderman|**good advice**
 |[ ]|`.` `jobs`|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
 |[ ]|`.NET`|[What is .NET? // .NET COre 101 [1 of 8]](https://youtu.be/eIHKZfgddLM)|dot net
@@ -229,11 +255,20 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|`neural_networks` *HTML (?)*
 |[ ]|`tensorflow`|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
 |$gamedev$|`gamedev`
-|[ ]|`.` `Unity`|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
-|[ ]|`.` `Unity`|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
-|[ ]|`.` `Unity`|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
+|[ ]|`.`|[I Tried Creating a Game Using Real-World Geographic Data](https://youtu.be/sLqXFF8mlEU)|Sebastian Lague
+|[ ]|`.` `Lua`|[Pokémon Coding Tutorial - CS50's Intro to Game Development](https://youtu.be/gx_qorHxBpI)|freeCodeCamp
+|[ ]|`comm.` `GMTK`|[GMTK Game Jam 2022](https://youtu.be/XNCGdi2A6fQ)|Game Maker's Toolkit
+|[ ]|`comm.` `itch.io`|[itch.io](https://itch.io/)
+|[ ]|`comm.` `Miniplay`|[Miniplay > Devs](https://ssl.miniplay.com/dev/user/login)|Minijuegos (Devs)
+|[ ]|`comm.` `reddit`|[reddit communities compiled lol](https://reddit.com)
+|[ ]|`emulation`|[emudev's hub of Discord servers for ALL systems](https://emudev.org/discord_related)
+|[ ]|`emulation` `GC`|[Emulation on Gamecube - NES, SNES, GBA, PS1 & more](https://youtu.be/_rYVWzjVWmw)|Blaine Locklair
+|[ ]|`emulation` `ROMs`|[Zophar's Domain](https://www.zophar.net/)
 |[ ]|`mod-making`|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
 |[ ]|`retrogaming` `rev.eng.`|[Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction)|Retro Reversing
+|[ ]|`Unity`|[Unity in 100 Seconds](https://youtu.be/iqlH4okiQqg)|Fireship
+|[ ]|`Unity`|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
+|[ ]|`Unity`|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
 ||
 |$languages$|`$`
 |[ ]|`.`|[The Programming Language Guide](https://youtu.be/2lVDktWK-pc)|Traversy Media
@@ -278,6 +313,8 @@ Mind `.` stands for the given `[x]`
 |[ ]|`frontend`|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
 |[ ]|`fullstack`|[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U)|Fireship
 |[ ]|`hosting`|[Self-Hosted Website with Reverse Proxy using Your Domain in 10 Minutes](https://youtu.be/LvArP0goZO8)|Geeked
+|[ ]|`Stack`|[How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g)|Fireship
+|[ ]|`Stack`|[My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg)|Fireship
 ||
 
 ---

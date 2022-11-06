@@ -12,10 +12,6 @@
 
 ## FIELDS
 
-
-<details>
-<summary> FIELDS </summary>
-
 - Computer Science
     - [Math needed for CS](https://youtu.be/eSFA1Fp8jcU)
 - Data Science 
@@ -29,7 +25,6 @@
             - **Eventually:** Documentation, '+topics = +projects (WebDev, AppsDev, AI)'
         - **Mindset**: programmer = tinker(explore, dive-in) | problem-solving != StackOverflow | adaptability, constant learning, **growth mindset**
         - **Overkill:** do DEV in a certain community | *code = powerful tool, freedom to self-learn*
-- DevOps: [DevOps Explained](https://youtu.be/Xrgk023l4lI) @ Simplilearn
 - Software Engineerz </summary>
     - [What is a 10x Engineer (feat. ex-Google Tech Lead)](https://youtu.be/Iydpa_gPdes) @ Tech Lead
     - ~~[The Harsh Reality of being Software Engineer](https://youtu.be/Ws6zCMdp9Es)~~
@@ -37,23 +32,12 @@
         - Tough competition
         - Junior Devs tasks: learn **codebase** & knockout pull requests
 
-</details>
 
 ## TOPICS
 
-<details>
-<summary> TOPICS </summary>
-
-- Frontend ~ Design: 
-<!-- **@pabloqpacin:** *find #CodePen.io in CODE dir* -->
 - Math: [why you NEED math for programming](https://youtu.be/sW9npZVpiMI) @ Joma Tech
-- Tech Stacks (~ WebDev)
-    - [How to OVER Engineer a Website // What's a Tech Stack?](https://youtu.be/Sxxw3qtb3_g) @ Fireship
-    - [My Bleeding Edge Tech Stack for 2025](https://youtu.be/rFP7rUYtOOg) @ Fireship
-- *bonus*... ~ Junior Dev Jobs </summary>
-    - [Lemon.IO](https://lemon.io/for-developers/)
+- Junior Dev Jobs: [Lemon.IO](https://lemon.io/for-developers/)
 
-</details>
 
 
 ## Self-taught dev 101
