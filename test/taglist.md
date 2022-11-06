@@ -25,7 +25,6 @@ desviar contenido a PROJECTS?
     - [web-dev](#web-dev)
 - [SECURITY](#security)
   - [hackers](#hackers)
-  - [strong hierarchy](#strong-hierarchy)
 
 ---
 
@@ -50,7 +49,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM)|Techno Tim
 |[ ]|`.`|[What is a HomeLab? How can you build your own and why it's useful](https://youtu.be/4O_MxTPmah4)|IT Career Questions
 |[ ]|`.`|[HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs)|Techo Tim|*toolkit*
-|[ ]|`networking`|[Tour of Home Network](https://youtu.be/Ev0PL892zSE) | The 8-Bit Guy
+|[ ]|`networking`|[Tour of Home Network](https://youtu.be/Ev0PL892zSE)|The 8-Bit Guy
 |[ ]|`server`|[What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0)|Tech Hut
 |$electronics$|`electronics`
 |[ ]|`.`|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
@@ -133,30 +132,68 @@ Mind `.` stands for the given `[x]`
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
 ||
-|$Comp.Sci.$ *&* $Soft.Dev.$|`devsysadmin`
+|$DEVSYSADMIN$|`devsysadmin`
+|$CS$ *&* $Software Dev.$|
 |[ ]|`.`|[Computer Science - Crash Course](https://www.youtube.com/playlist?list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye)|Crash Course
 |[ ]|`.`|[An entire CS Degree in 12 minutes](https://youtu.be/EJiVWoFk8GA)
 |[ ]|`.`|[100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)|Fireship
 |[ ]|`.`|[4º de Ingeniería Informática en 15 Minutos](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
 |[ ]|`.`|[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
-|[ ]|`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
 |[ ]|`browser` `DDG`|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment|`privacy`
 |[ ]|`browser` `Google`|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
 |[ ]|`Cloud`|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
 |[ ]|`opensource`|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
 |[ ]|`opensource`|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
-|[ ]|`shell` `zsh` `fish`|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy
-|[ ]|`shell` `fish`|[What's so great about the Fish Shell?... I'll tell you...](https://youtu.be/xy38NNzufuE)|linux dabbler
-|[ ]|`shell` `zsh` `fish`|[Diferencias entre Bash vs ZSH vs Fish?](https://youtu.be/Mx968FklOYc)|CodelyTV-Redescubre la programación
-|[ ]|`sysadmin-job`|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
-|$Linux$|
+|[ ]|`shell`|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy|`fish` `zsh`
+|[ ]|`shell`|[What's so great about the Fish Shell?... I'll tell you...](https://youtu.be/xy38NNzufuE)|linux dabbler|`fish`
+|[ ]|`shell`|[Diferencias entre Bash vs ZSH vs Fish?](https://youtu.be/Mx968FklOYc)|CodelyTV-Redescubre la programación|`fish` `zsh`
+||
+|$sysadmin—OSs($|
+|[ ]|`.`|[Types of OSs afap](https://youtu.be/MR2ntdZW__A)|Techquickie
+|[ ]|`.` `dual-boot`|[The Best Way do Dual Boot Windows and Ubuntu](https://youtu.be/CWQMYN12QD0)|Techno Tim
+|[ ]|`.` `Windows`|[I put Windows 10 on a Calculator - Stupid Setups](https://youtu.be/neD9_viUnS8)|Basically Homeless|`LMAO`
+|[ ]|`BIOS` `UEFI`|[BIOS, CMOS, UEFI - What's the difference?](https://youtu.be/LGz0Io_dh_I)|PowerCert Animated Videos
+|[ ]|`BIOS` `UEFI`|[BIOS and UEFI afap](https://youtu.be/zIYkol851dU)|Techquickie
+|[ ]|`job-sysadmin`|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
+|[ ]|`job-sysadmin`|[How to Be a Great System Adminstrator in 3 Steps](https://youtu.be/Biz_QnigwWI)|IT Career Questions
+|[ ]|`job-sysadmin`|[How it FEELS to be a SysAdmin (What is a System Administrator)](https://youtu.be/v9bZsmn-Aw4)|Sir Sudo
+|[ ]|`ventoy`|[Ventoy - An Easy to Use MultiBoot USB Tool](https://youtu.be/K64sT0pQc-0)|Mental Outlaw
+|[ ]|`ventoy`|[How to create the ULTIMATE multiboot flash drive using Ventoy!](https://youtu.be/7eQciSP91eI)|Alfredo Sequeida
+|[ ]|`ventoy`|[How to Create a Multiboot USB with Ventoy | Fast, Simple and Easy Guide](https://youtu.be/z1FyoCswwAc)|Techno Tim
+|[ ]|`virtualization`|[Ditch Virtualbox, Get QEMU/Virt Manager](https://youtu.be/wxxP39cNJOs)|Mental Outlaw|`QEMU`
+|[ ]|`virtualization` [Stop using Virtualbox, Here's how to use QEMU instead](https://youtu.be/Kq849CpGd88)|Chris Titus Tech
+|[ ]|`virtualization`|[20 Ways to Use a Virtual Machine (and other ideas for your homelab)](https://youtu.be/SVQmzaSabEQ)|Techno Tim|`HOMELAB`
+|$Android,$|
+|[ ]|`.`|[**Calyx** OS - The next big Android Competitor?](https://youtu.be/qTtgzNGRAfA)|Mrwhosetheboss
+|[ ]|`.` `Linux`|[Easily run Linux on Android with **AndroNix** - Linux Distro on Android without Root](https://youtu.be/jvuufPWKF3k)
+|[ ]|`.` `Windows`?|[Cómo INSTALAR Windows 11 ARM | Iniciar DOS Sistemas ANDROID y Windows](https://youtu.be/VkI476sGI4s)
+|[ ]|`root`|[What is Root Access on Android? How to Root](https://youtu.be/eR26901B_0A)
+|[ ]|`root`|[Android 13 Custom ROM List: Unofficially update your Android Smartphone!](https://xda-developers.com/android-13-custom-rom-list)|XDA-Developers|website
+|$Linux,$|
+|[ ]|`.`|[Linux for the Absolute Beginner...](https://youtu.be/EN7mbRccT-8)|Low Dough Tech
+|[ ]|`.`|[Bring Back Windows 95 with XFCE + Chicago](https://www.youtube.com/shorts/VcbzoOjMLHM)|Tech Hut|`Chicago95`
+|[ ]|`.`|[7 Linux Terminal Application and Utilities](https://youtu.be/ZNNqkeeOdrk)|Tech Hut
+|[ ]|`d-`|[From Noob to Power-User with MX Linux](https://youtu.be/IsnSSY2vTXQ)|Distro Tube
+|[ ]|`d-`|[Top Five Arch-Based Linux Distros 2022](https://youtu.be/zkmTpxVpj6Q)|Distro Tube
+|[ ]|`d-`|[What is the Best Linux Distro? -It's the one you Make the best](https://youtu.be/_f5uev7UTz0)|Mental Outlaw
+|[ ]|`d-Arco`|[ArcoLinux - First Impressions and Install](https://youtu.be/S_dG79GhNfI)|Tech Hut
+|[ ]]`d-Kali`|[Linux for Ethical Hackers (Kali Linux Tutorial)](https://youtu.be/lZAoFs75_cs)|freeCodeCamp|`SECURITY`
+|[ ]]`d-Kali`|[Cómo instalar Kali Linux 2022 en VirtualBox y VMware](https://youtu.be/4lKQKxwjXbg)|The Good Hacker|`SECURITY`
+|[ ]|`d-Mint`|[How good is Linux Mint for beginners](https://youtu.be/pNWDnJ_kESM)|The Linux Experiment
+|[ ]|`d-Mint`|[20 Different Types of Linux Mint Themes](https://youtu.be/PIrl3Eb0H44)
+|[ ]|`d-Mint`|[From Noob To Power User With Linux Mint Cinnamon](https://youtu.be/TKX29fJ8U2Y)|Distro Tube
+|[ ]|`d-Manjaro`|[Manjaro is NOT Arch](https://youtu.be/VzAw8a3Jx-k)|Tech Hut
 |[ ]|`d-Manjaro`|[MANJARO has a BIG PROBLEM](https://youtu.be/oVlD17OjFAc)|The Linux Experiment
 |[ ]|`d-openSUSE`|[I Spent 90 days in openSUSE Tumbleweed, This Is What Happened!](https://youtu.be/Idx2_YXVvNE)|DASGeek|must trye
 |[ ]|`d-openSUSE`|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
 |[ ]|`d-openSUSE`|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
+|[ ]|`d-PopOS`|
 |[ ]|`kernel_dev`|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
 |[ ]|`kernel_dev`|[Kernel Linux(I) ¿Qué es el kernel de Linux](https://youtu.be/xJi7rIyLOrc)|Entropía Binaria
 |[ ]|`kernel_dev` `Torvalds`|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
+|$Windows)$
+|[ ]|`WSL`|[I Coded with WSL2 for a Week](https://youtu.be/LktFP0Dpl-c)|Forrest Knight
+|[ ]|`WSL`|[BEST Web Dev Setup? Windows & Linux at the same time (WSL)](https://youtu.be/-atblwgc63E)|Fireship
 ||
 |$PROGRAMMING$
 |[ ]|`.`|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
@@ -264,6 +301,7 @@ Mind `.` stands for the given `[x]`
 |[ ]|`darkweb` `Tor`|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
 |[ ]|`jobs`|[¿Cómo empezar en ciberseguridad](https://youtu.be/syqItp4p8Qw)|S4vitar
 |[ ]|`malware`|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
+|[ ]|`malware` `VMs`|[How to Setup a Virtual Machine for Malware Analysis](https://youtu.be/-40OBLWVsgo)|Guided Hacking`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
 |[ ]|`pentesting`|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
 |[ ]|`pentesting`|[Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA)|David Bombal
 |[ ]|`rev.eng.`|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
@@ -279,13 +317,6 @@ Mind `.` stands for the given `[x]`
 ||
 
 ---
-
----
-
-## strong hierarchy
-
-see [hierarchy](/test/hierarchy.md)
-
 ```markdown
 # sup dawg
 ```
