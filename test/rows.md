@@ -54,7 +54,7 @@ graph TD;
     electronics-->microcontrollers;
     electronics-->single-board-computers;
     electronics-->computer-components;
-    TINKERING--consolesD;
+    TINKERING-->consoles;
 ```
 
 
