@@ -49,12 +49,12 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    HOMELAB-->electronics;
+    HOMELAB.-networking.-server-->electronics;
     HOMELAB-->TINKERING;
     electronics-->microcontrollers;
     electronics-->single-board-computers;
     electronics-->computer-components;
-    TINKERING-->consoles;
+    TINKERING.-arduino.-GL76.-networking.-Pentium.-repurpose.-restore.-server-->consoles;
 ```
 
 
