@@ -48,13 +48,34 @@ Mind `.` stands for the given `[x]`
 Here is a simple flow chart:
 
 ```mermaid
-graph TD;
-    HOMELAB.-networking.-server-->electronics;
-    HOMELAB-->TINKERING;
-    electronics-->microcontrollers;
-    electronics-->single-board-computers;
-    electronics-->computer-components;
-    TINKERING.-arduino.-GL76.-networking.-Pentium.-repurpose.-restore.-server-->consoles;
+
+graph LR;
+
+    HOMELAB --> electronics
+    electronics.-microcontrollers-->Tinkering
+    electronics.-salvage.-computer_components-->Tinkering
+    HOMELAB --> networking --> Tinkering
+```
+
+
+```mermaid
+
+flowchart LR
+T[Tinkering]
+
+? --> diy-VPN
+? --> diy-NAS
+? --> h(home server)
+? --> l(laptop powerbank)
+
+T --> E(laptop-EX2511) --> |upgrade RAM to 8+ GB| K(Kali)
+
+T --> P(Pentium) .- |repurpose| ?
+T --> A(laptop-A5920) .- |upgrade HDD to SSD| ?
+
+T --> R(RPico)
+T --> U(arduino UNO)
+
 ```
 
 
@@ -189,18 +210,25 @@ TAGS:`homelab` `networking` `server`
 Here is a simple flow chart:
 
 ```mermaid
-graph TD;
-    DEVSYSADMIN-->CS&Soft.Dev.-studies;
-    DEVSYSADMIN-->sysadmin-OSs;
-    sysadmin-OSs-->Android;
-    sysadmin-OSs-->Linux;
-    sysadmin-OSs-->Windows;
-    DEVSYSADMIN-->PROGRAMMING;
-    PROGRAMMING-->ArtificialIntelligence&MachineLearning;
-    PROGRAMMING-->GameDev;
-    PROGRAMMING-->languages;
-    PROGRAMMING-->Python;
-    PROGRAMMING-->web-dev;
+graph LR;
+
+CS[Computer Science]
+
+CS .- |electronics| OSs
+OSs .- Android
+OSs .- Linux
+OSs .- Windows
+
+CS --> |sysadmin| D
+HOMELAB --> |networking| D
+SD(Software Development) --> |developer| D
+SD .- P(programming)
+D{DEVSYSADMIN}
+P .- AIML(Artificial Intelligence & Machine Learning)
+P .- GameDev
+P .- L(languages -a)
+P .- Python
+P .- web-dev
 ```
 
 
