@@ -185,6 +185,25 @@ TAGS:`homelab` `networking` `server`
 
 # `DEVSYSADMIN`
 
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    DEVSYSADMIN-->CS&Soft.Dev.-studies;
+    DEVSYSADMIN-->sysadmin-OSs;
+    sysadmin-OSs-->Android;
+    sysadmin-OSs-->Linux;
+    sysadmin-OSs-->Windows;
+    DEVSYSADMIN-->PROGRAMMING;
+    PROGRAMMING-->ArtificialIntelligence&MachineLearning;
+    PROGRAMMING-->GameDev;
+    PROGRAMMING-->languages;
+    PROGRAMMING-->Python;
+    PROGRAMMING-->web-dev;
+```
+
+
 ## `Computer Science & Software Development STUDIES`
 
 
@@ -309,7 +328,7 @@ TAGS:`homelab` `networking` `server`
 |[ ]|`.`|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden|`neural_networks`
 |[ ]|`.`|[Tu primera red neuronal - Inteligencia Artificial](https://youtu.be/UNFFLJPW7KQ)|Ringa Tech|`neural_networks` *HTML (?)*
 |[ ]|`tensorflow`|[TensorFlow in 100 Seconds](https://youtu.be/i8NETqtGHms)|Fireship
-|### $gamedev$|`gamedev`
+|### $GameDev$|`gamedev`
 |[ ]|`.`|[I Tried Creating a Game Using Real-World Geographic Data](https://youtu.be/sLqXFF8mlEU)|Sebastian Lague
 |[ ]|`.` `Lua`|[Pokémon Coding Tutorial - CS50's Intro to Game Development](https://youtu.be/gx_qorHxBpI)|freeCodeCamp
 |[ ]|`comm.` `GMTK`|[GMTK Game Jam 2022](https://youtu.be/XNCGdi2A6fQ)|Game Maker's Toolkit
