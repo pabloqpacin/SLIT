@@ -44,6 +44,22 @@ Mind `.` stands for the given `[x]`
 |---|---|---|---|---|
 
 # `HOMELAB` 
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    HOMELAB-->electronics;
+    HOMELAB-->TINKERING;
+    electronics-->microcontrollers;
+    electronics-->single-board computers;
+    electronics-->computer-components;
+    TINKERING--consolesD;
+```
+
+
+TAGS:`homelab` `networking` `server`
+
 |$HOMELAB$|`homelab`|||`hardware` `networking`
 |---|---|---|---|---|
 |[ ]|`.`|[What is a HomeLab and How Do I Get Started](https://youtu.be/gPGf4Y8nQqM)|Techno Tim
