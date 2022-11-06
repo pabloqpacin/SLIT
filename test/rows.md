@@ -52,7 +52,7 @@ graph TD;
     HOMELAB-->electronics;
     HOMELAB-->TINKERING;
     electronics-->microcontrollers;
-    electronics-->single-board computers;
+    electronics-->single-board-computers;
     electronics-->computer-components;
     TINKERING--consolesD;
 ```
