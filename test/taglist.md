@@ -4,48 +4,42 @@ desviar contenido a PROJECTS?
 -->
 
 
-- HOMELAB
-    - .
-    - electronics (101s)
-        - components
-    - restore, upgrade & repurpose (for projects)
-        - computers
-    - DIY (for projects)
-        - power-bank
-        - router
-        - server
-        - VPN
-
 - [HOMELAB](#homelab)
-  - [DIY (!)](#diy-)
+  - [.](#)
   - [electronics](#electronics)
-    - [microcontrollers](#microcontrollers)
-    - [SBCs](#sbcs)
-    - [computer components](#computer-components)
-    - [networking](#networking)
-  - [tinkering (!)](#tinkering-)
-    - [restore, upgrade, repurpose](#restore-upgrade-repurpose)
-- [SYSTEMS n' SOFTWARE DEVELOPMENT](#systems-n-software-development)
+    - [.](#-1)
+    - [1. microcontrollers](#1-microcontrollers)
+    - [2. single-board computers](#2-single-board-computers)
+    - [3. computer components](#3-computer-components)
+  - [TINKERING](#tinkering)
+    - [.](#-2)
+    - [consoles](#consoles)
+- [CompSci & Soft.Dev.](#compsci--softdev)
+  - [.](#-3)
+  - [Linux](#linux)
   - [PROGRAMMING](#programming)
-    - [PROGR. LANGUAGES](#progr-languages)
+    - [.](#-4)
+    - [art.int. & mach. learn.](#artint--mach-learn)
+    - [gamedev](#gamedev)
+    - [languages](#languages)
+    - [web-dev](#web-dev)
+- [SECURITY](#security)
+  - [hackers](#hackers)
   - [strong hierarchy](#strong-hierarchy)
 
-
+---
 
 # HOMELAB
-## DIY (!)
+## .
 ## electronics
-### microcontrollers
-### SBCs
-### computer components
-### networking
-## tinkering (!)
-### restore, upgrade, repurpose
-<!-- ### DIY (!) -->
+### .
+### 1. microcontrollers
+### 2. single-board computers
+### 3. computer components
+## TINKERING
+### .
+### consoles
 
-
-
----
 
 Mind `.` stands for the given `[x]`
 
@@ -58,16 +52,12 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[HomeLab Tools & Accessories - Network / Server/ PC Tool Kit](https://youtu.be/VX2dxFkahgs)|Techo Tim|*toolkit*
 |[ ]|`networking`|[Tour of Home Network](https://youtu.be/Ev0PL892zSE) | The 8-Bit Guy
 |[ ]|`server`|[What's on my Home Server? MUST HAVE Services!](https://youtu.be/c4rKWrH88F0)|Tech Hut
-|`D` — $DIY$|
-|[ ]|`DIY` `networking`|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie|`DIY-router`
-|[ ]|`DIY` `networking`|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|`DIY-router`
-|[ ]|`DIY` `server`|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
-|[ ]|`DIY` `server`|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
-|[ ]|`DIY` `VPN`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel|`RPi`
-|`E` — $electronics$|`electronics`
+|$electronics$|`electronics`
 |[ ]|`.`|[How Electricity works](https://youtu.be/mc979OhitAg)|Engineering Mindset
 |[ ]|`.`|[Basic Electricity - What is an amp?](https://youtu.be/8gvJzrjwjds)|Afrotechmods
 |[ ]|`.`|[Essential Tools that you will need for creating electronics projects!](https://youtu.be/7-djg27lJyQ)|GreatScott!| `toolkit` // **Black Friday (?)**
+|[ ]|`.` `networking`|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
+|[ ]|`.` `networking`|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
 |[ ]|`circuits`|[Why Are Circuits on Boards?](https://youtu.be/6je0Ea-jGlI)|Zack Freedman
 |$(microcontrollers,$|`microcontrollers`|||`programming`
 |[ ]|`.`|[A Hacker's Guide to Programming Microcontrollers, Tutorial](https://youtu.be/XlFO5Iat178)|Null Byte
@@ -80,13 +70,11 @@ Mind `.` stands for the given `[x]`
 |[ ]|`arduino` `RPico`|[Arduino vs Pico - Which is the Best Microcontroller For You?](https://youtu.be/dOa3570JM2M)|Gary Explains
 |[ ]|`RPico`|[Raspberry Pi Pico](https://youtu.be/peLH-HNza44)|ExplainingComputers
 |[ ]|`RPico`|[Raspberry Pi Pico W: Wireless Weather Station](https://youtu.be/3q807OdvtH0)|ExplainingComputers
-||
-|$SBCs$|`sbc`|||single-board computers
-||
-|$computer. components$| `low-level`
+|$SBCs,$|`sbc`|||single-board computers
+|$computer. components)$| `low-level`
 |[ ]|`.`|[How Do Computers Remember](https://youtu.be/I0-izyq6q5s)|Sebastian Lague
 |[ ]|`.`|[Jamás Entenderás Cómo Funciona un PC al 100%](https://youtu.be/iOQnZKJ3fls)|Antonio Sarosi|**ojo**
-|[ ]|`.` `gamedev`|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| gamedev // ON Discord
+|[ ]|`.` `gamedev`|[Fixing the Entire SM64 Source Code (Insane N64 performance)](https://youtu.be/t_rzYnXEQlE)|Kaze Emanuar| `gamedev` // ON Discord
 |[ ]|`bluetooth`|[How does Bluetooth Work?](https://youtu.be/1I1vxu5qIUM)|Branch Education
 |[ ]|`CPU`|[CPU Clock Speed Explained](https://youtu.be/3PcO10iAXTk)|Max's Tech
 |[ ]|`CPU`|[How CPUs read machine code](https://youtu.be/yl8vPW5hydQ)||`machine_code`
@@ -94,27 +82,52 @@ Mind `.` stands for the given `[x]`
 |[ ]|`memory`|[How do Computers Work? Exploring Computer Main Memory DRAM DDR5](https://youtu.be/7J7X7aZvMXQ)|Branch Education| quality dawg
 |[ ]|`MOBO`|[Motherboards Explained](https://youtu.be/b2pd3Y6aBag)|PowerCert Animated Videos
 |[ ]|`storage` `ssd`|[How do SSDs/Smartphones work?](https://youtu.be/5Mh3o886qpg)|Branch Education
-|$networking$|`networking`
-|[ ]|`firewalls`|[How Firewalls Work](https://youtu.be/VS6An2WZ51k)|Mental Outlaw
-|[ ]|`ports`|[Network Ports Explained](https://youtu.be/g2fT-g9PX9o)|PowerCert Animated Videos
+||
 |$TINKERING$|
 |[ ]|`.`|[How I Made my own Smart Glass Under $10](https://youtu.be/pkB1Nahi-X0)|DD ElectroTech
 |[ ]|`.`|[$15 Drone Build within 24 Hours - Challenge](https://youtu.be/FHk5PEZAyMA)|DD ElectroTech
-|[ ]|`.`|[How I Transform OLD TV into Smart TV - Voice Controlled](https://youtu.be/Xzd5CG4Nn2c)|DD ElectroTech
-|$restore, upgrade, repurpose$|
 |[ ]|`.`|[Hacking Dystopia with a Pi 400 Cyberdeck](https://youtu.be/guGffGw3uDg)|Zack Freedman
-|[ ]|`Pentium` BIOS|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
-|[ ]|`Pentium`|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
-|[ ]|`Pentium`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri|`windows`
+|[ ]|`.` `networking`|[Should You Build Your Own Router?](https://youtu.be/Yq9NtTS90AE)|Wolfgang's Channel|`DIY-router`
+|[ ]|`.` `networking`|[Routers Suck. Build Your Own Instead!](https://youtu.be/am7xT-zU1Q0)|Techquickie|`DIY-router`
+|[ ]|`.` `repurpose`|[How I Transform OLD TV into Smart TV - Voice Controlled](https://youtu.be/Xzd5CG4Nn2c)|DD ElectroTech
+|[ ]|`.` `server`|[How to build a Budget Home Server and WHY You Should](https://youtu.be/irW0AiRED3w)|Zach's Tech Turf
+|[ ]|`.` `server`|[Incredible Budget Home Server! (Minecraft, Plex, Home Assistant, NAS)](https://youtu.be/72D3MvPk3Xs)|Hardware Haven
+|[ ]|`.` `VPN` `RPi`|[Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://youtu.be/rtUl7BfCNMY)|Wolfgang's Channel
+|[ ]|`.` `wiimote`|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
+|[ ]|`Pentium` `!BIOS`|[Computer BIOS in Pentium4 MOBO](https://youtu.be/TuG2rsrI_tc)
 |[ ]|`Pentium`|[Build Retro PC from New Old Parts](https://youtu.be/xKChxv9jw74)
-|[ ]|`Pentium`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab|`windows`
 |[ ]|`Pentium`|[This PC Wasn't Worth Saving; Pentium 4 Build](https://youtu.be/sjfe9cQky5g)|Tech Made Easy
-|[ ]|`Pentium`|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
-|$consoles)$
+|[ ]|`Pentium` `restore`|[Pentium III Restoration](https://youtu.be/eSYOH_AfgEY)
+|[ ]|`Pentium` `restore`|[Restoring old Windows XP](https://youtu.be/1p5RUI9hIF8)|Psivewri|`windows`
+|[ ]|`Pentium` `restore`|[This Pentium III hasn't been cleaned in 15 years](https://youtu.be/UyVHrxYZJJI)|Phils Computer Lab
+|[ ]|`Pentium` `upgrade`|[Using Pentium 4 in 2020 with Windows 10](https://youtu.be/sSZNLAIL65M)|Phils Computer Lab|`windows`
+|[ ]|`repurpose` `server`|[Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw)|Linux Tech Tips
+|[ ]|`repurpose` `server`|[Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U)|Hardware Haven
+|[ ]|`repurpose` `server`|[How to build a DIY NAS from an OLD PC // Budget TrueNAS](https://youtu.be/FN3NhrD3KWo)|Torogi Pro
+|[ ]|`repurpose` `server`|[Turn Old Computer into a NAS with FreeNas!](https://youtu.be/OUz5vC0IZX4)|Torogi Pro
+|[ ]|`repurpose` `server`|[Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug)|Electronics Wizardry
+|[ ]|`repurpose` `server`|[Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo)|Tech Hut
+|[ ]|`repurpose` `server`|[Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo)|The Bear Tech
+|[ ]|`smartabs` `restoration`|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
+|[ ]|`smartphones` `repurpose`|[10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg)|C4ETech English
+|[ ]|`smartphones` `repurpose`|[What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs)|Great Scott!
+|$consoles$
+|[ ]|`NES` `restoration`|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
+|[ ]|`GameBoy` `restore/upgrade`|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
+|[ ]|`PS1` `restore/upgrade`|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
+||
 
-# SYSTEMS n' SOFTWARE DEVELOPMENT
+---
+
+# CompSci & Soft.Dev.
+## .
+## Linux
 ## PROGRAMMING
-### PROGR. LANGUAGES
+### .
+### art.int. & mach. learn.
+### gamedev
+### languages
+### web-dev
 
 
 |[x]|tags|title+link|creator|notes|
@@ -126,16 +139,53 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.`|[100+ Computer Science Concepts Explained](https://youtu.be/-uleG_Vecis)|Fireship
 |[ ]|`.`|[4º de Ingeniería Informática en 15 Minutos](https://youtu.be/_mKjNeb1lM4)|Antonio Sarosi
 |[ ]|`.`|[Licenciatura en Ciencias de la Computación (UBA)](https://youtu.be/sLMsRewMTVk)|Santi Fiorino
+|[ ]|`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
+|[ ]|`browser` `DDG`|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment|`privacy`
+|[ ]|`browser` `Google`|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
+|[ ]|`Cloud`|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
+|[ ]|`opensource`|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
+|[ ]|`opensource`|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
+|[ ]|`shell` `zsh` `fish`|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy
+|[ ]|`shell` `fish`|[What's so great about the Fish Shell?... I'll tell you...](https://youtu.be/xy38NNzufuE)|linux dabbler
+|[ ]|`shell` `zsh` `fish`|[Diferencias entre Bash vs ZSH vs Fish?](https://youtu.be/Mx968FklOYc)|CodelyTV-Redescubre la programación
+|[ ]|`sysadmin-job`|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
+|$Linux$|
+|[ ]|`d-Manjaro`|[MANJARO has a BIG PROBLEM](https://youtu.be/oVlD17OjFAc)|The Linux Experiment
+|[ ]|`d-openSUSE`|[I Spent 90 days in openSUSE Tumbleweed, This Is What Happened!](https://youtu.be/Idx2_YXVvNE)|DASGeek|must trye
+|[ ]|`d-openSUSE`|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
+|[ ]|`d-openSUSE`|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
+|[ ]|`kernel_dev`|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
+|[ ]|`kernel_dev`|[Kernel Linux(I) ¿Qué es el kernel de Linux](https://youtu.be/xJi7rIyLOrc)|Entropía Binaria
+|[ ]|`kernel_dev` `Torvalds`|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
 ||
 |$PROGRAMMING$
+|[ ]|`.`|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
+|[ ]|`.`|[Coding Skills NO ONE Will Teach You](https://youtu.be/7qH8prh4hpE)|Tech With Tim
+|[ ]|`.`|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
+|[ ]|`.`|[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY)|MoureDevrais
+|[ ]|`.` `good_practice`|[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E)|MoureDevrais
+|[ ]|`.` `good_practice` `debugging`|[Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0)|WebDevSimplified
 |[ ]|`.` `jobs`|[Developer Portfolio Do's and Don'ts](https://youtu.be/nlSgxeT2_dc)|Kenny Gunderman|**good advice**
 |[ ]|`.` `jobs`|[How I Would Get My First Job If I Started Over](https://youtu.be/hW5s_UUO1RI)|ThePrimeagen|prepare & persevere
+|[ ]|`.NET`|[What is .NET? // .NET COre 101 [1 of 8]](https://youtu.be/eIHKZfgddLM)|dot net
+|[ ]|`algorithms`|[Using *Group Theory* to Speed Up *Algorithms*](https://youtu.be/KufsL2VgELo)|Nemean
+|[ ]|`APIs`|[How Tom Scott & Mr. Beast use APIs to update their videos programmatically](https://youtu.be/JjXBrJfp5TE)|Fireship
 |[ ]|`blockchain`|[Bitcoin in 100 Seconds // Build your Own Blockchain](https://youtu.be/qF7dkrce-mQ)|Fireship|mind 9min.
 |[ ]|`databases`|[SurrealDB in 100 Seconds](https://youtu.be/C7WFwgDRStM)|Fireship
 |[ ]|`Git`|[Git It? How to Use Git and GitHub?](https://youtu.be/HkdAHXoRtos)|Fireship
 |[ ]|`Internet_speed`|[Is your Internet FAST enough?](https://youtu.be/2LOkI3Xyd_E)|Techquickie
 |[ ]|`metaverse`|[I tried the Metaverse - Meta Quest Pro](https://youtu.be/lT1sps72_sE)|ShortCircuit (Linus)
+|[ ]|`OOP`|[OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw)|Brian Will
 |[ ]|`roadmap` `python`|[The Real Python Developer Roadmap](https://youtu.be/d5BzuLlII_Y)|Zero To Mastery
+|[ ]|`terminal` `Windows`|[Windows Terminal NEW Features: v1.0 -> v1.15](https://youtu.be/hA4rGwT0nC4)|**ThioJoe**|mucho WINDOWS este pavo
+|[ ]|`TDD`|[Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ)|Fireship
+|[ ]|`TDD`|[Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4)|Fireship
+|[ ]|`vim`|[My Favorite Vim Tricks](https://youtu.be/B-EPvfxcgl0)|Mack
+|[ ]|`vim`|[VIM The Ultimate Editor](https://youtu.be/P88ydZVcm1s)|Chris Titus Tech
+|[ ]|`vim`|[How to Become a VIM /G/od](https://youtu.be/3sUDa5GdCTI)|Mental Outlaw
+|[ ]|`vscode`|[My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY)|Forrest Knight
+|[ ]|`vscode`|[25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI)|Fireship
+|[ ]|`vscode`? `Jupyter_Notebooks`|[Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg)|
 |$Art.Intelligence$ $Mach.Learning$|`ai` `ml`
 |[ ]|`.`|[Deep Learning / Natural Language Processing / Machine Learning / Artificial Neural Networks / ...](https://levelup.gitconnected.com/top-7-deep-learning-methods-each-explained-in-less-than-10-seconds-3683120de455)|LevelUpCoding|`neural_networks`
 |[ ]|`.`|[Why Neural Networks can learn (almost) anything](https://youtu.be/0QczhVg5HaI)|Emergent Garden|`neural_networks`
@@ -146,7 +196,11 @@ Mind `.` stands for the given `[x]`
 |[ ]|`.` `Unity`|[I wish I had known this before I started Unity Game Development](https://youtu.be/286SGzpUx9o)|But Why Levin
 |[ ]|`.` `Unity`|[Unity VS Unreal Engine 5; Which Engine is Best For Game Development?](https://youtu.be/iEJe9NIYGTs)|Skrelo
 |[ ]|`mod-making`|[Game Modding afap](https://youtu.be/4BB1HfvSqAI)|Techquickie
+|[ ]|`retrogaming` `rev.eng.`|[Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction)|Retro Reversing
+||
 |$languages$|`$`
+|[ ]|`.`|[The Programming Language Guide](https://youtu.be/2lVDktWK-pc)|Traversy Media
+|[ ]|`.` `scripting`|[Scripting Vs Programming; Differences between Scripting & Programming Languages](https://youtu.be/g0Q-VWBX5Js)|Intellipaat
 |[ ]|AI|[IA aprende a jugar Dino (Chrome)](https://youtu.be/gC85en0Vmh4)|Santi Fiorino
 |[ ]|AI, neural_networks|[NN Learns to Play Snake](https://youtu.be/zIkBYwdkuTk)|Greer Viau
 |[ ]|`bash`|[Shell Scripting Tutorial -website-](https://shellscript.sh)||website
@@ -187,125 +241,46 @@ Mind `.` stands for the given `[x]`
 |[ ]|`frontend`|[The Biggest Web Design Trends of the Last 30 Years](https://youtu.be/urzcF_Xw9oI)|Design Course
 |[ ]|`fullstack`|[Fullstack Development Iceberg {Shorts}](https://youtu.be/JMWNYfPIF2U)|Fireship
 |[ ]|`hosting`|[Self-Hosted Website with Reverse Proxy using Your Domain in 10 Minutes](https://youtu.be/LvArP0goZO8)|Geeked
-|$web—browsers$|
-|[ ]|`browser` `Google`|[How Google Search Works (in 5 minutes)](https://youtu.be/0eKVizvYSUQ)|Google
-|[ ]|`browser` `DDG`, privacy|[BYE DuckDuckGo, here's my new search engine! Private Alternatives to Google](https://youtu.be/x9q3qPxrTqg)|The Linux Experiment|`privacy`
 ||
+
+---
+
+# SECURITY
+## hackers
+
+
 
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|
 |$SECURITY$|
-|[ ]|`blackhat`|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|`CKC` *(cyber-kill-chain)*
-|[ ]|`blackhat`|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
-|[ ]|`blackhat`|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
+|[ ]|`.` `Windows`|[Windows Defender Bypassed](https://youtu.be/ZCV1Wx3Qugg)|The PC Security Channel
 |[ ]|`cryptography`|[7 Crypto Concepts EVERY Developer Should Know](https://youtu.be/NuyzuNBFWxQ)|Fireship
 |[ ]|`cryptography` `SHA`|[SHA256 Algorithm Explained](https://youtube/nduoUEHrK_4)|Simplilearn
+|[ ]|`CTF`|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
+|[ ]|`CTF` `Python`|[How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0)|CTF School
 |[ ]|`darkweb`|[How to browse the Dark Web safely?](https://youtu.be/7icDhuOtJtU)|Tech Raj
 |[ ]|`darkweb`|[SURFING THE DARK WEB](https://youtu.be/pKt_U9ShZxE)|Crypto NWO|**great channel for `malware`**
 |[ ]|`darkweb` `Tor`|[How Tor Works](https://youtu.be/QRYzre4bf7I)|Computerphile
 |[ ]|`darkweb` `Tor`|[How to Access the Dark Web Safely in 2022 (Tor + Tails)](https://youtu.be/EgXeXmNecto)|The Cyber Mentor
 |[ ]|`jobs`|[¿Cómo empezar en ciberseguridad](https://youtu.be/syqItp4p8Qw)|S4vitar
 |[ ]|`malware`|[MALWARE ANALYSIS // How to get started with John Hammond](https://youtu.be/sBuxwMAfGnI)|David Bombal
+|[ ]|`pentesting`|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
+|[ ]|`pentesting`|[Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA)|David Bombal
+|[ ]|`rev.eng.`|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
+|[ ]|`rev.eng.`|[Getting Started Learning Reverse Engineering // Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU)|Marcus Hutchins
+|[ ]|`rev.eng.` `Ghidra`|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
+||
+|$hackers$|
+|[ ]|`.` `botnet`|[How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M)|Mental Outlaw
+|[ ]|`.` `botnet`|[The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY)|Mental Outlaw|emotet
+|[ ]|`blackhat`|[The Mind of a Black Hat Hacker](https://youtu.be/-aNXeevUDyU)|TayOnTech|`CKC` *(cyber-kill-chain)*
+|[ ]|`blackhat`|[The Hacking Empire Built on Discord](https://youtu.be/NEFwe4873sw)|Seytonic
+|[ ]|`blackhat`|[DarkSide: The $90 Million Dollar Hackers](https://youtu.be/YSRkbDF0ydg)|Forrest Knight
+||
 
 ---
 
-|[x]|tags|title+link|creator|notes|
-|---|---|---|---|---|
-||
-|[ ]|`BIOS`|[PC BIOS Settings](https://youtu.be/ezubjTO7rRI)|ExplainingComputers
-||
-|$OSs$|
-|$linux$|
-|[ ]|`distros` `Manjaro`|[MANJARO has a BIG PROBLEM](https://youtu.be/oVlD17OjFAc)|The Linux Experiment
-|[ ]|`distros` `openSUSE`|[I Spent 90 days in openSUSE Tumbleweed, This Is What Happened!](https://youtu.be/Idx2_YXVvNE)|DASGeek|must trye
-|[ ]|`distros` `openSUSE`|[5 Things You MUST DO After Installing OpenSUSE](https://youtu.be/ajVqJ1nl9bM)|TechHut
-|[ ]|`distros` `openSUSE`|[OpenSUSE: A Beautiful Linux Distro](https://youtu.be/yf3b6b1iHIA)|ExplainingComputers
-|[ ]|`kernel_dev`|[BIG TECH makes LINUX. Is that a problem?](https://youtu.be/7LfBSzi0Dp0)|The Linux Experiment
-|[ ]|`kernel_dev`|[Kernel Linux(I) ¿Qué es el kernel de Linux](https://youtu.be/xJi7rIyLOrc)|Entropía Binaria
-|[ ]|`kernel_dev` `Torvalds`|[Linus Torvalds On Future Of Desktop Linux](https://youtu.be/mysM-V5h9z8)|TFiR
-||
-|$windows$|
-||
-||
-||$P—PROGRAMMING$
-|[ ]|algorithms|[Researchers Use *Group Theory* to Speet Up Algorithms - Introduction to Groups](https://youtu.be/KufsL2VgELo)|Nemean
-|[ ]|OOP|[OOP is Embarrasing: 4 Short Examples](https://youtu.be/IRTfhkiAqPw)|Brian Will
-|[ ]|programming|[Programar no es fácil: tienes que darle al coco](https://youtu.be/Pffxn91L__4)|Makigas
-|[ ]|programming, coding|[Coding is NOT enough](https://youtu.be/1ES981Nywx0)|CoderCoder
-|[ ]|programming, coding|[Coding Skills NO ONE Will Teach You](https://youtu.be/7qH8prh4hpE)|Tech With Tim
-|[ ]|programming|[10 cosas que he aprendido en 7 años como Programador Freelance](https://youtu.be/vVMiKq0Ly1E)|MoureDevrais
-|[ ]|programming|[Cómo MEJORAR en PROGRAMACIÓN (Y en ENTREVISTAS Técnicas)](https://youtu.be/14v4IINunvY)|MoureDevrais
-|[ ]|programming, editors, vscode|[My VS Code Setup for Web Development](https://youtu.be/H2gvHxC9gFY)|Forrest Knight
-|[ ]|programming, editors, vscode|[25 VSCode Productivity Tips and Speed Hacks](https://youtu.be/ifTF3ags0XI)|Fireship
-|[ ]|programming, Jupyter_Notebooks|[Get started with Jupyter Notebooks in 4 minutes](https://youtu.be/h1sAzPojKMg)|VSC
-|[ ]|programming, debugging|[Best Debuggin Tips for Beginners](https://youtu.be/gaminoBsQx0)|WebDevSimplified
-|[ ]|programming_scripting|[Scripting Vs Programming; Differences between Scripting & Programming Languages](https://youtu.be/g0Q-VWBX5Js)|Intellipaat
-|[ ]|programming, shell, bash-zsh|[Bash vs ZSH vs Fish: What's the Difference?](https://youtu.be/dRdGq8khTJc)|Eric Murphy
-|[ ]|programming, shell, bash-zsh|[Diferencias entre Bash vs ZSH vs Fish?](https://youtu.be/Mx968FklOYc)|CodelyTV-Redescubre la programación
-|[ ]|programming, shell|[What's so great about the Fish Shell?... I'll tell you...](https://youtu.be/xy38NNzufuE)|linux dabbler
-|[ ]|Programming Languages (ie PL)|[The Programming Language Guide](https://youtu.be/2lVDktWK-pc)|Traversy Media
-||$(SALVAGE:)$
-||$R—REPURPOSE$
-|[ ]|repurpose (homelab)|[Your old PC is your new Server](https://youtu.be/zPmqbtKwtgw)|Linux Tech Tips
-|[ ]|repurpose (homelab)|[Convert an old PC to a Home Server using Unraid - SMB, Terraria, HomeAssistant, Jellyfin](https://youtu.be/7h0JVS0en3U)|Hardware Haven
-|[ ]|repurpose (homelab)|[How to build a DIY NAS from an OLD PC // Budget TrueNAS](https://youtu.be/FN3NhrD3KWo)|Torogi Pro
-|[ ]|repurpose (homelab)|[Turn Old Computer into a NAS with FreeNas!](https://youtu.be/OUz5vC0IZX4)|Torogi Pro
-|[ ]|repurpose (homelab)|[Setting up an old laptop as a NAS](https://youtu.be/ZInPE-sG0Ug)|Electronics Wizardry
-|[ ]|repurpose (homelab, PLEX)|[Turning an OLD PC/Laptop into a Media Server! (Ubuntu/PLEX Guide)](https://youtu.be/lXcfKTNObOo)|Tech Hut
-|[ ]|repurpose (homelab, PLEX)|[Turn an old PC into a powerful NAS solution using UNRAID!](https://youtu.be/r9n4hMFBqvo)|The Bear Tech
-|[ ]|repurpose smartphones|[10 GENIUS Ways to Reuse Your Old Smartphone](https://youtu.be/k2_qM7NF_Vg)|C4ETech English
-|[ ]|repurpose smartphone|[What is worth salvaging from an old smartphone](https://youtu.be/dYnplx_DVHs)|Great Scott!
-||
-||$RESTORATION$
-|[ ]|restoration|[I Bought 7 BROKEN NES Games - Let's Try To Fix Them](https://youtu.be/nDW8P0mP4qI)|TronicsFix
-|[ ]|restore tablets|[OEM/ODM 7 Inch Tablet PC Touch Screen Replacement Disassembly Repair Guide](https://youtu.be/LeaulreONq0)|ivifix.com
-||
-||$REVERSE-ENGINEERING$
-|[ ]|reverse_engineering|[Beginner Reverse Engineering, Part 1: How To Find The Main Function](https://youtu.be/tWSa1L5L394)|Marcus Hutchins|**great stuff**
-|[ ]|reverse_engineering|[Getting Started Learning Reverse Engineering // Tips for Complete Beginners](https://youtu.be/DFHug3Nq7eU)|Marcus Hutchins
-|[ ]|reverse_engineering, Ghidra|[INGENIERÍA INVERSA USANDO GHIDRA (Herramienta de la NSA) // Tutorial](https://youtu.be/aQICC0EtG90)|Mr Código Fuente
-|[ ]|retro-games|[Beginners Guide to Reverse Engineering (Retro Games)](https://www.retroreversing.com/tutorials/introduction)|Retro Reversing
-||
-||
-||$S—SECURITY$
-|[ ]|CTF|[BEGINNER Capture The Flag - PicoCTF 2021 001 "Obedient Cat"](https://youtu.be/P07NH5F-t3s)|John Hammond|**good channel**
-|[ ]|CTF, Python|[How to solve Python Sandbox Capture-The-Flag challenge?](https://youtu.be/Ub_BMOMDOx0)|CTF School
-|[ ]|security, botnet|[How to Actually Escape the Botnet](https://youtu.be/V1PUDUfWe4M)|Mental Outlaw
-|[ ]|security, botnet|[The World's Worst Botnet Just Got Stronger](https://youtu.be/lct_NBCzVKY)|Mental Outlaw|emotet
-|[ ]|security, pentesting|[Pen Testing Tool Overview - RustScan](https://youtu.be/Nvw9p_i_q-8)|Rock
-|[ ]|security, pentesting|[Ex-NSA hacker tools for real world pentesting](https://youtu.be/G8lrwmsx8KA)|David Bombal
-|[ ]|security, Windows|[Windows Defender Bypassed](https://youtu.be/ZCV1Wx3Qugg)|The PC Security Channel
-||
-||$Software—Testing$
-|[ ]|TDD|[Software Testing Explained in 100 Seconds](https://youtu.be/u6QfIXgjwGQ)|Fireship
-|[ ]|TDD|[Test-Driven Development // Fun TDD introduction with **JavaScript**](https://youtu.be/Jv2uxzhPFl4)|Fireship
-||
-||
-|[ ]|sysadmin|[Staying Happy in System Administration](https://youtu.be/dGJlUoCTb6M)|USENIX|40min.
-||
-||$T—TECHNOLOGIES$
-|[ ]|technologies, APIs|[How Tom Scott & Mr. Beast use APIs to update their videos programmatically](https://youtu.be/JjXBrJfp5TE)|Fireship
-|[ ]|technologies, .NET|[What is .NET? // .NET COre 101 [1 of 8]](https://youtu.be/eIHKZfgddLM)|dot net
-|[ ]|technologies, vim|[My Favorite Vim Tricks](https://youtu.be/B-EPvfxcgl0)|Mack
-|[ ]|technologies, vim|[VIM The Ultimate Editor](https://youtu.be/P88ydZVcm1s)|Chris Titus Tech
-|[ ]|technologies, vim|[How to Become a VIM /G/od](https://youtu.be/3sUDa5GdCTI)|Mental Outlaw
-||
-||$TERMINAL$
-|[ ]|terminal, windows|[Windows Terminal NEW Features: v1.0 -> v1.15](https://youtu.be/hA4rGwT0nC4)|**ThioJoe**|mucho WINDOWS este pavo
-||
-||$C—CLOUD$
-|[ ]|Cloud|[Cloud Computing Explained](https://youtu.be/_a6us8kaq0g)|PowerCert Animated Videos
-||
-|$consoles$|
-|[ ]|GameBoy restore/upgrade|[Gameboy Restored & Upgraded](https://youtu.be/lMyb0erNuCE)|Odd Tinkering
-|[ ]| PS1 restore/upgrade|[PS1 Restoration & Upgrade](https://youtu.be/eMUpTVMqueY)|Odd Tinkering
-|[ ]|Universal Wii Remote|[Wii Remote Working on PS5 (How-to)](https://youtu.be/BjgCvOfQek8)|Basically Homeless
-||
-||$OPEN—SOURCE$
-|[ ]|Open-Source|[Contributing to Open Source can change your life](https://youtu.be/CML6vfKjQss)
-|[ ]|Open-Source|[How to Contribute to Open Source - Complete Guide](https://youtu.be/yzeVMecydCE)|freeCodeCamp + Eddie Jaoude
-
-
+---
 
 ## strong hierarchy
 
