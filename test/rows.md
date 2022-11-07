@@ -2,8 +2,64 @@
 aquí MATERIALS
 desviar contenido a PROJECTS?
 -->
+# SLIT-materials (taglist)
+
+SLIT is my self-taught approach to IT, mainly programming and network/system administration.
+
+Following the many materials & tutorials linked in this file, I should be highly employable by 2023/2024.
+
+```mermaid
+
+graph LR;
 
 
+SLIT{SLIT}
+
+SLIT --> T
+T[Tinkering]
+T.- |security| N
+T .- |repair-salvage| E
+
+
+E[electronics]
+E .- |smart DIY| H
+N[networking]
+N .- |NAS| H
+
+
+H{HOMELAB}
+H .- |robotics| automation
+H .- |malware| hacking-lab
+H .- |self-hosting| home-server
+H --> 2022
+
+
+2022{pabloqpacin 2022+}
+D --> 2022
+D{DEVSYSADMIN}
+D .- |Python| AI(artificial intelligence)
+D .- |reverse engineering| game(gamedev/modding)
+D .- |frameworks| web-dev
+
+
+SLIT --> P
+P[Programming]
+sysadmin[sysadmin]
+SD[software dev.]
+
+
+P .- |OS config| sysadmin
+P .- |languages| SD
+
+sysadmin .- |shell dev.| D
+SD .- |backend| D
+
+
+```
+
+---
+
+- [SLIT-materials (taglist)](#slit-materials-taglist)
 - [`HOMELAB`](#homelab)
   - [`electronics`](#electronics)
     - [1. `microcontrollers`](#1-microcontrollers)
