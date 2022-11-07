@@ -58,25 +58,6 @@ graph LR;
 ```
 
 
-```mermaid
-
-flowchart LR
-T[Tinkering]
-
-? --> diy-VPN
-? --> diy-NAS
-? --> h(home server)
-? --> l(laptop powerbank)
-
-T --> E(laptop-EX2511) --> |upgrade RAM to 8+ GB| K(Kali)
-
-T --> P(Pentium) .- |repurpose| ?
-T --> A(laptop-A5920) .- |upgrade HDD to SSD| ?
-
-T --> R(RPico)
-T --> U(arduino UNO)
-
-```
 
 
 TAGS:`homelab` `networking` `server`
