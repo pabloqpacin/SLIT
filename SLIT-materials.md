@@ -52,7 +52,14 @@ SD .- |backend| D
 
 ```
 
-1. # HOMELAB (short): Hardware Tinkering + Network Security
+- [*SLIT materials*](#slit-materials)
+  - [Overview Graph](#overview-graph)
+- [1. HOMELAB (short): Hardware Tinkering + Network Security](#1-homelab-short-hardware-tinkering--network-security)
+- [2. DEVSYSADMIN: Operating Systems + Software Development](#2-devsysadmin-operating-systems--software-development)
+- [3. SECURITY: INFOSEC](#3-security-infosec)
+
+
+# 1. HOMELAB (short): Hardware Tinkering + Network Security
  
 ```mermaid
 
@@ -162,7 +169,7 @@ graph LR;
 ||
 
 
-## ***Tinkering Devices for HOMELAB***
+- ***Tinkering Devices:***
 
 ```mermaid
 
@@ -210,7 +217,7 @@ H .- hacking-lab
 
 ---
 
-2. # DEVSYSADMIN
+# 2. DEVSYSADMIN: Operating Systems + Software Development
 
 Deprecated graph:
 
@@ -237,12 +244,8 @@ P .- web-dev
 ```
 
 
-## `Computer Science & Software Development STUDIES`
 
-
-
-
-(for `gamedev`, `comm.` stands for *'gamedev community'* YAY!)
+<!-- (for `gamedev`, `comm.` stands for *'gamedev community'* YAY!) -->
 
 |# $DEVSYSADMIN$|`devsysadmin`||||
 |---|---|---|---|---|
@@ -414,7 +417,7 @@ P .- web-dev
 
 ---
 
-3. # SECURITY: INFOSEC
+# 3. SECURITY: INFOSEC
 
 |[x]|tags|title+link|creator|notes|
 |---|---|---|---|---|

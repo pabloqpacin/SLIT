@@ -3,9 +3,9 @@
 
 
 
-For general learning materials see [SLIT-materials]().
+For general learning materials see [SLIT-materials](/SLIT-materials.md).
 
-For actual projects see [SLIT-projects](/SLIT-projects/readme.md).
+For actual projects see [SLIT-projects](/SLIT-projects).
 
 Observe the graphs below to understand the scope of SLIT and see [graphs-sandbox]
 
