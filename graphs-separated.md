@@ -41,25 +41,149 @@ WD[Web Development]
 
 graph LR;
 
-SLIT 
+?{?}
 
+SLIT 
 
     SLIT --> IA(I - HOMELAB A)
         IA .- 1(1. Tinkering)
-            1 .- homelab{homelab}
-
+            1 .- |electronics| HP{homelab projects}
 
     SLIT --> II(II - PROGRAMMING)
         II .- 2(2. Operating Systems)
+            2 .- HP
 
-
-        
         II .- 3(3. Software Engineering)
-
-
-
+            3 .- |self-taught dev| HP
 
     SLIT --> IB(I - HOMELAB B)
         IB .- 4(4. Network Security)
-            4 .- homelab
-    
+            4 .- |infosec| HP
+
+
+HP
+
+    HP .- LL(low-level)
+        LL .- mc(microcontrollers)
+        LL .- SC(salvaged components)
+            mc .- |.ino python| ?
+            SC .- |repair root upgrade| ?
+            SC
+        LL --> |smart DIY| HS(home server)
+            HS .- |hack-proof| self-hosting
+
+    HP .- N(networking)
+        N --> HS
+        N --> HL       
+
+
+    HP .- |VMs| HL(hacking lab)
+            HL .- |kali linux| pentesting
+            HL .- |reverse-engineer| malware
+            
+    HP .- W(Windows)
+
+        W .- Security
+            Security .- malware
+        W --> |code| CPS(CMD powershell)
+        W .- |dev| WSL
+
+
+    HP .- L(Linux)
+
+        L --> Bash(Bash ZSH)
+        L .- Distros
+        L .- |dev| Kernel
+
+
+    HP .- SD(software devel.)
+
+        SD .- GD(game devel.)
+            GD .- |reverse-engineering| mod-making
+        SD --> PY(Python)
+            PY .- ml(machine learning)
+            PY .- Backend
+        SD .- |flask / JS| WD(web devel.)
+            WD --> Backend
+
+
+
+
+```
+
+
+
+
+``` mermaid
+
+graph LR;
+
+?{?}
+
+SLIT 
+
+    SLIT --> IA(I - HOMELAB A)
+        IA .- 1(1. Tinkering)
+            1 .- |electronics| HP{homelab projects}
+
+    SLIT --> II(II - PROGRAMMING)
+        II .- 2(2. Operating Systems)
+            2 .- HP
+
+        II .- 3(3. Software Engineering)
+            3 .- |self-taught dev| HP
+
+    SLIT --> IB(I - HOMELAB B)
+        IB .- 4(4. Network Security)
+            4 .- |infosec| HP
+
+
+HP
+
+    HP .- LL(low-level)
+        LL .- mc(microcontrollers)
+        LL .- SC(salvaged components)
+            mc .- |.ino python| ?
+            SC .- |repair root upgrade| ?
+            SC
+        LL --> |smart DIY| HS(home server)
+            HS .- |hack-proof| self-hosting
+
+    HP .- N(networking)
+        N --> HS
+        N --> HL       
+
+
+    HP .- |VMs| HL(hacking lab)
+            HL .- |kali linux| pentesting
+            HL .- |reverse-engineer| malware
+            
+    HP .- W(Windows)
+
+        W .- Security
+            Security .- malware
+        W --> |code| CPS(CMD powershell)
+        W .- |dev| WSL
+
+
+    HP .- L(Linux)
+
+        L --> Bash(Bash ZSH)
+        L .- Distros
+        L .- |dev| Kernel
+
+
+    HP .- SD(software devel.)
+
+        SD .- GD(game devel.)
+            GD .- |reverse-engineering| mod-making
+        SD --> PY(Python)
+            PY .- ml(machine learning)
+            PY .- Backend
+        SD .- |flask / JS| WD(web devel.)
+            WD --> Backend
+
+
+
+
+```
