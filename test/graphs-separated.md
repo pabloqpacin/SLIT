@@ -197,125 +197,202 @@ graph LR;
 
 ?{?}
 
-SLIT 
+SLIT{SLIT materials} 
 
     SLIT --> IA(I - HOMELAB A)
-        IA .- 1(1. Tinkering)
-            1 .- |electronics| HP{homelab projects}
+        IA .- 1(1. Hardware Tinkering)
+            1 .- |electronics| SP{SLIT projects}
 
     SLIT --> II(II - PROGRAMMING)
         II .- 2(2. Operating Systems)
-            2 .- HP
+            2 .- SP
 
         II .- 3(3. Software Engineering)
-            3 .- |self-taught dev| HP
+            3 .- |self-taught dev| SP
 
     SLIT --> IB(I - HOMELAB B)
         IB .- 4(4. Network Security)
-            4 .- |infosec| HP
+            4 .- |infosec| SP
 
 
-HP
+SP
 
-        mc(microcontrollers) .- |circuits| T
-        SC(salvaged components) .- |repair upgrade|T
-
-    HP .- T(Tinkering)
-            mc
-            SC
-
-            T .- |DIY| HS(home server)
-                HS --> self-hosting
-
-
-            T .- HL(hacking lab)
-                HL .- pentesting .- |networks websites| pentesting
-                HL .- malware-analysis .- |scripting reverse-engineering| malware-analysis
+    SP .- T(Tinkering*)
+        T .- |repair upgrade salvage| electronics(microcontrollers / components)
+            electronics .- robots{robots}
+            electronics  --> |DIY| HS{home server}
+                HS .- self-hosting
 
 
 
-    HP .- NSA(net/sysadmin)
+    SP .- NSA(net/sysadmin)
 
-        NSA --> |bash| Linux
-            Linux .- WSL
+        NSA .- IS(INFOSEC)
+            IS .- HS
+        NSA --> |Bash| Linux
+            Linux .- D{distrohopping}
+            Linux .- Kernel
+                Kernel .- os{opensource}
         NSA --> |cmd powershell| Windows
             Windows .- WSL
-        NSA .- NS(network security)
-            NS
 
 
 
-    HP .- SD(Software Devel.)
+    SP .- SD(Software Devel.)
 
+        SD --> os
         SD .- |Python| AI(AI machine  learning)
             AI .- bots{bots}
         SD .- GD(game devel.)
-        SD .- |Flask JS| WD(web devel.) --> Backend
+            GD .- |reverse-engineering| mod-making
+        SD .- |Flask JS| WD(web devel.)
+            WD --> B{Backend}
+
+
+    SP .- HL(hacking lab)
+                    HL --> |kali-linux| pentesting .- |networks / websites| pentesting
+                    HL --> |Windows| malware-analysis .- |scripting / reverse-engineering| malware-analysis
 
 
 ```
 
+```markdwon
 
-``` mermaid
+# SLIT materials
+
+1. ## Hardware Tinkering
+
+2. ## Operating Systems
+
+3. ## Software Engineering
+
+4. ## Network Security
+
+# SLIT homelab projects
+
+1. ## Tinkering
+
+### microcontrollers > robots
+
+### salvaged components > (DIY) home server > (infosec) self-hosting
+
+2. ## netsysadmin
+
+### Linux > Bash
+
+### Linux > distros
+
+### Windows > WSL
+
+
+4. ## INFOSEC
+
+### hacking lab > malware analysis
+
+### hacking lab > pentesting
+
+```
+
+---
+
+# previously in SLIT readme
+
+
+1. ## SLIT graph
+
+```mermaid
 
 graph LR;
 
-?{?}
 
-SLIT 
+SLIT{SLIT}
 
-    SLIT --> IA(I - HOMELAB A)
-        IA .- 1(1. Tinkering)
-            1 .- |electronics| HP{homelab projects}
-
-    SLIT --> II(II - PROGRAMMING)
-        II .- 2(2. Operating Systems)
-            2 .- HP
-
-        II .- 3(3. Software Engineering)
-            3 .- |self-taught dev| HP
-
-    SLIT --> IB(I - HOMELAB B)
-        IB .- 4(4. Network Security)
-            4 .- |infosec| HP
+SLIT --> T
+T[Tinkering]
+T.- |security| N
+T .- |repair-salvage| E
 
 
-HP
-
-        mc(microcontrollers) .- |circuits| T
-        SC(salvaged components) .- |repair upgrade|T
-
-    HP .- T(Tinkering)
-            mc
-            SC
-
-            T .- |DIY| HS(home server)
-                HS --> self-hosting
+E[electronics]
+E .- |smart DIY| H
+N[networking]
+N .- |NAS| H
 
 
-            T .- HL(hacking lab)
-                HL .- pentesting .- |networks websites| pentesting
-                HL .- malware-analysis .- |scripting reverse-engineering| malware-analysis
+H{HOMELAB}
+H .- |robotics| automation
+H .- |malware| hacking-lab
+H .- |self-hosting| home-server
+H --> 2022
 
 
-
-    HP .- NSA(net/sysadmin)
-
-        NSA --> |bash| Linux
-            Linux .- WSL
-        NSA --> |cmd powershell| Windows
-            Windows .- WSL
-        NSA .- NS(network security)
-            NS
+2022{pabloqpacin 2022+}
+D --> 2022
+D{DEVSYSADMIN}
+D .- |Python| AI(artificial intelligence)
+D .- |reverse engineering| game(gamedev/modding)
+D .- |frameworks| web-dev
 
 
+SLIT --> P
+P[Programming]
+sysadmin[sysadmin]
+SD[software dev.]
 
-    HP .- SD(Software Devel.)
 
-        SD .- |Python| AI(AI machine  learning)
-            AI .- bots{bots}
-        SD .- GD(game devel.)
-        SD .- |Flask JS| WD(web devel.) --> Backend
+P .- |OS config| sysadmin
+P .- |languages| SD
+
+sysadmin .- |shell dev.| D
+SD .- |backend| D
 
 
 ```
+
+
+2. ## ↓ DEVSYSADMIN
+
+
+```mermaid
+graph LR;
+
+CS[Computer Science]
+
+CS .- |electronics| OSs
+OSs .- Android
+OSs .- Linux
+OSs .- Windows
+
+CS --> |sysadmin| D
+HOMELAB --> |networking| D
+SD(Software Development) --> |developer| D
+SD .- P(programming)
+D{DEVSYSADMIN}
+P .- AIML(Artificial Intelligence & Machine Learning)
+P .- GameDev
+P .- L(languages -a)
+P .- Python
+P .- web-dev
+```
+
+3. ## ↑ HOMELAB-short
+
+```mermaid
+
+graph LR;
+
+    HOMELAB --> electronics
+    electronics.-microcontrollers-->Tinkering
+    electronics.-salvage.-computer_components-->Tinkering
+    HOMELAB --> networking --> Tinkering
+```
+
+4. ## ↑ HOMELAB-long
+
+
+5. ## ↑ HOMELAB-devices
+
+
+
+# *SLIT-materials* taglist(rows)
+

@@ -1,118 +1,128 @@
 # *Self-Learning IT* ~ materials & projects
 
 
-All general learning materials are on display [below](#slit-materials-taglist) on this **readme** file. [SLIT-materials](/SLIT-materials).
-
-Now $devsysadmin$ projects are showcased and documented in [SLIT-projects](/SLIT-projects).
-- 02-Hardware_Tinkering
-- 04-Op_Systems_admin
-- 05-CODE_Programming
-
-lorem ipsum
-
-- [*Self-Learning IT* ~ materials & projects](#self-learning-it--materials--projects)
-- [DELETE: *all graphs*](#delete-all-graphs)
-- [*SLIT-materials* taglist(rows)](#slit-materials-taglistrows)
 
 
+For general learning materials see [SLIT-materials]().
 
-# DELETE: *all graphs*
+For actual projects see [SLIT-projects](/SLIT-projects/readme.md).
 
-1. ## SLIT graph
+Observe the graphs below to understand the scope of SLIT and see [graphs-sandbox]
+
+## *SLIT materials* visualized
+
 
 ```mermaid
+flowchart LR;
 
-graph LR;
+SLIT{SLIT materials}
 
-
-SLIT{SLIT}
-
-SLIT --> T
+SP{SLIT projects}
+E[Electronics]
+LL[low-level computing]
+NS[Network Security]
+PS[Programming / Scripting]
+repair[repair, restore]
+repurpose[repurpose]
+SA[System Admin]
+server[server admin]
+SD[Software Development]
 T[Tinkering]
-T.- |security| N
-T .- |repair-salvage| E
 
 
-E[electronics]
-E .- |smart DIY| H
-N[networking]
-N .- |NAS| H
+SLIT .- 4 .- NS
+    NS .- server
+        server .- SP
 
 
-H{HOMELAB}
-H .- |robotics| automation
-H .- |malware| hacking-lab
-H .- |self-hosting| home-server
-H --> 2022
+SLIT .- 1 .- T
+    T .- E
+    E .- LL
+        LL .- repair
+            repair .- SP
+        LL .- repurpose
+            repurpose .- server
+        LL .- PS
+  
+
+SLIT .- 2 .- SA
+    SA .- LL
 
 
-2022{pabloqpacin 2022+}
-D --> 2022
-D{DEVSYSADMIN}
-D .- |Python| AI(artificial intelligence)
-D .- |reverse engineering| game(gamedev/modding)
-D .- |frameworks| web-dev
+
+SLIT .- 3 .- SD
+    SD .- PS
+    PS .- SP
 
 
-SLIT --> P
-P[Programming]
-sysadmin[sysadmin]
-SD[software dev.]
-
-
-P .- |OS config| sysadmin
-P .- |languages| SD
-
-sysadmin .- |shell dev.| D
-SD .- |backend| D
 
 
 ```
 
 
-2. ## ↓ DEVSYSADMIN
 
+## *SLIT projects* visualized
 
-```mermaid
-graph LR;
-
-CS[Computer Science]
-
-CS .- |electronics| OSs
-OSs .- Android
-OSs .- Linux
-OSs .- Windows
-
-CS --> |sysadmin| D
-HOMELAB --> |networking| D
-SD(Software Development) --> |developer| D
-SD .- P(programming)
-D{DEVSYSADMIN}
-P .- AIML(Artificial Intelligence & Machine Learning)
-P .- GameDev
-P .- L(languages -a)
-P .- Python
-P .- web-dev
-```
-
-3. ## ↑ HOMELAB-short
-
-```mermaid
+``` mermaid
 
 graph LR;
 
-    HOMELAB --> electronics
-    electronics.-microcontrollers-->Tinkering
-    electronics.-salvage.-computer_components-->Tinkering
-    HOMELAB --> networking --> Tinkering
+
+SLIT{SLIT materials} 
+
+    SLIT --> IA(I - HOMELAB A)
+        IA .- 1(1. Hardware Tinkering)
+            1 .- |electronics| SP{SLIT projects}
+
+    SLIT --> II(II - PROGRAMMING)
+        II .- 2(2. Operating Systems)
+            2 .- SP
+
+        II .- 3(3. Software Engineering)
+            3 .- |self-taught dev| SP
+
+    SLIT --> IB(I - HOMELAB B)
+        IB .- 4(4. Network Security)
+            4 .- |infosec| SP
+
+
+SP
+
+    SP .- T(Tinkering*)
+        T .- |repair upgrade salvage| electronics(microcontrollers / components)
+            electronics .- robots{robots}
+            electronics  --> |DIY| HS{home server}
+                HS .- self-hosting
+
+
+
+    SP .- NSA(net/sysadmin)
+
+        NSA .- IS(INFOSEC)
+            IS .- HS
+        NSA --> |Bash| Linux
+            Linux .- D{distrohopping}
+            Linux .- Kernel
+                Kernel .- os{opensource}
+        NSA --> |cmd powershell| Windows
+            Windows .- WSL
+
+
+
+    SP .- SD(Software Devel.)
+
+        SD --> os
+        SD .- |Python| AI(AI machine  learning)
+            AI .- bots{bots}
+        SD .- GD(game devel.)
+            GD .- |reverse-engineering| mod-making
+        SD .- |Flask JS| WD(web devel.)
+            WD --> B{Backend}
+
+
+    SP .- HL(hacking lab)
+                    HL --> |kali-linux| pentesting .- |networks / websites| pentesting
+                    HL --> |Windows| malware-analysis .- |scripting / reverse-engineering| malware-analysis
+
+
 ```
-
-4. ## ↑ HOMELAB-long
-
-
-5. ## ↑ HOMELAB-devices
-
-
-
-# *SLIT-materials* taglist(rows)
-
