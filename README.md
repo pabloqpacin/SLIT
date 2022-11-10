@@ -91,6 +91,8 @@ SP
     SP .- T(Tinkering*)
         T .- |repair upgrade salvage| electronics(microcontrollers / components)
             electronics .- robots{robots}
+            electronics .- IoT{IoT}
+                robots .- |programming| ha(home automation)
             electronics  --> |DIY| HS{home server}
                 HS .- self-hosting
 
@@ -98,31 +100,37 @@ SP
 
     SP .- NSA(net/sysadmin)
 
-        NSA .- IS(INFOSEC)
+        NSA --> Android
+            Android .- IoT
+
+        NSA .- |net/system hacking| IS(INFOSEC)
             IS .- HS
+            IS .- HL
         NSA --> |Bash| Linux
-            Linux .- D{distrohopping}
+            Linux .- D[distrohopping]
             Linux .- Kernel
-                Kernel .- os{opensource}
+            Linux .- servers{servers}
+                Kernel --> os{opensource}
         NSA --> |cmd powershell| Windows
+            Windows .- servers
             Windows .- WSL
 
+    T .- HL(hacking lab)
+                    HL .- |kali| pentesting
+                    HL .- |Windows| malware-analysis
 
 
-    SP .- SD(Software Devel.)
+    SP .- SD(self-taught dev)
 
         SD --> os
         SD .- |Python| AI(AI machine  learning)
-            AI .- bots{bots}
+            AI .- |programming scripting| bots{bots}
         SD .- GD(game devel.)
             GD .- |reverse-engineering| mod-making
-        SD .- |Flask JS| WD(web devel.)
-            WD --> B{Backend}
+        SD .- |programming| WD(web devel.)
+            WD --> |framewors...| B{Backend}
 
 
-    SP .- HL(hacking lab)
-                    HL --> |kali-linux| pentesting .- |networks / websites| pentesting
-                    HL --> |Windows| malware-analysis .- |scripting / reverse-engineering| malware-analysis
 
 
 ```
