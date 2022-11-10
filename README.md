@@ -76,7 +76,7 @@ SLIT{SLIT materials}
 
     SLIT --> II(II - PROGRAMMING)
         II .- 2(2. Operating Systems)
-            2 .- SP
+            2 .- |sysadmin| SP
 
         II .- 3(3. Software Engineering)
             3 .- |self-taught dev| SP

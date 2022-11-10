@@ -46,6 +46,8 @@ type cue
 - [ ] write about [03] '*Look afar and see the end from the beginning*'
 
 # 2023
+- [ ] git 10x
+  - [ ] do `git stash` como un pro
 - [ ] vim/neovim
     - [ ] learn 101s
 
