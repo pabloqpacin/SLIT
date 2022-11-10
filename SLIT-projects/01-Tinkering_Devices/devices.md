@@ -1,8 +1,125 @@
-# devices
+# Tinkering Devices
+
+*10/11/2022*
+
+Summary-graph copypasted from [SLIT-materials](/SLIT-materials.md):
+
+```mermaid
+
+flowchart LR;
+
+D{TINKERING DEVICES}
+H{HOMELAB}
+
+P{programming}
+    P --> H
+
+
+D --> mc
+    mc[Microcontrollers] .- |arduino UNO / RPi Pico| mc
+        mc .- |python / .ino| H
+
+D --> C
+    C[Computers] .- |Pentium A5920 EX2511| C
+        C .- |repair upgrade salvage| H
+
+D --> ad
+    ad[Android devices] .- |tablets / smartphones| ad
+        ad .- |salvage / root| H
+
+D --> gc
+    gc[game-consoles] .- |GB GBA NDS - Wii PS1 PS3| gc
+        gc .- |repair / root| H
+
+
+N{NETWORKING}
+    N --> H
+
+
+H .- robotics
+    robotics .- AI & automation
+H .- powerbank-DIY
+H .- homeserver
+    homeserver .- selfhosting-VPN
+    homeserver .- selfhosting-websites
+H .- hacking-lab
+    hacking-lab .- malware-analysis
+    hacking-lab .- pentesting
+
+```
+
+Graph 2.0:
+
+```mermaid
+
+graph LR;
+
+D{DEVICES}
+
+    D .- EC[electronic components]
+        EC .- bcs[basic cirtuit stuff]
+        EC .- mc[microcontrollers]
+            mc .- UNO[arduino UNO]
+            mc .- RPico(RPi Pico)
+    D .- CC[computers' components]
+        CC .- laptops
+            laptops .- EX2511
+            laptops .- A5920
+        CC .- other
+            other .- Pentium
+    D .- A[Android]
+        A .- sm[smartphones]
+            sm .- sm1
+            sm .- sm2
+            sm .- sm3
+            sm .- sm4
+            sm .- sm5
+            sm .- sm6
+            sm .- sm7
+
+
+        A .- tab[tablets]
+            tab .- supernova[supernova]
+            tab .- iPad[old iPad too]
+
+    D .- GC[Game Consoles]
+        GC .- handheld
+            handheld .- GB
+            handheld .- GBA
+            handheld .- NDS
+
+        GC .- stations
+            stations .- Wii
+            stations .- PS1
+            stations .- PS3
+
+
+
+
+
+
+P{Programming}
+N{Networking}
+
+
+
+    P .- GD{Game Devel.}
+        GC .- GD
+        sm .- GDG
+
+
+
+
+
+```
+
+
+---
+*first commit lmao*
 
 Pulling data from local LinWin Obsidian documentation!
 
-- [devices](#devices)
+- [Tinkering Devices](#tinkering-devices)
   - [Tablets](#tablets)
     - [Supernova](#supernova)
     - [iPAD model A1337](#ipad-model-a1337)
