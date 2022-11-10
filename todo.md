@@ -1,6 +1,6 @@
 type cue
 
-<!--
+
 # to-do SLIT (week45)
 - [to-do SLIT (week45)](#to-do-slit-week45)
 - [-GEN-](#-gen-)
@@ -9,6 +9,7 @@ type cue
       - [data sync](#data-sync)
     - [projects](#projects)
       - [continue](#continue)
+      - [CODE - Tea Invaders](#code---tea-invaders)
 - [2022](#2022)
   - [websyte](#websyte)
     - [blog](#blog)
@@ -33,6 +34,9 @@ type cue
 ### projects
 #### continue
 - [ ] continue rework as per [$mermaid$]  
+
+#### CODE - Tea Invaders
+- [ ] fix 'screenshot issue' by deploying $websyte$ and selfhosting the screenshots there yay — linking GitHub file to screenshot file via web URL! 
 
     
 
