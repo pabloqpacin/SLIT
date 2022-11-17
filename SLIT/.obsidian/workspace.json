@@ -1,0 +1,333 @@
+{
+  "main": {
+    "id": "50565237da9c33dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "af9df10e355289f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0043ad7452d94111",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLIT/major_rework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b10936cb7a3b2425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLIT/mermaids.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21a639e64052b4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLIT/self-host.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab593fbfec8016d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLIT/Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "baa4e44e49fbb019",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "apps/websyte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80174a3c11738e3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog-ranting_quill/blog-ranting_quill.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f2112b32ec101d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_research/quill-editor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46ffc56e2e8760b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "apps/websyte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3278781993c4fbd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_TO-DO/BASHBUNNI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f4bd94444b5de43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_TO-DO/Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "365815dc4442817e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_TO-DO/Go.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8bbaa3a07b9a76f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_TO-DO/automation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5ad5054466ced28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog-ranting_quill/blog-ranting_quill.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f55b0c7b075828b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech/git_10x.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "501ee6d6192baaf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "systems-programming/systems-programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "465bd0f8bcfeb964",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "systems-programming/systems-programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5ca0229fe59e57f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc628d1bf03d3767",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76764c3c9a1c1a41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "176e427d5ea51414",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "900b9296cd28b21b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d91466c581047ceb",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e569c383910bd53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f88cbff8153e60d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "systems-programming/systems-programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e4831fa70d371745",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "systems-programming/systems-programming.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3b1d39bff9d8b859",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0d7e33d72f516fab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "systems-programming/systems-programming.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "465bd0f8bcfeb964",
+  "lastOpenFiles": [
+    "SLIT/rework-ideas.md",
+    "systems-programming/systems-programming.md",
+    "_TO-DO/Untitled.md",
+    "tech/git_10x.md",
+    "tech/git/Untitled.md",
+    "blog-ranting_quill/blog-ranting_quill.md",
+    "_TO-DO/BASHBUNNI.md",
+    "opensource/opensource.md",
+    "_TO-DO/taskwarrior.md",
+    "_TO-DO/automation.md"
+  ]
+}
