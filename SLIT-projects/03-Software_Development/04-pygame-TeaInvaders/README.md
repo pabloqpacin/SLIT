@@ -9,9 +9,9 @@ Early **Python** project using [Pygame](https://www.pygame.org/wiki/about) modul
   - lives/health system
 
 ## Screenshots
-<img src="/pygame-TeaInvaders/images/game-screenshot.PNG" alt="screenshot" width="700"/>
+<img src="/SLIT-projects\03-Software_Development\04-pygame-TeaInvaders\images\game-screenshot.PNG" alt="screenshot" width="700">
 
-![skreenshut](/SLIT/SLIT-projects\03-Software_Development\04-pygame-TeaInvaders\images\game-screenshot.PNG)
+![skreenshut](/SLIT-projects\03-Software_Development\04-pygame-TeaInvaders\images\game-screenshot.PNG)
 
 [//]: <> (C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\04-pygame-TeaInvaders\images\game-screenshot.PNG)
 
