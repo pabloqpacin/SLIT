@@ -38,6 +38,9 @@ Main takes:
 
 ## ~~Part 1 🌑- Installation, Setup and Page Navigation~~
 
+<details>
+<summary>Can skip cause t'was reworked</summary>
+
 Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (via VSCode integrated terminal or the Terminal Preview app) and access the folder you want your project files to be in.
 
 <!-- ??
@@ -107,7 +110,12 @@ The two screenshots below display:
 </details>
 
 
+</details>
+
 ## --REWORK--
+
+<details>
+<summary>Can skip cause t'was reworked too</summary>
 
 Project is halted and all current progress aborted and restarted to optimize the **development environment**.
 
@@ -164,6 +172,8 @@ python --version
 
 > It worked so, let's reinstall! - Don't forget to read Django Docs documentation!
 
+</details>
+
 ## Part 1 ☀️ - WSL installation, setup and Page Navigation
 
 <!-- I might cover a complete WSL/Python-VM setup
@@ -171,7 +181,9 @@ python --version
 
 > Considering all previous documentation here... we are actually restarting the project yay! 🌌
 
-Now, fresh start! Let's install Django for Linux, since we are running Ubuntu in our Windows 10 machine's **WSL**. Using the command-line, we may preferably use either the Windows Terminal app (running the Ubuntu *profile*) or rather VSCode's integrated WSL terminal. Either way, we are using Bash command and [OhMyZsh](https://youtu.be/dQw4w9WgXcQ) features.
+Now, as for a fresh start, let's install Django for Linux, since we are running Ubuntu in our Windows 10 **WSL** environment.
+
+For using the command-line in our Windows 10 machine, we could either resort to the Windows Terminal app (running the Ubuntu *profile*) or the good ol' VSCode's integrated WSL terminal. Either way, we are using Bash commands and [OhMyZsh](https://youtu.be/dQw4w9WgXcQ) features.
 
 
 ```bash
