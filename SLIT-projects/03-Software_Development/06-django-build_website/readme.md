@@ -12,10 +12,10 @@ Main takes:
 
 - [Python Website 'WSL' Tutorial - Django, Auth, Databases & More](#python-website-wsl-tutorial---django-auth-databases--more)
   - [Documentation](#documentation)
-  - [~~Part 1 - Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
+  - [~~Part 1 🌑- Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
   - [--REWORK--](#--rework--)
-    - [uninstall Django for WSL re-install](#uninstall-django-for-wsl-re-install)
-  - [Part 1 - WSL installation, setup and Page Navigation](#part-1---wsl-installation-setup-and-page-navigation)
+    - [uninstall Django for WSL reinstall](#uninstall-django-for-wsl-reinstall)
+  - [Part 1 ☀️ - WSL installation, setup and Page Navigation](#part-1-️---wsl-installation-setup-and-page-navigation)
     - [.gitignore file creation](#gitignore-file-creation)
 
 </details>
@@ -36,7 +36,7 @@ Main takes:
     - [StackOverflow: uninstalling Django (Windows)](https://stackoverflow.com/questions/20897851/uninstall-django-completely)
 
 
-## ~~Part 1 - Installation, Setup and Page Navigation~~
+## ~~Part 1 🌑- Installation, Setup and Page Navigation~~
 
 Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (via VSCode integrated terminal or the Terminal Preview app) and access the folder you want your project files to be in.
 
@@ -115,7 +115,7 @@ Although we will continue the tutorial, **major changes** will apply according w
 
 - our Django project won't be a Windows install but a Linux one, since we run WSL
 
-### uninstall Django for WSL re-install
+### uninstall Django for WSL reinstall
 
 Due to confusing CMD vs WSL's ZSH Django config/setup/admin (as we use Bash for **git** and for other projects' development), we decide to uninstall Django, read the **virtual environment** config [documentation](#documentation) for Windows and finally reinstall Django for our WSL system.
 
@@ -144,16 +144,13 @@ python -m django --version
 
 REM uninstall Django via CMD with Python's pip installer
 pip uninstall django
-    REM 'Found  Django 4.1.3
-    REM ...
-    REM Would remove:
+    REM 'Found  Django 4.1.3 ... Would remove:
     REM C:\users\usuario\appdata\local\programs\python\python310\lib\site-packages\django-3.1.3.dist-info\*
     REM C:\users\...\python310\lib\site-packages\django\*
     REM C:\users\...\python310\scripts\django-admin.exe
     REM Proceed (Y/n)?'
-
 Y
-    REM Successfully uninstalled Django-4.1.3
+    REM 'Successfully uninstalled Django-4.1.3'
 
 REM double-check Django is uninstalled
 python -m django --version
@@ -165,37 +162,38 @@ python --version
 ```
 3. Again, let's try to delete the local `mysite` project (this time after closing this VSCode window).
 
-
 > It worked so, let's reinstall! - Don't forget to read Django Docs documentation!
 
+## Part 1 ☀️ - WSL installation, setup and Page Navigation
 
-## Part 1 - WSL installation, setup and Page Navigation
+Restarting the project yay! 🌌
 
-Continuing from the previous sections, let's install Django for Linux.
+<!--
+I might cover a complete WSL/Python-VM setup
+(( Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django ))
+-->
 
-<!-- SHOULD I throughly cover a complete WSL/Python-VM setup (Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django ) -->
+
+Now, let's install Django for Linux via VSCode's integrated WSL terminal (ie. Bash + [OhMyZsh](https://youtu.be/dQw4w9WgXcQ)).
+
 
 ```bash
-# verify Python is installed
-python3 --version
-    # Python 3.10.6
+# using zsh, btw
+which $SHELL        # /usr/bin/zsh
 
-# install Django
-pip install django....
-```
+# make sure Python is installed
+python3 --version   # Python 3.10.6
 
-
-..........
-
-```bash
-# make sure python is installed
-python3 --version
+# install Django.......
+pip install django
 
 # make sure django is installed
 python3 -m django --version
 
 # create Django project
-python
+python3
+
+
 ```
 
 
@@ -203,7 +201,7 @@ python
 
 <!-- GitGuardian alert about **leaking** 'Django Secret Key' over GitHub -->
 
-Considering previous 'Django Secret Key leaks' during our first (Windows-aimed) approach to Django, let's set up a proper **.gitignore** file  following the relevant [documentation](#documentation) above.
+Now that our `websyte` project is created, and considering previous 'Django Secret Key leaks' during our first (Windows-aimed) approach to Django, let's set up a proper **.gitignore** file following the relevant [documentation](#documentation) above.
 
 - **yadda yadda**
     - **yadda yadda**
