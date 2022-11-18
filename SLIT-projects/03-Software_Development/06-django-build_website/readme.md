@@ -2,20 +2,34 @@
 
 Following a tutorial by #@TechWithTim : [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
 
-More documentation (Django docs):
+Main takes:
+- Django developer environment via WSL (Linux on Windows) 
 
-- [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->
+## Documentation
+
+- must-read
+    - @ Django devs - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) (important for the video but **I don't do Windows, I do Linux because WSL** <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->)
+    
+    - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research server's "port 8000"*)
+    - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
+- Other
+    - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2)[superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
+    - CMD `cls` - Google: how to clear CMD terminal output
 
 <details>
 <summary>Table of Contents</summary>
 
 - [Python Website 'Windows' Tutorial - Django, Auth, Databases & More](#python-website-windows-tutorial---django-auth-databases--more)
-  - [Part 1 - Installation, Setup and Page Navigation](#part-1---installation-setup-and-page-navigation)
-  - [ABORT progress](#abort-progress)
+  - [Documentation](#documentation)
+  - [~~Part 1 - Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
+  - [REWORK](#rework)
+    - [Django re-install for WSL](#django-re-install-for-wsl)
+    - [.gitignore file creation](#gitignore-file-creation)
+  - [Part 1 - WEBSYTEEEEE](#part-1---websyteeeee)
 
 </details>
 
-## Part 1 - Installation, Setup and Page Navigation
+## ~~Part 1 - Installation, Setup and Page Navigation~~
 
 Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (I use the Terminal Preview app) and access the folder you want your project files to be in.
 
@@ -37,7 +51,7 @@ pip install django
 <details>
 <summary>click to see `pip install django` screenshot</summary>
 
-![pip_install_django](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-pip_install_django.PNG)
+![pip_install_django](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--cmd-pip_install.PNG)
 </details>
 
 ```CMD
@@ -59,7 +73,16 @@ A project folder should've been created under the name `websyte` containing the 
     - manage.py 
 ```
 
-Having created the main project files, let's test 'em run the site locally!
+Having created the main project files, let's test 'em running the site locally!
+
+> OJO
+<details>
+<summary> see `python manage.py runserver` screenshot</summary>
+
+![python_manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-python_managepy_runserver.PNG)
+</details>
+
+> OJO
 
 ```CMD
 REM access the just created project folder 
@@ -68,31 +91,58 @@ cd websyte
 REM run the site!
 python3 manage.py runserver
 ```
+Accessing the *development server* at https
 
-<details>
-<summary>click to see `python manage.py runserver` screenshot</summary>
-
-![python_manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-python_managepy_runserver.PNG)
-</details>
 
 ---
 
-## ABORT progress
+## REWORK
 
-For these reasons, project is halted, aborted and restarted:
 
-1. Confusing CMD vs WSL config/setup
-2. GitGuardian alert about **leaking** 'Django Secret Key' over GitHub
+Project is halted and all current progress aborted and restarted.
+
+### Django re-install for WSL
+
+Due to confusing CMD vs WSL's ZSH Django config/setup, we should uninstall Django.
+
+```CMD
+REM delete current `mysite` from within the file explorer
+    REM freely git-commit their removal
+
+REM uninstall Django via CMD
+pip uninstall django
+
+```
+
+MUST READ documentation about the **virtual environment** config.
+
+### .gitignore file creation
+
+<!-- GitGuardian alert about **leaking** 'Django Secret Key' over GitHub -->
+
+Given *Django Secret Key leaks*, a **.gitignore** file should be created following the [documentation](#documentation) above.
+
+- **yadda yadda**
+    - **yadda yadda**
 
 <details>
 <summary>click to see GitGuardian alert</summary>
 
-![GitGuardian leak alert](/SLIT-projects/03-Software_Development/06-django-build_website/images/issue-git_key_exposed.PNG)
+![GitGuardian leak alert](/SLIT-projects/03-Software_Development/06-django-build_website/images/leak--git_key_exposed.PNG)
 </details>
 
 <details>
 <summary>click to see GitGuardian 'Fix This Secret Leak' redirect</summary> 
 
-![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/issue--GitGuardian-auth.PNG)
+![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/leak--GitGuardian-auth.PNG)
 </details>
 
+---
+
+
+
+
+
+
+
+## Part 1 - WEBSYTEEEEE
