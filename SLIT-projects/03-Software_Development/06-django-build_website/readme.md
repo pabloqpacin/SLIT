@@ -1,4 +1,4 @@
-# Python Website 'Windows' Tutorial - Django, Auth, Databases & More
+# Python Website 'WSL' Tutorial - Django, Auth, Databases & More
 
 Following a tutorial by #@TechWithTim : [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
 
@@ -10,16 +10,13 @@ Main takes:
 <details>
 <summary>Table of Contents</summary>
 
-- [Python Website 'Windows' Tutorial - Django, Auth, Databases & More](#python-website-windows-tutorial---django-auth-databases--more)
+- [Python Website 'WSL' Tutorial - Django, Auth, Databases & More](#python-website-wsl-tutorial---django-auth-databases--more)
   - [Documentation](#documentation)
   - [~~Part 1 - Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
-  - [REWORK](#rework)
-    - [Django re-install for WSL](#django-re-install-for-wsl)
+  - [--REWORK--](#--rework--)
+    - [uninstall Django for WSL re-install](#uninstall-django-for-wsl-re-install)
+  - [Part 1 - WSL installation, setup and Page Navigation](#part-1---wsl-installation-setup-and-page-navigation)
     - [.gitignore file creation](#gitignore-file-creation)
-  - [Part 1 - `websyte` setup](#part-1---websyte-setup)
-- [make sure python is installed](#make-sure-python-is-installed)
-- [make sure django is installed](#make-sure-django-is-installed)
-- [create Django project](#create-django-project)
 
 </details>
 
@@ -36,6 +33,7 @@ Main takes:
     - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2) [superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
     - CMD `cls` - Google: how to clear CMD terminal output
     - [GitGuardian](https://github.com/GitGuardian) - see [REWORK](#rework) for context
+    - [StackOverflow: uninstalling Django (Windows)](https://stackoverflow.com/questions/20897851/uninstall-django-completely)
 
 
 ## ~~Part 1 - Installation, Setup and Page Navigation~~
@@ -109,32 +107,73 @@ The two screenshots below display:
 </details>
 
 
-## REWORK
+## --REWORK--
 
-Project is halted and all current progress aborted and restarted.
+Project is halted and all current progress aborted and restarted to optimize the **development environment**.
 
 Although we will continue the tutorial, **major changes** will apply according with our [documentation](#documentation):
 
 - our Django project won't be a Windows install but a Linux one, since we run WSL
 
-### Django re-install for WSL
+### uninstall Django for WSL re-install
 
 Due to confusing CMD vs WSL's ZSH Django config/setup/admin (as we use Bash for **git** and for other projects' development), we decide to uninstall Django, read the **virtual environment** config [documentation](#documentation) for Windows and finally reinstall Django for our WSL system.
 
-In other words, let's undo our Django Windows install and reinstall it for Linux since we plan on running it via WSL and **VSCode's integrated WSL's ZSH terminal**.
+In other words, let's undo our Django Windows install to reinstall it [later](#part-1---wsl-installation-setup-and-page-navigation) (we may install Django for Linux since we plan on running the framework via WSL and **VSCode's integrated WSL's ZSH terminal**).
 
 1. First off, delete current `mysite` local folder from within the file explorer. Freely git-commit their removal.
 
-2. Secondly, uninstall Django via CMD.
-```CMD
-REM uninstall Django via CMD
-pip uninstall django.........
+```markdown
+I try via file explorer but ERROR:
+- La acción no se puede completar porque otro programa abrió la carpeta o uno de sus archivos. Cierre la carpeta o el archivo e inténtelo de nuevo.
 
-REM check everything is good
-.......
+I try deleting via vscode Explorer but ERROR:
+- Error: EBUSY: resource busy or locked, rmdir
+- 'c:Users\Usuario\...\linwin\SLIT\...\mysite'
 ```
 
-3. Now, having read all documentation, **re-install Django for Linux**. 
+As a result, I skip to step 2:
+
+2. Secondly, uninstall Django via CMD.
+
+```CMD
+REM make sure Django is installed
+python -m django --version
+    REM '4.1.3'
+
+
+REM uninstall Django via CMD with Python's pip installer
+pip uninstall django
+    REM 'Found  Django 4.1.3
+    REM ...
+    REM Would remove:
+    REM C:\users\usuario\appdata\local\programs\python\python310\lib\site-packages\django-3.1.3.dist-info\*
+    REM C:\users\...\python310\lib\site-packages\django\*
+    REM C:\users\...\python310\scripts\django-admin.exe
+    REM Proceed (Y/n)?'
+
+Y
+    REM Successfully uninstalled Django-4.1.3
+
+REM double-check Django is uninstalled
+python -m django --version
+    REM 'No module named django'
+
+REM assess Python config
+python --version
+    REM Python 3.10.5
+```
+3. Again, let's try to delete the local `mysite` project (this time after closing this VSCode window).
+
+
+> It worked so, let's reinstall! - Don't forget to read Django Docs documentation!
+
+
+## Part 1 - WSL installation, setup and Page Navigation
+
+Continuing from the previous sections, let's install Django for Linux.
+
+<!-- SHOULD I throughly cover a complete WSL/Python-VM setup (Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django ) -->
 
 ```bash
 # verify Python is installed
@@ -145,11 +184,26 @@ python3 --version
 pip install django....
 ```
 
+
+..........
+
+```bash
+# make sure python is installed
+python3 --version
+
+# make sure django is installed
+python3 -m django --version
+
+# create Django project
+python
+```
+
+
 ### .gitignore file creation
 
 <!-- GitGuardian alert about **leaking** 'Django Secret Key' over GitHub -->
 
-Given *'Django Secret Key leaks'*, a **.gitignore** file should be created following the [documentation](#documentation) above.
+Considering previous 'Django Secret Key leaks' during our first (Windows-aimed) approach to Django, let's set up a proper **.gitignore** file  following the relevant [documentation](#documentation) above.
 
 - **yadda yadda**
     - **yadda yadda**
@@ -165,23 +219,3 @@ Given *'Django Secret Key leaks'*, a **.gitignore** file should be created follo
 
 ![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/leak--GitGuardian-auth.PNG)
 </details>
-
-
-
-
-
-## Part 1 - `websyte` setup
-
-Please take the previous sections into consideration.
-
-..........
-
-```bash
-# make sure python is installed
-python3 --version
-
-# make sure django is installed
-python3 -m django --version
-
-# create Django project
-python3
