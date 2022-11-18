@@ -3,54 +3,54 @@
 Following another tutorial by #@TechWithTim
 - video-course (following): [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
 
-## Documentation:
-- Django documentation
-    - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/)
-        - Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config
+Django documentation
+- [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/)
+    - Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config
 
-## Table of Contents
 <details>
-<summary>click to expand ToC</summary>
+<summary>Table of Contents</summary>
 
 - [Django - Python Website Full Tutorial](#django---python-website-full-tutorial)
-  - [Documentation:](#documentation)
-  - [Table of Contents](#table-of-contents)
-  - [Part 1 - Setup, Installation and Page Navigation](#part-1---setup-installation-and-page-navigation)
-    - [CMD - `pip install django`](#cmd---pip-install-django)
-    - [CMD - `django-admin startproject mysite`](#cmd---django-admin-startproject-mysite)
-    - [CMD - `python manage.py runserver`](#cmd---python-managepy-runserver)
-
+- [Part 1 - Setup, Installation and Page Navigation](#part-1---setup-installation-and-page-navigation)
 
 </details>
 
-## Part 1 - Setup, Installation and Page Navigation
+# Part 1 - Setup, Installation and Page Navigation
 
-### CMD - `pip install django`
+This section covers Django installation & setup assuming your machine runs Windows and **Python** is already installed.
 
-First of all, **Django** should be installed.
+Now open the **Command Prompt** - CMD (I use the Windows Terminal app) and access the folder you want your project files to be in.
 
-Assuming **Python** is installed, enter `pip install django` in the **Command Prompt** (CMD).
+> Bear in mind CMD must be used (ie. WSL's ZSH doesn't work) since machine runs Windows_10
+> 
+> In fact, running `python3 -m django --version` in WSL's ZSH returns "/usr/bin/python3: No module named django
 
-> In my case, I run CMD via the Windows Terminal application.
+```CMD
+REM REAMDE: lines starting with REM are comments
 
+REM make sure python is installed
+python --version
+
+REM 1. install Django
+pip install django
+```
 <details>
-<summary>click to see screenshot</summary>
+<summary>click to see `pip install django` screenshot</summary>
 
-![pipinstalldjango](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-pipinstalldjango.PNG)
+![pip_install_django](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-pip_install_django.PNG)
 </details>
 
-> Tim now runs `activate dj` upon saying he's running a "virtual environment", but this doesn't work for me (read [documentation](#documentation)).
+```CMD
+REM Tim enters `activate dj` because "virtual environment" - for me it doesn't work (must read documentation above)
 
-### CMD - `django-admin startproject mysite`
-
-Now in CMD go to the project folder and enter `django-admin startproject mysite`, which creates a **`mysite`** folder:
-
-> Bear in mind CMD must be used (ie. wsl's zsh won't work)
-> In fact, running `python3 -m django --version` in wsl's zsh returns "/usr/bin/python3: No module named django
-
+REM 2. create Django project in designated location - project folder can be named 'mysite' or else
+REM (my location is 'C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\06-django-build_website')
+django-admin startproject websyte
+```
+Basic project folder `websyte` is created with the following contents:
 ```markdown
-- mysite
-    - mysite
+- websyte
+    - websyte
         - __init__.py
         - asgi.py <!--not in the video-->
         - settings.py
@@ -59,12 +59,18 @@ Now in CMD go to the project folder and enter `django-admin startproject mysite`
     - manage.py 
 ```
 
-### CMD - `python manage.py runserver`
+Now the project files are created, let's test to run the site locally
 
-Project is now created. Let's test it (running website locally as if it was over the internet)!
+```CMD
+REM make sure you're in the main project folder
+cd websyte
 
-```markdown
-In CMD:
-- `cd mysite`
-- `python3 manage.py runserver`
+REM run the site!
+python3 manage.py runserver
+```
 
+<details>
+<summary>click to see `python manage.py runserver` screenshot</summary>
+
+![python_manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-python_managepy_runserver.PNG)
+</details>
