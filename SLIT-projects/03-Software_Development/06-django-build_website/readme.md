@@ -1,32 +1,32 @@
-# Django - Python Website Full Tutorial
+# Python Website 'Windows' Tutorial - Django, Auth, Databases & More
 
-Following another tutorial by #@TechWithTim
-- video-course (following): [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
+Following a tutorial by #@TechWithTim : [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
 
-Django documentation
-- [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/)
-    - Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config
+More documentation (Django docs):
+
+- [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->
 
 <details>
 <summary>Table of Contents</summary>
 
-- [Django - Python Website Full Tutorial](#django---python-website-full-tutorial)
-- [Part 1 - Setup, Installation and Page Navigation](#part-1---setup-installation-and-page-navigation)
+- [Python Website 'Windows' Tutorial - Django, Auth, Databases & More](#python-website-windows-tutorial---django-auth-databases--more)
+  - [Part 1 - Installation, Setup and Page Navigation](#part-1---installation-setup-and-page-navigation)
+  - [ABORT progress](#abort-progress)
 
 </details>
 
-# Part 1 - Setup, Installation and Page Navigation
+## Part 1 - Installation, Setup and Page Navigation
 
-This section covers Django installation & setup assuming your machine runs Windows and **Python** is already installed.
+Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (I use the Terminal Preview app) and access the folder you want your project files to be in.
 
-Now open the **Command Prompt** - CMD (I use the Windows Terminal app) and access the folder you want your project files to be in.
-
-> Bear in mind CMD must be used (ie. WSL's ZSH doesn't work) since machine runs Windows_10
-> 
-> In fact, running `python3 -m django --version` in WSL's ZSH returns "/usr/bin/python3: No module named django
+<!-- ??
+Bear in mind CMD must be used (ie. WSL's ZSH doesn't work) since machine runs Windows_10
+Although `python3 --version` works fine, after installing Django via CMD (`pip install django`)
+running `python3 -m django --version` in WSL's ZSH returns "/usr/bin/python3: No module named django
+-->
 
 ```CMD
-REM REAMDE: lines starting with REM are comments
+REM (lines starting with REM are comments)
 
 REM make sure python is installed
 python --version
@@ -44,10 +44,10 @@ pip install django
 REM Tim enters `activate dj` because "virtual environment" - for me it doesn't work (must read documentation above)
 
 REM 2. create Django project in designated location - project folder can be named 'mysite' or else
-REM (my location is 'C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\06-django-build_website')
+    REM (C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\06-django-build_website)
 django-admin startproject websyte
 ```
-Basic project folder `websyte` is created with the following contents:
+A project folder should've been created under the name `websyte` containing the following:
 ```markdown
 - websyte
     - websyte
@@ -59,10 +59,10 @@ Basic project folder `websyte` is created with the following contents:
     - manage.py 
 ```
 
-Now the project files are created, let's test to run the site locally
+Having created the main project files, let's test 'em run the site locally!
 
 ```CMD
-REM make sure you're in the main project folder
+REM access the just created project folder 
 cd websyte
 
 REM run the site!
@@ -74,3 +74,25 @@ python3 manage.py runserver
 
 ![python_manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-python_managepy_runserver.PNG)
 </details>
+
+---
+
+## ABORT progress
+
+For these reasons, project is halted, aborted and restarted:
+
+1. Confusing CMD vs WSL config/setup
+2. GitGuardian alert about **leaking** 'Django Secret Key' over GitHub
+
+<details>
+<summary>click to see GitGuardian alert</summary>
+
+![GitGuardian leak alert](/SLIT-projects/03-Software_Development/06-django-build_website/images/issue-git_key_exposed.PNG)
+</details>
+
+<details>
+<summary>click to see GitGuardian 'Fix This Secret Leak' redirect</summary> 
+
+![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/issue--GitGuardian-auth.PNG)
+</details>
+
