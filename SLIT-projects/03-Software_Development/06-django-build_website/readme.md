@@ -3,18 +3,21 @@
 Following a tutorial by #@TechWithTim : [Django For Beginners - Full Tutorial](https://youtu.be/sm1mokevMWk)
 
 Main takes:
-- Django developer environment via WSL (Linux on Windows) 
+- *Django developer environment via **WSL** (Linux on Windows)*
+- ***devops** security - .gitignore & GitGuardian*
 
 ## Documentation
 
 - must-read
-    - @ Django devs - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) (important for the video but **I don't do Windows, I do Linux because WSL** <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->)
+    - @ Django Docs - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) (important for the video but **I don't do Windows, I do Linux because WSL** <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->)
+    - @ Django Docs - [How to install Django](https://docs.djangoproject.com/en/4.1/topics/install/) (for after REWORK)
     
-    - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research server's "port 8000"*)
+    - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research* server's "port 8000")
     - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
 - Other
     - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2) [superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
     - CMD `cls` - Google: how to clear CMD terminal output
+    - [GitGuardian](https://github.com/GitGuardian) - see [REWORK](#rework) for context
 
 <details>
 <summary>Table of Contents</summary>
@@ -31,7 +34,7 @@ Main takes:
 
 ## ~~Part 1 - Installation, Setup and Page Navigation~~
 
-Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (I use the Terminal Preview app) and access the folder you want your project files to be in.
+Assuming your machine runs Windows and **Python** is already installed, open the **Command Prompt** - CMD (via VSCode integrated terminal or the Terminal Preview app) and access the folder you want your project files to be in.
 
 <!-- ??
 Bear in mind CMD must be used (ie. WSL's ZSH doesn't work) since machine runs Windows_10
@@ -42,14 +45,14 @@ running `python3 -m django --version` in WSL's ZSH returns "/usr/bin/python3: No
 ```CMD
 REM (lines starting with REM are comments)
 
-REM make sure python is installed
+REM make sure Python is installed
 python --version
 
 REM 1. install Django
 pip install django
 ```
 <details>
-<summary>click to see `pip install django` screenshot</summary>
+<summary>see Windows Terminal output screenshot</summary>
 
 ![pip_install_django](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--cmd-pip_install.PNG)
 </details>
@@ -81,18 +84,20 @@ cd mysite
 
 REM run the site!
 python manage.py runserver
+
+REM unless encountering an error, access the given address via web browser (as shown below) 
 ```
 
-The two screenshots below display (1) CMD terminal output to `python manage.py runserver` + site access output & (2) *'development server'* site at local network port 8000 (`http://127.0.0.1:8000/`) via Google's Chrome browser.
+The two screenshots below display:
 
 <details>
-<summary>(1)</summary>
+<summary>(1) CMD terminal output to `python manage.py runserver` + site access output</summary>
 
 ![manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--cmd_runserver_outupt.PNG)
 </details>
 
 <details>
-<summary>(2)</summary>
+<summary>(2) "development server" site at local network port 8000 (`http://127.0.0.1:8000/`) via Google's Chrome browser</summary>
 
 ![server-8000--dev-env](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--dev_server.PNG)
 </details>
@@ -109,18 +114,29 @@ Project is halted and all current progress aborted and restarted.
 
 ### Django re-install for WSL
 
-Due to confusing CMD vs WSL's ZSH Django config/setup, we should uninstall Django.
+Due to confusing CMD vs WSL's ZSH Django config/setup/admin (as we use Bash for **git** and for other projects' development), we decide to uninstall Django, read the **virtual environment** config [documentation](#documentation) for Windows and finally reinstall Django for our WSL system.
+
+In other words, let's undo our Django Windows install and reinstall it for Linux since we plan on running it via WSL and **VSCode's integrated WSL's ZSH terminal**.
 
 ```CMD
-REM delete current `mysite` from within the file explorer
+REM first off, delete current `mysite` local folder from within the file explorer
     REM freely git-commit their removal
 
 REM uninstall Django via CMD
 pip uninstall django.........
 
+REM check everything is good
 ```
 
-MUST READ documentation about the **virtual environment** config.
+```bash
+# verify Python is installed
+python3 --version
+    # Python 3.10.6
+
+# install Django
+    # READ DOCUMENTATION!!
+pip install django....
+```
 
 ### .gitignore file creation
 
@@ -152,3 +168,4 @@ Given *Django Secret Key leaks*, a **.gitignore** file should be created followi
 
 
 ## Part 1 - WEBSYTEEEEE
+
