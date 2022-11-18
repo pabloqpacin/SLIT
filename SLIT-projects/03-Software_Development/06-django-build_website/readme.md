@@ -25,7 +25,7 @@ Main takes:
 
 - must-read
     - @ Django Docs - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) (important for the video but **I don't do Windows, I do Linux because WSL** <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->)
-    - @ Django Docs - [How to install Django](https://docs.djangoproject.com/en/4.1/topics/install/) (for after REWORK)
+    - **@ Django Docs - [How to install Django](https://docs.djangoproject.com/en/4.1/topics/install/) (for after REWORK)**
     
     - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research* server's "port 8000")
     - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
@@ -166,15 +166,12 @@ python --version
 
 ## Part 1 ☀️ - WSL installation, setup and Page Navigation
 
-Restarting the project yay! 🌌
+<!-- I might cover a complete WSL/Python-VM setup
+(( Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django )) -->
 
-<!--
-I might cover a complete WSL/Python-VM setup
-(( Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django ))
--->
+> Considering all previous documentation here... we are actually restarting the project yay! 🌌
 
-
-Now, let's install Django for Linux via VSCode's integrated WSL terminal (ie. Bash + [OhMyZsh](https://youtu.be/dQw4w9WgXcQ)).
+Now, fresh start! Let's install Django for Linux, since we are running Ubuntu in our Windows 10 machine's **WSL**. Using the command-line, we may preferably use either the Windows Terminal app (running the Ubuntu *profile*) or rather VSCode's integrated WSL terminal. Either way, we are using Bash command and [OhMyZsh](https://youtu.be/dQw4w9WgXcQ) features.
 
 
 ```bash
@@ -183,9 +180,27 @@ which $SHELL        # /usr/bin/zsh
 
 # make sure Python is installed
 python3 --version   # Python 3.10.6
+```
 
-# install Django.......
-pip install django
+Reading the [Django documentation](#documentation) above, we decide to closely follow the steps below: 
+
+1. Setting up a proper virtual environment with `venv`.
+
+```bash
+# use venv
+
+
+```
+
+2. Installing Django
+
+........
+
+
+```bash
+# # install Django
+# pip install django
+python -m pip install Django
 
 # make sure django is installed
 python3 -m django --version
