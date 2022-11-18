@@ -6,6 +6,24 @@ Main takes:
 - *Django developer environment via **WSL** (Linux on Windows)*
 - ***devops** security - .gitignore & GitGuardian*
 
+
+<details>
+<summary>Table of Contents</summary>
+
+- [Python Website 'Windows' Tutorial - Django, Auth, Databases & More](#python-website-windows-tutorial---django-auth-databases--more)
+  - [Documentation](#documentation)
+  - [~~Part 1 - Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
+  - [REWORK](#rework)
+    - [Django re-install for WSL](#django-re-install-for-wsl)
+    - [.gitignore file creation](#gitignore-file-creation)
+  - [Part 1 - `websyte` setup](#part-1---websyte-setup)
+- [make sure python is installed](#make-sure-python-is-installed)
+- [make sure django is installed](#make-sure-django-is-installed)
+- [create Django project](#create-django-project)
+
+</details>
+
+
 ## Documentation
 
 - must-read
@@ -19,18 +37,6 @@ Main takes:
     - CMD `cls` - Google: how to clear CMD terminal output
     - [GitGuardian](https://github.com/GitGuardian) - see [REWORK](#rework) for context
 
-<details>
-<summary>Table of Contents</summary>
-
-- [Python Website 'Windows' Tutorial - Django, Auth, Databases & More](#python-website-windows-tutorial---django-auth-databases--more)
-  - [Documentation](#documentation)
-  - [~~Part 1 - Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
-  - [REWORK](#rework)
-    - [Django re-install for WSL](#django-re-install-for-wsl)
-    - [.gitignore file creation](#gitignore-file-creation)
-  - [Part 1 - WEBSYTEEEEE](#part-1---websyteeeee)
-
-</details>
 
 ## ~~Part 1 - Installation, Setup and Page Navigation~~
 
@@ -48,7 +54,7 @@ REM (lines starting with REM are comments)
 REM make sure Python is installed
 python --version
 
-REM 1. install Django
+REM (1.) install Django
 pip install django
 ```
 <details>
@@ -60,7 +66,7 @@ pip install django
 ```CMD
 REM Tim enters `activate dj` because "virtual environment" - for me it doesn't work (must read documentation above)
 
-REM 2. create Django project in designated location - project folder can be named 'mysite' or else
+REM (2.) create Django project in designated location - project folder can be named 'mysite' or else
     REM (C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\06-django-build_website)
 django-admin startproject mysite
 ```
@@ -82,7 +88,7 @@ Having created the main project files, let's test 'em running the site locally!
 REM access the just created project folder 
 cd mysite
 
-REM run the site!
+REM (3) run the site!
 python manage.py runserver
 
 REM unless encountering an error, access the given address via web browser (as shown below) 
@@ -103,14 +109,13 @@ The two screenshots below display:
 </details>
 
 
-
-
----
-
 ## REWORK
 
-
 Project is halted and all current progress aborted and restarted.
+
+Although we will continue the tutorial, **major changes** will apply according with our [documentation](#documentation):
+
+- our Django project won't be a Windows install but a Linux one, since we run WSL
 
 ### Django re-install for WSL
 
@@ -118,15 +123,18 @@ Due to confusing CMD vs WSL's ZSH Django config/setup/admin (as we use Bash for 
 
 In other words, let's undo our Django Windows install and reinstall it for Linux since we plan on running it via WSL and **VSCode's integrated WSL's ZSH terminal**.
 
-```CMD
-REM first off, delete current `mysite` local folder from within the file explorer
-    REM freely git-commit their removal
+1. First off, delete current `mysite` local folder from within the file explorer. Freely git-commit their removal.
 
+2. Secondly, uninstall Django via CMD.
+```CMD
 REM uninstall Django via CMD
 pip uninstall django.........
 
 REM check everything is good
+.......
 ```
+
+3. Now, having read all documentation, **re-install Django for Linux**. 
 
 ```bash
 # verify Python is installed
@@ -134,7 +142,6 @@ python3 --version
     # Python 3.10.6
 
 # install Django
-    # READ DOCUMENTATION!!
 pip install django....
 ```
 
@@ -142,7 +149,7 @@ pip install django....
 
 <!-- GitGuardian alert about **leaking** 'Django Secret Key' over GitHub -->
 
-Given *Django Secret Key leaks*, a **.gitignore** file should be created following the [documentation](#documentation) above.
+Given *'Django Secret Key leaks'*, a **.gitignore** file should be created following the [documentation](#documentation) above.
 
 - **yadda yadda**
     - **yadda yadda**
@@ -159,13 +166,22 @@ Given *Django Secret Key leaks*, a **.gitignore** file should be created followi
 ![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/leak--GitGuardian-auth.PNG)
 </details>
 
----
 
 
 
 
+## Part 1 - `websyte` setup
 
+Please take the previous sections into consideration.
 
+..........
 
-## Part 1 - WEBSYTEEEEE
+```bash
+# make sure python is installed
+python3 --version
 
+# make sure django is installed
+python3 -m django --version
+
+# create Django project
+python3
