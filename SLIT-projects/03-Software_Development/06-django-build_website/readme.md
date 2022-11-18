@@ -13,7 +13,7 @@ Main takes:
     - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research server's "port 8000"*)
     - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
 - Other
-    - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2)[superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
+    - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2) [superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
     - CMD `cls` - Google: how to clear CMD terminal output
 
 <details>
@@ -59,12 +59,12 @@ REM Tim enters `activate dj` because "virtual environment" - for me it doesn't w
 
 REM 2. create Django project in designated location - project folder can be named 'mysite' or else
     REM (C:\Users\Usuario\Downloads\linwin\SLIT\SLIT-projects\03-Software_Development\06-django-build_website)
-django-admin startproject websyte
+django-admin startproject mysite
 ```
-A project folder should've been created under the name `websyte` containing the following:
+A project folder should've been created under the name `mysite` containing the following:
 ```markdown
-- websyte
-    - websyte
+- mysite
+    - mysite
         - __init__.py
         - asgi.py <!--not in the video-->
         - settings.py
@@ -75,23 +75,29 @@ A project folder should've been created under the name `websyte` containing the 
 
 Having created the main project files, let's test 'em running the site locally!
 
-> OJO
-<details>
-<summary> see `python manage.py runserver` screenshot</summary>
-
-![python_manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1-python_managepy_runserver.PNG)
-</details>
-
-> OJO
-
 ```CMD
 REM access the just created project folder 
-cd websyte
+cd mysite
 
 REM run the site!
-python3 manage.py runserver
+python manage.py runserver
 ```
-Accessing the *development server* at https
+
+The two screenshots below display (1) CMD terminal output to `python manage.py runserver` + site access output & (2) *'development server'* site at local network port 8000 (`http://127.0.0.1:8000/`) via Google's Chrome browser.
+
+<details>
+<summary>(1)</summary>
+
+![manage.py_runserver](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--cmd_runserver_outupt.PNG)
+</details>
+
+<details>
+<summary>(2)</summary>
+
+![server-8000--dev-env](/SLIT-projects/03-Software_Development/06-django-build_website/images/aborted--dev_server.PNG)
+</details>
+
+
 
 
 ---
@@ -110,7 +116,7 @@ REM delete current `mysite` from within the file explorer
     REM freely git-commit their removal
 
 REM uninstall Django via CMD
-pip uninstall django
+pip uninstall django.........
 
 ```
 
