@@ -5,6 +5,7 @@ Following a tutorial by #@TechWithTim : [Django For Beginners - Full Tutorial](h
 Main takes:
 - *Django developer environment via **WSL** (Linux on Windows)*
 - ***devops** security - .gitignore & GitGuardian*
+- no disrespect but... tutorial is misleading since first thing done is installing Django, rather than setting up the virtual environment (which is recommended for both Windows and Linux builds)
 
 
 <details>
@@ -20,6 +21,8 @@ Main takes:
     - [Installing Django](#installing-django)
     - [Creating a Django project](#creating-a-django-project)
     - [.gitignore file creation](#gitignore-file-creation)
+  - [PENDIENTE](#pendiente)
+    - [Test local server](#test-local-server)
 
 </details>
 
@@ -33,6 +36,7 @@ Main takes:
     
     - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research* server's "port 8000")
     - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
+    - for .gitignore - [Python Decouple](https://pypi.org/project/python-decouple/)
 - Other
     - CMD `REM` - (1) [StackOverflow: How to write CMD comments](https://stackoverflow.com/questions/2997578/how-do-i-comment-on-the-windows-command-line) (2) [superuser: How to CMD comment](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt)
     - CMD `cls` - Google: how to clear CMD terminal output
@@ -274,13 +278,26 @@ python3 -m django --version
 
 ### Creating a Django project
 
+Having Django installed in our `(djangodev)` virtual environment, let's create our Django project, that is, `websyte`.
+
 ```bash
-cd <designated-folder>
-# in our case 'yadda yadda' 
+cd <designated-directory>
+# in our case '/mnt/c/Users/Usuario/.../SLIT/.../06-django-build_website'
 
-python3.....
+# create Django project
+django-admin startproject websyte
+```
 
-
+The dir/folder `websyte` has been created in our designated folder. These are the contents of such 'root directory':
+```markdown
+- websyte
+    - websyte
+        - __init__.py
+        - asgi.py <!--not in the video-->
+        - settings.py
+        - urls.py
+        - wsgi.py
+    - manage.py 
 ```
 
 
@@ -290,8 +307,27 @@ python3.....
 
 Now that our `websyte` project is created, and considering previous 'Django Secret Key leaks' during our first (Windows-aimed) approach to Django, let's set up a proper **.gitignore** file following the relevant [documentation](#documentation) above.
 
-- **yadda yadda**
-    - **yadda yadda**
+```markdown
+1. In the same directory where `manage.py` is, create a file whose name is `.env`.
+
+2. Open `settings.py`, cut `SECRET_KEY = '....your secret key ....'` and paste it to `.env`.
+
+3. In the same directory, create a file whose name is `.gitignore`, and write `.env` inside it.
+
+4. Then in your `settings.py`, where previously you had `SECRET_KEY = '....your secret key ....'`, put:
+
+`from decouple import config`
+`SECRET_KEY = config("SECRET_KEY") # this is to replace the secret key you cut away before`
+
+5. then in your command prompts run:
+
+`pip install python-decouple`
+`pip freeze > requirements.txt`
+
+6. then add, commit and push on Github.
+
+[Here](https://git-scm.com/docs/gitignore) you can find out more information on how .gitignore works.
+```
 
 <details>
 <summary>click to see GitGuardian alert</summary>
@@ -303,4 +339,70 @@ Now that our `websyte` project is created, and considering previous 'Django Secr
 <summary>click to see GitGuardian 'Fix This Secret Leak' redirect</summary> 
 
 ![GitGuardian auth](/SLIT-projects/03-Software_Development/06-django-build_website/images/leak--GitGuardian-auth.PNG)
+</details>
+
+## PENDIENTE
+
+okay i'm about to call it a day. Recap:
+- virtual environment activated
+- django installed
+- project created
+    - in '/mnt/c/../SLIT/...'
+    - **SHOULD it be in WSL's '~'?!**
+- .gitignore attempted
+    - python problem in `settings.py`:
+    - 'Import "decouple" could not be resolved'... 
+
+```python
+[{
+	"resource": "/c:/Users/Usuario/Downloads/linwin/SLIT/SLIT-projects/03-Software_Development/06-django-build_website/websyte/websyte/settings.py",
+	"owner": "_generated_diagnostic_collection_name_#4",
+	"code": {
+		"value": "reportMissingImports",
+		"target": {
+			"$mid": 1,
+			"external": "https://github.com/microsoft/pyright/blob/main/docs/configuration.md#reportMissingImports",
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportMissingImports"
+		}
+	},
+	"severity": 4,
+	"message": "Import \"decouple\" could not be resolved",
+	"source": "Pylance",
+	"startLineNumber": 26,
+	"startColumn": 6,
+	"endLineNumber": 26,
+	"endColumn": 14
+}]
+```
+
+SO...
+- since I wanna go, guess I should de-activate the `(djangodev)` virtual environment
+    - according with [this documentation](https://stackoverflow.com/questions/990754/how-to-leave-exit-deactivate-a-python-virtualenv) (not yet present above), all I should do is type int `deactivate`
+    - it seems to work!!
+    - regardless, I type in `source ~/.virtualenvs/djangodev/bin/activate` again to test **gittin'**
+- add, commit and push current `week46` to GitHub
+- when DONE so, I'll enter `deactivate`, close VSCode and call it a day 😅
+
+
+
+<details>
+<summary> pendiente - runserver </summary>
+
+### Test local server
+
+Having created our `websyte` Django project, let's test whether it's working fine by "running a server in our local machine", which should allow us to connect to our website.
+
+> What we're doing is known as "Development": working on our local machine, website is not live on the Internet, but connecting to it with our web browser allow us to see it 'as if' it was live.
+
+```bash
+# move to relevant dir
+cd websyte
+
+# run local server
+python3 manage.py runserver
+```
+
 </details>
