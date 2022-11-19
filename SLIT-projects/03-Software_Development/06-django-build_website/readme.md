@@ -270,7 +270,7 @@ python3 -m django --version
 
 ### Creating a Django project
 
-Having Django installed in our `(djangodev)` virtual environment, let's create our Django project, that is, `websyte`.
+Back with Tim!! Having Django installed in our `(djangodev)` virtual environment, let's create our Django project (ie. `websyte`).
 
 ```bash
 cd <designated-directory>
