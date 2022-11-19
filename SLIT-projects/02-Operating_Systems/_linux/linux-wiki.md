@@ -1,5 +1,9 @@
 # Linux wiki
 
+```markdown
+# DRAFT
+```
+
 > watching [ASIR-YOND](https://github.com/pabloqpacin/BEYOND-ASIR/blob/main/YOND/linux_rookery/wiki-cheatsheet.md#neofetch)
 
 - [Linux wiki](#linux-wiki)
