@@ -1,6 +1,6 @@
-# salvaging electronics to Tinkering!
+# Tinkering == repair and salvage Electronics
 
-- [salvaging electronics to Tinkering!](#salvaging-electronics-to-tinkering)
+- [Tinkering == repair and salvage Electronics](#tinkering--repair-and-salvage-electronics)
   - [documentation](#documentation)
   - [audio](#audio)
 
