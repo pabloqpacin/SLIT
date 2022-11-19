@@ -5,7 +5,9 @@
 
 For general learning materials see [SLIT-materials](/SLIT-materials.md).
 
-For actual projects see [SLIT-projects](/SLIT-projects).
+Now [SLIT-projects](/SLIT-projects) is somehow my knowledge-base, capturing former and ongoing **hands-on-learning** on different levels:
+- 01-Tinkering Devices
+
 
 Observe the graphs below to understand the scope of SLIT and see [graphs-sandbox]
 
@@ -130,7 +132,12 @@ SP
         SD .- |programming| WD(web devel.)
             WD --> |framewors...| B{Backend}
 
-
-
-
 ```
+
+---
+
+## DISCLAIMER
+
+As of November 2022, the [**SLIT**](https://github.com/pabloqpacin/SLIT/tree/main) repo is set to be in **permanent development**.
+
+Weekly progress is documented in specific branches (eg. `week46`) and merged to `main` every weekend.

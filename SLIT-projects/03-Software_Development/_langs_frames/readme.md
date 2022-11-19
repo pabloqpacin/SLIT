@@ -1,19 +1,17 @@
 # Programming Languages & Development Frameworks
 
-> inherent relationship with [03-Software_Development](/SLIT-projects/03-Software_Development/) projects
-
 
 <details>
 <summary>Table of Contents</summary>
 
 - [Programming Languages & Development Frameworks](#programming-languages--development-frameworks)
 - [Programming Languages](#programming-languages)
-  - [learning...](#learning)
+  - [(1) learning...](#1-learning)
     - [command-line](#command-line)
     - [Python](#python)
     - [SQL](#sql)
     - [Go](#go)
-  - ['beknownst'](#beknownst)
+  - [(2) beknownst...](#2-beknownst)
     - [C](#c)
     - [Rust](#rust)
     - [C#](#c-1)
@@ -30,13 +28,12 @@
 
 Sorted in two groups as for personal relevance:
 
-## learning...
+## (1) learning...
 
 ### command-line
 
-see [CLI](/SLIT-projects/02-Operating_Systems/_GEN/_CLI.md) for Documentation regarding Bash, CMD & Powershell
-
-see some [SLIT-projects](/SLIT-projects/03-Software_Development/) below
+- see [CLI](/SLIT-projects/02-Operating_Systems/_GEN/_CLI.md) for Documentation regarding *Bash*, *CMD* & *Powershell*
+- these are two [SLIT-projects](/SLIT-projects/03-Software_Development/) related:
 
 ```markdown
 # SLIT-projects
@@ -46,34 +43,33 @@ see some [SLIT-projects](/SLIT-projects/03-Software_Development/) below
 
 ### Python
 
-> Python in depth in [03-SoftDev](/SLIT-projects/03-Software_Development/_langs_frames/_Python.md)
-
-
-- scripting/automation
-- machine learning
-- Backend web-dev 
-
-see a number of [SLIT-projects](/SLIT-projects/03-Software_Development/)
+- see [Python](/SLIT-projects/03-Software_Development/_langs_frames/_Python.md) for an in-depth approach
+- relevant for:
+    - scripting/automation
+    - machine learning
+    - Backend web-dev 
+- some Python-based [SLIT-projects](/SLIT-projects/03-Software_Development/) below:
 
 ```markdown
 # SLIT-projects
-
 - 03-python-basic_games
 - 04-pygame-TeaInvaders
 - 05-flask-build_website
 - 06-django-build_website
 ```
 
-
 ### SQL
-- Backend dev.
-- opsec
+- see [BYA](https://github.com/pabloqpacin/BEYOND-ASIR)
+- relevant for:
+    - Backend dev.
+    - opsec
 
 ### Go
-- Backend dev.
-- system programming
+- relevant for:
+    - Backend dev.
+    - system programming
 
-## 'beknownst'
+## (2) beknownst...
 
 ### C
 - systems programming
