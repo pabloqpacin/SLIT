@@ -28,3 +28,4 @@ might do some VMs on [EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-E
 
 v12n software
 - **VirtualBox 6.1.38** - all current VMs
+- **VirtualBox 7.0.4** - *not yet installed*

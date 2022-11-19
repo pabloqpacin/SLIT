@@ -3,6 +3,8 @@
 - [CLI - Command Line Interface](#cli---command-line-interface)
   - [terminal emulators](#terminal-emulators)
   - [shell –scripting– languages](#shell-scripting-languages)
+    - [CMD](#cmd)
+  - [Scripts](#scripts)
 
 
 ## terminal emulators
@@ -22,3 +24,21 @@
     - [*Batch* files](https://en.wikipedia.org/wiki/Batch_file)
     - [CMD <!--commands-->](https://en.wikipedia.org/wiki/Cmd.exe)
     - PowerShell
+
+
+---
+
+### CMD
+
+according with [superuser.com](https://superuser.com/questions/82231/how-do-i-do-comments-at-a-windows-command-prompt) documentation:
+
+```cmd
+REM this is a comment
+:: this is a comment
+dir & REM a comment
+dir & :: a comment
+```
+
+## Scripts
+
+Read [smallbusiness.chron.com](https://smallbusiness.chron.com/write-cmd-script-53226.html)
