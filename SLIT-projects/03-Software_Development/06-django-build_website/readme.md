@@ -15,7 +15,10 @@ Main takes:
   - [~~Part 1 🌑- Installation, Setup and Page Navigation~~](#part-1---installation-setup-and-page-navigation)
   - [--REWORK--](#--rework--)
     - [uninstall Django for WSL reinstall](#uninstall-django-for-wsl-reinstall)
-  - [Part 1 ☀️ - WSL installation, setup and Page Navigation](#part-1-️---wsl-installation-setup-and-page-navigation)
+  - [Part 1 ☀️ - Setup, Installation, and Page Navigation](#part-1-️---setup-installation-and-page-navigation)
+    - [Virtual Environment setup (TO-DO always!)](#virtual-environment-setup-to-do-always)
+    - [Installing Django](#installing-django)
+    - [Creating a Django project](#creating-a-django-project)
     - [.gitignore file creation](#gitignore-file-creation)
 
 </details>
@@ -25,7 +28,8 @@ Main takes:
 
 - must-read
     - @ Django Docs - [How to install Django on Windows](https://docs.djangoproject.com/en/4.1/howto/windows/) (important for the video but **I don't do Windows, I do Linux because WSL** <!-- Relevant because `activate dj` didn't work for me so I defo should read about the **'virtual environment'** config -->)
-    - **@ Django Docs - [How to install Django](https://docs.djangoproject.com/en/4.1/topics/install/) (for after REWORK)**
+    - **@ Django Docs - [How to install Django](https://docs.djangoproject.com/en/4.1/topics/install/) (for after REWORK)** <!--mind the first steps meant for a **PRODUCTION DEPLOYMENT**, including Apache and more-->
+    -  @ Django Docs - [... Create a virtual environment](https://docs.djangoproject.com/en/4.1/intro/contributing/#getting-a-copy-of-django-s-development-version)
     
     - **WSL - [Installing Python, Postgres, Django and other CLI tools inside WSL](https://www.agiliq.com/blog/2018/07/using-django-on-windows-with-wsl/)** (*research* server's "port 8000")
     - **.gitignore - [hiding secret key in django project on github after uploading project](https://stackoverflow.com/questions/64208678/hiding-secret-key-in-django-project-on-github-after-uploading-project)**
@@ -127,7 +131,7 @@ Although we will continue the tutorial, **major changes** will apply according w
 
 Due to confusing CMD vs WSL's ZSH Django config/setup/admin (as we use Bash for **git** and for other projects' development), we decide to uninstall Django, read the **virtual environment** config [documentation](#documentation) for Windows and finally reinstall Django for our WSL system.
 
-In other words, let's undo our Django Windows install to reinstall it [later](#part-1---wsl-installation-setup-and-page-navigation) (we may install Django for Linux since we plan on running the framework via WSL and **VSCode's integrated WSL's ZSH terminal**).
+In other words, let's undo our Django Windows install to reinstall it [later](#part-1-☀️---setup-installation-and-page-navigation) (we may install Django for Linux since we plan on running the framework via WSL and **VSCode's integrated WSL's ZSH terminal**).
 
 1. First off, delete current `mysite` local folder from within the file explorer. Freely git-commit their removal.
 
@@ -174,20 +178,20 @@ python --version
 
 </details>
 
-## Part 1 ☀️ - WSL installation, setup and Page Navigation
+## Part 1 ☀️ - Setup, Installation, and Page Navigation
 
 <!-- I might cover a complete WSL/Python-VM setup
 (( Windows10 > WSL > Ubuntu > OhMyZsh > VSCode >> Python(pip) > Django )) -->
 
 > Considering all previous documentation here... we are actually restarting the project yay! 🌌
 
-Now, as for a fresh start, let's install Django for Linux, since we are running Ubuntu in our Windows 10 **WSL** environment.
+Now, as for a fresh start, let's install Django for Linux, since we are running Ubuntu in our Windows 10 **WSL** environment. This is actually a major twist from the Tim's tutorial, nonetheless, it is what must be done.
 
 For using the command-line in our Windows 10 machine, we could either resort to the Windows Terminal app (running the Ubuntu *profile*) or the good ol' VSCode's integrated WSL terminal. Either way, we are using Bash commands and [OhMyZsh](https://youtu.be/dQw4w9WgXcQ) features.
 
 
 ```bash
-# using zsh, btw
+# using ZSH btw, rather than Bash
 which $SHELL        # /usr/bin/zsh
 
 # make sure Python is installed
@@ -196,29 +200,85 @@ python3 --version   # Python 3.10.6
 
 Reading the [Django documentation](#documentation) above, we decide to closely follow the steps below: 
 
-1. Setting up a proper virtual environment with `venv`.
+### Virtual Environment setup (TO-DO always!) 
+
+First off, time to set up a proper virtual environment with `venv` following [official documentation](https://docs.djangoproject.com/en/4.1/intro/contributing/#getting-a-copy-of-django-s-development-version).
 
 ```bash
-# use venv
+# create a new virtual environment
+python3 -m venv ~/.virtualenvs/djangodev
+    # ERROR because 'ensurepip' is not available
 
+# install the 'python3-venv' package
+apt install python3.10-venv
+    # the following NEW packages will be installed:
+    # 'python3-pip-whl' 'python3-setuptools-whl' 'python3.10-venv'
 
+# now again, properly
+python3 -m venv ~/.virtualenvs/djangodev
 ```
 
-2. Installing Django
+Now `~/.virtualenvs/djangodev` is the path where the new environment will be saved. Out of curiosity, these are the contents of such dir.
+```bash
+cd ~/.virtualenvs/djangodev
 
-........
+ls
+# bin include lib lib64 pyvenv.cfg
 
+ls bin
+# Activate.ps1 activate activate.csh activate.fish pip pip3 python python3 python3.10
+```
+
+Moving on, let's **activate** the the environment:
+```bash
+source ~/.virtualenvs/djangodev/bin/activate
+# It should have worked as per screenshot below
+```
+
+**Important!!** See documentation:
+```markdown
+You have to **activate** the virtual environment whenever you open a new terminal window.
+
+---
+The name of the currently activated virtual environment is displayed on the command line to help you keep track of which one you are using.
+
+Anything you install through **pip** while this name is displayed will be installed in that virtual environment, isolated from other environments and system-wide packages.
+```
+
+
+<details>
+<summary>see virtual env. flair on Terminal</summary>
+
+![(djangodev) in Terminal](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1--source_activate.PNG)
+</details>
+
+---
+
+### Installing Django
+
+Having setup and activated a `(djangodev)` virtual environment, let's `pip install` Django according with [Django documentation](https://docs.djangoproject.com/en/4.1/topics/install/#installing-an-official-release-with-pip)!
 
 ```bash
-# # install Django
-# pip install django
+# install Django in the (djangodev) virtual environment
 python -m pip install Django
 
 # make sure django is installed
 python3 -m django --version
+    # '4.1.3'
+```
+<details>
+<summary>see Terminal output</summary>
 
-# create Django project
-python3
+![pip install Django](/SLIT-projects/03-Software_Development/06-django-build_website/images/part1--pip_install_django.PNG)
+</details>
+
+### Creating a Django project
+
+```bash
+cd <designated-folder>
+# in our case 'yadda yadda' 
+
+python3.....
 
 
 ```
