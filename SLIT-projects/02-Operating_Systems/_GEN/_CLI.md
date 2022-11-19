@@ -14,7 +14,7 @@
 
 - Linux // UNIX-like
     - Bash
-    - ZSH: [Z-shell website](https://zsh.sourceforge.io/)
+    - ZSH: [Z-shell website](https://zsh.sourceforge.io/), [zsh Github](https://github.com/zsh-users/zsh/)
     - OhMyZsh: [ohmyzsh Github](https://github.com/ohmyzsh/ohmyzsh)
     - [*shell scripts*](https://en.wikipedia.org/wiki/Shell_script)
 

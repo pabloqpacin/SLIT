@@ -1,6 +1,7 @@
 # DRAFT
 
 some ideas to explore are:
+- **CentOS**
 - [OpenWRT](https://github.com/openwrt/openwrt)
 - Raspberry Pi stuff
 - $homeserver-stuff$
