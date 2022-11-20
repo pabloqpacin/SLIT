@@ -18,3 +18,7 @@
 - grep
 
 > see [VMs](/SLIT-projects/02-Operating_Systems/I-VMs/readme.md)
+
+---
+
+[subshells & scripting](https://linuxhandbook.com/subshell/)

@@ -23,14 +23,12 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
       - [Xubuntu](#xubuntu)
       - [PopOS](#popos)
       - [Kali](#kali)
+      - [Debian](#debian)
     - [RPM-based](#rpm-based)
       - [openSUSE Tumbleweed](#opensuse-tumbleweed)
+      - [Fedora](#fedora)
     - [Arch-based](#arch-based)
       - [Manjaro](#manjaro)
-      - [...](#)
-  - ['Linux cheat-sheet'](#linux-cheat-sheet)
-    - [Debian-based distros](#debian-based-distros)
-    - [Arch-based distros](#arch-based-distros)
   - [β-VMs (GL76)](#β-vms-gl76)
   - [Ω-VMs (GL76)](#ω-vms-gl76)
 
@@ -68,14 +66,18 @@ what about 'validating' the ISOs tho?
 
 ## Linux Distros
 
-```markdown
-<details>
-<summary></summary>
-
-</details>
-```
+> UNIX-like... Linux architecture (packages, desktop, window-managers, etc.)
 
 ### Debian-based
+
+**Ubuntu** and similar distributions use `apt` to manage their packages (as well as `snap` and a few more tools as explained in [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md)). Therefore `apt` commands should be used keep most software and computer programs updated and functional. These below are the standard commands to use (right after installation but often too) in order to maintain a healthy system. 
+
+```bash
+# update your repositories
+sudo apt update
+apt list --upgradable
+sudo apt upgrade -y
+```
 
 #### Mint
 
@@ -113,13 +115,15 @@ do echo 'Are you scared?' | lolcat
 done
 ```
 
+</details>
+
+
 <details>
-<summary>Click to see Neofetch</summary>
+<summary>NEOFETCH</summary>
 
 ![ubuntu00-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-A01-ubuntu00-neofetch.PNG)
 </details>
 
-</details>
 
 
 
@@ -151,24 +155,18 @@ passwd: piro12
 1. Showcase **'Chicago95'** theme:
     - In a nutshell, run ['Chicagofier' script](https://github.com/dominichayesferen/Chicagofier) to easily install and enable the [Chicago95](https://github.com/grassmunk/Chicago95) Windows95-inspired XFCE Theme. Lotta fun!!
 
-<details>
-<summary>Click to see Neofetch</summary>
-
-![chicago95-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L02-chicago95-neofetch.PNG)
 </details>
 
+<details>
+<summary>NEOFETCH</summary>
+
+![chicago95-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L02-chicago95-neofetch.PNG)
 </details>
 
 
 #### PopOS
 
-```markdown
-## PopOS Deskey features 
-- Cosmic shell!
-   - Delighful **Window Tiling manager** pre-installed
-   - Delightful **system shortcuts / key-bindings**
-```
-
+In a nutshell... **cosmic shell**! Window Tiling manager pre-installed.
 
 <details>
 <summary>popos-VM</summary>
@@ -248,60 +246,143 @@ ZSH_THEME_RANDOM_CANDIDATES=("3den" "afowler" "apple" # ...
 -->
 
 
-<details>
-<summary>Click to see Neofetch</summary>
-
-![popos-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L03-popos-neofetch.PNG)
 </details>
 
+<details>
+<summary>NEOFETCH</summary>
+
+![popos-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L03-popos-neofetch.PNG)
 </details>
 
 
 #### Kali
 
+<details>
+<summary>kaley-VM</summary>
+
+<!--
+user: kali
+passwd: k
+-->
+
+```markdown
+# CONFIG
+1. Download
+    - release 'kali-linux-2022.3-virtualbox-amd64.7z' from *website* (2.46 GB)
+2. Installation specs
+    - Processors: 2
+    - Memory: 2048
+    - Storage: *.vdi* - Normal 80 GB
+3. Distro features
+    - Desktop environment: ??
+    - Package manager: `apt`
+```
+
+</details>
+
+<details>
+<summary>NEOFETCH</summary>
+
+![kaley-VM-neofetch]()
+</details>
+
+
+#### Debian
+
 ### RPM-based
 
 #### openSUSE Tumbleweed
 
-### Arch-based
-
-#### Manjaro
-
-#### ...
-
-
-
-
-## 'Linux cheat-sheet'
-
-
 <details>
-<summary>(DRAFT) Distros knowledge-base</summary>
+<summary>susey-VM</summary>
 
-
-### Debian-based distros
-
-Basically `Ubuntu` and many similar distros work the same way and below you may find the steps I believe should be taken after installing.
-
-Many examples in next section [β-VMs (GL76)](#β-vms-gl76). This below is a recap of First things to do after installing these Distros
-
-```bash
-# update your repositories
-sudo apt update
-apt list --upgradable
-sudo apt upgrade -y
-```
-
-
-### Arch-based distros
-
-```bullshie
-bullshie
+```markdown
+# CONFIG
+1. Download
+2. Installation specs
+3. Distro features
 ```
 
 
 </details>
 
+<details>
+<summary>NEOFETCH</summary>
+
+![]()
+</details>
+
+
+#### Fedora
+
+### Arch-based
+
+~~All previous VMs in this repo were **Ubuntu-based** (ie. Debian-based) Linux distributions.~~
+Now Manjaro is different, Manjaro is an **Arch-based**, 'rolling release' distro. Among other things, that means that it doesn't use the `apt` package manager, but all `pacman`, `octopi` and `pamac` (see [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md)).
+
+#### Manjaro
+
+<details>
+<summary>manjey-GNOME-VM</summary>
+
+<!--
+user: gitgud
+passwd: sh8
+-->
+
+```markdown
+# CONFIG
+1. **Download**
+   - ISO 'manjaro-gnome-21.3.7-220816-linux515.iso' from *website* (3.33 GB)
+2. **Installation specs**
+   - Processors: 4
+   - Memory: 4096 MB
+   - Storage: *.vdi* - Normal 20 GB
+3. **Distro features**
+   - Desktop environment: GNOME
+   - Package manager: `pacman`
+```
+
+- **Install Manjaro**: create VM, select ISO, boot up, install Manjaro, reboot and...
+
+- **Update packages**
+
+Now that Manjaro is installed in our VM, these are the `pacman` commands necessary to actually use the system.
+
+```bash
+# Update all packages
+sudo pacman -Syu
+	# -S --> synchronizes local packages with official database
+	# -y --> downloads latest packages from database
+	# -u --> after sync and download pkgs, they will be updated
+
+# Enter YES when prompted
+y
+
+# Installing programs
+sudo pacman -S neofetch
+sudo pacman -S vscode
+```
+
+</details>
+
+<details>
+<summary>NEOFETCH</summary>
+
+![manjey_gnome-VM-neofetch]()
+</details>
+
+<details>
+<summary>manjey-i3-VM</summary>
+
+</details>
+
+
+<details>
+<summary>NEOFETCH</summary>
+
+![]()
+</details>
 
 
 ## β-VMs (GL76)

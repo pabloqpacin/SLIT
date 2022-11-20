@@ -59,57 +59,6 @@ sudo pacman -S vscode
 
 ## VM features
 
-1. Setup as per [02-OpSystems/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)...
-- [ ] [oh-my-zsh]
-- [ ] VSCode
-- [ ] basic CLI programs:
-    - [ ] cmatrix
-    - [ ] cowsay
-    - [ ] fortune
-    - [ ] lolcat
-    - [ ] neofetch
-    - [ ] oneko
-
-2. Written `kkk.sh` script:
-```bash
-#!/bin/bash
-
-echo -e '\nH-' && sleep 2
-echo "Hi $USER" && sleep 2
-echo -e '\nDoes you like rainbows?'
-    read daigual
-
-while true
-do echo 'Are you scared?' | lolcat
-echo -e '\tAre you scared?' | lolcat
-done
-```
-
-
-3. Written `sakura.sh` script:
-```bash
-#!/bin/bash
-oneko -sakura &
-```
-
-<!--
-Y TF can't I run it on WSL tho lol
--->
-
-4. Tweaked `.zshrc` config (see [_CLI](/SLIT-projects/02-Operating_Systems/_GEN/_CLI.md) documentation for more details)
-
-```bash
-ZSH_THEME="random"
-
-ZSH_THEME_RANDOM_CANDIDATES=("3den" "afowler" "apple" # ...
-    "tjkirch_mod" "wedisagree" "wezm" "wuffers" "zhann")
-```
-
-<!--
-5. Tested TEA_INVADERS in this machine lol
--->
-
-
 
 ## **Manjaro** key features
 
