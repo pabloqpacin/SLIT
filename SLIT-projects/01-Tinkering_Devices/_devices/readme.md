@@ -2,6 +2,10 @@
 
 *10/11/2022*
 
+
+<details>
+<summary>Click to see graph n.1</summary>
+
 Summary-graph copypasted from [SLIT-materials](/SLIT-materials.md):
 
 ```mermaid
@@ -48,6 +52,14 @@ H .- hacking-lab
 
 ```
 
+</details>
+
+
+
+
+<details>
+<summary>Click to see graph n.2</summary>
+
 Graph 2.0:
 
 ```mermaid
@@ -56,33 +68,32 @@ graph LR;
 
 D{DEVICES}
 
-    D .- EC[electronic components]
+    EC[electronic components]
         EC .- bcs[basic cirtuit stuff]
         EC .- mc[microcontrollers]
             mc .- UNO[arduino UNO]
             mc .- RPico(RPi Pico)
-    D .- CC[computers' components]
+    CC[computers' components]
         CC .- laptops
             laptops .- EX2511
             laptops .- A5920
         CC .- other
             other .- Pentium
-    D .- A[Android]
+    A[Android]
         A .- sm[smartphones]
             sm .- sm1
             sm .- sm2
             sm .- sm3
             sm .- sm4
             sm .- sm5
-            sm .- sm6
-            sm .- sm7
+
 
 
         A .- tab[tablets]
             tab .- supernova[supernova]
             tab .- iPad[old iPad too]
 
-    D .- GC[Game Consoles]
+    GC[Game Consoles]
         GC .- handheld
             handheld .- GB
             handheld .- GBA
@@ -104,88 +115,48 @@ N{Networking}
 
 
     P .- GD{Game Devel.}
-        GC .- GD
+        GC --> GD
         sm .- GDG
-
-
-
 
 
 ```
 
+</details>
+
+
 
 ---
-*first commit lmao*
-
-Pulling data from local LinWin Obsidian documentation!
-
-- [Tinkering Devices](#tinkering-devices)
-  - [Tablets](#tablets)
-    - [Supernova](#supernova)
-    - [iPAD model A1337](#ipad-model-a1337)
-  - [Smartphones](#smartphones)
-  - [Computers & Components](#computers--components)
-    - [Pentium](#pentium)
-    - [A5920](#a5920)
-    - [EX2511](#ex2511)
-    - [GL76](#gl76)
-  - [Microcontrollers](#microcontrollers)
-    - [Arduino UNO (in fact *Elegoo*)](#arduino-uno-in-fact-elegoo)
-    - [Raspberry Pi Pico](#raspberry-pi-pico)
-  - [Game consoles](#game-consoles)
-    - [GameBoy](#gameboy)
-    - [GameBoy Advance](#gameboy-advance)
-    - [PS1](#ps1)
-    - [PS3](#ps3)
-    - [Wii](#wii)
-
-## Tablets
-### Supernova
-### iPAD model A1337
-
-## Smartphones
 
 
-## Computers & Components
-### Pentium
-### A5920
+Current set of *devices* I own, may tinker with and salvage from:
 
-<!--pre-dissassemble-->
-
-| component | about |
-| --- | --- |
-| Machine | Acer Aspire 5920
-| BIOS | v1.3809
-| CPU | Intel Core 2 Duo T8100 (2) @ 2.101GHz
-| GPU | Intel Mobile GM965/GL960
-| Memory |  ... / 4 GB (2 GB x 2)
-| Storage | |
-| Battery | | 
-| Resolution | 1280x800
-| OS-00 | Windows 7
-| OS-01 | Pop!OS 22.04 
-
-**Troubleshooting?**
+|computers|tablets|smartphones|SBCs|MCs|GC-handheld|GC-stations|
+|---|---|---|---|---|---|---|
+|C01-GL76|T01-Supernova|S01-...||MC01-Elegoo_UNO|GB|Wii
+|C02-EX2511|T02-A1337|S02-...||MC02-RPico|GBA|PS1
+|C03-A5920||S03-...|||NDS|PS3
+|C04-Pentium||S04-...||||
 
 
-**software performance**
+> General specs-chart might be here for as many devices as possible aye!
 
-lorem ipsum
+<details>
+<summary>Click to see a draft for the 'specs-chart'</summary>
+
+
+|C01-GL76|...|S02-nokia|...|
+|---|---|---|---|
+|manufacturer|
+|model name|
+|CPU|
+|GPU|
+|RAM|
+|storage|
+|battery|
+|resolution|
+|OS|
+|fate|
 
 
 
-
-### EX2511
-### GL76
-
-## Microcontrollers
-### Arduino UNO (in fact *Elegoo*)
-### Raspberry Pi Pico
-
-## Game consoles
-### GameBoy
-### GameBoy Advance
-### PS1
-### PS3
-### Wii
-
+</details>

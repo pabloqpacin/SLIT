@@ -1,8 +1,8 @@
-# Tinkering == repair and salvage Electronics
+# DRAFT
 
-- [Tinkering == repair and salvage Electronics](#tinkering--repair-and-salvage-electronics)
-  - [documentation](#documentation)
-  - [audio](#audio)
+toca reparar porque uno de los speakers no va
+
+<!--
 
 
 ## documentation
@@ -21,3 +21,6 @@ So basically all the many headphones and speakers laying around at home are faul
 |blancos-topos|aur001|sound OK/unreliable plastic structure
 |negros/verdes|aur002|sound OK/R earcup loose (cable attached)|
 |ZoneWired-Logitech|aur003|sound ~~OK~~/R earcup infuriatingly intermittent
+
+
+-->
