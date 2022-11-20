@@ -46,7 +46,7 @@ As a matter of fact, the most relevant Linux distros covered may be:
 |OS|Ubuntu 22.04|Xubuntu 22.04|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
 |ISO size|3.56 GB|2.30 GB|
 |Desktop Env.|GNOME|XFCE|GNOME||||| - | - |
-|Processors|2|2|2|4|4|4|2|4|6|
+|Processors|2|2|4|4|4|4|2|4|6|
 |Memory|2000 MB|3072 MB|3072 MB|4096 MB|4096 MB|4096 MB|2048 MB|4096 MB|8000 MB|
 |Storage (*'Normal' .vdi*)|20 GB|20 GB|20 GB|20 GB|20 GB|20 GB|80 GB|50 GB|80 GB|
 |Resolution|
