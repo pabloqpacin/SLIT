@@ -1,8 +1,8 @@
 # β - popos
 
 <!--
-user: gitgud
-passwd: micro7
+user: -
+passwd: -
 -->
 
 ## config

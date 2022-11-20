@@ -1,10 +1,8 @@
 # (02) OSs - (I) VMs
 
-> must read [v12n-c14n](/SLIT-projects/02-Operating_Systems/_GEN/v12n-c14n.md)
+This project documents fundamental **setup info & config actions** for numerous `virtual machines` in 2 host machines using the VirtualBox application.
 
-This project aims at documenting fundamental **setup info & config actions** for both Windows and Linux VMs using VirtualBox in my host machine [GL76](/SLIT-projects/01-Tinkering_Devices/_devices/C01-GL76.md) running *Windows 10* with [WSL](/SLIT-projects/02-Operating_Systems/_GEN/WSL.md) enabled.
-
-As a matter of fact, the most relevant Linux distros covered may be:
+Our VMs are running a wide variety of Linux distributions as well as certain Windows releases. Below... As a matter of fact, the most relevant Linux distros covered may be:
 - [L03-PopOS](/SLIT-projects/02-Operating_Systems/I-VMs/L03-PopOS/)
 - [L06-SUSE](/SLIT-projects/02-Operating_Systems/I-VMs/L06-SUSE/)
 - [L07-Kali](/SLIT-projects/02-Operating_Systems/I-VMs/L07-Kali)
@@ -12,9 +10,24 @@ As a matter of fact, the most relevant Linux distros covered may be:
 > Might turn the [EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md) machine into my main VM lab after successfully carrying out its *memory upgrade*
 
 
+<details>
+<summary>Table of Contents</summary>
+
+- [(02) OSs - (I) VMs](#02-oss---i-vms)
+  - [current setup](#current-setup)
+  - [documentation](#documentation)
+  - ['Linux cheat-sheet'](#linux-cheat-sheet)
+    - [Debian-based distros](#debian-based-distros)
+    - [Arch-based distros](#arch-based-distros)
+  - [β-VMs (GL76)](#β-vms-gl76)
+  - [Ω-VMs (GL76)](#ω-vms-gl76)
+
+</details>
+
+
 ## current setup
 
-1. **Host machines specs:**
+**Host Machines Specs**
 
 |specs|[C01-GL76](/SLIT-projects/01-Tinkering_Devices/_devices/C01-GL76.md)|[C02-EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md)|
 |---|---|---|
@@ -25,15 +38,59 @@ As a matter of fact, the most relevant Linux distros covered may be:
 |Resolution|1920 x 1080| - |
 
 
+- ***v12n* software**
+   - **VirtualBox 6.1.38** - all current VMs
+   - **VirtualBox 7.0.4** - *not yet installed*
 
-2. ***v12n* software:**
-- **VirtualBox 6.1.38** - all current VMs
-- **VirtualBox 7.0.4** - *not yet installed*
 
+## documentation
+
+- for #virtualization see [v12n-c14n](/SLIT-projects/02-Operating_Systems/_GEN/v12n-c14n.md) 
+- for #Linux documentation see [SLIT/OSs/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)
+
+
+## 'Linux cheat-sheet'
 
 
 <details>
-<summary> 3. β-VMs in GL76 host </summary>
+<summary>(DRAFT) Distros knowledge-base</summary>
+
+
+### Debian-based distros
+
+Basically `Ubuntu` and many similar distros work the same way and below you may find the steps I believe should be taken after installing.
+
+Many examples in next section [β-VMs (GL76)](#β-vms-gl76). This below is a recap of First things to do after installing these Distros
+
+```bash
+# update your repositories
+# first check for updates (assuming you don't change your mirrors)
+sudo apt update
+
+# assess new packages
+apt list --upgradable
+
+# actually update your system
+sudo apt upgrade -y
+```
+
+
+### Arch-based distros
+
+```bullshie
+bullshie
+```
+
+
+</details>
+
+
+
+## β-VMs (GL76)
+
+
+<details>
+<summary>See relevant spreadsheet</summary>
 
 
 <!--
@@ -55,28 +112,19 @@ As a matter of fact, the most relevant Linux distros covered may be:
 
 </details>
 
-## general Linux config (Distro-sensitive)
-
-> see relevant Documentation at [02-OpSystems/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)
 
 
-<!--DRAFT BELOW LOL-->
 
-### Debian/Ubuntu-based
+## Ω-VMs (GL76)
 
-First things to do after installing these Distros
-
-```bash
-# update your repositories
-# first check for updates (assuming you don't change your mirrors)
-sudo apt update
-
-# assess new packages
-apt list --upgradable
-
-# actually update your system
-sudo apt upgrade -y
-```
+<!--
+<details>
+<summary>See relevant spreadsheet</summary>
 
 
-### Arch-based
+</details>
+-->
+
+
+
+
