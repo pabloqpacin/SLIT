@@ -32,8 +32,9 @@ As a matter of fact, the most relevant Linux distros covered may be:
 
 
 
+<details>
+<summary> 3. β-VMs in GL76 host </summary>
 
-3. **Beta *β*-VMs specs given host (GL76) specs:**
 
 <!--
 > β == Beta (to be deleted) --- Ω == Omega (to be maintained)
@@ -52,7 +53,30 @@ As a matter of fact, the most relevant Linux distros covered may be:
 |Resolution|
 |notes...| - |Chicago95 Theme|**proper**||Arch-based||Kali ISO for VMs
 
+</details>
 
-## general Linux config
+## general Linux config (Distro-sensitive)
 
 > see relevant Documentation at [02-OpSystems/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)
+
+
+<!--DRAFT BELOW LOL-->
+
+### Debian/Ubuntu-based
+
+First things to do after installing these Distros
+
+```bash
+# update your repositories
+# first check for updates (assuming you don't change your mirrors)
+sudo apt update
+
+# assess new packages
+apt list --upgradable
+
+# actually update your system
+sudo apt upgrade -y
+```
+
+
+### Arch-based

@@ -14,9 +14,12 @@ Basic config relevant for any proper Linux install:
 
 ## (a) ZSH
 ## (b) basic CLI programs
-1. fortune
-2. lolcat
-3. neofetch
-4. oneko
+- cmatrix
+- cowsay
+- fortune
+- lolcat
+- neofetch
+- oneko
+- sl
 
 
