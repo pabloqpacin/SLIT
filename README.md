@@ -5,7 +5,7 @@
 
 For general learning materials see [SLIT-materials](/SLIT-materials.md).
 
-For actual programming, config files and cheat-sheets, see [SLIT-projects](/SLIT-projects):
+For actual code, config files and cheat-sheets, explore [SLIT-projects](/SLIT-projects):
 1. **Tinkering Devices**
 2. **Operating Systems**
 3. **Software Development**

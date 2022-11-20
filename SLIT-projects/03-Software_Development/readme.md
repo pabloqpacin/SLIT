@@ -1,3 +1,7 @@
+# (03) Software Development -- Engineering Code
+
+<!--
+
 # Introduction
 
 As mentioned in [SLIT's README](/README.md) above, ***SLIT*** is a collection of learning materials and personal programming projects.
@@ -76,3 +80,4 @@ Ojo con [TOPICS](/README.md#topics)
 - GBDK: [Learn to code and write games on the Nintendo Game Boy | MVG](https://youtu.be/FzPTK91EJY8) @ Modern Vintage Gamer
 
 
+-->

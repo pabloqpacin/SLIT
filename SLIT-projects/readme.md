@@ -1,5 +1,8 @@
 PROJECTS AYE!
 
 ```markdown
-This dir shall contain the direct projects' dirs (instead of the current schema dirs available). Perhaps.
+01-Tinkering_Devices
+02-Operating_Systems
+03-Software_Development
+04-Network_Security
 ```
