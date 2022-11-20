@@ -24,6 +24,7 @@ Laptop is pretty much dissassembled. LCD screen is now detached from the case an
 
 Must figure out a control board I guess. Where to buy?
 
+- amazon
 - aliexpress
 - ebay
 
