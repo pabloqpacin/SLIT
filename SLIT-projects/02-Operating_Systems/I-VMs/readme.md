@@ -39,7 +39,7 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
 
 ## current setup
 
-**Host Machines Specs**
+- **Host Machines Specs**
 
 |specs|[C01-GL76](/SLIT-projects/01-Tinkering_Devices/_devices/C01-GL76.md)|[C02-EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md)|
 |---|---|---|
@@ -89,20 +89,22 @@ user: gitgud
 passwd: micro7
 -->
 
-1. **CONFIG**
-   1. **Download**
-      - ISO 'ubuntu-22.04.1-desktop-amd64.iso' from *website* (3.56 GB)
-   2. **Installation specs**
-      - Processors: 2
-      - Memory: 2000 MB
-      - Storage: *.vdi* - Normal 20 GB
-   3. **Distro features**
-      - Desktop environment: GNOME
-      - Package manager: `apt`
+```markdown
+# CONFIG
+1. Download
+    - ISO 'ubuntu-22.04.1-desktop-amd64.iso' from *website* (3.56 GB)
+2. Installation specs
+    - Processors: 2
+    - Memory: 2000 MB
+    - Storage: *.vdi* - Normal 20 GB
+3. Distro features
+    - Desktop environment: GNOME
+    - Package manager: `apt`
+```
 
-2. **VM features**
-   1. Written `kkk.sh` script:
+**FEATURES**
 
+1. Written `kkk.sh` script:
 ```bash
 #!/bin/bash
 
@@ -115,7 +117,6 @@ done
 <summary>Click to see Neofetch</summary>
 
 ![ubuntu00-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-A01-ubuntu00-neofetch.PNG)
-
 </details>
 
 </details>
@@ -132,27 +133,28 @@ user: win95
 passwd: piro12
 -->
 
-1. **CONFIG**
-   1. **Download**
-      - ISO 'xubuntu-22.04.1-desktop-amd64.iso' from *website* (2.30 GB)
-   2. **Installation specs**
-      - Processors: 2
-      - Memory: 3072 MB
-      - Storage: *.vdi* - Normal 20 GB
-   3. **Distro features**
-      - Desktop environment: XFCE
-      - Package manager: `apt`
+```markdown
+# CONFIG
+1. Download
+    - ISO 'xubuntu-22.04.1-desktop-amd64.iso' from *website* (2.30 GB)
+2. Installation specs
+    - Processors: 2
+    - Memory: 3072 MB
+    - Storage: *.vdi* - Normal 20 GB
+3. Distro features
+    - Desktop environment: XFCE
+    - Package manager: `apt`
+```
 
-2. **VM features**
-    1. Showcase **'Chicago95'** theme:
-       - In a nutshell, run ['Chicagofier' script](https://github.com/dominichayesferen/Chicagofier) to easily install and enable the [Chicago95](https://github.com/grassmunk/Chicago95) Windows95-inspired XFCE Theme. Lotta fun!!
+**FEATURES**
 
+1. Showcase **'Chicago95'** theme:
+    - In a nutshell, run ['Chicagofier' script](https://github.com/dominichayesferen/Chicagofier) to easily install and enable the [Chicago95](https://github.com/grassmunk/Chicago95) Windows95-inspired XFCE Theme. Lotta fun!!
 
 <details>
 <summary>Click to see Neofetch</summary>
 
 ![chicago95-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L02-chicago95-neofetch.PNG)
-
 </details>
 
 </details>
@@ -160,9 +162,16 @@ passwd: piro12
 
 #### PopOS
 
+```markdown
+## PopOS Deskey features 
+- Cosmic shell!
+   - Delighful **Window Tiling manager** pre-installed
+   - Delightful **system shortcuts / key-bindings**
+```
 
-<!-- <details>
-<summary>popos-VM</summary> -->
+
+<details>
+<summary>popos-VM</summary>
 
 <!--
 user: gitgud
@@ -171,24 +180,81 @@ passwd: micro7
 
 ```markdown
 # CONFIG
-
-1. **Download**
+1. Download
    - ISO 'pop-os_22.04-amd64_intel_12.iso' from *website* (2.80 GB)
-2. **Installation specs**
+2. Installation specs
    - Processors: 4
    - Memory: 3072 MB
    - Storage: *.vdi* - Normal 20 GB
-3. **Distro features**
+3. Distro features
    - Desktop environment: GNOME
    - Package manager: `apt`
 ```
 
+> As of 20/11/2022: 'Low Disk Space' hence I may set up a new larger PopOS VM
+
+**FEATURES**
+
+1. Full setup as per relevant [02-OpSystems/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/) documentation:
+```markdown
+- [oh-my-zsh]
+- VSCode
+- basic CLI programs:
+    - cmatrix
+    - cowsay
+    - fortune
+    - lolcat
+    - neofetch
+    - oneko
+```
+
+2. Written an improved `kkk.sh` script:
+```bash
+#!/bin/bash
+
+echo -e '\nH-' && sleep 2
+echo "Hi $USER" && sleep 2
+echo -e '\nDoes you like rainbows?'
+    read daigual
+
+while true
+do echo 'Are you scared?' | lolcat
+echo -e '\tAre you scared?' | lolcat
+done
+```
+
+3. Written `sakura.sh` script:
+```bash
+#!/bin/bash
+oneko -sakura &
+```
+
+<!--
+Y TF can't I run it on WSL tho lol
+-->
 
 
+4. Tweaked `.zshrc` config (see [_CLI](/SLIT-projects/02-Operating_Systems/_GEN/_CLI.md) documentation for more details)
+
+```bash
+ZSH_THEME="random"
+
+ZSH_THEME_RANDOM_CANDIDATES=("3den" "afowler" "apple" # ...
+    "tjkirch_mod" "wedisagree" "wezm" "wuffers" "zhann")
+```
+
+<!--
+5. Tested TEA_INVADERS in this machine lol
+-->
 
 
+<details>
+<summary>Click to see Neofetch</summary>
+
+![popos-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L03-popos-neofetch.PNG)
 </details>
 
+</details>
 
 
 #### Kali
