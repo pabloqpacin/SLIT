@@ -43,15 +43,16 @@ As a matter of fact, the most relevant Linux distros covered may be:
 
 |specs/features|[ubuntu00](/SLIT-projects/02-Operating_Systems/I-VMs/A01-Ubuntu/β-ubuntu00_VM.md)|[chicago95](/SLIT-projects/02-Operating_Systems/I-VMs/L02-Xubuntu/β-chicago95_VM.md)|[popos](/SLIT-projects/02-Operating_Systems/I-VMs/L03-PopOS/β-popos_VM.md)|[manjaro00](/SLIT-projects/02-Operating_Systems/I-VMs/L04-Manjaro/β-manjaro00_VM.md)|[manjey-i3](/SLIT-projects/02-Operating_Systems/I-VMs/L04-Manjaro/β-manjey-i3_VM.md)|[susey](/SLIT-projects/02-Operating_Systems/I-VMs/L06-SUSE/β-susey_VM.md)|[kaley](/SLIT-projects/02-Operating_Systems/I-VMs/L07-Kali/β-kaley_VM.md)|[10VM](/SLIT-projects/02-Operating_Systems/I-VMs/W01-Windows10/β-10VM_VM.md)|[win10](/SLIT-projects/02-Operating_Systems/I-VMs/W01-Windows10/β-win10_VM.md)|
 |---|---|---|---|---|---|---|---|---|---|
-|OS|Ubuntu|Xubuntu|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
-|ISO size|
+|OS|Ubuntu 22.04|Xubuntu 22.04|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
+|ISO size|3.56 GB|2.30 GB|
+|Desktop Env.|GNOME|XFCE|GNOME||||| - | - |
 |Processors|2|2|2|4|4|4|2|4|6|
 |Memory|2000 MB|3072 MB|3072 MB|4096 MB|4096 MB|4096 MB|2048 MB|4096 MB|8000 MB|
 |Storage (*'Normal' .vdi*)|20 GB|20 GB|20 GB|20 GB|20 GB|20 GB|80 GB|50 GB|80 GB|
 |Resolution|
 |notes...| - |Chicago95 Theme|**proper**||Arch-based||Kali ISO for VMs
-|Desktop Env.|Gnome|XFCE|Gnome||||| - | - |
-|Package Manager|apt|apt|apt| - | - | - | apt | 
 
 
+## general Linux config
 
+> see relevant Documentation at [02-OpSystems/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)
