@@ -1,11 +1,11 @@
-# (I) VMs - Linux Distros & Windows
+# (I) VMs - Linux Distros & Windows OSs
 
 This project documents fundamental **setup info & config actions** for numerous `virtual machines` in 2 host machines using the VirtualBox application.
 
 Our VMs are running a wide variety of Linux distributions as well as certain Windows releases. Below... As a matter of fact, the most relevant Linux distros covered may be **(DRAFT)**:
-- [L03-PopOS](/SLIT-projects/02-Operating_Systems/I-VMs/L03-PopOS/)
-- [L06-SUSE](/SLIT-projects/02-Operating_Systems/I-VMs/L06-SUSE/)
-- [L07-Kali](/SLIT-projects/02-Operating_Systems/I-VMs/L07-Kali)
+- [PopOS]
+- [SUSE]
+- [Kali]
 
 > Might turn the [EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md) machine into my main VM lab after successfully carrying out its *memory upgrade*
 
@@ -13,7 +13,7 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
 <details>
 <summary>Table of Contents</summary>
 
-- [(I) VMs - Linux Distros \& Windows](#i-vms---linux-distros--windows)
+- [(I) VMs - Linux Distros \& Windows OSs](#i-vms---linux-distros--windows-oss)
   - [current setup](#current-setup)
   - [documentation](#documentation)
   - [Linux Distros](#linux-distros)
@@ -29,8 +29,9 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
       - [Fedora](#fedora)
     - [Arch-based](#arch-based)
       - [Manjaro](#manjaro)
-  - [β-VMs (GL76)](#β-vms-gl76)
-  - [Ω-VMs (GL76)](#ω-vms-gl76)
+  - [Windows](#windows)
+    - [Windows 10](#windows-10)
+    - [Windows 11](#windows-11)
 
 </details>
 
@@ -68,12 +69,36 @@ what about 'validating' the ISOs tho?
 
 > UNIX-like... Linux architecture (packages, desktop, window-managers, etc.)
 
+
+<details>
+<summary>see β-VMs (GL76) spreadsheet</summary>
+
+
+<!--
+> β == Beta (to be deleted) --- Ω == Omega (to be maintained)
+>
+> A == ASIR --- L == Linux --- W == Windows
+-->
+
+|specs/features|[ubuntu00]|[chicago95]|[popos]|[manjaro00]|[manjey-i3]|[susey]|[kaley]|[10VM]|[win10]|
+|---|---|---|---|---|---|---|---|---|---|
+|OS|Ubuntu 22.04|Xubuntu 22.04|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
+|ISO size|3.56 GB|2.30 GB|
+|Desktop Env.|GNOME|XFCE|GNOME||||| - | - |
+|Processors|2|2|4|4|4|4|2|4|6|
+|Memory|2000 MB|3072 MB|3072 MB|4096 MB|4096 MB|4096 MB|2048 MB|4096 MB|8000 MB|
+|Storage (*'Normal' .vdi*)|20 GB|20 GB|20 GB|20 GB|20 GB|20 GB|80 GB|50 GB|80 GB|
+|Resolution|
+|notes...| - |Chicago95 Theme|**proper**||Arch-based||Kali ISO for VMs
+
+</details>
+
 ### Debian-based
 
-**Ubuntu** and similar distributions use `apt` to manage their packages (as well as `snap` and a few more tools as explained in [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md)). Therefore `apt` commands should be used keep most software and computer programs updated and functional. These below are the standard commands to use (right after installation but often too) in order to maintain a healthy system. 
+**Ubuntu** and similar distributions use `apt` to manage their packages (as well as `snap` and a few more tools as explained in [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md)). Therefore `apt` commands should be used keep most software and computer programs updated and functional. These below are the standard commands to use in order to maintain a healthy system.
 
 ```bash
-# update your repositories
+# update the system after installing it!
 sudo apt update
 apt list --upgradable
 sudo apt upgrade -y
@@ -206,7 +231,7 @@ passwd: micro7
     - oneko
 ```
 
-2. Written an improved `kkk.sh` script:
+2. Written and improved `kkk.sh` script:
 ```bash
 #!/bin/bash
 
@@ -274,8 +299,27 @@ passwd: k
     - Memory: 2048
     - Storage: *.vdi* - Normal 80 GB
 3. Distro features
-    - Desktop environment: ??
+    - Desktop environment: XFCE
     - Package manager: `apt`
+```
+
+
+**FEATURES**
+
+1. Written a `fight.sh` script
+```bash
+#!/bin/bash
+
+echo 'wilde beast. Pick a number to kill it! [0/1]'
+beast=$((RANDOM%1))
+read fight
+
+if [[ $fight == $beast ]] ;
+then echo 'ayee'
+else echo -e 'u died beatch\n'
+fi
+
+fortune
 ```
 
 </details>
@@ -283,7 +327,7 @@ passwd: k
 <details>
 <summary>NEOFETCH</summary>
 
-![kaley-VM-neofetch]()
+![kaley-VM-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-kaley-neofetch.PNG)
 </details>
 
 
@@ -303,13 +347,16 @@ passwd: k
 3. Distro features
 ```
 
+**FEATURES**
+
+> Imma have to reinstall SUSE from scratch
 
 </details>
 
 <details>
 <summary>NEOFETCH</summary>
 
-![]()
+![susey-VM-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-susey-neofetch.PNG)
 </details>
 
 
@@ -332,13 +379,13 @@ passwd: sh8
 
 ```markdown
 # CONFIG
-1. **Download**
+1. Download
    - ISO 'manjaro-gnome-21.3.7-220816-linux515.iso' from *website* (3.33 GB)
-2. **Installation specs**
+2. Installation specs
    - Processors: 4
    - Memory: 4096 MB
    - Storage: *.vdi* - Normal 20 GB
-3. **Distro features**
+3. Distro features
    - Desktop environment: GNOME
    - Package manager: `pacman`
 ```
@@ -369,11 +416,30 @@ sudo pacman -S vscode
 <details>
 <summary>NEOFETCH</summary>
 
-![manjey_gnome-VM-neofetch]()
+![manjey_gnome-VM-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-manjey-gnome-neofetch.PNG)
 </details>
 
 <details>
 <summary>manjey-i3-VM</summary>
+
+<!--
+user: gitgud
+passwd: sh8
+-->
+
+
+
+```markdown
+# CONFIG
+1. Download
+2. Installation specs
+3. Distro features
+```
+
+**FEATURES**
+
+> Whatever this distro is... it is **pain**.
+
 
 </details>
 
@@ -381,49 +447,13 @@ sudo pacman -S vscode
 <details>
 <summary>NEOFETCH</summary>
 
-![]()
-</details>
-
-
-## β-VMs (GL76)
-
-
-<details>
-<summary>See relevant spreadsheet</summary>
-
-
-<!--
-> β == Beta (to be deleted) --- Ω == Omega (to be maintained)
->
-> A == ASIR --- L == Linux --- W == Windows
--->
-
-|specs/features|[ubuntu00](/SLIT-projects/02-Operating_Systems/I-VMs/A01-Ubuntu/β-ubuntu00_VM.md)|[chicago95](/SLIT-projects/02-Operating_Systems/I-VMs/L02-Xubuntu/β-chicago95_VM.md)|[popos](/SLIT-projects/02-Operating_Systems/I-VMs/L03-PopOS/β-popos_VM.md)|[manjaro00](/SLIT-projects/02-Operating_Systems/I-VMs/L04-Manjaro/β-manjaro00_VM.md)|[manjey-i3](/SLIT-projects/02-Operating_Systems/I-VMs/L04-Manjaro/β-manjey-i3_VM.md)|[susey](/SLIT-projects/02-Operating_Systems/I-VMs/L06-SUSE/β-susey_VM.md)|[kaley](/SLIT-projects/02-Operating_Systems/I-VMs/L07-Kali/β-kaley_VM.md)|[10VM](/SLIT-projects/02-Operating_Systems/I-VMs/W01-Windows10/β-10VM_VM.md)|[win10](/SLIT-projects/02-Operating_Systems/I-VMs/W01-Windows10/β-win10_VM.md)|
-|---|---|---|---|---|---|---|---|---|---|
-|OS|Ubuntu 22.04|Xubuntu 22.04|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
-|ISO size|3.56 GB|2.30 GB|
-|Desktop Env.|GNOME|XFCE|GNOME||||| - | - |
-|Processors|2|2|4|4|4|4|2|4|6|
-|Memory|2000 MB|3072 MB|3072 MB|4096 MB|4096 MB|4096 MB|2048 MB|4096 MB|8000 MB|
-|Storage (*'Normal' .vdi*)|20 GB|20 GB|20 GB|20 GB|20 GB|20 GB|80 GB|50 GB|80 GB|
-|Resolution|
-|notes...| - |Chicago95 Theme|**proper**||Arch-based||Kali ISO for VMs
-
+![manjey-i3-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-manjey-i3-neofetch.PNG)
 </details>
 
 
 
+## Windows
 
-## Ω-VMs (GL76)
+### Windows 10
 
-<!--
-<details>
-<summary>See relevant spreadsheet</summary>
-
-
-</details>
--->
-
-
-
-
+### Windows 11
