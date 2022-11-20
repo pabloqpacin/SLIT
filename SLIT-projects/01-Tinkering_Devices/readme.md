@@ -1,9 +1,9 @@
 # (01) Tinkering Devices -- Hardware n Electronics
 
-## T01 - Repair and Salvage
+## T01 - Repair and Salvage -- Electronics
 ...
 
-
+## T02 - Upgrade and Repurpose -- Hardware
 
 
 
