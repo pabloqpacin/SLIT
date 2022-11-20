@@ -5,15 +5,15 @@
 
 For general learning materials see [SLIT-materials](/SLIT-materials.md).
 
-Now [SLIT-projects](/SLIT-projects) is somehow my knowledge-base, capturing former and ongoing **hands-on-learning** on different levels:
-- 01-Tinkering_Devices
-    - Repair and Salvage Electronics 
-- 02-Operating_Systems
-- 03-Software_Development
-- 04-Network_Security
+For actual programming, config files and cheat-sheets, see [SLIT-projects](/SLIT-projects):
+1. **Tinkering Devices**
+2. **Operating Systems**
+3. **Software Development**
+4. **Network Security**
 
 
-Observe the graphs below to understand the scope of SLIT and see [graphs-sandbox]
+
+Please bear in mind $SLIT$ comprises much former and ongoing **hands-on-learning**. Now please observe the graphs below to actually grasp the scope of SLIT.
 
 ## *SLIT materials* visualized
 
