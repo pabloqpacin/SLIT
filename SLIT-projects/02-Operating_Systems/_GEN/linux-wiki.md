@@ -16,3 +16,5 @@
     - Arch-based 
 - curl
 - grep
+
+> see [VMs](/SLIT-projects/02-Operating_Systems/I-VMs/readme.md)

@@ -15,7 +15,7 @@ passwd: micro7
    - Storage: *.vdi* - Normal 20 GB
 3. **Distro features**
    - Desktop environment: GNOME
-   - Package manager: *apt*
+   - Package manager: `apt`
 
 <details>
 <summary>Click to see Neofetch</summary>

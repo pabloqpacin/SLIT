@@ -1,8 +1,8 @@
-# (I) VMs - Linux Distros & Windows
+# (02) OSs - (I) VMs
 
 This project documents fundamental **setup info & config actions** for numerous `virtual machines` in 2 host machines using the VirtualBox application.
 
-Our VMs are running a wide variety of Linux distributions as well as certain Windows releases. Below... As a matter of fact, the most relevant Linux distros covered may be **(DRAFT)**:
+Our VMs are running a wide variety of Linux distributions as well as certain Windows releases. Below... As a matter of fact, the most relevant Linux distros covered may be:
 - [L03-PopOS](/SLIT-projects/02-Operating_Systems/I-VMs/L03-PopOS/)
 - [L06-SUSE](/SLIT-projects/02-Operating_Systems/I-VMs/L06-SUSE/)
 - [L07-Kali](/SLIT-projects/02-Operating_Systems/I-VMs/L07-Kali)
@@ -13,21 +13,9 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
 <details>
 <summary>Table of Contents</summary>
 
-- [(I) VMs - Linux Distros \& Windows](#i-vms---linux-distros--windows)
+- [(02) OSs - (I) VMs](#02-oss---i-vms)
   - [current setup](#current-setup)
   - [documentation](#documentation)
-  - [Linux Distros](#linux-distros)
-    - [Debian-based](#debian-based)
-      - [Mint](#mint)
-      - [Ubuntu](#ubuntu)
-      - [Xubuntu](#xubuntu)
-      - [PopOS](#popos)
-      - [Kali](#kali)
-    - [RPM-based](#rpm-based)
-      - [openSUSE Tumbleweed](#opensuse-tumbleweed)
-    - [Arch-based](#arch-based)
-      - [Manjaro](#manjaro)
-      - [...](#)
   - ['Linux cheat-sheet'](#linux-cheat-sheet)
     - [Debian-based distros](#debian-based-distros)
     - [Arch-based distros](#arch-based-distros)
@@ -58,156 +46,19 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
 ## documentation
 
 - for #virtualization see [v12n-c14n](/SLIT-projects/02-Operating_Systems/_GEN/v12n-c14n.md) 
-- for #Linux documentation see [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki-md)
+- for #Linux documentation see [SLIT/OSs/_GEN](/SLIT-projects/02-Operating_Systems/_GEN/)
 
-<!--
-so...
-what about 'validating' the ISOs tho?
-(eg. Linux_Mint, Manjaro)
--->
-
-## Linux Distros
-
-```markdown
-<details>
-<summary></summary>
-
-</details>
-```
-
-### Debian-based
-
-#### Mint
-
-#### Ubuntu
-
-<details>
-<summary>ubuntu00-VM</summary>
-
-<!--
-user: gitgud
-passwd: micro7
--->
-
-1. **CONFIG**
-   1. **Download**
-      - ISO 'ubuntu-22.04.1-desktop-amd64.iso' from *website* (3.56 GB)
-   2. **Installation specs**
-      - Processors: 2
-      - Memory: 2000 MB
-      - Storage: *.vdi* - Normal 20 GB
-   3. **Distro features**
-      - Desktop environment: GNOME
-      - Package manager: `apt`
-
-2. **VM features**
-   1. Written `kkk.sh` script:
-
-```bash
-#!/bin/bash
-
-while true
-do echo 'Are you scared?' | lolcat
-done
-```
-
-<details>
-<summary>Click to see Neofetch</summary>
-
-![ubuntu00-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-A01-ubuntu00-neofetch.PNG)
-
-</details>
-
-</details>
-
-
-
-#### Xubuntu
-
-<details>
-<summary>chicago95-VM</summary>
-
-<!--
-user: win95
-passwd: piro12
--->
-
-1. **CONFIG**
-   1. **Download**
-      - ISO 'xubuntu-22.04.1-desktop-amd64.iso' from *website* (2.30 GB)
-   2. **Installation specs**
-      - Processors: 2
-      - Memory: 3072 MB
-      - Storage: *.vdi* - Normal 20 GB
-   3. **Distro features**
-      - Desktop environment: XFCE
-      - Package manager: `apt`
-
-2. **VM features**
-    1. Showcase **'Chicago95'** theme:
-       - In a nutshell, run ['Chicagofier' script](https://github.com/dominichayesferen/Chicagofier) to easily install and enable the [Chicago95](https://github.com/grassmunk/Chicago95) Windows95-inspired XFCE Theme. Lotta fun!!
-
-
-<details>
-<summary>Click to see Neofetch</summary>
-
-![chicago95-neofetch](/SLIT-projects/02-Operating_Systems/images/VMs-L02-chicago95-neofetch.PNG)
-
-</details>
-
-</details>
-
-
-#### PopOS
-
-
-<!-- <details>
-<summary>popos-VM</summary> -->
-
-<!--
-user: gitgud
-passwd: micro7
--->
-
-```markdown
-# CONFIG
-
-1. **Download**
-   - ISO 'pop-os_22.04-amd64_intel_12.iso' from *website* (2.80 GB)
-2. **Installation specs**
-   - Processors: 4
-   - Memory: 3072 MB
-   - Storage: *.vdi* - Normal 20 GB
-3. **Distro features**
-   - Desktop environment: GNOME
-   - Package manager: `apt`
-```
-
-
-
-
-
-</details>
-
-
-
-#### Kali
-
-### RPM-based
-
-#### openSUSE Tumbleweed
-
-### Arch-based
-
-#### Manjaro
-
-#### ...
 
 
 
 
 ## 'Linux cheat-sheet'
 
+<!--
+so...
+what about 'validating' the ISOs tho?
+(eg. Linux_Mint, Manjaro)
+-->
 
 <details>
 <summary>(DRAFT) Distros knowledge-base</summary>
