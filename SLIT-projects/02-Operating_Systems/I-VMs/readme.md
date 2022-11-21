@@ -1,13 +1,11 @@
 # (I) VMs - Linux Distros & Windows OSs
 
-This project documents fundamental **setup info & config actions** for numerous `virtual machines` in 2 host machines using the VirtualBox application.
+This project documents the process of **setup, config and admin** of numerous 'virtual machines' using *VirtualBox* within several host machines.
 
-Our VMs are running a wide variety of Linux distributions as well as certain Windows releases. Below... As a matter of fact, the most relevant Linux distros covered may be **(DRAFT)**:
-- [PopOS]
-- [SUSE]
-- [Kali]
-
-> Might turn the [EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md) machine into my main VM lab after successfully carrying out its *memory upgrade*
+Our VMs are running multiple Linux distributions and certain Windows releases. TLDR- these are perhaps our favourite distros:
+- [PopOS](#popos)
+- [SUSE](#opensuse-tumbleweed)
+- [Kali](#kali)
 
 
 <details>
@@ -25,29 +23,27 @@ Our VMs are running a wide variety of Linux distributions as well as certain Win
       - [Kali](#kali)
       - [Debian](#debian)
     - [RPM-based](#rpm-based)
-      - [openSUSE Tumbleweed](#opensuse-tumbleweed)
+      - [openSUSE-Tumbleweed](#opensuse-tumbleweed)
       - [Fedora](#fedora)
     - [Arch-based](#arch-based)
       - [Manjaro](#manjaro)
+      - [EndeavourOS](#endeavouros)
   - [Windows](#windows)
     - [Windows 10](#windows-10)
     - [Windows 11](#windows-11)
+  - [ASIR](#asir)
+    - [A01-Ubuntu](#a01-ubuntu)
+    - [A02-Windows10](#a02-windows10)
+    - [A03-WindowsServerYYYY](#a03-windowsserveryyyy)
 
 </details>
 
 
 ## current setup
 
-- **Host Machines Specs**
-
-|specs|[C01-GL76](/SLIT-projects/01-Tinkering_Devices/_devices/C01-GL76.md)|[C02-EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md)|
-|---|---|---|
-|OS|Windows 10|PopOS|
-|CPU|i7-11800H| - |
-|Memory|16 GB| - |
-|Storage|1 TB SSD| - |
-|Resolution|1920 x 1080| - |
-
+- **Host Machines**
+    - [C01-GL76](/SLIT-projects/01-Tinkering_Devices/_devices/C01-GL76.md) running **Windows 10** with i7-11800H processor and 16 GB of memory 
+    - [C02-EX2511](/SLIT-projects/01-Tinkering_Devices/_devices/C02-EX2511.md) running **PopOS** with i5-4210U processor and *??* GB of memory
 
 - ***v12n* software**
    - **VirtualBox 6.1.38** - all current VMs
@@ -67,29 +63,21 @@ what about 'validating' the ISOs tho?
 
 ## Linux Distros
 
-> UNIX-like... Linux architecture (packages, desktop, window-managers, etc.)
-
 
 <details>
-<summary>see β-VMs (GL76) spreadsheet</summary>
+<summary>see β-VMs (GL76)</summary>
 
 
-<!--
-> β == Beta (to be deleted) --- Ω == Omega (to be maintained)
->
-> A == ASIR --- L == Linux --- W == Windows
--->
-
-|specs/features|[ubuntu00]|[chicago95]|[popos]|[manjaro00]|[manjey-i3]|[susey]|[kaley]|[10VM]|[win10]|
-|---|---|---|---|---|---|---|---|---|---|
-|OS|Ubuntu 22.04|Xubuntu 22.04|PopOS|Manjaro|Manjaro|Tumbleweed|Kali Linux|Windows 10|Windows 10|
-|ISO size|3.56 GB|2.30 GB|
-|Desktop Env.|GNOME|XFCE|GNOME||||| - | - |
-|Processors|2|2|4|4|4|4|2|4|6|
-|Memory|2000 MB|3072 MB|3072 MB|4096 MB|4096 MB|4096 MB|2048 MB|4096 MB|8000 MB|
-|Storage (*'Normal' .vdi*)|20 GB|20 GB|20 GB|20 GB|20 GB|20 GB|80 GB|50 GB|80 GB|
-|Resolution|
-|notes...| - |Chicago95 Theme|**proper**||Arch-based||Kali ISO for VMs
+|VMs|OS|imho|
+|---|---|---|
+|ubuntu00|Ubuntu 22.04|boring
+|chicago95|Xubuntu 22.04|fun cuz *chicago95* theme
+|popos|pop-os 22.04|best so far
+|kaley|kali-linux 2022.3|kinda overwhelming, good stuff
+|susey|openSUSE-Tumbleweed 20221008|smth wrong rn, must re-do cuz somehow luved it
+|manjey-gnomey|manjaro-gnome 21.3.7|awkward but exciting
+|manjey-i3|manjaro-i3 21.3.7|pretty awkward
+|win10|Windows 10 22H2|strangely awkward too
 
 </details>
 
@@ -306,15 +294,15 @@ passwd: k
 
 **FEATURES**
 
-1. Written a `fight.sh` script
+1. Written a `fighte.sh` script
 ```bash
 #!/bin/bash
 
 echo 'wilde beast. Pick a number to kill it! [0/1]'
 beast=$((RANDOM%1))
-read fight
+read fighte
 
-if [[ $fight == $beast ]] ;
+if [[ $fighte == $beast ]] ;
 then echo 'ayee'
 else echo -e 'u died beatch\n'
 fi
@@ -335,7 +323,7 @@ fortune
 
 ### RPM-based
 
-#### openSUSE Tumbleweed
+#### openSUSE-Tumbleweed
 
 <details>
 <summary>susey-VM</summary>
@@ -364,8 +352,7 @@ fortune
 
 ### Arch-based
 
-~~All previous VMs in this repo were **Ubuntu-based** (ie. Debian-based) Linux distributions.~~
-Now Manjaro is different, Manjaro is an **Arch-based**, 'rolling release' distro. Among other things, that means that it doesn't use the `apt` package manager, but all `pacman`, `octopi` and `pamac` (see [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md)).
+These distros are different. Manjaro below is an **Arch-based**, 'rolling release' distro. Among other things, that means that it doesn't use the `apt` package manager, but all `pacman`, `octopi` and `pamac` (see [linux-wiki](/SLIT-projects/02-Operating_Systems/_GEN/linux-wiki.md) documentation).
 
 #### Manjaro
 
@@ -451,9 +438,20 @@ passwd: sh8
 </details>
 
 
+#### EndeavourOS
+
 
 ## Windows
 
 ### Windows 10
 
 ### Windows 11
+
+---
+
+## ASIR
+
+### A01-Ubuntu
+### A02-Windows10
+### A03-WindowsServerYYYY
+

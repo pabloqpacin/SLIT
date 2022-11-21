@@ -1,4 +1,9 @@
-# Linux wiki
+# linux-wiki
+
+<!--
+> for Linux Distros see [VMs](/SLIT-projects/02-Operating_Systems/I-VMs/readme.md)
+
+> "UNIX-like... Linux architecture (packages, desktop, window-managers, etc.)"
 
 ```markdown
 # DRAFT
@@ -6,7 +11,7 @@
 
 > watching [ASIR-YOND](https://github.com/pabloqpacin/BEYOND-ASIR/blob/main/YOND/linux_rookery/wiki-cheatsheet.md#neofetch)
 
-- [Linux wiki](#linux-wiki)
+- [linux-wiki](#linux-wiki)
   - [package installers](#package-installers)
 
 ## package installers 
@@ -17,8 +22,9 @@
 - curl
 - grep
 
-> see [VMs](/SLIT-projects/02-Operating_Systems/I-VMs/readme.md)
 
 ---
 
 [subshells & scripting](https://linuxhandbook.com/subshell/)
+
+-->
