@@ -105,6 +105,8 @@ passwd: micro7
 -->
 
 ```markdown
+<!--STATUS: deleted-->
+
 # CONFIG
 1. Download
     - ISO 'ubuntu-22.04.1-desktop-amd64.iso' from *website* (3.56 GB)
