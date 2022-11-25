@@ -22,13 +22,47 @@ Laptop is pretty much dissassembled. LCD screen is now detached from the case an
 
 ## control board
 
+<details>
+<summary>1. Research</details>
+
 Must figure out a control board I guess. Where to buy?
 
-- amazon
 - aliexpress
 - ebay
+- amazon...
 
-Price? Roughtly **25€**.
+</details>
+
+
+<details>
+<summary>2. Purchase</details>
+
+<!-- 24/11/2022 -->
+
+
+Price? Roughly **25€**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## $HOMELAB$
 
