@@ -1,8 +1,13 @@
+# bashNetworkChuck
 
-Following **all videos** in [Network Chuck's BASH playlist](https://youtu.be/SPwyp2NG-bE).
+Following NC [BASH tutorial playlist](https://youtu.be/SPwyp2NG-bE) addressing:
+
+- general bash syntax and bash scripting
+- variables and system variables
+- if-statements and while-loops
 
 
-
+<!--
 NOTAS:
 
 * n0-sh
@@ -16,3 +21,5 @@ NOTAS:
 
 * 08.sh
     - *case esac* for multiple-choice statements
+
+-->

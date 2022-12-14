@@ -7,13 +7,13 @@
 
 ## Breakdown
 
-- docs
-  - [WIP-REWORK.md](/WIP-REWORK.md) 
-- scripts
+- [docs/](/docs/)
+  - WIP-REWORK.md 
+- scripts/
   - [1-bashCustomScripts](/scripts/1-bashCustomScripts/)
   - [2-bashNetworkChuck](/scripts/2-bashNetworkChuck/)
   - [3-bashGen](/scripts/3-bashGen/)
-- src
+- src/
   - [1-pythonTerminalGames](/src/1-pythonTerminalGames/)
   - [2-pygameTea-Invaders](src/2-pygameTea-Invaders/)
   - [3-flaskDevWebsite](/src/3-flaskDevWebsite/)

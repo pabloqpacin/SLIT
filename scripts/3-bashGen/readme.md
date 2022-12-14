@@ -1,22 +1,14 @@
-24/09/2022
+# bashGen
+
+<!-- 24/09/2022 -->
 
 
-<!-- v0.0.4 = ?? -->
-<!-- v0.0.3 = actually started working on the scripts | 29/212 -->
-<!-- v0.0.2 = local git branches should be ready; action begins -->
-<!-- v0.0.1 = file creation and git setup (in parallel with EX2511's scripts) -->
-
----
-
-# bash212 ~ Documentation
+Following a [tutorial]((https://youtu.be/q2z-MRoNbgM)) covering hundreds of bash commands.
 
 
-1. [~ scripts 0 - n]()
 
-2. [~ scripts n - n2]()
-
----
-
+<!--
+## BREAKDOWN
 
 ## 1.0 ~ scripts 0 - n
 

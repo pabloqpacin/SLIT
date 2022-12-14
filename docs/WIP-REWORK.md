@@ -8,7 +8,8 @@
 - [WIP-REWORK](#wip-rework)
   - [**f817bd0**](#f817bd0)
     - [SLIT-PROJECTS...](#slit-projects)
-  - [1f47cc2](#1f47cc2)
+  - [**1f47cc2**](#1f47cc2)
+  - [**4f91b9a**](#4f91b9a)
   - [??](#)
   - [??](#-1)
 
@@ -72,7 +73,7 @@ git checkout main && git merge wip-rework
 
 
 
-## 1f47cc2
+## **1f47cc2**
 
 
 ```bash
@@ -95,7 +96,7 @@ git commit -m "Resurface PROJECTS & grow '.gitignore'
 ```
 
 
-## ??
+## **4f91b9a**
 
 ```bash
 # supdawg
@@ -115,6 +116,14 @@ git commit -m "Basic README presentation
 ## ??
 
 ```bash
+git commit -m "Create 'readme.md' for all directories & improve '/README.md'"
+```
+
+
+
+## ??
+
+```bash
 <<...
 ...
 
@@ -122,15 +131,12 @@ git commit -m "
 
 
 
-- Readmes
-  - IMPROVE THEM ALL! (6)
+- PROJECTS (all)
+  - Improve 'readme.md'
+  - Screenshots
 
+- PYTHON (all)
+    - (.venv) | requirements 
 
-- Screenshots for 
-  - pythonTerminalGames
-  - pygameTea-Invaders
-  - flaskDevWebsite
-
-- Else
 "
 ```
