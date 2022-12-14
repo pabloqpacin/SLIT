@@ -8,6 +8,7 @@
 - [WIP-REWORK](#wip-rework)
   - [**f817bd0**](#f817bd0)
     - [SLIT-PROJECTS...](#slit-projects)
+  - [1f47cc2](#1f47cc2)
   - [??](#)
   - [??](#-1)
 
@@ -71,7 +72,7 @@ git checkout main && git merge wip-rework
 
 
 
-## ??
+## 1f47cc2
 
 
 ```bash
@@ -94,6 +95,22 @@ git commit -m "Resurface PROJECTS & grow '.gitignore'
 ```
 
 
+## ??
+
+```bash
+# supdawg
+git log --oneline
+
+<<...
+...
+
+git commit -m "Basic README presentation
+
+- Include BREAKDOWN list with links to sub-directories
+"
+```
+
+
 
 ## ??
 
@@ -102,6 +119,11 @@ git commit -m "Resurface PROJECTS & grow '.gitignore'
 ...
 
 git commit -m "
+
+
+
+- Readmes
+  - IMPROVE THEM ALL! (6)
 
 
 - Screenshots for 

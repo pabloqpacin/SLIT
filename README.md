@@ -2,22 +2,21 @@
 
 
 > WORK-IN-PROGRESS
->
-> Active-development documentation in [WIP-REWORK.md](/WIP-REWORK.md) 
+
 
 
 ## Breakdown
 
 - docs
-  <!-- - djangoFailReadme.md -->
+  - [WIP-REWORK.md](/WIP-REWORK.md) 
 - scripts
-  - 1-bashCustomScripts
-  - 2-bashNetworkChuck
-  - 3-bashGen
+  - [1-bashCustomScripts](/scripts/1-bashCustomScripts/)
+  - [2-bashNetworkChuck](/scripts/2-bashNetworkChuck/)
+  - [3-bashGen](/scripts/3-bashGen/)
 - src
-  - 1-pythonTerminalGames
-  - 2-pygameTea-Invaders
-  - 3-flaskDevWebsite
+  - [1-pythonTerminalGames](/src/1-pythonTerminalGames/)
+  - [2-pygameTea-Invaders](src/2-pygameTea-Invaders/)
+  - [3-flaskDevWebsite](/src/3-flaskDevWebsite/)
 
 
 
