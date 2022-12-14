@@ -6,6 +6,20 @@
 > Active-development documentation in [WIP-REWORK.md](/WIP-REWORK.md) 
 
 
+## Breakdown
+
+- docs
+  <!-- - djangoFailReadme.md -->
+- scripts
+  - 1-bashCustomScripts
+  - 2-bashNetworkChuck
+  - 3-bashGen
+- src
+  - 1-pythonTerminalGames
+  - 2-pygameTea-Invaders
+  - 3-flaskDevWebsite
+
+
 
 
 ## Doodles
