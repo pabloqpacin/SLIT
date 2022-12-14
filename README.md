@@ -1,24 +1,20 @@
 # *Self-Learning IT* ~ materials & projects
 
 
-
-
-For general learning materials see [SLIT-materials](/SLIT-materials.md).
-
-For actual code and much more, dive into the waters of [SLIT-projects](/SLIT-projects):
-1. **Tinkering Devices**
-2. **Operating Systems**
-3. **Software Development**
-4. **Network Security**
+> WORK-IN-PROGRESS
+>
+> Active-development documentation in [WIP-REWORK.md](/WIP-REWORK.md) 
 
 
 
-Please bear in mind $SLIT$ comprises much former and ongoing **hands-on-learning**. Now please observe the graphs below to actually grasp the scope of SLIT.
 
-## *SLIT materials* visualized
+## Doodles
+
+- **SLIT MATERIALS**
 
 
 ```mermaid
+
 flowchart LR;
 
 SLIT{SLIT materials}
@@ -60,17 +56,11 @@ SLIT .- 3 .- SD
     SD .- PS
     PS .- SP
 
-
-
-
 ```
 
+- **SLIT PROJECTS (2022)**
 
-
-## *SLIT projects* visualized
-
-``` mermaid
-
+```mermaid
 graph LR;
 
 
@@ -137,11 +127,3 @@ SP
             WD --> |framewors...| B{Backend}
 
 ```
-
----
-
-## DISCLAIMER
-
-As of November 2022, the [**SLIT**](https://github.com/pabloqpacin/SLIT/tree/main) repo is set to be in **permanent development**.
-
-Weekly progress is documented in specific branches (eg. `week46`) and later merged to `main`.

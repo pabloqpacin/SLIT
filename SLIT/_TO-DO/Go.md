@@ -1,1 +1,0 @@
-learn the [[Go]] programming language
